@@ -1,0 +1,30 @@
+[div=background: #152028; color: #f4f4f3; ]
+    [font="Slabo 27px"]
+        [div=background: #fffafaa5; color: black; padding: 10px; box-shadow: 2px 2px 2px #fffafa; font-variant: small-caps; font-weight: bold; display: flex; align-items: center; justify-content: center; width: fit-conent; font-size: clamp(16px, 3.25vh, 32px); display: flex; flex-direction: column; border-bottom: 3px double black;]Sinnoh Region[/div]
+        The Paldea Region is based on the Iberian Peninsula and covers the real-word countries of Spain, Portugal, and Andorra.
+        [div=font-size: clamp(16px, 3.25vh, 32px); font-variant: small-caps; font-weight: bold; margin: auto;] 
+            [url=https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_world_in_relation_to_the_real_world#Paldea]
+                Paldea in Relation to the real world.
+            [/url]
+        [/div]
+        [br][/br]
+        [Tabs]
+            [Tab="Game Map"]
+                The Paldea Region as presented Officially be Pokémon.
+                [br][/br]
+                [tabs]
+                    [tab="Official Art"]
+                    Official Artwork in Pokémon SV:
+                    [br][/br]
+                        [div=background-image: url(https://media.discordapp.net/attachments/191374162978144257/1181109418901897266/800px-Paldea_artwork.png?ex=657fdcdd&is=656d67dd&hm=49b4aebd3150a88bd9592631e89069e6c47e1de593b7c46f0c1da7d4d3c2e14d&=&format=webp&quality=lossless&width=1470&height=1040); background-size: 100% 100%; height: clamp(104px, 85%, 1040px); width: clamp(147px, 85%, 1470px); aspect-ratio: 15/10; margin: auto;][/div]
+                    [/tab]
+                    [tab="In-Game Map"]
+                    In-Game Map taken from SV:
+                    [br][/br]
+                        [div=background-image: url(https://media.discordapp.net/attachments/191374162978144257/1181108952621125692/Paldea_map.png?ex=657fdc6e&is=656d676e&hm=99ca3a96b9b56802a54c16fe2c705173c771a0e69d5b957cedb8282cce6b5089&=&format=webp&quality=lossless&width=1040&height=1040); background-size: 100% 100%; height: clamp(104px, 85%, 1040px); width: clamp(104px, 85%, 1040px); aspect-ratio: 1/1; margin: auto;][/div]
+                    [/tab]
+                [/tabs]
+            [/Tab]
+        [/Tabs]
+    [/font]
+[/div]

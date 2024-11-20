@@ -1,0 +1,35 @@
+[div=background: #152028; color: #f4f4f3; ]
+    [font="Slabo 27px"]
+        [div=background: #fffafaa5; color: black; padding: 10px; box-shadow: 2px 2px 2px #fffafa; font-variant: small-caps; font-weight: bold; display: flex; align-items: center; justify-content: center; width: fit-conent; font-size: clamp(16px, 3.25vh, 32px); display: flex; flex-direction: column; border-bottom: 3px double black;]Alola Region[/div]
+        The Alola Region is based on Hawaii, with each of Alola's islands being based on one of Hawaii's.
+        [div=font-size: clamp(16px, 3.25vh, 32px); font-variant: small-caps; font-weight: bold; margin: auto;] 
+            [url=https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_world_in_relation_to_the_real_world#Alola]
+                Alola in Relation to the real world.
+            [/url]
+        [/div]
+        [br][/br]
+        [Tabs]
+            [Tab="Realistic Map"]
+                Alola Tourist Map by u/Phoenic271
+                [br][/br]
+                [div=background-image: url(https://media.discordapp.net/attachments/191374162978144257/1181079079819157565/2ceo5gd1q1ob1.png?ex=657fc09c&is=656d4b9c&hm=33188d73000825d4062d1bc84ff8c0733ea79408c9e8f97853279be4de1f5788&=&format=webp&quality=lossless&width=1785&height=1040); background-size: 100% 100%; height: clamp(104px, 85%, 1040px); width: clamp(178px, 85%, 1785px); aspect-ratio: 18/10; margin: auto;][/div]
+            [/Tab]
+            [Tab="Game Map"]
+                The Alola Region as presented Officially be Pokémon.
+                [br][/br]
+                [tabs]
+                    [tab="Official Art"]
+                    Official Artwork in Pokémon SM:
+                    [br][/br]
+                        [div=background-image: url(https://cdn.discordapp.com/attachments/191374162978144257/1181075069502492783/800px-Alola_artwork.png?ex=657fbcdf&is=656d47df&hm=e48cdf49bc59241ff6d890240f4a7399ae19b5a2303dddc2d9754500ca5dbe22&); background-size: 100% 100%; height: clamp(90px, 85%, 905px); width: clamp(128px, 85%, 1280px); aspect-ratio: 13/9; margin: auto;][/div]
+                    [/tab]
+                    [tab="In-Game Map"]
+                    In-Game Map taken from SM:
+                    [br][/br]
+                        [div=background-image: url(https://cdn.discordapp.com/attachments/191374162978144257/1181075372947800114/Alola.png?ex=657fbd28&is=656d4828&hm=083b111217d73e718afe71de80bfec86d8ddde57aa04b095166e24e9a7bb5c04&); background-size: 100% 100%; height: clamp(72px, 85%, 480px); width: clamp(120px, 85%, 800px); aspect-ratio: 5/3; margin: auto;][/div]
+                    [/tab]
+                [/tabs]
+            [/Tab]
+        [/Tabs]
+    [/font]
+[/div]

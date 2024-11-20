@@ -1,0 +1,30 @@
+[div=background: #152028; color: #f4f4f3; ]
+    [font="Slabo 27px"]
+        [div=background: #fffafaa5; color: black; padding: 10px; box-shadow: 2px 2px 2px #fffafa; font-variant: small-caps; font-weight: bold; display: flex; align-items: center; justify-content: center; width: fit-conent; font-size: clamp(16px, 3.25vh, 32px); display: flex; flex-direction: column; border-bottom: 3px double black;]The Orange Archipelago[/div]
+            The Orange Archipelago are a chain of islands south of Johto & Kanto. It is considered apart of the larger Indigo Region.
+        [br][/br]
+        [Tabs]
+            [Tab="Realistic Map"]
+                Official Map from Extreme Pokémon: The Guide for the Ultimate Fan:
+                [br][/br]
+                [div=background-image: url(https://media.discordapp.net/attachments/191374162978144257/1180667946553573386/425px-Orange.png?ex=657e41b6&is=656bccb6&hm=2f2fc3deec6ce720f5cf75fff0b0e7184ab2597bcd91e2784f96c55c71373f9d&=&format=webp&quality=lossless&width=737&height=1040); background-size: 100% 100%; height: clamp(100px, 70%, 1000px); width: clamp(70px, 70%, 700px); aspect-ratio: 7/10; margin: auto;][/div]
+            [/Tab]
+            [Tab="Game Map"]
+                The Orange Islands:
+                [br][/br]
+                [tabs]
+                    [tab="Official Art"]
+                    The Orange Islands as presented in the Pokémon Anime:
+                    [br][/br]
+                        [div=background-image: url(https://media.discordapp.net/attachments/191374162978144257/1180926332473966714/Orange_Islands_map.png?ex=657f325a&is=656cbd5a&hm=6b2424a05f03bb75613c914e25ff6486944e86b4e09f002620f7b4e20a463844&=&format=webp&quality=lossless&width=449&height=449); background-size: 100% 100%; height: clamp(200px, 75%, 500px); width: clamp(200px, 75%, 500px); aspect-ratio: 1/1; margin: auto;][/div]
+                    [/tab]
+                    [tab="In-Game Map"]
+                    Orange Islands region Map in the HGSS style, by malice936:
+                    [br][/br]
+                        [div=background-image: url(https://media.discordapp.net/attachments/191374162978144257/1180667480402829312/d5q6s3a-4c7b03c2-3d65-405a-843f-fd71003b1a0f.png?ex=657e4147&is=656bcc47&hm=b391aa3f12fa11c64a4781939f38d467fc2ef6dcff5e440741dee331ec1c8c5c&=&format=webp&quality=lossless&width=863&height=863); background-size: 100% 100%; height: clamp(150px, 75%, 860px); width: clamp(150px, 75%, 860px); aspect-ratio: 1/1; margin: auto;][/div]
+                    [/tab]
+                [/tabs]
+            [/Tab]
+        [/Tabs]
+    [/font]
+[/div]

@@ -1,0 +1,193 @@
+[comment]======Main Div======[/comment]
+[div=border-image: linear-gradient(180deg, #D35338 40%, #D2C3E1 100%) 10; border-style: solid; border-width: 2px; padding: 15px; box-sizing: box-border; height: 750px; overflow: hidden;]
+    [comment]======TLDR Section======[/comment]
+    [div=margin: 0 25%; font-family: 'Trebuchet MS';]
+        [accordion=600]
+        {slide=Gym Challenge TLDR}
+        1. Gym Challenges cost $1,000 per attempt, you earn $3,000 from a successful challenge.
+        2. Standard Gym challenges are a benchmark of skill. You are not required to win, just prove competency.
+        3. Gym Challenges can be done in various formats:
+        [indent][list]
+        [*]Single
+        [*]Doubles
+        [*]Gauntlet
+        [*]Doubles Gauntlet
+        [*]Challenge Mode
+        [*]Prestige
+        [/list][/indent]
+        4. Harder formats increase the amount of prize money awarded.
+        5. Gyms always field pokémon at or near the level of the challenger.{/slide}
+        [/accordion]
+    [/div]
+    [comment]======Content Section======[/comment]
+    [div=border-image: linear-gradient(180deg, #ffff00 50%, #D2C3E1 100%) 10; border-style: solid; border-width: 2px; padding: 5px; background-color: #152028; margin: 0 10% 0 10%; display: block; opacity: 0.9; box-sizing: box-border; position: relative; top: -8vh; height: 75%;]
+    [comment]=====Overlay Section=====[/comment]
+        [div=border: transparent; display: flex;]
+            [comment]======Ultra Ball Outline======[/comment]
+            [div=position: absolute; top: -4vh; left: -4%; width: 50px; height: 50px; background: #fff; border: 2px solid #000; border-radius: 50%; overflow: hidden; box-shadow: inset -10px 10px 0 10px #ccc; box-sizing: box-border; transform: rotate(-25deg); z-index: 2;]
+                [comment]======Yellow background======[/comment]
+                [div=background: yellow; width: 100%; height: 100%; position: absolute; top: -50%; box-sizing: box-border;][/div]
+                [comment]======White background======[/comment]
+                [div=top: calc(50% - 10px); width: 100%; height: 100px; box-sizing: box-border;][/div]
+                [comment]======Pokeball Button======[/comment]
+                [div=position: absolute; top: calc(50% - 5px); left: calc(50% - 5px); width: 7px; height: 7px; background: #7f8c8d; border: 2px solid #fff; border-radius: 50%; z-index: 15; box-shadow: 0 0 0 2px black; box-sizing: box-border;][/div]
+                [comment]======Right Black Spot======[/comment]
+                [div=position: absolute; top: calc(-50% + 30px); left: calc(50% + 15px); border-radius: 75% 0 0 7%; border: 1px solid #000; height: 20px; width: 15px; background: black; z-index: 3; box-sizing: box-border;][/div]
+                [comment]======Left Black Spot======[/comment]
+                [div=position: absolute; top: calc(-50% + 30px); left: calc(50% - 30px); border-radius: 0 75% 7% 0; border: 1px solid #000; height: 20px; width: 15px; background: black; z-index: 3; box-sizing: box-border;][/div]
+                [comment]======Middle Black Spot======[/comment]
+                [div=position: absolute; top: calc(-50% + 32px); left: calc(50% - 9px); border-radius: 20%; border: 1px solid #000; height: 18px; width: 18px; background: black; z-index: 3; box-sizing: box-border;][/div]
+            [/div]
+            [comment]======Internal Table of Contents======[/comment]
+            [div=border-image: linear-gradient(180deg, #D35338 60%, #D2C3E1 100%) 10; border-style: solid; border-width: 2px; width: fit-content; height: fit-content; max-height: 30vh; max-width: 13vw; margin: 0 0 0 5%; padding: 10px; position: absolute; top: 25%; right: -10%; background: #152028; opacity: 0.9; font-size: 12px; font-family: 'Trebuchet MS'; z-index: 2; overflow: scroll;]
+                [div=font-size: 16px; font-family: Times; font-weight: bold;]Internal Table of Contents[/div]
+                [GOTO=gym]2.0 The Gym Challenge[/GOTO]
+                [indent][GOTO=whatGym]2.1 What are Pokémon Gyms?[/GOTO]
+                [GOTO=format]2.2 Gym Challenge Formats[/GOTO]
+                [indent][GOTO=single]2.2.1 Singles Challenge[/GOTO]
+                [GOTO=double]2.2.2 Doubles Challenge[/GOTO]
+                [GOTO=singleGauntlet]2.2.3 Singles Gauntlet[/GOTO]
+                [GOTO=doubleGauntlet]2.2.4 Doubles Gauntlet[/GOTO]
+                [GOTO=challenge]2.2.5 Challenge Mode[/GOTO]
+                [GOTO=prestige]2.2.6 Prestige Challenge[/GOTO][/indent]
+                [GOTO=howToGymLeader]2.3 So you think you're Gym Leader Material, huh?[/GOTO]
+                [GOTO=pokeInspectionAgency]2.4 Pokémon Inspection Agency[/GOTO][/indent]
+            [/div]
+        [/div]
+        [comment]======Text Container======[/comment]
+        [div=position: absolute; top: 0; margin: 0 13%; opacity: 0.85; color: #ffffff; display: flex; height: 100%; overflow: scroll;]
+            [comment]======Text Section======[/comment]
+            [div=line-height: 1.2;letter-spacing: 1px; font-family: 'Trebuchet MS'; height: fit-content;]
+                [H][a=gym]The Gym Challenge[/a][/h]
+                [BR][/BR]
+                [sh][a=whatGym]What are Pokémon Gyms?[/a][/sh]
+                    [BR][/BR]
+                    [NOBR]A Gym (short for Pokémon Gym) is a place where Pokémon Trainers go to train their Pokémon. 
+                    Just like real-life gymnasiums, where one can go to work out and build physical strength, Pokémon Gyms 
+                    are places where Trainers can go to sharpen their battling skills and where their Pokémon can go to gain experience.[/NOBR]
+                    [BR][/BR]
+                    [NOBR]Gyms almost always specialize in a specific pokémon type and are headed by a Gym Leader. Gym Leaders are
+                    revered as the strongest trainers within their Gym and, more often than not, are among the strongest trainers in
+                    a given region.[/NOBR]
+                    [BR][/BR]
+                    [NOBR]Official Pokémon Gyms are those recognized by their region's Pokémon League and their Gym Badges are required
+                    to participate in the Regional League Conference. A Gym's Badge can be obtained via Challenging the Gym Leader or substitute
+                    Gym Leader to a battle.[/NOBR]
+                    [BR][/BR]
+                    [NOBR]Trainers who challenge a region's Gym with the intent of joining the Regional Conferernce are referrerd to
+                    as [b][u]League Challengers[/u][/b] and the process of tackle a region's Gyms is referred to as the [b][u]Gym Challenge.[/u][/b][/NOBR]
+                    [BR][/BR]
+                    [NOBR]League Challengers are traditionally tasked with collecting a specified number of a region's Gym Badges; the number of badges and their method of obtainment may vary between regions.[/NOBR]
+                    [BR][/BR]
+                    [NOBR]With the advancement and growth of the competitive battling scene, the Gym Challenge has evolved into
+                    a well-developed and robust institution.[/NOBR]
+                    [BR][/BR]
+                    [NOBR]Modern Gyms have Pokémon Breeders & Sommeliers/Connoisseurs on-hand to assess the strength of any prospective
+                    challenger. Regardless of the Challenger's strength, the Gym will field a pokémon of an appropriate
+                    challenge level. This allows trainers at any age or experience level to start and engage with the
+                    Gym challenge.[/NOBR]
+                    [BR][/BR]
+                    [NOBR]The Standard Gym Challenge tests a trainer's grasp the essentials of pokémon battles. These aren't
+                    designed to be extremely testing and it is even possible to obtain the Gym Badge after a loss, if you've
+                    displayed sufficient mastery of the skills being tested.[/NOBR]
+                    [BR][/BR]
+                    [NOBR]The benchmark skills for Standard Gym Badges are as follows:[list]
+                    [*]1st & 2nd Badge — Tests trainer's knowledge of the Type Advantage Chart
+                    [*]3rd & 4th Badge — Introduces Set-up, Status moves, and Field Hazards. Tests trainer's ability to employ and combat simple strategy.
+                    [*]5th & 6th Badge — Introduce more complex strategies: Stall, Weather teams, Terrain sweepers/abusers, etc. Further tests trainer's strategic capabilities.
+                    [*]7th & 8th Badge — Introduces environmental facts: includes battle types and battlefields that are beneficial to the gym leader's pokémon, such as underwater, sky battles, etc. Tests trainers ability to adapt and handle disadvantageous situations.
+                    [/list][/NOBR]
+                    [BR][/BR]
+                    [NOBR]Each attempt to challenge a gym will cost the trainer $1,000; however,
+                    after a successful gym challenge the trainer will receive a fixed $3,000 in prize money.[/NOBR]
+                    [BR][/BR]
+                    [divide][/divide]
+                    [BR][/BR]
+                [sh][a=format]Gym Challenge Formats[/a][/sh]
+                    [BR][/BR]
+                    [NOBR]Gyms have expanded to allow their challengers to test their skills in a variety of ways. To this
+                    ends, the Gym allows challengers to pick the Battle Format by which they challenge the Gym.[/NOBR]
+                    [BR][/BR]
+                    [NOBR]Gyms may be challenged in the following formats:[/NOBR]
+                    [BR][/BR]
+                    [div=border-left: 3px solid red; padding: 0 0 0 1em;]
+                        [a=single]Singles[/a]
+                            [BR][/BR]
+                            Vanilla Gym Challenge; the Challenger faces the Gym Leader or a designated substitute in Single Battle Format.
+                            [BR][/BR]
+                            The Battle will be 3v3.
+                            [BR][/BR]
+                    [/div]
+                    [div=border-left: 3px solid blue; padding: 0 0 0 1em;]
+                        [a=double]Doubles[/a]
+                            [BR][/BR]
+                            [NOBR]The Vanilla Gym Challenge with a small twist. The Challenger will face the Gym Leader or designated substitute in Double battle format.[/NOBR]
+                            [BR][/BR]
+                            The Battle will be a 4v4.
+                            [BR][/BR]
+                            A successful Double Challenge applies as 25% increase to the cash prize earned by a Challenger.
+                            [BR][/BR]
+                    [/div]
+                    [div=border-left: 3px solid yellow; padding: 0 0 0 1em;]
+                        [a=singleGauntlet]Singles Gauntlet[/a]
+                            [BR][/BR]
+                            [NOBR]The Singles Gauntlet is an endurance-styled series of battles in Single Battle Format. The Challenger faces off against three (3) Gym trainers and then the Gym leader or designated substitute in quick succession. The Gauntlet is intended to push the trainer's long-term battle and planning skills.[/NOBR]
+                            [BR][/BR]
+                            [NOBR]Trainers will be allowed one (1) minute of rest between battles, during which they are allowed to apply healing items to their pokémon; however, the Challenger will only be allowed four (4) healing items across ALL their battles.[/NOBR]
+                            [BR][/BR]
+                            The Battles will be 3v3.
+                            [BR][/BR]
+                            A successful Singles Gauntlet applies as 50% increase to the cash prize earned by a Challenger.
+                            [BR][/BR]
+                    [/div]
+                    [div=border-left: 3px solid green; padding: 0 0 0 1em;]
+                        [a=doubleGauntlet]Doubles Gauntlet[/a]
+                            [NOBR]The Doubles Gauntlet, much like the Singles, is an endurace-styled serious of battles in Double Battle Format. The Challenger will face off against two (2) Gym Trainers and then the Gym Leader or designated substitute in quick succession.[/NOBR]
+                            [BR][/BR]
+                            [NOBR]Trainers will be allowed one (1) minute of rest between battles, during which they are allowed to apply healing items to their pokémon; however, the Challenger will only be allowed three (3) healing items across ALL their battles.[/NOBR]
+                            [BR][/BR]
+                            A successful Double Gauntlet applies a 75% increase to the cash prize earned by a Challenger.
+                            [BR][/BR]
+                    [/div]
+                    [div=border-left: 3px solid orchid; padding: 0 0 0 1em;]
+                        [a=challenge]Challenge Mode[/a]
+                            [NOBR]Designed for trainers who want to test their skills vigorously. The Gym Pokémon will still be at the same level; however, the Gym Leaders won't restrict themselves to only testing the benchmark of skill required. They will employ more complex strategies and be more unforgiving in their battles.[/NOBR]
+                            [BR][/BR]
+                            [NOBR]In Challenge Mode, the trainer MUST win the battle to earn their badge.[/NOBR]
+                            [BR][/BR]
+                            Challenge Mode can be appended onto any of the previous formats.
+                            [BR][/BR]
+                            A successful Challenge Mode doubles the cash prize earned by a Challenger.
+                            [BR][/BR]
+                    [/div]
+                    [divide][/divide]
+                    [BR][/BR]
+                    [sh]Advanced Formats[/sh]
+                        [BR][/BR]
+                        [NOBR]Advanced formats are not available for beginner trainers and are generally only accessible to trainers who have managed to enter the top 64 of a regional conference. However, lacking a conference finish, trainers can also choose to undergo an assessment to determine their eligibility.[/NOBR]
+                        [BR][/BR]
+                        [NOBR]Trainers confident enough to take on Advanced Gym Challenges should expect the Gym Leader to pull out all the stops: Mega Evolution, Z-Moves, Dynamax, or otherwise. Nothing will be held back.[/NOBR]
+                        [BR][/BR]
+                        [div=border-left: 3px solid white; padding: 0 0 0 1em;]
+                            [a=prestige]Prestige Challenge[/a]
+                                [BR][/BR]
+                                [NOBR]The Prestige Challenge is one of the hardest hurdles any Challenger can overcome. In this format, the Challenger faces off against the Gym Leader's personal team.[/NOBR]
+                                [BR][/BR]
+                                [NOBR]Prospective challengers beware, the Gym Leaders are often regarded amongst the strongest within their regions. This reputation is not for show.[/NOBR]
+                        [/div]
+                        [BR][/BR]
+                        [divide][/divide]
+                        [BR][/BR]
+                [sh][a=howToGymLeader]So you think your Gym Leader Material, huh?[/a][/sh]
+                    [BR][/BR]
+                    Under Construction
+                    [BR][/BR]
+                    [divide][/divide]
+                    [BR][/BR]
+                [sh][a=pokeInspectionAgency]Pokémon Inspection Agency[/a][/sh]
+                    [BR][/BR]
+                    [NOBR]The Pokémon inspection agency is the branch of the league responsible for the audit and inspection of gyms. They determine which gyms and gym leaders are fit to carry on in their roles.[/NOBR]
+            [/div]
+        [/div]
+    [/div]
+[/div]

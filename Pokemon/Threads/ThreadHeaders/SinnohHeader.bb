@@ -1,0 +1,35 @@
+[div=background: #152028; color: #f4f4f3; ]
+    [font="Slabo 27px"]
+        [div=background: #fffafaa5; color: black; padding: 10px; box-shadow: 2px 2px 2px #fffafa; font-variant: small-caps; font-weight: bold; display: flex; align-items: center; justify-content: center; width: fit-conent; font-size: clamp(16px, 3.25vh, 32px); display: flex; flex-direction: column; border-bottom: 3px double black;]Sinnoh Region[/div]
+        The Sinnoh Region is based on the island of Hokkaido and the southern part of the Russian island Sakhalin.
+        [div=font-size: clamp(16px, 3.25vh, 32px); font-variant: small-caps; font-weight: bold; margin: auto;] 
+            [url=https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_world_in_relation_to_the_real_world#Sinnoh]
+                Sinnoh in Relation to the real world.
+            [/url]
+        [/div]
+        [br][/br]
+        [Tabs]
+            [Tab="Realistic Map"]
+                Sinnoh Region Map by u/MiscellaneaMaps
+                [br][/br]
+                [div=background-image: url(https://media.discordapp.net/attachments/191374162978144257/1181084113449517126/xsmcrm3ekck51.png?ex=657fc54c&is=656d504c&hm=ffe579e65dba0aadbd19bc073dc0c21286d93e50ffe7884f954521c266f14b90&=&format=webp&quality=lossless&width=1209&height=1040); background-size: 100% 100%; height: clamp(104px, 85%, 1040px); width: clamp(121px, 85%, 1210px); aspect-ratio: 12/10; margin: auto;][/div]
+            [/Tab]
+            [Tab="Game Map"]
+                The Sinnoh Region as presented Officially be Pokémon.
+                [br][/br]
+                [tabs]
+                    [tab="Official Art"]
+                    Official Artwork in Pokémon BDSP:
+                    [br][/br]
+                        [div=background-image: url(https://cdn.discordapp.com/attachments/191374162978144257/1181085685118140517/800px-Sinnoh_BDSP_artwork.png?ex=657fc6c2&is=656d51c2&hm=2fc45740e593e31f97fc12f9367fc243c88054f05e15000fd78d76a2d3a233f5&); background-size: 100% 100%; height: clamp(90px, 85%, 905px); width: clamp(128px, 85%, 1280px); aspect-ratio: 13/9; margin: auto;][/div]
+                    [/tab]
+                    [tab="In-Game Map"]
+                    In-Game Map taken from BDSP:
+                    [br][/br]
+                        [div=background-image: url(https://media.discordapp.net/attachments/191374162978144257/1181085296545235034/800px-Sinnoh_BDSP.png?ex=657fc666&is=656d5166&hm=1abf59ebe8e3e197b765eab21f39c345c84a1281bcd9cf8e4f8dfd6aea586fe9&=&format=webp&quality=lossless&width=1555&height=1040); background-size: 100% 100%; height: clamp(104px, 85%, 1040px); width: clamp(156px, 85%, 1555px); aspect-ratio: 3/2; margin: auto;][/div]
+                    [/tab]
+                [/tabs]
+            [/Tab]
+        [/Tabs]
+    [/font]
+[/div]
