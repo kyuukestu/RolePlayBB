@@ -15,8 +15,8 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 --height: 650px;
 
 /*ANCHOR - Accent Color */
---accent-c: #B22; #B42222;
---shadow: 5px 2px 5px var(--accent-c), -5px 2px 5px #000;
+--accent-c: #B22; 
+--essy-shadow: 5px 2px 5px var(--accent-c), -5px 2px 5px #000;
 
 /*ANCHOR - Text Color */
 color: #fff;
@@ -134,7 +134,7 @@ position: relative;]
 
 [div=/*SECTION -  Char Img */
 box-sizing: border-box; 
-border-radius: 100px; box-shadow: var(--shadow);
+border-radius: 100px; box-shadow: var(--essy-shadow);
 background: var(--char-img) no-repeat center/90%;
 height: clamp(55px, calc(4.5em + 5%), 125px); aspect-ratio: 1;
 position: absolute; left: -50px; top: 75px; z-index: 2;
@@ -157,7 +157,7 @@ box-sizing: border-box; font-size: var(--fs-header); margin: auto; padding-left:
 
 [div=/*ANCHOR - Date/Time & Mention/Interactions */ 
 box-sizing: border-box; font-size: var(--fs-mini); margin: -15px 0 20px 0; padding-left: 55px;]August, 11[div=box-sizing: border-box; font-variant-position: super; display: inline;]th[/div] | 8:15 a.m. 
-Interaction(s): @Chuuyas_hat 
+Interaction(s): 
 Mention(s): [/div]
 
 [div=/*ANCHOR - Weather Icon */
@@ -223,7 +223,7 @@ position: absolute; top: max(5%, 5px); right: min(2.5%, 30px);][fa]fa-regular fa
 
 box-sizing: border-box; display: flex; width: calc(10px + var(--p-height)); position: absolute; bottom: 8%; left: -30px; font-size: var(--fs-mini); justify-content: space-evenly; border-radius: 15px; flex-flow: column nowrap; gap: 5px; align-items: center;
 background: linear-gradient(180deg, #292A2D 10%, var(--accent-c) 100%);
-box-shadow: var(--shadow);
+box-shadow: var(--essy-shadow);
 
 
 /*ANCHOR Gender Images */
@@ -313,8 +313,8 @@ visibility: hidden; width: 85%; font-family: 'DM Mono', Georgia; font-size: var(
         z-index: 2;][div=/*ANCHOR - Esther's Bag*/
         box-sizing: border-box; background: no-repeat center/80% var(--bag) var(--bag-bg); border: 2px solid var(--bag-bd); border-radius: 50px; height: var(--bag-height); aspect-ratio: 1; margin: auto;][/div][/bg]}
 [div=box-sizing: border-box; visibility: visible; background: #292A2D; color: #eee; display: block; height: 350px; overflow: scroll; scrollbar-width: none; line-height: 1.2; font-family: 'Nunito', Georgia;]
-[div=box-shadow: 0px 5px 0px red; font-size: calc(1.3*var(--fs-header)); text-align: center; font-family: 'Laila', Georgia;]$700[/div]
-[div=box-shadow: 0px 5px 0px red; font-size: var(--fs-header); text-align: center;]Badges[/div]
+[div=box-shadow: var(--essy-shadow); font-size: calc(1.3*var(--fs-header)); text-align: center; font-family: 'Laila', Georgia;]$700[/div]
+[div=box-shadow: var(--essy-shadow); font-size: var(--fs-header); text-align: center;]Badges[/div]
     [border=transparent; /*ANCHOR - Badges */
 --badge-1: url(https://i.imgur.com/rWgK3wq.png);
 --badge-2: url(https://i.imgur.com/3F4mhrp.png);
@@ -338,7 +338,7 @@ display: flex; flex-flow: row wrap; justify-content: flex-start;]
 [border=solid; background: no-repeat center/85% var(--badge-7) transparent; height: var(--badge-size); aspect-ratio: 1; border-radius: 45px;][/border]
 [border=solid; background: no-repeat center/85% var(--badge-8) transparent; height: var(--badge-size); aspect-ratio: 1; border-radius: 45px;][/border]
 [/border]
-[div=box-shadow: 0px 5px 0px red; font-size: var(--fs-header); text-align: center;]Ribbons[/div]
+[div=box-shadow: var(--essy-shadow); font-size: var(--fs-header); text-align: center;]Ribbons[/div]
     [border=transparent; /*ANCHOR - Ribbons */
     --ribbon-1: url();
 --ribbon-2: url();
@@ -358,7 +358,7 @@ display: flex; flex-flow: row wrap; justify-content: flex-start;]
 [/border]
 [div=box-shadow: 5px 2.5px 2.5px black, inset 0 -1em 1em rgb(0 0 0 / 30%); text-indent: 1em hanging;]
 [div=/*ANCHOR - Pokémon Exp. */
-box-shadow: 0px 5px 0px red; font-size: var(--fs-header); text-align: center;]Pokémon[/div]
+box-shadow: var(--essy-shadow); font-size: var(--fs-header); text-align: center;]Pokémon[/div]
 [div=box-shadow: 0px 2.5px 0px black; font-size: var(--fs-mini); text-align: center;]Party[/div]
 Pyrrha Achilleia Astierra | Jangmo-o | Overcoat | Lv.25
 Halay-Alae Huaka’i Pöncu | Houndour | Unnerve | Lv.23
@@ -372,7 +372,7 @@ La Bamba | West Sea Shellos | Sticky Hold | Lv.20
 Pariparisithea | Munna | Telepathy  | Lv.10
 [/div]
         [div=box-shadow: 5px 2.5px 2.5px black, inset 0 -1em 1em rgb(0 0 0 / 30%); text-indent: 1em hanging;]
-[div=box-shadow: 0px 5px 0px red; font-size: var(--fs-header); text-align: center;]Misc.[/div]
+[div=box-shadow: var(--essy-shadow); font-size: var(--fs-header); text-align: center;]Misc.[/div]
 PokéToy
                 PokéFlute
                 Unidentified Fossil
@@ -382,7 +382,7 @@ PokéToy
                 Water Purifier & Filter
 [/div]
 [div=box-shadow: 5px 2.5px 2.5px black, inset 0 -1em 1em rgb(0 0 0 / 30%); text-indent: 1em hanging;]
-[div=box-shadow: 0px 5px 0px red; font-size: var(--fs-header); text-align: center;]Quilt Set[/div]
+[div=box-shadow: var(--essy-shadow); font-size: var(--fs-header); text-align: center;]Quilt Set[/div]
 Revelation Sleeping quality
                 Revolt V2 Under-quilt
                 Trek Light Hammock Set
@@ -391,13 +391,13 @@ Revelation Sleeping quality
                 Rope Kit
 [/div]
 [div=box-shadow: 5px 2.5px 2.5px black, inset 0 -1em 1em rgb(0 0 0 / 30%); text-indent: 1em hanging;]
-[div=box-shadow: 0px 5px 0px red; font-size: var(--fs-header); text-align: center;]Maintenance Kit[/div]
+[div=box-shadow: var(--essy-shadow); font-size: var(--fs-header); text-align: center;]Maintenance Kit[/div]
 Gloves
                 Steel File
                 Maintenance Oil
 [/div]
 [div=box-shadow: 5px 2.5px 2.5px black, inset 0 -1em 1em rgb(0 0 0 / 30%); text-indent: 1em hanging;]
-[div=box-shadow: 0px 5px 0px red; font-size: var(--fs-header); text-align: center;]Climbing Gear[/div]
+[div=box-shadow: var(--essy-shadow); font-size: var(--fs-header); text-align: center;]Climbing Gear[/div]
 Crampons
                 Ice Tool
                 Harness
@@ -406,7 +406,7 @@ Crampons
                 Dry Rope
 [/div]
 [div=box-shadow: 5px 2.5px 2.5px black, inset 0 -1em 1em rgb(0 0 0 / 30%); text-indent: 1em hanging;]
-[div=box-shadow: 0px 5px 0px red; font-size: var(--fs-header); text-align: center;]First-Aid Kit[/div]
+[div=box-shadow: var(--essy-shadow); font-size: var(--fs-header); text-align: center;]First-Aid Kit[/div]
 Bandages
                 Alcohol
                 Anti-septic
@@ -415,7 +415,7 @@ Bandages
                 Scissors
 [/div]
 [div=box-shadow: 5px 2.5px 2.5px black, inset 0 -1em 1em rgb(0 0 0 / 30%); text-indent: 1em hanging;]
-[div=box-shadow: 0px 5px 0px red; font-size: var(--fs-header); text-align: center;]Clothes & Accessories[/div]
+[div=box-shadow: var(--essy-shadow); font-size: var(--fs-header); text-align: center;]Clothes & Accessories[/div]
 Gothic Lolita Set
                 Lace Set 
                 Chic Asymmetry Set 
