@@ -299,10 +299,13 @@ box-sizing: border-box; height: auto; width: 50%; color: #fff; text-shadow: 1px 
 August 11th | ~9:15 a.m.
 [div=/*ANCHOR - Interactions */
 box-sizing: border-box; height: auto; width: 50%; color: #fff; text-shadow: 1px 1px var(--accent-c); font-size: var(--fs-body); letter-spacing: 2px; line-height: 1.75;]Interactions[/div]
+G, Altair
 [div=/*ANCHOR - Mentions */
 box-sizing: border-box; height: auto; width: 50%; color: #fff; text-shadow: 1px 1px var(--accent-c); font-size: var(--fs-body); letter-spacing: 2px; line-height: 1.75;]Mentions[/div]
+None
 [div=/*ANCHOR - Tags */
 box-sizing: border-box; height: auto; width: 50%; color: #fff; text-shadow: 1px 1px var(--accent-c); font-size: var(--fs-body); letter-spacing: 2px; line-height: 1.75;]Tags[/div]
+@Hecotoro @Cresion Breezes
 [/div]
 
 [/div]
