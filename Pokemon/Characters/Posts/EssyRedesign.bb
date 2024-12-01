@@ -299,13 +299,13 @@ box-sizing: border-box; height: auto; width: 50%; color: #fff; text-shadow: 1px 
 August 11th | ~9:15 a.m.
 [div=/*ANCHOR - Interactions */
 box-sizing: border-box; height: auto; width: 50%; color: #fff; text-shadow: 1px 1px var(--accent-c); font-size: var(--fs-body); letter-spacing: 2px; line-height: 1.75;]Interactions[/div]
-G, Altair
+Heizou
 [div=/*ANCHOR - Mentions */
 box-sizing: border-box; height: auto; width: 50%; color: #fff; text-shadow: 1px 1px var(--accent-c); font-size: var(--fs-body); letter-spacing: 2px; line-height: 1.75;]Mentions[/div]
 None
 [div=/*ANCHOR - Tags */
 box-sizing: border-box; height: auto; width: 50%; color: #fff; text-shadow: 1px 1px var(--accent-c); font-size: var(--fs-body); letter-spacing: 2px; line-height: 1.75;]Tags[/div]
-@Hecotoro @Cresion Breezes
+@CHUUYAS_HAT
 [/div]
 
 [/div]
@@ -335,7 +335,7 @@ background: linear-gradient(275deg, rgba(255,255,255) 2.5%, rgba(22,176,238) 60%
 [div=/*ANCHOR - Text Formatting */
 box-sizing: border-box;
 padding: 2px 15px; font-size: var(--fs-body); display: block;
-line-height: 1.5; letter-spacing: 1px; white-space: pre-line; text-align: justify; text-justify: inter-character;
+line-height: 1.5; letter-spacing: 1px; white-space: collapse;
 font-family: 'Nunito', Georgia;]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et odio a ante pellentesque pretium. Integer venenatis ex non ipsum malesuada euismod sit amet ut ante. Duis posuere diam sit amet orci viverra condimentum. Nulla non lobortis orci. Vestibulum erat ante, aliquam eget arcu id, iaculis convallis lorem. Pellentesque rutrum dolor ut sapien tincidunt iaculis. Suspendisse a leo consectetur, vulputate sem quis, laoreet lorem. Sed in eros quis odio convallis tempor. Etiam lectus felis, sollicitudin at auctor a, elementum non erat.
 
 Convallis hendrerit semper. Suspendisse a leo consectetur, vulputate sem quis, laoreet lorem. Sed in eros quis odio convallis tempor. Etiam lectus felis, sollicitudin at auctor a, elementum non erat. Etiam molestie enim rutrum, iaculis est eu, tincidunt dolor. Phasellus ullamcorper risus ac libero ornare, ut tincidunt nisi efficitur. Etiam molestie enim rutrum, iaculis est eu, tincidunt dolor. Phasellus ullamcorper risus ac libero ornare, ut tincidunt nisi efficitur. Etiam molestie enim rutrum, iaculis est eu, tincidunt dolor. Phasellus ullamcorper risus ac libero ornare, ut tincidunt nisi efficitur.[/div]
