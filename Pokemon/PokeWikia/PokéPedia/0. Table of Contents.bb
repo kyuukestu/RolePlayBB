@@ -4,7 +4,7 @@
 	It covers basic information on the Pokémon World and any changes that arise as a result of RP events or OOC decisions.
 [/fieldset]
 [comment][font=Krona One][font=Geologica].[/font][/font][/comment]
-[div=/*SECTION - ToC Container */
+[div=/*SECTION - Main Container */
 visibility: hidden; margin: auto; padding: 0;
 max-width: 800px;
 --body-top: 45px;
@@ -20,7 +20,7 @@ max-width: 800px;
 --fs-s-links: calc(var(--fs-body)*0.8);
 --grid-p: min(2.5%, 5px);
 --slide-size: clamp(250px, calc(450px + 10dvh), 650px);]
-			[div=/*ANCHOR -  Pokédex Design Top Slide Cover */
+			[div=/*ANCHOR -  Pokédex Design Top */
 			visibility: visible;
 			box-sizing: border-box;
 			height: 100px; max-width: 90%; 
