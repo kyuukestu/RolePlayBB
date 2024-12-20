@@ -1,51 +1,5 @@
 [comment][font=Laila][font=Nunito].[/font][/font][/comment]
-[Tabs][Tab=Essy][div=/*SECTION - Post Design & Variables Container */ 
-box-sizing: border-box; position: relative; display: flex; flex-flow: column nowrap; align-items: center;
-max-width: 75vw; height: var(--main-height); aspect-ratio: 7.5/6.5; margin: 0 auto; margin-top: 5%; margin-bottom: 15%;
-
-/*ANCHOR - Cursor */
-cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Ball_Sprite.png), pointer;
-
-/*ANCHOR - Font Sizes */
---fs-header: calc(var(--fs-body) * 1.5);
---fs-body: clamp(10px, calc(0.75em + 0.25vw), 1.2em);
---fs-mini: calc(var(--fs-body) * 0.67);
-
-/*ANCHOR - Code Size */
---main-height: clamp(300px, 90svh, 650px);
---main-width: 750px;
-
---p-height: 78%;
---p-width: 50%;
-
---c-height: var(--p-height);
---c-width: 30%;
-
-/*ANCHOR - Accent Colors */
---accent-c: #B22; 
---essy-shadow: 5px 2px 5px var(--accent-c), -5px 2px 5px #000;
-
-/*ANCHOR - Background Color */
-background: var(--char-grad-bg);
---char-grad-bg: linear-gradient(145deg, #000 60%, var(--accent-c) 135%);
-/*linear-gradient(145deg, #292A2D 60%, var(--accent-c) 135%)*/
-border: 1px solid red;
---music-grad-cen: radial-gradient(#000 15%, var(--accent-c) 50%);
---music-grad-to-right: linear-gradient(to right, #000 0%, var(--accent-c) 65%);
---music-grad-to-left: linear-gradient(to left, #000 0%, var(--accent-c) 65%);
-
-
-/*ANCHOR - Text Color */
-color: #fff;
-
-/*ANCHOR - Character Colors */
---esther-c: #f05656;
---shayan-c: #b22222;
-
-/*ANCHOR -  Character Image */
---char-img: url(https://i.imgur.com/mDaFSk0.png);
---char-img-2: url(https://i.imgur.com/V0jzh5D.png);
---char-img-w-bg: url(https://i.imgur.com/VBuNcmc.png);
+[Tabs][Tab=Essy][div=box-sizing: border-box; display: flex; align-items: center; flex-flow: column nowrap;
 
 /*ANCHOR Gender Images */
 --male: #89CFF0; 
@@ -149,6 +103,54 @@ color: #fff;
 --P6SecType: var(--IstSecType);
 --P6Gender: var(--IstGender);
 --P6Item: var(--IstItem); 
+][div=/*SECTION - Post Design & Variables Container */ 
+box-sizing: border-box; position: relative; display: flex; flex-flow: row wrap; align-items: center; justify-content: center; overflow-y: scroll; scrollbar-width: none;
+max-width: 75vw; height: var(--main-height); aspect-ratio: 15/13; margin: 0 auto; padding: 35px; gap: 15px 5px;
+
+/*ANCHOR - Cursor */
+cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Ball_Sprite.png), pointer;
+
+/*ANCHOR - Font Sizes */
+--fs-header: calc(var(--fs-body) * 1.5);
+--fs-body: clamp(10px, calc(0.75em + 0.25vw), 1.2em);
+--fs-mini: calc(var(--fs-body) * 0.67);
+
+/*ANCHOR - Code Size */
+--main-height: clamp(300px, 650px, 750px);
+--main-width: 750px;
+
+--p-height: 60%;
+
+--c-height: var(--p-height);
+--c-width: 30%;
+
+/*ANCHOR - Accent Colors */
+--accent-c: #B22; 
+--essy-shadow: 5px 2px 5px var(--accent-c), -5px 2px 5px #000;
+
+/*ANCHOR - Background Color */
+background: var(--char-grad-bg);
+--char-grad-bg: linear-gradient(145deg, #000 60%, var(--accent-c) 135%);
+/*linear-gradient(145deg, #292A2D 60%, var(--accent-c) 135%)*/
+border: 1px solid red;
+--music-grad-cen: radial-gradient(#000 15%, var(--accent-c) 50%);
+--music-grad-to-right: linear-gradient(to right, #000 0%, var(--accent-c) 65%);
+--music-grad-to-left: linear-gradient(to left, #000 0%, var(--accent-c) 65%);
+
+
+/*ANCHOR - Text Color */
+color: #fff;
+
+/*ANCHOR - Character Colors */
+--esther-c: #f05656;
+--shayan-c: #b22222;
+
+/*ANCHOR -  Character Image */
+--char-img: url(https://i.imgur.com/mDaFSk0.png);
+--char-img-2: url(https://i.imgur.com/V0jzh5D.png);
+--char-img-w-bg: url(https://i.imgur.com/VBuNcmc.png);
+
+
 
 /* Weather Icon List
 Harsh Sun 
@@ -199,13 +201,14 @@ fa-solid fa-cloud-showers-heavy */
 
 margin: auto;
 box-sizing: border-box;
-height: 115px;
+height: 85px;
 padding: 0;
 width: 100%;
-position: relative; top: 5%;
+position: relative; top: 0;
+display: flex;
 
 /* Increase width for longer titles/subtitles, decrease for shorter */
-max-width: 460px;
+max-width: 500px;
 
 /* Colours */
 --c-0: #F2B3CA;
@@ -222,17 +225,17 @@ max-width: 460px;
 --r-f-s: clamp(11px, 2.8vw, 1.1em); /* Font size, increase by increments of .1 */
 --r-f: 'Alata', sans-serif;/* Font family, change font tag above if you change this */
 
-display: none;
 flex-flow: row nowrap;
 justify-content: center;
 align-items: center;
 overflow-y: hidden;
-overflow-x: auto;][comment]
+overflow-x: auto;
+scrollbar-width: none;][comment]
 
 -- Diamond --[/comment][border=0;
 --w: 84px;
 position: absolute;
-top: 0;
+top: 0px;
 left: calc(50% - (var(--w) / 2));
 width: var(--w);
 height: var(--w);
@@ -273,7 +276,7 @@ align-items: center;][border=0;
 padding: 0;
 color: var(--c-t);
 font-size: var(--l-f-s);
-font-family: var(--l-f);]Swarms of Song[/border][/border][comment]
+font-family: var(--l-f);]Unbeatable[/border][/border][comment]
 
 -- Right Text --[/comment][border=0;
 --h: 38px;
@@ -297,7 +300,7 @@ padding: 0;
 color: var(--c-t);
 font-size: var(--r-f-s);
 font-family: var(--r-f);
-text-overflow: ellipsis;]Belle (2021)[/border][/border][comment]
+text-overflow: ellipsis;]Pokémon[/border][/border][comment]
 
 -- Music Player Container --[/comment][border=0;
 flex: 0 0 43px;
@@ -315,17 +318,12 @@ height: 54px;
 padding: 0;
 overflow: hidden;][comment]
 
--- SoundCloud Media Element --[/comment][MEDIA=soundcloud]belle18977/swarms-of-song#track_id=1183724368[/MEDIA][/border][/border][comment]/*!SECTION – Music player */[/comment][/border]
+-- SoundCloud Media Element --[/comment][MEDIA=soundcloud]user-35278493/pokemon-unbeatable-full-verison#track_id=275353923[/MEDIA][/border][/border][comment]/*!SECTION – Music player */[/comment][/border]
 
-[comment][div=/*ANCHOR - Post + Char Info Containers */ 
-box-sizing: border-box; padding: 3.5%;
-scrollbar-width: none; overflow-y: scroll; height: 100%; width: 100%; 
-display: flex; flex-flow: row wrap; gap: 5px;][/comment]
-
-[div=/*SECTION -  Char Info Container & BG*/
+[div=/*SECTION -  Char Info Container & BG */
 box-sizing: border-box; margin: auto; height: var(--c-height); width: var(--c-width);
 border-radius: 7.5px; border: solid 1px #fff; position: relative; 
-overflow: hidden; /* flex: 2 175px; */ flex: 40; min-width: 195px;
+overflow: hidden; flex: 40; min-width: 195px;
 background: var(--char-img-w-bg) no-repeat top center/contain #fff;]
 
 [div=/*ANCHOR - Char Details Frame */
@@ -373,14 +371,9 @@ box-sizing: border-box; height: auto; width: 50%; color: #fff; text-shadow: 1px 
 Heizou
 [div=/*ANCHOR - Mentions */
 box-sizing: border-box; height: auto; width: 50%; color: #fff; text-shadow: 1px 1px var(--accent-c); font-size: var(--fs-body); letter-spacing: 2px; line-height: 1.75;]Mentions[/div]
-Anju, G
+N/A
 [div=/*ANCHOR - Tags */
 box-sizing: border-box; height: auto; width: 50%; color: #fff; text-shadow: 1px 1px var(--accent-c); font-size: var(--fs-body); letter-spacing: 2px; line-height: 1.75;]Tags[/div]
-@Hecotoro
-@Patriot
-@Cresion Breezes
-@Extra123
-@Wormy
 @Chuuyas_hat
 [/div]
 
@@ -388,14 +381,10 @@ box-sizing: border-box; height: auto; width: 50%; color: #fff; text-shadow: 1px 
 [/div]
 [/div]
 
-
-
 [div=/*!SECTION - Char Info Container */][/div][/div]
 
 [div=/*SECTION -  Post Container */
-box-sizing: border-box; margin: 5px; height: var(--p-height); width: var(--p-width);
-border-radius: 7.5px; border: solid 1px #fff; /* flex: 6 200px; */ flex: 60; min-width: 195px;
-position: relative; margin: auto auto auto 5px; overflow-y: scroll; scrollbar-width: none;]
+box-sizing: border-box; margin: auto; height: var(--p-height); border-radius: 7.5px; border: solid 1px #fff; flex: 60; min-width: 195px; position: relative; overflow-y: scroll; scrollbar-width: none;]
 [div=/*ANCHOR - Weather */
 border: 1px solid transparent; border-radius: 7.5px 7.5px 0px 0px;
 position: sticky; top: 0px; margin: -22px auto auto auto;
@@ -419,9 +408,10 @@ Convallis hendrerit semper. Suspendisse a leo consectetur, vulputate sem quis, l
 [/div]
 
 [/div]
-[comment][/div][/comment]
 
 [div=/*ANCHOR - Signature */ position: relative; bottom: 2px; left: 2px; height: auto; color: var(--accent-c); font-size: 10px;]Coded by CloudySkyLoftyMoon, inspired by Uxie. Music Player by Ami.[/div]
+
+[/div]
 
 [div=/*SECTION - Pokémon Section */
 --p-height: 50px;
@@ -431,7 +421,7 @@ Convallis hendrerit semper. Suspendisse a leo consectetur, vulputate sem quis, l
 --held-right: -7.5px;
 --gen-left: -7.5px;
 
-box-sizing: border-box; display: flex; height: calc(2 * var(--p-height)); width: 75%; max-width: 50svw; overflow-x: scroll; overflow-y: hidden; scrollbar-width: none; position: relative; bottom: -6%; justify-content: space-evenly; border-radius: 15px; flex-flow: row nowrap; gap: 15px; align-items: center;
+box-sizing: border-box; display: flex; height: calc(2 * var(--p-height)); width: 75%; max-width: 50svw; overflow-x: scroll; overflow-y: hidden; scrollbar-width: none; position: relative; bottom: 50px; justify-content: space-evenly; border-radius: 15px; flex-flow: row nowrap; column-gap: 7.5px; align-items: center;
 /* background: linear-gradient(150deg, #000 25%, var(--accent-c) 135%);
 box-shadow: var(--essy-shadow); */]
 [div=/*SECTION - Pokémon 1 */ 
@@ -478,9 +468,10 @@ box-sizing: border-box; background: no-repeat center/var(--p-size) var(--P6Img) 
 [/div]
 [comment]/*!SECTION - Pokémon Bar */ [/comment][/div]
 
+[/div]
 
 
-[/div][/tab]
+[/tab]
 
 [tab=Bag]
 [div=/*SECTION - Bag */

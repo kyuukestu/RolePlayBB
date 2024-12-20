@@ -1,6 +1,6 @@
 [comment][font=Readex Pro][font=Pixelify Sans][font=Geologica].[/font][/font][/font][/comment]
 [div=/*SECTION - Main Container, Variables */
-box-sizing: border-box; margin: auto; padding: 0px; overflow-y: scroll;
+box-sizing: border-box; margin: auto; padding: 0px; overflow-y: scroll; scrollbar-width: none;
 display: flex; flex-flow: column nowrap; scroll-snap-type: y mandatory;
 background: no-repeat center/100% url(https://i.imgur.com/gOSGI2E.jpeg);
 
@@ -9,13 +9,14 @@ font-family: Geologica;
 /*ANCHOR - Backgrounds */
 --profOak: no-repeat center/100% 100% url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/43cc8211-4ecb-4505-8cdd-15d4f43fb303/d5f15ce-31b2fc92-e9b6-49fb-a957-1a0d3874f87e.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQzY2M4MjExLTRlY2ItNDUwNS04Y2RkLTE1ZDRmNDNmYjMwM1wvZDVmMTVjZS0zMWIyZmM5Mi1lOWI2LTQ5ZmItYTk1Ny0xYTBkMzg3NGY4N2UuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.jD4VWFdnHbhORXimTEiuYmR9MtkiOQE9kJClUOeljQs);
 --arrow: no-repeat 99% 115%/3.5% url(https://media.invisioncic.com/p289038/monthly_2020_05/arrow-down.gif.8d9aec7b8f92f2a50a1a64fce1733f3a.gif);
+--arrow-inner: no-repeat center/25% url(https://media.invisioncic.com/p289038/monthly_2020_05/arrow-down.gif.8d9aec7b8f92f2a50a1a64fce1733f3a.gif);
 --menu: no-repeat center/105% 125% url(https://i.imgur.com/8FHRczC.png);
 
 /*ANCHOR - Size Variables */
 height: var(--main-height); aspect-ratio: 16/9;
 --main-height: clamp(300px, 100%, 1000px); 
 --pgraph-height: 80px; /*TODO - Adjust for mobile screens */
---content-block-h: calc(var(--main-height) * 0.75);
+--content-block-h: calc(var(--main-height) * 0.65);
 --content-block-r: 16/9;]
 
 [div=/*ANCHOR - Introduction Outer Block*/ 
@@ -24,14 +25,21 @@ display: flex; justify-content: center; align-items: center; flex-flow: column n
 [div=/*SECTION - Introduction Inner Block*/
 box-sizing: border-box; height: var(--content-block-h); aspect-ratio: var(--content-block-r);
 overflow-y: scroll; scrollbar-width: none; margin: 0 auto;
-white-space: break-spaces;]
+white-space: break-spaces;
+position: relative; top: -45px;]
 [div=/*ANCHOR - Introduction Title */
-box-sizing: border-box; height: fit-content; width: 100%; text-align: center;
+box-sizing: border-box; height: 50px; width: 100%; text-align: center;
 font-family: Readex Pro; font-size: 25px; margin: 0 auto; position: sticky; top: 0;
-background-color: #000; color: #fff;]Intro.[/div]
+background-color: #000; color: #fff; display: flex; align-items: center; justify-content: space-between;]
+[div=/*ANCHOR - Scroll Arrow*/ background: var(--arrow-inner); width: 25%; height: 25px;][/div]
+Intro.
+[div=/*ANCHOR - Scroll Arrow*/ background: var(--arrow-inner); width: 25%; height: 25px;][/div]
+[/div]
 Hi & Welcome to my thread!
 
-This is an open-world, sand-box styled Pokémon RP that draws from the extended Poké-Verse. What does all hat mean? It means we draw inspiration from all Poké-Media: Main Series Games, Side Games (Ranger, Conquest, etc.), Anime, Manga, etc.
+This is an open-world, sand-box styled Pokémon RP that draws from the extended Poké-Verse. What does all that mean? It means this RP focuses on providing an environment for RPers to engage in Character-Driven story telling; there's NO OVERARCHING PLOT and NO NEED TO BACKREAD. Instead, characters decide on personal goals and pursue them while often interacting with other characters who may be pursuing entirely different goals.
+
+Think about it like the Pokémon Anime: one character might want to be the Region's Champion, while another wants to be a breeder, and yet another a Top Coordinator. All these characters can choose to travel together in pursuit of their own goals or travel independently, only interacting when their paths cross. Regardless of their choice, they can always meet and have fun without needing to know each other's entire backstory (i.e. Backread the RP.).
 
 Of course, because each Poké-Media has its own story and sometimes even its own universe, there are many irreconcilable discrepancies. Therefore, this RP follows [div=font-weight: bold; text-transform: uppercase; text-decoration: underline; display: inline-block;]Main Series Primacy[/div]. The Main Series Games are considered the canon events of our world and where impossible contradictions occur, we defer to the game's version of events.
 
