@@ -155,22 +155,24 @@ line-height: 1.5; letter-spacing: 0.5px;
 white-space: collapse;
 font-family: Sofia Sans Condensed; font-size: var(--fs-body);
 text-align: justify; text-justify: auto;]
-[div=position: sticky; top: -15px; text-align: center; font-family: Sofia; font-size: var(--fs-header); background-color: #222020; width: 100%; height: 90px;]Esther R. Sophys
+[div=box-sizing: border-box; position: sticky; top: -15px; text-align: center; font-family: Sofia; font-size: var(--fs-header); background-color: #222020; width: 100%; height: 90px;]Esther R. Sophys
 [div=background-color: #fff; position: absolute; bottom: 5px; height: 90px; width: 100%;
 mask: var(--rose-mask);][/div]
+[div=/*ANCHOR - Date */
+box-sizing: border-box; font-size: var(--fs-mini); float: right; padding-top: 10px;]August 11, ~9:45 a.m.[/div]
 [/div]
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et odio a ante pellentesque pretium. Integer venenatis ex non ipsum malesuada euismod sit amet ut ante. Duis posuere diam sit amet orci viverra condimentum. Nulla non lobortis orci. Vestibulum erat ante, aliquam eget arcu id, iaculis convallis lorem. Pellentesque rutrum dolor ut sapien tincidunt iaculis. Suspendisse a leo consectetur, vulputate sem quis, laoreet lorem. Sed in eros quis odio convallis tempor. Etiam lectus felis, sollicitudin at auctor a, elementum non erat.
 
 Convallis hendrerit semper. Suspendisse a leo consectetur, vulputate sem quis, laoreet lorem. Sed in eros quis odio convallis tempor. Etiam lectus felis, sollicitudin at auctor a, elementum non erat. Etiam molestie enim rutrum, iaculis est eu, tincidunt dolor. Phasellus ullamcorper risus ac libero ornare, ut tincidunt nisi efficitur. Etiam molestie enim rutrum, iaculis est eu, tincidunt dolor. Phasellus ullamcorper risus ac libero ornare, ut tincidunt nisi efficitur. Etiam molestie enim rutrum, iaculis est eu, tincidunt dolor. Phasellus ullamcorper risus ac libero ornare, ut tincidunt nisi efficitur.
 [comment]*!SECTION - Text Format End[/comment][/div]
-[div=/*SECTION - Footer, Date & Location */ 
+[div=/*SECTION - Footer Location */ 
 position: absolute; bottom: 0; width: 100%; height: 5%; background-color: var(--accent-c);
 border-radius: 0 0 10px 10px;
 display: flex; justify-content: center; align-items: center;
 color: #fff; 
 text-shadow: 1px 1px #000; font-weight: bold;
 font-family: Merienda; font-size: var(--fs-mini); letter-spacing: 2px; line-height: 1.75;]
-Aug. 11, ~9:45 a.m. | Contest Hall, Exeggutor Island — Alola Region 
+Contest Hall, Exeggutor Island | Alola Region 
 [/div]
 [comment]*!SECTION - Post Container End[/comment][/div]
 [comment]*!SECTION - Text-Container Blur Border End[/comment][/div]
