@@ -159,9 +159,10 @@ text-align: justify; text-justify: auto;]
 [div=background-color: #fff; position: absolute; bottom: 5px; height: 90px; width: 100%;
 mask: var(--rose-mask);][/div]
 [div=/*ANCHOR - Date */
-box-sizing: border-box; font-size: var(--fs-mini); float: right; padding-top: 10px;]August 11, ~9:45 a.m.[/div]
+box-sizing: border-box; font-size: var(--fs-mini); float: right; padding-top: 10px;]August 12th, 8:30 A.M.[/div]
 [/div]
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et odio a ante pellentesque pretium. Integer venenatis ex non ipsum malesuada euismod sit amet ut ante. Duis posuere diam sit amet orci viverra condimentum. Nulla non lobortis orci. Vestibulum erat ante, aliquam eget arcu id, iaculis convallis lorem. Pellentesque rutrum dolor ut sapien tincidunt iaculis. Suspendisse a leo consectetur, vulputate sem quis, laoreet lorem. Sed in eros quis odio convallis tempor. Etiam lectus felis, sollicitudin at auctor a, elementum non erat.
+
 
 Convallis hendrerit semper. Suspendisse a leo consectetur, vulputate sem quis, laoreet lorem. Sed in eros quis odio convallis tempor. Etiam lectus felis, sollicitudin at auctor a, elementum non erat. Etiam molestie enim rutrum, iaculis est eu, tincidunt dolor. Phasellus ullamcorper risus ac libero ornare, ut tincidunt nisi efficitur. Etiam molestie enim rutrum, iaculis est eu, tincidunt dolor. Phasellus ullamcorper risus ac libero ornare, ut tincidunt nisi efficitur. Etiam molestie enim rutrum, iaculis est eu, tincidunt dolor. Phasellus ullamcorper risus ac libero ornare, ut tincidunt nisi efficitur.
 [comment]*!SECTION - Text Format End[/comment][/div]
@@ -172,7 +173,7 @@ display: flex; justify-content: center; align-items: center;
 color: #fff; 
 text-shadow: 1px 1px #000; font-weight: bold;
 font-family: Merienda; font-size: var(--fs-mini); letter-spacing: 2px; line-height: 1.75;]
-Contest Hall, Exeggutor Island | Alola Region 
+Malie City, Ula'ula Island | Alola Region 
 [/div]
 [comment]*!SECTION - Post Container End[/comment][/div]
 [comment]*!SECTION - Text-Container Blur Border End[/comment][/div]
@@ -191,7 +192,6 @@ background: no-repeat center/100% var(--pokéball);
 transform: var(--rotate);][/div][/bg]}
 [div=/*SECTION - Pokémon Slide Content */
 
-/*TODO - Redesign Pokémon Display */
 visibility: visible; box-sizing: border-box;
 
 --p-height: 50px;
@@ -200,54 +200,73 @@ visibility: visible; box-sizing: border-box;
 --p-size: 150%;
 --held-right: -7.5px;
 --gen-left: -7.5px;
+--pokéShadow: drop-shadow(5px 0px 2px #353232);
 
-height: min(400px, 70vw);
+height: min(450px, 70vw);
 
- display: flex; /* height: calc(2 * var(--p-height)); */ width: 75%; max-width: 50svw; overflow-x: scroll; overflow-y: hidden; scrollbar-width: none; position: relative; bottom: 50px; right: -15px;justify-content: space-evenly; border-radius: 15px; flex-flow: column nowrap; column-gap: 7.5px; align-items: center;
-/* background: linear-gradient(150deg, #000 25%, var(--accent-c) 135%);
-box-shadow: var(--essy-shadow); */]
-[div=/*SECTION - Pokémon 1 */ 
-box-sizing: border-box; background: no-repeat center/var(--p-size) var(--P1Img) var(--P1PrimType); border: 2px solid var(--P1SecType); border-radius: 50px; height: var(--p-height); aspect-ratio: 1; position: relative; color: var(--P1PrimType); transform: var(--rotate);]
+display: flex; width: 75%; max-width: 50svw; overflow-y: scroll; overflow-x: hidden; scrollbar-width: none; position: relative; bottom: 50px; right: -10px; justify-content: space-evenly; border-radius: 15px; flex-flow: column nowrap; row-gap: 30px; align-items: center; padding-top: 50px;]
+[div=/*SECTION - Pokémon Position 1 */
+    box-sizing: border-box; background: var(--P1PrimType); border-radius: 50%; height: calc(var(--p-height)/3); aspect-ratio: 3; position: relative; border: 2px solid var(--P1SecType);transform: var(--rotate); z-index: 1;]
+    [div=/*ANCHOR  – Pokémon Image */
+    box-sizing: border-box; background: no-repeat center/var(--p-size) var(--P1Img); border: 2px solid transparent; border-radius: 50px; height: var(--p-height); aspect-ratio: 1; position: relative; filter: var(--pokéShadow); bottom: 55px; z-index: 2;][/div]
     [div=/*ANCHOR - Gender */
-    background: no-repeat center/85% var(--P1Gender); border: 2px Ridge var(--P1SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; left: var(--gen-left);][/div]
+    background: no-repeat center/85% var(--P1Gender); border: 2px Ridge var(--P1SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; left: var(--gen-left); z-indx: 3;][/div]
     [div=/*ANCHOR - Held Item */
-    background: no-repeat center/85% var(--P1Item) var(--bg-color); border: 2px Ridge var(--P1SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; right: var(--held-right); /*!SECTION */][/div]
+    background: no-repeat center/85% var(--P1Item) var(--bg-color); border: 2px Ridge var(--P1SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; right: var(--held-right); z-index: 3;][/div]
+    [comment]/*!SECTION */[/comment]
 [/div]
-[div=/*SECTION - Pokémon 2 */ 
-box-sizing: border-box; background: no-repeat center/var(--p-size) var(--P2Img) var(--P2PrimType); border: 2px solid var(--P2SecType); border-radius: 50px; height: var(--p-height); aspect-ratio: 1; position: relative; color: var(--P2PrimType); transform: var(--rotate);]
+[div=/*SECTION - Pokémon Position 2 */
+    box-sizing: border-box; background: var(--P2PrimType); border-radius: 50%; height: calc(var(--p-height)/3); aspect-ratio: 3; position: relative; border: 2px solid var(--P2SecType);transform: var(--rotate); z-index: 1;]
+    [div=/*ANCHOR  – Pokémon Image */
+    box-sizing: border-box; background: no-repeat center/var(--p-size) var(--P2Img); border: 2px solid transparent; border-radius: 50px; height: var(--p-height); aspect-ratio: 1; position: relative; filter: var(--pokéShadow); bottom: 55px; z-index: 2;][/div]
     [div=/*ANCHOR - Gender */
-    background: no-repeat center/85% var(--P2Gender); border: 2px Ridge var(--P2SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; left: var(--gen-left);][/div]
+    background: no-repeat center/85% var(--P2Gender); border: 2px Ridge var(--P2SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; left: var(--gen-left); z-indx: 3;][/div]
     [div=/*ANCHOR - Held Item */
-    background: no-repeat center/85% var(--P2Item) var(--bg-color); border: 2px Ridge var(--P2SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; right: var(--held-right); /*!SECTION */][/div]
+    background: no-repeat center/85% var(--P2Item) var(--bg-color); border: 2px Ridge var(--P1SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; right: var(--held-right); z-index: 3;][/div]
+    [comment]/*!SECTION */[/comment]
 [/div]
-[div=/*SECTION - Pokémon 3 */ 
-box-sizing: border-box; background: no-repeat center/var(--p-size) var(--P3Img) var(--P3PrimType); border: 2px solid var(--P3SecType); border-radius: 50px; height: var(--p-height); aspect-ratio: 1; position: relative; color: var(--P3PrimType); transform: var(--rotate);]
+[div=/*SECTION - Pokémon Position 3 */
+    box-sizing: border-box; background: var(--P3PrimType); border-radius: 50%; height: calc(var(--p-height)/3); aspect-ratio: 3; position: relative; border: 2px solid var(--P3SecType);transform: var(--rotate); z-index: 1;]
+    [div=/*ANCHOR  – Pokémon Image */
+    box-sizing: border-box; background: no-repeat center/var(--p-size) var(--P3Img); border: 2px solid transparent; border-radius: 50px; height: var(--p-height); aspect-ratio: 1; position: relative; filter: var(--pokéShadow); bottom: 55px; z-index: 2;][/div]
     [div=/*ANCHOR - Gender */
-    background: no-repeat center/85% var(--P3Gender); border: 2px Ridge var(--P3SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; left: var(--gen-left);][/div]
+    background: no-repeat center/85% var(--P3Gender); border: 2px Ridge var(--P3SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; left: var(--gen-left); z-indx: 3;][/div]
     [div=/*ANCHOR - Held Item */
-    background: no-repeat center/85% var(--P3Item) var(--bg-color); border: 2px Ridge var(--P3SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; right: var(--held-right); /*!SECTION */][/div]
+    background: no-repeat center/85% var(--P3Item) var(--bg-color); border: 2px Ridge var(--P3SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; right: var(--held-right); z-index: 3;][/div]
+    [comment]/*!SECTION */[/comment]
 [/div]
-[div=/*SECTION - Pokémon 4 */ 
-box-sizing: border-box; background: no-repeat center/var(--p-size) var(--P4Img) var(--P4PrimType); border: 2px solid var(--P4SecType); border-radius: 50px; height: var(--p-height); aspect-ratio: 1; position: relative; color: var(--P4PrimType); transform: var(--rotate);]
+[div=/*SECTION - Pokémon Position 4 */
+    box-sizing: border-box; background: var(--P4PrimType); border-radius: 50%; height: calc(var(--p-height)/3); aspect-ratio: 3; position: relative; border: 2px solid var(--P4SecType);transform: var(--rotate); z-index: 1;]
+    [div=/*ANCHOR  – Pokémon Image */
+    box-sizing: border-box; background: no-repeat center/var(--p-size) var(--P4Img); border: 2px solid transparent; border-radius: 50px; height: var(--p-height); aspect-ratio: 1; position: relative; filter: var(--pokéShadow); bottom: 55px; z-index: 2;][/div]
     [div=/*ANCHOR - Gender */
-    background: no-repeat center/85% var(--P4Gender); border: 2px Ridge var(--P4SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; left: var(--gen-left);][/div]
+    background: no-repeat center/85% var(--P4Gender); border: 2px Ridge var(--P4SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; left: var(--gen-left); z-indx: 3;][/div]
     [div=/*ANCHOR - Held Item */
-    background: no-repeat center/85% var(--P4Item) var(--bg-color); border: 2px Ridge var(--P4SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; right: var(--held-right); /*!SECTION */][/div]
+    background: no-repeat center/85% var(--P4Item) var(--bg-color); border: 2px Ridge var(--P4SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; right: var(--held-right); z-index: 3;][/div]
+    [comment]/*!SECTION */[/comment]
 [/div]
-[div=/*SECTION - Pokémon 5 */ 
-box-sizing: border-box; background: no-repeat center/var(--p-size) var(--P5Img) var(--P5PrimType); border: 2px solid var(--P5SecType); border-radius: 50px; height: var(--p-height); aspect-ratio: 1; position: relative; color: var(--P5PrimType); transform: var(--rotate);]
+[div=/*SECTION - Pokémon Position 5 */
+    box-sizing: border-box; background: var(--P5PrimType); border-radius: 50%; height: calc(var(--p-height)/3); aspect-ratio: 3; position: relative; border: 2px solid var(--P5SecType);transform: var(--rotate); z-index: 1;]
+    [div=/*ANCHOR  – Pokémon Image */
+    box-sizing: border-box; background: no-repeat center/var(--p-size) var(--P5Img); border: 2px solid transparent; border-radius: 50px; height: var(--p-height); aspect-ratio: 1; position: relative; filter: var(--pokéShadow); bottom: 55px; z-index: 2;][/div]
     [div=/*ANCHOR - Gender */
-    background: no-repeat center/85% var(--P5Gender); border: 2px Ridge var(--P5SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; left: var(--gen-left);][/div]
+    background: no-repeat center/85% var(--P5Gender); border: 2px Ridge var(--P5SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; left: var(--gen-left); z-indx: 3;][/div]
     [div=/*ANCHOR - Held Item */
-    background: no-repeat center/85% var(--P5Item) var(--bg-color); border: 2px Ridge var(--P5SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; right: var(--held-right); /*!SECTION */][/div]
+    background: no-repeat center/85% var(--P5Item) var(--bg-color); border: 2px Ridge var(--P5SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; right: var(--held-right); z-index: 3;][/div]
+    [comment]/*!SECTION */[/comment]
 [/div]
-[div=/*SECTION - Pokémon 6 */ 
-box-sizing: border-box; background: no-repeat center/var(--p-size) var(--P6Img) var(--P6PrimType); border: 2px solid var(--P6SecType); border-radius: 50px; height: var(--p-height); aspect-ratio: 1; position: relative; color: var(--P6PrimType); transform: var(--rotate);]
+[div=/*SECTION - Pokémon Position 6 */
+    box-sizing: border-box; background: var(--P6PrimType); border-radius: 50%; height: calc(var(--p-height)/3); aspect-ratio: 3; position: relative; border: 2px solid var(--P6SecType);transform: var(--rotate); z-index: 1;]
+    [div=/*ANCHOR  – Pokémon Image */
+    box-sizing: border-box; background: no-repeat center/var(--p-size) var(--P6Img); border: 2px solid transparent; border-radius: 50px; height: var(--p-height); aspect-ratio: 1; position: relative; filter: var(--pokéShadow); bottom: 55px; z-index: 2;][/div]
     [div=/*ANCHOR - Gender */
-    background: no-repeat center/85% var(--P6Gender); border: 2px Ridge var(--P6SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; left: var(--gen-left);][/div]
+    background: no-repeat center/85% var(--P6Gender); border: 2px Ridge var(--P6SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; left: var(--gen-left); z-indx: 3;][/div]
     [div=/*ANCHOR - Held Item */
-    background: no-repeat center/85% var(--P6Item) var(--bg-color); border: 2px Ridge var(--P6SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; right: var(--held-right); /*!SECTION */][/div]
-[/div][comment]*!SECTION - Slide Content End[/comment][/div]
+    background: no-repeat center/85% var(--P6Item) var(--bg-color); border: 2px Ridge var(--P6SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; right: var(--held-right); z-index: 3;][/div]
+    [comment]/*!SECTION */[/comment]
+[/div]
+
+[comment]*!SECTION - Slide Content End[/comment][/div]
 {/slide}
 [/accordion]
 [comment]*!SECTION - Hidden Accordion Container End[/comment][/div]
