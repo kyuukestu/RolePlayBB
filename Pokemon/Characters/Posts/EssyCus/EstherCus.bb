@@ -1,5 +1,5 @@
 [comment][font=Sofia][font=Merienda][font=Sofia Sans Condensed].[/font][/font][/font][/comment]
-[div=min-height: var(--mainHeight); width: 100%;
+[div=height: var(--mainHeight); width: 100%;
 display: block; align-content: center;
 
 
@@ -173,7 +173,7 @@ line-height: 1.5; letter-spacing: 0.5px;
 white-space: collapse;
 font-family: Sofia Sans Condensed; font-size: var(--fs-body);
 text-align: justify; text-justify: auto;]
-[div=box-sizing: border-box; position: sticky; top: -15px; text-align: center; font-family: Sofia; font-size: var(--fs-header); background-color: #222020; width: 100%; height: 90px;]Esther R. Sophys
+[div=box-sizing: border-box; position: sticky; top: -15px; text-align: center; font-family: Sofia; font-size: var(--fs-header); background-color: #222020; width: 100%; height: 90px; z-index: 2;]Esther R. Sophys
 [div=background-color: #fff; position: absolute; bottom: 5px; height: 90px; width: 100%;
 mask: var(--rose-mask);][/div]
 [div=/*ANCHOR - Date */
@@ -202,7 +202,7 @@ box-sizing: border-box; position: relative; right: max(25%, 220px); z-index: 2;
 margin: auto; max-width: min(475px, 85vw); height: 75px; aspect-ratio: 1;
 transform: rotate(-90deg);]
 [accordion=100% | bcenter]
-{slide=center | [bg=transparent; visibility: visible; position: relative; margin: auto;]
+{slide=open | center | [bg=transparent; visibility: visible; position: relative; margin: auto;]
 [div=/*SECTION - Accordion Top Design */
 box-sizing: border-box; 
 height: 90px; aspect-ratio: 1; margin: auto;
@@ -215,7 +215,7 @@ visibility: visible; box-sizing: border-box;
 
 height: min(450px, 70vw);
 
-display: flex; width: 75%; max-width: 50svw; overflow-y: scroll; overflow-x: hidden; scrollbar-width: none; position: relative; bottom: 50px; right: -10px; justify-content: space-evenly; border-radius: 15px; flex-flow: column nowrap; row-gap: 30px; align-items: center; padding-top: 50px;]
+display: flex; width: 75%; max-width: 50svw; overflow-y: scroll; overflow-x: hidden; scrollbar-width: none; position: relative; bottom: 50px; right: -10px; justify-content: space-evenly; border-radius: 15px; flex-flow: column nowrap; row-gap: 30px; align-items: center;]
 [div=/*SECTION - Pokémon Position 1 */
     box-sizing: border-box; background: var(--P1PrimType); border-radius: 50%; height: calc(var(--p-height)/3); aspect-ratio: 3; position: relative; border: 2px solid var(--P1SecType);transform: var(--rotate); z-index: 1;]
     [div=/*ANCHOR  – Pokémon Image */
