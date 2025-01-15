@@ -65,6 +65,13 @@ display: block; align-content: center;
 --KasGender: var(--male);
 --KasItem: url();
 
+/*ANCHOR - La Bamba */
+--BamImg: url(https://play.pokemonshowdown.com/sprites/gen5/shellos-west.png);
+--BamPrimType: #9DB7F5;
+--BamSecType: #4A66AB;
+--BamGender: var(--female);
+--BamItem: url();
+
 /*ANCHOR – Istha */
 --IstImg: url(https://play.pokemonshowdown.com/sprites/gen5-shiny/feebas.png);
 --IstPrimType: #9DB7F5;
@@ -124,7 +131,7 @@ display: block; align-content: center;
 /*!SECTION - Pokémon End */]
 [Tabs][tab=Esther][div=/*SECTION – Esther Tab */ box-sizing: border-box;
 
-min-height: var(--mainHeight); width: 100%;
+height: var(--mainHeight); width: 100%;
 display: block; align-content: center;
 position: relative;
 
@@ -176,8 +183,8 @@ text-align: justify; text-justify: auto;]
 [div=box-sizing: border-box; position: sticky; top: -15px; text-align: center; font-family: Sofia; font-size: var(--fs-header); background-color: #222020; width: 100%; height: 90px; z-index: 2;]Esther R. Sophys
 [div=background-color: #fff; position: absolute; bottom: 5px; height: 90px; width: 100%;
 mask: var(--rose-mask);][/div]
-[div=/*ANCHOR - Date */
-box-sizing: border-box; font-size: var(--fs-mini); float: right; position: relative; top: -15px;]August 11th, ~9:45 A.M.[/div]
+[div=/*ANCHOR - Date & Time */
+box-sizing: border-box; font-size: var(--fs-mini); float: right; position: relative; top: -15px;]August 12th, ~9:50 A.M.[/div]
 [/div]
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et odio a ante pellentesque pretium. Integer venenatis ex non ipsum malesuada euismod sit amet ut ante. Duis posuere diam sit amet orci viverra condimentum. Nulla non lobortis orci. Vestibulum erat ante, aliquam eget arcu id, iaculis convallis lorem. Pellentesque rutrum dolor ut sapien tincidunt iaculis. Suspendisse a leo consectetur, vulputate sem quis, laoreet lorem. Sed in eros quis odio convallis tempor. Etiam lectus felis, sollicitudin at auctor a, elementum non erat.
 
@@ -191,7 +198,7 @@ display: flex; justify-content: center; align-items: center;
 color: #fff; 
 text-shadow: 1px 1px #000; font-weight: bold;
 font-family: Merienda; font-size: var(--fs-mini); letter-spacing: 2px; line-height: 1.75;]
-Exeggutor Island | Alola Region 
+Malie Garden, Ula'ula Island | Alola Region 
 [/div]
 [comment]*!SECTION - Post Container End[/comment][/div]
 [comment]*!SECTION - Text-Container Blur Border End[/comment][/div]
@@ -547,7 +554,40 @@ Hypnosis
 [/div]
 [comment]/*!SECTION */[/comment]
 [/div]
-
+[div=/*SECTION - Pokémon Card Bambi */box-sizing: border-box; flex: 1 0 var(--flex); background: #222; border-radius: var(--card-r); display: flex; flex-wrap: wrap; max-height: var(--max-h); max-width: var(--flex);]
+[div=/*SECTION - Pokémon Display */ box-sizing: border-box; flex: 1 0 100%; text-align: center; padding-top: 10px;]
+[div=/*ANCHOR - Pokémon Background */
+    box-sizing: border-box; background: var(--BamPrimType); border-radius: 50%; height: calc(var(--p-height)/1.5); aspect-ratio: 3; position: relative; top: 25px; border: 2px solid var(--BamSecType);transform: var(--rotate); z-index: 1; margin: auto;]
+    [div=/*ANCHOR  – Pokémon Image */
+    box-sizing: border-box; background: no-repeat center/var(--p-size) var(--BamImg); border: 2px solid transparent; border-radius: 50px; height: calc(1.5*var(--p-height)); aspect-ratio: 1; position: relative; filter: var(--pokéShadow); bottom: 65px; z-index: 2; margin: auto;][/div]
+[/div]
+[comment]/*ANCHOR - Pokémon Name */[/comment]
+La Bamba[comment]/*!SECTION */[/comment][/div]
+[div=box-sizing: border-box; flex: 1 0 45%; height: 55%; padding-left: 10px;]
+[comment]/*ANCHOR - Pokémon Details */[/comment]
+Gender: Female
+Ability: Stick Hold
+Pokéball: Normal
+Lv: 20
+[/div]
+[div=box-sizing: border-box; flex: 1 0 45%; overflow-y: scroll; scrollbar-width: none; height: 55%;]
+[div=font-weight: bold; position: sticky; top: 0; width: 100%; text-align: center; background: #222;]Moves[/div]
+Yawn
+Curse
+Amnesia
+Water Gun
+Mud Slap
+Mud Sport
+Harden
+Tackle
+Water Pulse
+Recover
+Mud Bomb
+Ancient Power
+Hidden Power {Poison}
+[/div]
+[comment]/*!SECTION */[/comment]
+[/div]
 
 [/div]
 [/tab]

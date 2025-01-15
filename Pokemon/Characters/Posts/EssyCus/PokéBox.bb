@@ -256,6 +256,40 @@ Hypnosis
 [/div]
 [comment]/*!SECTION */[/comment]
 [/div]
+[div=/*SECTION - Pokémon Card Bambi */box-sizing: border-box; flex: 1 0 var(--flex); background: #222; border-radius: var(--card-r); display: flex; flex-wrap: wrap; max-height: var(--max-h); max-width: var(--flex);]
+[div=/*SECTION - Pokémon Display */ box-sizing: border-box; flex: 1 0 100%; text-align: center; padding-top: 10px;]
+[div=/*ANCHOR - Pokémon Background */
+    box-sizing: border-box; background: var(--BamPrimType); border-radius: 50%; height: calc(var(--p-height)/1.5); aspect-ratio: 3; position: relative; top: 25px; border: 2px solid var(--BamSecType);transform: var(--rotate); z-index: 1; margin: auto;]
+    [div=/*ANCHOR  – Pokémon Image */
+    box-sizing: border-box; background: no-repeat center/var(--p-size) var(--BamImg); border: 2px solid transparent; border-radius: 50px; height: calc(1.5*var(--p-height)); aspect-ratio: 1; position: relative; filter: var(--pokéShadow); bottom: 65px; z-index: 2; margin: auto;][/div]
+[/div]
+[comment]/*ANCHOR - Pokémon Name */[/comment]
+La Bamba[comment]/*!SECTION */[/comment][/div]
+[div=box-sizing: border-box; flex: 1 0 45%; height: 55%; padding-left: 10px;]
+[comment]/*ANCHOR - Pokémon Details */[/comment]
+Gender: Female
+Ability: Stick Hold
+Pokéball: Normal
+Lv: 20
+[/div]
+[div=box-sizing: border-box; flex: 1 0 45%; overflow-y: scroll; scrollbar-width: none; height: 55%;]
+[div=font-weight: bold; position: sticky; top: 0; width: 100%; text-align: center; background: #222;]Moves[/div]
+Yawn
+Curse
+Amnesia
+Water Gun
+Mud Slap
+Mud Sport
+Harden
+Tackle
+Water Pulse
+Recover
+Mud Bomb
+Ancient Power
+Hidden Power {Poison}
+[/div]
+[comment]/*!SECTION */[/comment]
+[/div]
 
 
 [/div]
