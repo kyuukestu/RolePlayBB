@@ -184,7 +184,7 @@ text-align: justify; text-justify: auto;]
 [div=background-color: #fff; position: absolute; bottom: 5px; height: 90px; width: 100%;
 mask: var(--rose-mask);][/div]
 [div=/*ANCHOR - Date & Time */
-box-sizing: border-box; font-size: var(--fs-mini); float: right; position: relative; top: -15px;]August 12th, ~9:50 A.M.[/div]
+box-sizing: border-box; font-size: var(--fs-mini); float: right; position: relative; top: -15px;]August 11th, ~9:50 A.M.[/div]
 [/div]
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et odio a ante pellentesque pretium. Integer venenatis ex non ipsum malesuada euismod sit amet ut ante. Duis posuere diam sit amet orci viverra condimentum. Nulla non lobortis orci. Vestibulum erat ante, aliquam eget arcu id, iaculis convallis lorem. Pellentesque rutrum dolor ut sapien tincidunt iaculis. Suspendisse a leo consectetur, vulputate sem quis, laoreet lorem. Sed in eros quis odio convallis tempor. Etiam lectus felis, sollicitudin at auctor a, elementum non erat.
 
@@ -198,7 +198,7 @@ display: flex; justify-content: center; align-items: center;
 color: #fff; 
 text-shadow: 1px 1px #000; font-weight: bold;
 font-family: Merienda; font-size: var(--fs-mini); letter-spacing: 2px; line-height: 1.75;]
-Malie Garden, Ula'ula Island | Alola Region 
+Exeggutor Island| Alola Region 
 [/div]
 [comment]*!SECTION - Post Container End[/comment][/div]
 [comment]*!SECTION - Text-Container Blur Border End[/comment][/div]
@@ -602,5 +602,5 @@ Under Construction
 
 [div=box-sizing: border-box; text-align: center; padding: 50px; width: 100%;]
 
-Interactions: G (@Hecotoro ) Altair (@Cresion Breezes ) | ??? (@oldantiques )
+Interactions: Nua (@Patriot)
 [/div]
