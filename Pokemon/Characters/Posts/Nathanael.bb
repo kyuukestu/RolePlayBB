@@ -371,7 +371,7 @@ padding: 0px;
 color: var(--c-1);
 font-size: clamp(1vw, var(--header-f-s), 4.5vw);
 font-family: clamp(1vw, var(--header-f-s), 4.5vw);
-line-height: 1.2;][comment] Character Time / Date [/comment] 8:00 a.m. | Sunday, July 4th
+line-height: 1.2;][comment] Character Time / Date [/comment] 8:10 a.m. | Sunday, July 4th
 [/border][comment]-- Line --[/comment][border=transparent;
 margin-bottom: var(--line-m-t);
 margin-right: var(--line-m-l);
