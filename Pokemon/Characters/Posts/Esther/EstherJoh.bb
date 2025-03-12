@@ -1,10 +1,33 @@
-[comment][font=Sofia][font=Merienda][font=Sofia Sans Condensed].[/font][/font][/font][/comment]
+[comment][font=Leckerli One][font=Merienda][font=Sofia Sans Condensed][font=Kosugi Maru].[/font][/font][/font][/font][/comment]
 [div=height: var(--mainHeight); width: 100%;
-display: block; align-content: center;
+display: flex; align-content: center;
 
 
 /*ANCHOR - Dimensions */
---mainHeight: clamp(300px, 85svh, 750px);
+--mainHeight: clamp(300px, 675px, 750px);
+--postBorderRadius: 20px;
+--rotate: rotate(90deg);
+
+/*ANCHOR - Cursor */
+cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Ball_Sprite.png), pointer;
+
+/*ANCHOR - Font Sizes */
+--fs-header: calc(var(--fs-body) * 1.5);
+--fs-body: clamp(10px, calc(0.75em + 0.25vw), 1.2em);
+--fs-mini: calc(var(--fs-body) * 0.67);
+
+/*ANCHOR - Font Family*/
+--H1-font: Leckerli One;
+--H2-font: Kosugi Maru;
+--B-font: Sofia Sans Condensed;
+
+/*ANCHOR - Accent Colors */
+--accent-c: #C00000; /*#B22;*/ 
+
+/*ANCHOR - Character Colors */
+--esther-c: #f05656;
+--shayan-c: #b22222;
+
 /*SECTION - Pokémon */
 /*ANCHOR Gender Images */
 --male: #89CFF0; 
@@ -114,34 +137,23 @@ height: var(--mainHeight); width: 100%;
 display: block; align-content: center;
 background: var(--essy-background), var(--backdrop-bg);
 position: absolute; top: 0; z-index: 0;
-mask-image: linear-gradient(black, transparent);
-/*ANCHOR - Dimensions */
---mainHeight: clamp(300px, 85svh, 750px);
---postBorderRadius: 20px;
---rotate: rotate(90deg);
+mask-image: linear-gradient(black 3%, transparent 97%);
+
+
 /*ANCHOR - Background Images */
 --essy-norm: url(https://imgur.com/v5nu6kp.png);
 --essy-farm: url(https://i.imgur.com/1pcaKHb.png);
 --mmfarm: url(https://static.zerochan.net/Pok%C3%A9mon.Gold...Silver.full.3220139.jpg);
---essy-background: no-repeat 17% 50%/25% var(--essy-farm);
---backdrop-bg: no-repeat 50% 100%/100% var(--mmfarm);
-
-/*ANCHOR - Cursor */
-cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Ball_Sprite.png), pointer;
-/*ANCHOR - Font Sizes */
---fs-header: calc(var(--fs-body) * 1.5);
---fs-body: clamp(10px, calc(0.75em + 0.25vw), 1.2em);
---fs-mini: calc(var(--fs-body) * 0.67);
-/*ANCHOR - Accent Colors */
---accent-c: #C00000; /*#B22;*/ 
-/*ANCHOR - Character Colors */
---esther-c: #f05656;
---shayan-c: #b22222;]
+--essy-background: no-repeat 10% center/25% var(--essy-farm);
+--backdrop-bg: no-repeat center/100% 100% var(--mmfarm);]
+[comment]/*!SECTION */[/comment][/div]
+[div=/*SECTION - Post + Poke*/
+box-sizing: border-box; display: flex; height: var(--mainHeight); width: 100%; justify-content: center; align-content: center;]
 [div=/*SECTION - Text-Container Blur Border */ 
 box-sizing: border-box; display: flex;
 height: 80%; max-width: min(475px, 85vw); 
-margin: 5% auto; padding: 10px; position: relative; z-index: 2;
-backdrop-filter: blur(5px);
+margin: 0; padding: 10px; position: relative; z-index: 2;
+backdrop-filter: blur(5px); flex: 1 1 80%;
 border-radius: var(--postBorderRadius); border: 1px solid rgba(255, 255, 255, 0.5);]
 [div=/*SECTION - Post Container */
 height: 100%; width: 100%; background: #222020; color: #fff;
@@ -155,12 +167,12 @@ position: relative;
 padding: 10px;
 line-height: 1.5; letter-spacing: 0.5px;
 white-space: collapse;
-font-family: Sofia Sans Condensed; font-size: var(--fs-body);
+font-family: var(--body-font); font-size: var(--fs-body);
 text-align: justify; text-justify: auto;]
-[div=box-sizing: border-box; position: sticky; top: -15px; text-align: center; font-family: Sofia; font-size: var(--fs-header); background-color: #222020; width: 100%; height: 90px; z-index: 2;]Esther R. Sophys
+[div=box-sizing: border-box; position: sticky; top: -15px; text-align: center; font-family: var(--H1-font); font-size: var(--fs-header); background-color: #222020; width: 100%; height: 90px; z-index: 2;]Esther R. Sophys
 [div=background: no-repeat 50% 40%/85% url(https://imgur.com/48PXej8.png); position: absolute; bottom: 5px; height: 90px; width: 100%;][/div]
 [div=/*ANCHOR - Date & Time */
-box-sizing: border-box; font-size: var(--fs-mini); float: right; position: relative; top: -15px;]August 15th, 8:15 A.M.[/div]
+box-sizing: border-box; font-family: var(--H2-font); font-size: var(--fs-mini); float: right; position: relative; top: -15px;]August 15th, 10:15 A.M.[/div]
 [/div]
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et odio a ante pellentesque pretium. Integer venenatis ex non ipsum malesuada euismod sit amet ut ante. Duis posuere diam sit amet orci viverra condimentum. Nulla non lobortis orci. Vestibulum erat ante, aliquam eget arcu id, iaculis convallis lorem. Pellentesque rutrum dolor ut sapien tincidunt iaculis. Suspendisse a leo consectetur, vulputate sem quis, laoreet lorem. Sed in eros quis odio convallis tempor. Etiam lectus felis, sollicitudin at auctor a, elementum non erat.
 
@@ -173,18 +185,18 @@ border-radius: 0 0 10px 10px;
 display: flex; justify-content: center; align-items: center;
 color: #fff; 
 text-shadow: 1px 1px #000; font-weight: bold;
-font-family: Merienda; font-size: var(--fs-mini); letter-spacing: 2px; line-height: 1.75;]
+font-family: var(--H2-font); font-size: var(--fs-mini); letter-spacing: 2px; line-height: 1.75;]
 Moo Moo Farm & Ranch, R39 | Johto Region 
 [/div]
 [comment]*!SECTION - Post Container End[/comment][/div]
-[comment]*!SECTION - Text-Container Blur Border End[/comment]
-[/div]
+[comment]*!SECTION - Text-Container Blur Border End[/comment][/div]
+
 [div=/*SECTION - Pokémon Bar */
 visibility: visible; box-sizing: border-box;
 backdrop-filter: blur(5px); background-color: transparent;
 border-radius: var(--postBorderRadius); border: 1px solid rgba(255, 255, 255, 0.5);
-height: 75%; width: max(80px, 7.5vw);
-display: flex;  overflow-y: scroll; overflow-x: hidden; scrollbar-width: none; position: absolute; bottom: 12%; right: 20%; justify-content: space-evenly; flex-flow: column wrap; row-gap: 10px; align-items: center; z-index: 1; margin: auto;]
+height: 80%; max-width: max(80px, 7.5vw); 
+display: flex;  overflow-y: scroll; overflow-x: hidden; scrollbar-width: none; justify-content: space-evenly; flex: 1 1 20%; flex-flow: column wrap; row-gap: 10px; align-items: center; z-index: 1; margin: 0;]
 [div=/*SECTION - Pokémon Position 1 */
     box-sizing: border-box; background: var(--P1PrimType); border-radius: 50%; height: calc(var(--p-height)/3); aspect-ratio: 3; position: relative; border: 2px solid var(--P1SecType);]
     [div=/*ANCHOR  – Pokémon Image */
@@ -245,8 +257,9 @@ display: flex;  overflow-y: scroll; overflow-x: hidden; scrollbar-width: none; p
     background: no-repeat center/85% var(--P6Item) var(--bg-color); border: 2px Ridge var(--P6SecType); border-radius: 50px; height: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; position: absolute; bottom: 0; right: var(--held-right); ][/div]
     [comment]/*!SECTION */[/comment]
 [/div]
-[comment]*!SECTION - Slide Content End[/comment][/div]
-[div=position: absolute; bottom: -7.5%; box-sizing: border-box; text-align: center; padding: 50px; width: 100%; z-index: 2;]
-Interactions: G (@Hecotoro) | Altair (@Cresion Breezes) | Saiun (@CHUUYAS_HAT)
+[comment]*!SECTION -  Pokebar End[/comment][/div]
+[comment]*!SECTION - Post + Poke End[/comment][/div]
+[div=position: absolute; bottom: 0; box-sizing: border-box; text-align: center; padding: 50px; width: 100%; z-index: 2;]
+Interactions: 
 [/div]
 [/div]
