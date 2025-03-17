@@ -153,7 +153,7 @@ box-sizing: border-box; display: flex; height: var(--mainHeight); width: 100%; j
 box-sizing: border-box; display: flex;
 height: 80%; max-width: min(475px, 85vw); 
 margin: 0; padding: 10px; position: relative; z-index: 2;
-backdrop-filter: blur(5px); flex: 1 1 80%;
+-webkit-backdrop-filter: blur(5px); backdrop-filter: blur(5px); flex: 1 1 80%;
 border-radius: var(--postBorderRadius); border: 1px solid rgba(255, 255, 255, 0.5);]
 [div=/*SECTION - Post Container */
 height: 100%; width: 100%; background: #222020; color: #fff;
@@ -193,7 +193,7 @@ Moo Moo Farm & Ranch, R39 | Johto Region
 
 [div=/*SECTION - Pokémon Bar */
 visibility: visible; box-sizing: border-box;
-backdrop-filter: blur(5px); background-color: transparent;
+-webkit-backdrop-filter: blur(5px); backdrop-filter: blur(5px); background-color: transparent;
 border-radius: var(--postBorderRadius); border: 1px solid rgba(255, 255, 255, 0.5);
 height: 80%; max-width: max(80px, 7.5vw); 
 display: flex;  overflow-y: scroll; overflow-x: hidden; scrollbar-width: none; justify-content: space-evenly; flex: 1 1 20%; flex-flow: column wrap; row-gap: 10px; align-items: center; z-index: 1; margin: 0;]
