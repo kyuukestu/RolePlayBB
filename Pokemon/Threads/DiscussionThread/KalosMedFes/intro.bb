@@ -1,17 +1,21 @@
-[comment][font=Manjari][font=Lancelot].[/font][/font][/comment]
+[comment][font=Manjari][font=Lancelot][font=Courier Prime].[/font][/font][/font][/comment]
 [div=
 box-sizing: border-box;
 width: 100%; height: 600px;
 position: relative; z-index: 1;
 background: #292A2D;
+overflow: hidden;
 
---faq-m: 20px;
+
+--faq-m: 15px;
 
 --body-font: Manjari, Trebuchet MS;
 --header-font: Lancelot, Courier New;
+--subheader-font: Courier Prime, Arial;
 
 --fs-body: 16px;
 --fs-header: 28px;
+--fs-subheader: 16px;
 
 --text-bg: #EDE7E3;
 --text-c: #111;
@@ -45,7 +49,7 @@ box-sizing: border-box;
 display: flex; flex-flow: column nowrap; justify-content: space-evenly; align-items: center;
 position: absolute; z-index: var(--tab-icons-index);
 top: 14%; left: -31px;
-height: 150px; width: 50px;
+height: 150px; width: 50px; line-height: 9px;
 font-size: var(--icon-size);
 background: var(--text-bg); color: var(--text-c);
 pointer-events: none; 
@@ -74,7 +78,7 @@ top: -100px; left: 40px;
 border: var(--border); border-radius: var(--tab-radius);
 overflow: hidden; pointer-events: none;]
 [div=/* Tab Text*/
-box-sizing: border-box;
+box-sizing: border-box; white-space: break-spaces;
 overflow-y: scroll; scrollbar-width: none;
 height: 100%; width: 90%; margin: auto;
 background: var(--text-bg); color: var(--text-c);
@@ -89,31 +93,40 @@ Wander through bustling markets chalk full of everything from antique jewelry to
 If the ambiance isn't enough, get hands on with our finely tailored line-up of events and attractions!
 
 [hr][/hr]
-
-[div=width: 100%; border-bottom: 3px solid var(--t-border-bg); margin-top: var(--faq-m); font-weight: bold; text-align: center;]Live Plays | Aug 4th - 13th[/div]
+[div=width: 100%; border-bottom: 3px solid var(--t-border-bg); margin-top: var(--faq-m); font-weight: bold; text-align: center;]The River's Crown Live Plays[/div]
+[div=display: block; font-size: var(--fs-subheader); font-family: var(--subheader-font); text-align: center;]Aug 4 - 13[/div]
 Enjoy the aristocrat's life with daily performances by the talented team of the Spotlight Theater, or take to the stage and take up a character yourself!
 
-[div=width: 100%; border-bottom: 3px solid var(--t-border-bg); margin-top: var(--faq-m); font-weight: bold; text-align: center;]Knight's 1v1 Sparring | Aug 4th - 5th[/div]
-For those with a chivalrous spirit, seize glory or defend your honor in the duelists arena! Featuring replica Kalosian weapons and armor used throughout the ages!
-
-[div=width: 100%; border-bottom: 3px solid var(--t-border-bg); margin-top: var(--faq-m); font-weight: bold; text-align: center;]Art Exhibit | Aug 4th - 13th[/div]
+[div=width: 100%; border-bottom: 3px solid var(--t-border-bg); margin-top: var(--faq-m); font-weight: bold; text-align: center;]The River's Crown Art Exhibit[/div]
+[div=display: block; font-size: var(--fs-subheader); font-family: var(--subheader-font); text-align: center;]Aug 4 - 13[/div]
 Slow down and take the time to appreciate the finer things in life. A carefully curated and diverse selection of Kalosian art rests at the heart of the isle, featuring a can't-miss exhibit by the Shabboneau Estate!
 
-[div=width: 100%; border-bottom: 3px solid var(--t-border-bg); margin-top: var(--faq-m); font-weight: bold; text-align: center;]Archery Competition | Aug 6th - 7th[/div]
+[div=width: 100%; border-bottom: 3px solid var(--t-border-bg); margin-top: var(--faq-m); font-weight: bold; text-align: center;]The River's Crown Duels[/div]
+[div=display: block; font-size: var(--fs-subheader); font-family: var(--subeader-font); text-align: center;]Aug 5th[/div]
+For those with a chivalrous spirit, seize glory or defend your honor in the duelists arena! Featuring replica Kalosian weapons and armor used throughout the ages!
+
+[div=width: 100%; border-bottom: 3px solid var(--t-border-bg); margin-top: var(--faq-m); font-weight: bold; text-align: center;]The River's Crown Archery Competition[/div]
+[div=display: block; font-size: var(--fs-subheader); font-family: var(--subheader-font); text-align: center;]Aug 6th[/div]
 Fancy yourself a modern Robin Hood? Take aim and give it your best shot!
 
-[div=width: 100%; border-bottom: 3px solid var(--t-border-bg); margin-top: var(--faq-m); font-weight: bold; text-align: center;]Battle Tournament | Aug 6th - 7th[/div]
+[div=width: 100%; border-bottom: 3px solid var(--t-border-bg); margin-top: var(--faq-m); font-weight: bold; text-align: center;]The River's Crown Battle Tournament[/div]
+[div=display: block; font-size: var(--fs-subheader); font-family: var(--subheader-font); text-align: center;]Aug 7th[/div]
 To the victor go the spoils! Compete in our Doubles format Pokémon tournament for the chance to win a bounty fit for a Duke!
 
-[div=width: 100%; border-bottom: 3px solid var(--t-border-bg); margin-top: var(--faq-m); font-weight: bold; text-align: center;]Medieval Battle Recreation (Castle Siege) | Aug 7th - 10th[/div]
-Live, fight, and win through the passions and flames of war in our recreation of the Battle of River's Crown! Will you capture the fort and claim the isle, or will you hold your ground and defeat the invaders?!
-
-[div=width: 100%; border-bottom: 3px solid var(--t-border-bg); margin-top: var(--faq-m); font-weight: bold; text-align: center;]Jousting Tournament | Aug 10th-12th[/div]
+[div=width: 100%; border-bottom: 3px solid var(--t-border-bg); margin-top: var(--faq-m); font-weight: bold; text-align: center;]The River's Crown Jousting Tournament[/div]
+[div=display: block; font-size: var(--fs-subheader); font-family: var(--subheader-font); text-align: center;]Aug 8th[/div]
 Riders take your mounts and take up arms! Be the last standing, or rather last sitting, and prove your steed the sturdiest and your arm the strongest!
 
-[div=width: 100%; border-bottom: 3px solid var(--t-border-bg); margin-top: var(--faq-m); font-weight: bold; text-align: center;]Feast Off! (Food Eating Competition) | Aug 13th[/div]
-Worked up an appetite throughout the festival? End off with a full stomach at our all-you-can-eat Feast Off!
+[div=width: 100%; border-bottom: 3px solid var(--t-border-bg); margin-top: var(--faq-m); font-weight: bold; text-align: center;]Battle for The River's Crown[/div]
+[div=display: block; font-size: var(--fs-subheader); font-family: var(--subheader-font); text-align: center;]Aug 9 - 11th[/div]
+Live, fight, and win through the passions and flames of war in our recreation of the Battle of River's Crown! Will you capture the fort and claim the isle, or will you hold your ground and defeat the invaders?!
 
+[div=width: 100%; border-bottom: 3px solid var(--t-border-bg); margin-top: var(--faq-m); font-weight: bold; text-align: center;]The River's Crown Showcase[/div]
+[div=display: block; font-size: var(--fs-subheader); font-family: var(--subheader-font); text-align: center;]Aug 12th[/div]
+
+[div=width: 100%; border-bottom: 3px solid var(--t-border-bg); margin-top: var(--faq-m); font-weight: bold; text-align: center;]The River's Crown Finale[/div]
+[div=display: block; font-size: var(--fs-subheader); font-family: var(--subheader-font); text-align: center;]Aug 13th[/div]
+Worked up an appetite throughout the festival? End off with a full stomach at our all-you-can-eat Feast Off and fireworks show!
 [hr][/hr]
 
 Join us in our celebration of Kalos' past, present, and future!"
@@ -130,15 +143,20 @@ top: -100px; left: 40px;
 border: var(--border); border-radius: var(--tab-radius);
 overflow: hidden; pointer-events: none;]
 [div=/* Tab Text*/
-box-sizing: border-box;
+box-sizing: border-box; white-space: break-spaces;
 overflow-y: scroll; scrollbar-width: none;
 height: 100%; width: 90%; margin: auto;
 background: var(--text-bg); color: var(--text-c);
 padding: var(--tab-padding); pointer-events: auto;]
 [div=font-size: var(--fs-header); font-family: var(--header-font); font-weight: bold; text-align: center; ]Setting[/div]
-The River's Crown Medieval Festival is an in-universe event for the [URL=https://www.rpnation.com/threads/pokemon-sandbox-recruiting.536116/]Pokémon Sandbox RP[/URL] run by @CloudySkyLoftyMoon. We are an open-world that draws from the extended PokéVerse as a whole, with a touch of custom lore to fill in some gaps that were left along the way.
+The River's Crown Medieval Festival is an in-universe event for the [URL=https://www.rpnation.com/threads/pokemon-sandbox-recruiting.536116/]Pokémon Sandbox RP[/URL] run by @CloudySkyLoftyMoon. 
 
-The Medieval Festival is set in Pokémon's Kalos region, which is itself based on the real world country of France. We took inspiration from our real history and Pokémon's to create a "celebration" of what their medieval culture could've looked like, all set on a small island just off the coast of Cyllage City. 
+We are an open-world that draws from the extended PokéVerse as a whole, with a touch of custom lore to fill in some gaps that were left along the way.
+
+That said, [div=display: inline;color: var(--hi-c); font-weight: bold; font-style: italic;]this RP is self-contained[/div] and you don't require any knowledge of or interaction with the Sandbox RP to join. 
+
+The Medieval Festival is set in Pokémon's Kalos region, which is itself based on the real world country of France. We took inspiration from our real history and Pokémon's to create a "celebration" of what their medieval culture could've looked like, all set on a small island just off the coast of Cyllage City.
+
 [/div]
 [/div]
 [/tab]
@@ -152,7 +170,7 @@ top: -100px; left: 40px;
 border: var(--border); border-radius: var(--tab-radius);
 overflow: hidden; pointer-events: none;]
 [div=/* Tab Text*/
-box-sizing: border-box;
+box-sizing: border-box; white-space: break-spaces;
 overflow-y: scroll; scrollbar-width: none;
 height: 100%; width: 90%; margin: auto;
 background: var(--text-bg); color: var(--text-c);
@@ -181,7 +199,7 @@ top: -100px; left: 40px;
 border: var(--border); border-radius: var(--tab-radius);
 overflow: hidden; pointer-events: none;]
 [div=/* Tab Text*/
-box-sizing: border-box;
+box-sizing: border-box; white-space: break-spaces;
 overflow-y: scroll; scrollbar-width: none;
 height: 100%; width: 90%; margin: auto;
 background: var(--text-bg); color: var(--text-c);
@@ -214,13 +232,13 @@ top: -100px; left: 40px;
 border: var(--border); border-radius: var(--tab-radius);
 overflow: hidden; pointer-events: none;]
 [div=/* Tab Text*/
-box-sizing: border-box;
+box-sizing: border-box; white-space: break-spaces;
 overflow-y: scroll; scrollbar-width: none;
 height: 100%; width: 90%; margin: auto;
 background: var(--text-bg); color: var(--text-c);
 padding: var(--tab-padding); pointer-events: auto;]
 You can join our Discord here:
-https://discord.gg/e2Dyt9FSnP
+https://discord.gg/s5kh69Xma8
 [/div]
 [/div]
 [/tab]

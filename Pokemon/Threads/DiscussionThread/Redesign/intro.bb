@@ -45,7 +45,7 @@ box-sizing: border-box;
 display: flex; flex-flow: column nowrap; justify-content: space-evenly; align-items: center;
 position: absolute; z-index: var(--tab-icons-index);
 top: 14%; left: -31px;
-height: 150px; width: 50px;
+height: 150px; width: 50px; line-height: 9px;
 font-size: var(--icon-size);
 background: var(--text-bg); color: var(--text-c);
 pointer-events: none; 
@@ -74,7 +74,7 @@ top: -100px; left: 40px;
 border: var(--border); border-radius: var(--tab-radius);
 overflow: hidden; pointer-events: none;]
 [div=/* Tab Text*/
-box-sizing: border-box;
+box-sizing: border-box; white-space: break-spaces;
 overflow-y: scroll; scrollbar-width: none;
 height: 100%; width: 90%; margin: auto;
 background: var(--text-bg); color: var(--text-c);
@@ -106,7 +106,7 @@ top: -100px; left: 40px;
 border: var(--border); border-radius: var(--tab-radius);
 overflow: hidden; pointer-events: none;]
 [div=/* Tab Text*/
-box-sizing: border-box;
+box-sizing: border-box;  white-space: break-spaces;
 overflow-y: scroll; scrollbar-width: none;
 height: 100%; width: 90%; margin: auto;
 background: var(--text-bg); color: var(--text-c);
@@ -116,7 +116,7 @@ This RP is takes place eight (8) years after the events of Sword & Shield and RP
 
 Traditional Gym Battles? We've got you covered: we've even got Special Formats for trainers looking for a challenge! Want to dress up and show off your Pokémon in Contest or Showcases? We love to see it! More interested in the life of a PokéRanger? You're in luck! Work your way from Ranger (or even Trainee) all the way up to Top Ranger!
 
-The World is your oyster! Get creative! Have fun!
+The World is your cloyster! Get creative! Have fun!
 
 Haven't the slightest idea where to start? We've got Events and Story Arcs you can hop right into!
 [/div]
@@ -132,7 +132,7 @@ top: -100px; left: 40px;
 border: var(--border); border-radius: var(--tab-radius);
 overflow: hidden; pointer-events: none;]
 [div=/* Tab Text*/
-box-sizing: border-box;
+box-sizing: border-box;  white-space: break-spaces;
 overflow-y: scroll; scrollbar-width: none;
 height: 100%; width: 90%; margin: auto;
 background: var(--text-bg); color: var(--text-c);
@@ -161,7 +161,7 @@ top: -100px; left: 40px;
 border: var(--border); border-radius: var(--tab-radius);
 overflow: hidden; pointer-events: none;]
 [div=/* Tab Text*/
-box-sizing: border-box;
+box-sizing: border-box; white-space: break-spaces;
 overflow-y: scroll; scrollbar-width: none;
 height: 100%; width: 90%; margin: auto;
 background: var(--text-bg); color: var(--text-c);
@@ -207,13 +207,13 @@ top: -100px; left: 40px;
 border: var(--border); border-radius: var(--tab-radius);
 overflow: hidden; pointer-events: none;]
 [div=/* Tab Text*/
-box-sizing: border-box;
+box-sizing: border-box; white-space: break-spaces;
 overflow-y: scroll; scrollbar-width: none;
 height: 100%; width: 90%; margin: auto;
 background: var(--text-bg); color: var(--text-c);
 padding: var(--tab-padding); pointer-events: auto;]
 You can join our Discord here:
-https://discord.gg/e2Dyt9FSnP
+https://discord.gg/s5kh69Xma8
 [/div]
 [/div]
 [/tab]
