@@ -166,13 +166,13 @@ height: 90%; width: 100%;
 position: relative;
 padding: 10px;
 line-height: 1.5; letter-spacing: 0.5px;
-white-space: collapse;
+white-space: break-spaces;
 font-family: var(--body-font); font-size: var(--fs-body);
 text-align: justify; text-justify: auto;]
 [div=box-sizing: border-box; position: sticky; top: -15px; text-align: center; font-family: var(--H1-font); font-size: var(--fs-header); background-color: #222020; width: 100%; height: 90px; z-index: 2;]Esther R. Sophys
 [div=background: no-repeat 50% 40%/85% url(https://imgur.com/48PXej8.png); position: absolute; bottom: 5px; height: 90px; width: 100%;][/div]
 [div=/*ANCHOR - Date & Time */
-box-sizing: border-box; font-family: var(--H2-font); font-size: var(--fs-mini); float: right; position: relative; top: -15px;]August 15th, 10:21 A.M.[/div]
+box-sizing: border-box; font-family: var(--H2-font); font-size: var(--fs-mini); position: relative; top: -65px;]August 15th, 10:21 A.M.[/div]
 [/div]
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et odio a ante pellentesque pretium. Integer venenatis ex non ipsum malesuada euismod sit amet ut ante. Duis posuere diam sit amet orci viverra condimentum. Nulla non lobortis orci. Vestibulum erat ante, aliquam eget arcu id, iaculis convallis lorem. Pellentesque rutrum dolor ut sapien tincidunt iaculis. Suspendisse a leo consectetur, vulputate sem quis, laoreet lorem. Sed in eros quis odio convallis tempor. Etiam lectus felis, sollicitudin at auctor a, elementum non erat.
 
