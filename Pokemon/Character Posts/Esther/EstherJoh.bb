@@ -164,7 +164,7 @@ box-sizing: border-box;
 overflow-y: scroll; scrollbar-width: none; 
 height: 90%; width: 100%; 
 position: relative;
-padding: 10px;
+padding: 20px;
 line-height: 1.5; letter-spacing: 0.5px;
 white-space: break-spaces;
 font-family: var(--body-font); font-size: var(--fs-body);
