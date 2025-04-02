@@ -92,15 +92,15 @@ box-sizing: border-box; display: flex; flex-flow: column wrap; height: 100%; jus
 [div=box-sizing: border-box; width: var(--h2-bot-width); color: var(--highlight-sec);font-size: var(--fs-h2); font-family: var(--h2-font); border-bottom: var(--h2-bot-border);]Nickname(s)[/div] [div=box-sizing: border-box; width: fit-content;]Essy[/div]
 [div=box-sizing: border-box; width: var(--h2-bot-width); color: var(--highlight-sec);font-size: var(--fs-h2); font-family: var(--h2-font); border-bottom: var(--h2-bot-border);]Age[/div]
 [div=box-sizing: border-box; width: fit-content;] 17[/div]
-[div=box-sizing: border-box; width: var(--h2-bot-width); color: var(--highlight-sec);font-size: var(--fs-h2); font-family: var(--h2-font); border-bottom: var(--h2-bot-border);]D.o.B[/div] [div=box-sizing: border-box; width: fit-content;]November, 17[/div]
+[div=box-sizing: border-box; width: var(--h2-bot-width); color: var(--highlight-sec);font-size: var(--fs-h2); font-family: var(--h2-font); border-bottom: var(--h2-bot-border);]D.o.B[/div] [div=box-sizing: border-box; width: fit-content;]November, 7[/div]
 [div=box-sizing: border-box; width: var(--h2-bot-width); color: var(--highlight-sec);font-size: var(--fs-h2); font-family: var(--h2-font); border-bottom: var(--h2-bot-border);]Gender[/div] [div=box-sizing: border-box; width: fit-content;]Female[/div]
 [div=box-sizing: border-box; width: var(--h2-bot-width); color: var(--highlight-sec);font-size: var(--fs-h2); font-family: var(--h2-font); border-bottom: var(--h2-bot-border);]Height[/div]
-[div=box-sizing: border-box; width: fit-content;]5' 6"[/div]
+[div=box-sizing: border-box; width: fit-content;]5' 6" | 167 cm[/div]
 [/div]
 [div=
 box-sizing: border-box; display: flex; flex-flow: column wrap; height: 100%; justify-content: space-between; margin: auto;]
 [div=box-sizing: border-box; width: var(--h2-bot-width); color: var(--highlight-sec);font-size: var(--fs-h2); font-family: var(--h2-font); border-bottom: var(--h2-bot-border);]Weight[/div] 
-[div=box-sizing: border-box; width: fit-content;]123 lbs.[/div]
+[div=box-sizing: border-box; width: fit-content;]126 lbs. | 57 kg[/div]
 [div=box-sizing: border-box; width: var(--h2-bot-width); color: var(--highlight-sec);font-size: var(--fs-h2); font-family: var(--h2-font); border-bottom: var(--h2-bot-border);]Hair Color[/div] [div=box-sizing: border-box; width: fit-content;]Red (dyed black)[/div]
 [div=box-sizing: border-box; width: var(--h2-bot-width); color: var(--highlight-sec);font-size: var(--fs-h2); font-family: var(--h2-font); border-bottom: var(--h2-bot-border);]Eye Color[/div] [div=box-sizing: border-box; width: fit-content;]Amber (Black contact lenses)[/div]
 [div=box-sizing: border-box; width: var(--h2-bot-width); color: var(--highlight-sec);font-size: var(--fs-h2); font-family: var(--h2-font); border-bottom: var(--h2-bot-border);]Home Town[/div] [div=box-sizing: border-box; width: fit-content;]Aqua Resort[/div]
@@ -747,7 +747,56 @@ width: var(--tab-width); height: var(--tab-height); white-space: break-spaces;  
 background-color: var(--tab-bgc); border: var(--tab-border);]
 [div=color: var(--highlight-prim); font-size: var(--fs-h1); font-family: var(--h1-font); font-weight: bold;]Achievements[/div]
 [div=box-sizing: border-box; overflow: scroll; scrollbar-width: none; height: 275px;]
-Under Construction
+[div=color: var(--highlight-sec); font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold;]Badges[/div]
+[div=
+box-sizing: border-box; display: flex; flex-flow: column wrap; justify-content: center; align-items: center;]
+[div=color: var(--highlight-ter); font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold;]Kalos[/div]
+[border=transparent; /*ANCHOR - Kalos */
+--badge-1: url(https://i.imgur.com/rWgK3wq.png);
+--badge-2: url(https://i.imgur.com/3F4mhrp.png);
+--badge-3: url();
+--badge-4: url();
+--badge-5: url();
+--badge-6: url();
+--badge-7: url();
+--badge-8: url();
+
+--badge-size: 35px;
+
+max-width: 90%;
+display: flex; flex-flow: row wrap; justify-content: flex-start;]
+[border=solid; background: no-repeat center/85% var(--badge-1) transparent; height: var(--badge-size); aspect-ratio: 1; border-radius: 45px; box-shadow: 0px 0px 8px #fff][/border]
+[border=solid; background: no-repeat center/85% var(--badge-2) transparent; height: var(--badge-size); aspect-ratio: 1; border-radius: 45px; box-shadow: 0px 0px 8px #fff][/border]
+[border=solid; background: no-repeat center/85% var(--badge-3) transparent; height: var(--badge-size); aspect-ratio: 1; border-radius: 45px;][/border]
+[border=solid; background: no-repeat center/85% var(--badge-4) transparent; height: var(--badge-size); aspect-ratio: 1; border-radius: 45px;][/border]
+[border=solid; background: no-repeat center/85% var(--badge-5) transparent; height: var(--badge-size); aspect-ratio: 1; border-radius: 45px;][/border]
+[border=solid; background: no-repeat center/85% var(--badge-6) transparent; height: var(--badge-size); aspect-ratio: 1; border-radius: 45px;][/border]
+[border=solid; background: no-repeat center/85% var(--badge-7) transparent; height: var(--badge-size); aspect-ratio: 1; border-radius: 45px;][/border]
+[border=solid; background: no-repeat center/85% var(--badge-8) transparent; height: var(--badge-size); aspect-ratio: 1; border-radius: 45px;][/border]
+[/border]
+[/div]
+[div=color: var(--highlight-sec); font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold;]Ribbons[/div]
+[div=
+box-sizing: border-box; display: flex; flex-flow: column wrap; justify-content: center; align-items: center;]
+[div=color: var(--highlight-ter); font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold;]Alola[/div]
+[border=transparent; /*ANCHOR - Alola */
+    --ribbon-1: url(https://imgur.com/VQZHipx.png);
+--ribbon-2: url();
+--ribbon-3: url();
+--ribbon-4: url();
+--ribbon-5: url();
+
+--ribbon-size: 35px;
+
+max-width: 90%;
+display: flex; flex-flow: row wrap; justify-content: flex-start;]
+[border=solid; background: no-repeat center/85% var(--ribbon-1) transparent; height: var(--ribbon-size); aspect-ratio: 1; border-radius: 45px;][/border]
+[border=solid; background: no-repeat center/85% var(--ribbon-2) transparent; height: var(--ribbon-size); aspect-ratio: 1; border-radius: 45px;][/border]
+[border=solid; background: no-repeat center/85% var(--ribbon-3) transparent; height: var(--ribbon-size); aspect-ratio: 1; border-radius: 45px;][/border]
+[border=solid; background: no-repeat center/85% var(--ribbon-4) transparent; height: var(--ribbon-size); aspect-ratio: 1; border-radius: 45px;][/border]
+[border=solid; background: no-repeat center/85% var(--ribbon-5) transparent; height: var(--ribbon-size); aspect-ratio: 1; border-radius: 45px;][/border]
+[/border]
+[/div]
 [/div][/div][/tab]
 [tab=7][div= /* Tab Content */
 box-sizing: border-box; padding: var(--tab-padding); overflow: scroll; scrollbar-width: none;
