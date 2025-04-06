@@ -1,4 +1,4 @@
-[comment][font=Leckerli One][font=Merienda][font=Sofia Sans Condensed][font=Kosugi Maru].[/font][/font][/font][/font][/comment]
+[comment][font=Leckerli One][font=Merienda][font=Bellota][font=Kosugi Maru].[/font][/font][/font][/font][/comment]
 [div=height: var(--mainHeight); width: 100%;
 display: flex; align-content: center;
 
@@ -19,7 +19,7 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 /*ANCHOR - Font Family*/
 --H1-font: Leckerli One;
 --H2-font: Kosugi Maru;
---B-font: Sofia Sans Condensed;
+--B-font: Bellota;
 
 /*ANCHOR - Accent Colors */
 --accent-c: #C00000; /*#B22;*/ 
@@ -159,25 +159,25 @@ margin: 0; padding: 10px; position: relative; z-index: 2;
 border-radius: var(--postBorderRadius); border: 1px solid rgba(255, 255, 255, 0.5);]
 [div=/*SECTION - Post Container */
 height: 100%; width: 100%; background: #222020; color: #fff;
-border-radius: calc(var(--postBorderRadius) - 3px);
+border-radius: calc(var(--postBorderRadius) - 3px); display: flex; justify-content: center; flex-flow: column nowrap;
 margin: auto; position: relative;]
+[div=box-sizing: border-box; text-align: center; font-family: var(--H1-font); font-size: var(--fs-header); background-color: #222020; width: fit-content; height: 100px; display: flex; flex-flow: column nowrap; position: relative; justify-content: center; margin: auto;]
+[div=box-sizing: border-box;]Esther R. Sophys[/div]
+[div=background: no-repeat center/85% url(https://imgur.com/48PXej8.png); position: absolute; bottom: -20px; left: -75%; height: 90px; width: 250%;][/div]
+[div=/*ANCHOR - Date & Time */
+box-sizing: border-box; font-family: var(--H2-font); font-size: var(--fs-mini); position: absolute; bottom: 0;]August 12th, 10:27 A.M.[/div]
+[/div]
 [div=/*SECTION - Post Text Formatting */
 box-sizing: border-box;
 overflow-y: scroll; scrollbar-width: none; 
 height: 90%; width: 100%; 
 position: relative;
-padding: 10px;
+padding: 20px;
 line-height: 1.5; letter-spacing: 0.5px;
 white-space: break-spaces;
-font-family: var(--body-font); font-size: var(--fs-body);
+font-family: var(--B-font); font-size: var(--fs-body);
 text-align: justify; text-justify: auto;]
-[div=box-sizing: border-box; position: sticky; top: -15px; text-align: center; font-family: var(--H1-font); font-size: var(--fs-header); background-color: #222020; width: 100%; height: 90px; z-index: 2;]Esther R. Sophys
-[div=background: no-repeat 50% 40%/85% url(https://imgur.com/48PXej8.png); position: absolute; bottom: 5px; height: 90px; width: 100%;][/div]
-[div=/*ANCHOR - Date & Time */
-box-sizing: border-box; font-family: var(--H2-font); font-size: var(--fs-mini); position: relative; top: -65px;]August 12th, 10:27 A.M.[/div]
-[/div]
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et odio a ante pellentesque pretium. Integer venenatis ex non ipsum malesuada euismod sit amet ut ante. Duis posuere diam sit amet orci viverra condimentum. Nulla non lobortis orci. Vestibulum erat ante, aliquam eget arcu id, iaculis convallis lorem. Pellentesque rutrum dolor ut sapien tincidunt iaculis. Suspendisse a leo consectetur, vulputate sem quis, laoreet lorem. Sed in eros quis odio convallis tempor. Etiam lectus felis, sollicitudin at auctor a, elementum non erat.
-
 
 Convallis hendrerit semper. Suspendisse a leo consectetur, vulputate sem quis, laoreet lorem. Sed in eros quis odio convallis tempor. Etiam lectus felis, sollicitudin at auctor a, elementum non erat. Etiam molestie enim rutrum, iaculis est eu, tincidunt dolor. Phasellus ullamcorper risus ac libero ornare, ut tincidunt nisi efficitur. Etiam molestie enim rutrum, iaculis est eu, tincidunt dolor. Phasellus ullamcorper risus ac libero ornare, ut tincidunt nisi efficitur. Etiam molestie enim rutrum, iaculis est eu, tincidunt dolor. Phasellus ullamcorper risus ac libero ornare, ut tincidunt nisi efficitur.
 [comment]*!SECTION - Text Format End[/comment][/div]
