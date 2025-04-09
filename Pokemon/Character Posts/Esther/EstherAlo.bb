@@ -182,7 +182,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et odio a ante p
 Convallis hendrerit semper. Suspendisse a leo consectetur, vulputate sem quis, laoreet lorem. Sed in eros quis odio convallis tempor. Etiam lectus felis, sollicitudin at auctor a, elementum non erat. Etiam molestie enim rutrum, iaculis est eu, tincidunt dolor. Phasellus ullamcorper risus ac libero ornare, ut tincidunt nisi efficitur. Etiam molestie enim rutrum, iaculis est eu, tincidunt dolor. Phasellus ullamcorper risus ac libero ornare, ut tincidunt nisi efficitur. Etiam molestie enim rutrum, iaculis est eu, tincidunt dolor. Phasellus ullamcorper risus ac libero ornare, ut tincidunt nisi efficitur.
 [comment]*!SECTION - Text Format End[/comment][/div]
 [div=/*SECTION - Footer Location */ 
-position: absolute; bottom: 0; width: 100%; height: 5%; background-color: var(--accent-c);
+position: absolute; bottom: 0; width: 100%; height: fit-content; background-color: var(--accent-c);
 border-radius: 0 0 10px 10px;
 display: flex; justify-content: center; align-items: center;
 color: #fff; 
