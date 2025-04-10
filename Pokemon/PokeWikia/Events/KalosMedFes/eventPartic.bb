@@ -73,7 +73,7 @@ top: 25px; left: -50px;]
 [Tabs]
 
 [tab=1]
-[div= 
+[div= /*SECTION - Art Exhibit */
 box-sizing: border-box;
 width: var(--tab-width); height: var(--tab-height);
 background: var(--text-bg); opacity: 0.9;
@@ -98,20 +98,24 @@ The Art Exhibit is in a building of glimmering polished stone, and houses works 
 [/list][/div]
 
 [div=font-size: var(--fs-header); font-family: var(--header-font); font-weight: bold; text-align: center;]Participants[/div]
-[div=white-space: collapse;][List=1]
+[div=/*ANCHOR - Participants*/
+white-space: collapse;][List=1]
 [*] Hakusan
 [*] Iris
 [*] Aurelio
 [*] Indigo
 [*] Zelda
 [*] Vasya
+[*] Deaucalion
+[*] Art Exhibit
 [/list][/div]
 [/div]
 [/div]
+[comment]/*!SECTION - Art Exhibit */[/comment]
 [/tab]
 
 [tab=2]
-[div= 
+[div= /*SECTION - Live Plays */
 box-sizing: border-box;
 width: var(--tab-width); height: var(--tab-height);
 background: var(--text-bg); opacity: 0.9;
@@ -130,20 +134,23 @@ padding: var(--tab-padding); pointer-events: auto;]
 Live Plays run for the entirety of the event in an outdoor theater at the south end of the island, and can be enjoyed all day long. Any characters wishing to visit can sit in the stands and watch, or they can take to the stage themselves with their own troupe!
 At request, a "script" for a custom play depicting some events in our Kalos' version of the French revolution can be DM'd and acted out.
 [div=font-size: var(--fs-header); font-family: var(--header-font); font-weight: bold; text-align: center;]Participants[/div]
-[div=white-space: collapse;][List=1]
+[div=/*ANCHOR - Participants*/
+white-space: collapse;][List=1]
 [*] LustyFox OC# 2
 [*] Esther
 [*] Hakusan
 [*] Aurelio
 [*] Indigo
 [*] Vasya
+[*] Deaucalion
 [/list][/div]
 [/div]
 [/div]
+[comment]/*!SECTION - Live Plays */[/comment]
 [/tab]
 
 [tab=3]
-[div= 
+[div= /*SECTION - Knight Duels */
 box-sizing: border-box;
 width: var(--tab-width); height: var(--tab-height);
 background: var(--text-bg); opacity: 0.9;
@@ -178,7 +185,8 @@ Third Place:
 [*] $500
 [/list][/div]
 [div=font-size: var(--fs-header); font-family: var(--header-font); font-weight: bold; text-align: center;]Participants[/div]
-[div=white-space: collapse;][List=1]
+[div=/*ANCHOR - Participants*/
+white-space: collapse;][List=1]
 [*] Olympia
 [*] LustyFox OC #1
 [*] Apollo
@@ -188,10 +196,11 @@ Third Place:
 [/list][/div]
 [/div]
 [/div]
+[comment]/*!SECTION - Knight Duels */[/comment]
 [/tab]
 
 [tab=4]
-[div= 
+[div=  /*SECTION - Archery Competition */
 box-sizing: border-box;
 width: var(--tab-width); height: var(--tab-height);
 background: var(--text-bg); opacity: 0.9;
@@ -221,7 +230,8 @@ Second Place (Each):
 [*] $1,500
 [/list][/div]
 [div=font-size: var(--fs-header); font-family: var(--header-font); font-weight: bold; text-align: center;]Participants[/div]
-[div=white-space: collapse;][List=1]
+[div=/*ANCHOR - Participants*/
+white-space: collapse;][List=1]
 [*] Olympia
 [*] LustFox OC# 2
 [*] Hakusan
@@ -229,13 +239,15 @@ Second Place (Each):
 [*] Atlantis/Eve
 [*] Indigo
 [*] Zelda
+[*] Deaucalion
 [/list][/div]
 [/div]
 [/div]
+[comment]/*!SECTION - Archery Competition */[/comment]
 [/tab]
 
 [tab=5]
-[div= 
+[div= /*SECTION - Tag Team Tournament */
 box-sizing: border-box;
 width: var(--tab-width); height: var(--tab-height);
 background: var(--text-bg); opacity: 0.9;
@@ -262,7 +274,8 @@ Due to the nature of having OCs at different stages of progression along their P
 [/LIST][/div]
 [div=font-size: var(--fs-subheader); font-family: var(--subheader-font); text-align: center;]Prize[/div]
 First Place:
-[div=white-space: collapse;][List=1]
+[div=
+white-space: collapse;][List=1]
 [*] Wise Glasses OR Muscle Band
 [*] Relic Item
 [*] Ghost Type TR
@@ -277,7 +290,8 @@ Third Place:
 [*] Relic Item
 [/list][/div]
 [div=font-size: var(--fs-header); font-family: var(--header-font); font-weight: bold; text-align: center;]Participants[/div]
-[div=white-space: collapse;][List=1]
+[div= /*ANCHOR - Participants*/
+white-space: collapse;][List=1]
 [*] Olympia
 [*] LustyFox OC #1
 [*] LustyFox OC #2
@@ -289,13 +303,16 @@ Third Place:
 [*] Indigo
 [*] Zelda
 [*] Vasya
+[*] Deaucalion
+[*] Altair
 [/list][/div]
 [/div]
 [/div]
+[comment]/*!SECTION - Tag Tournament */[/comment]
 [/tab]
 
 [tab=6]
-[div= 
+[div= /*SECTION - Jousting */
 box-sizing: border-box;
 width: var(--tab-width); height: var(--tab-height);
 background: var(--text-bg); opacity: 0.9;
@@ -325,7 +342,8 @@ Second Place:
 [*] Protective Pads
 [*] $1,000
 [/list][/div][div=font-size: var(--fs-header); font-family: var(--header-font); font-weight: bold; text-align: center;]Participants[/div]
-[div=white-space: collapse;][List=1]
+[div=/*ANCHOR - Participants*/
+white-space: collapse;][List=1]
 [*] Olympia
 [*] LustyFox OC #1
 [*] LustyFox OC #2
@@ -335,10 +353,11 @@ Second Place:
 [/list][/div]
 [/div]
 [/div]
+[comment]/*!SECTION - Jousting */[/comment]
 [/tab]
 
 [tab=7]
-[div= 
+[div= /*SECTION - Battle of the River's Crown */
 box-sizing: border-box;
 width: var(--tab-width); height: var(--tab-height);
 background: var(--text-bg); opacity: 0.9;
@@ -392,7 +411,8 @@ Honorable Mentions (three from each Side):
 [*] Water OR Ground Type TR
 [/list][/div]
 [div=font-size: var(--fs-header); font-family: var(--header-font); font-weight: bold; text-align: center;]Participants[/div]
-[div=white-space: collapse;][List=1]
+[div=/*ANCHOR - Participants*/
+white-space: collapse;][List=1]
 [*] Olympia
 [*] Esther
 [*] Iris
@@ -402,13 +422,15 @@ Honorable Mentions (three from each Side):
 [*] Zelda
 [*] Rick
 [*] Vasya
+[*] Altair
 [/list][/div]
 [/div]
 [/div]
+[comment]/*!SECTION - Battle for the River's Crown */[/comment]
 [/tab]
 
 [tab=8]
-[div= 
+[div= /*SECTION - Pokémon Showcase */
 box-sizing: border-box;
 width: var(--tab-width); height: var(--tab-height);
 background: var(--text-bg); opacity: 0.9;
@@ -437,7 +459,8 @@ Second Place:
 [*] Fairy Type TR
 [/list][/div]
 [div=font-size: var(--fs-header); font-family: var(--header-font); font-weight: bold; text-align: center;]Participants[/div]
-[div=white-space: collapse;][List=1]
+[div=/*ANCHOR - Participants*/
+white-space: collapse;][List=1]
 [*] Olympia
 [*] LustyFox OC #2
 [*] Apollo
@@ -448,10 +471,11 @@ Second Place:
 [/list][/div]
 [/div]
 [/div]
+[comment]/*!SECTION - Pokémon Showcase */[/comment]
 [/tab]
 
 [tab=9]
-[div= 
+[div=  /*SECTION - River's Crown Finale */
 box-sizing: border-box;
 width: var(--tab-width); height: var(--tab-height);
 background: var(--text-bg); opacity: 0.9;
@@ -469,7 +493,8 @@ padding: var(--tab-padding); pointer-events: auto;]
 [div=font-size: var(--fs-subheader); font-family: var(--subheader-font); text-align: center;]Day 10 | Aug 13th [/div]
 The Grand Finale, a all-out-can-eat fest and the grandest firework display in all Kalos! Take this time to remember all the fun you've had and all the friends you've made, and to say goodbye to the River's Crown Festival until next year!
 [div=font-size: var(--fs-header); font-family: var(--header-font); font-weight: bold; text-align: center;]Participants[/div]
-[div=white-space: collapse;][List=1]
+[div= /*ANCHOR - Participants*/
+white-space: collapse;][List=1]
 [*] Apollo
 [*] Iris
 [*] Atlantis/Eve
@@ -477,9 +502,11 @@ The Grand Finale, a all-out-can-eat fest and the grandest firework display in al
 [*] Indigo
 [*] Zelda
 [*] Vasya
+[*] Deaucalion
 [/list][/div]
 [/div]
 [/div]
+[comment]/*!SECTION - Finale */[/comment]
 [/tab]
 
 
