@@ -1,4 +1,4 @@
-[comment][font=Leckerli One][font=Merienda][font=Bellota][font=Kosugi Maru].[/font][/font][/font][/font][/comment]
+[comment][font=Leckerli One][font=Merienda][font=Bellota][font=Kosugi Maru][font=Fredericka the Great].[/font][/font][/font][/font][/font][/comment]
 [div=height: var(--mainHeight); width: 100%;
 display: flex; align-content: center; position: relative;
 
@@ -8,8 +8,10 @@ display: flex; align-content: center; position: relative;
 --essy-wint: url(https://imgur.com/sX4ZunF.png);
 --mmfarm: url(https://static.zerochan.net/Pok%C3%A9mon.Gold...Silver.full.3220139.jpg);
 --mlani: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/37c07ee0-78db-4994-bc7a-0a2443b974ca/dflq7qw-128e66ab-d670-4234-a6fe-5e429f388b03.jpg/v1/fill/w_1024,h_576,q_75,strp/pokemon_fan_art_by_dangerousdwdw_dflq7qw-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvMzdjMDdlZTAtNzhkYi00OTk0LWJjN2EtMGEyNDQzYjk3NGNhXC9kZmxxN3F3LTEyOGU2NmFiLWQ2NzAtNDIzNC1hNmZlLTVlNDI5ZjM4OGIwMy5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Rshex5t-SKAB3wwbwIbOil8VumOn2gaXm0Z0k2yMQVU);
+--ttar: url(https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/02/Tyranitar-5-Pokemon-Bakugo-Would-Want-On-His-Team-5-He-Wouldnt.jpg);
 
 --essy-background: no-repeat 50% 20%/35% var(--essy-wint);
+--ttar-bg: no-repeat 50% 50%/75% var(--ttar);
 --backdrop-bg: no-repeat 50% 100%/100% 100% var(--mlani);
 
 /*ANCHOR - Dimensions */
@@ -30,6 +32,7 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 --H1-font: Leckerli One;
 --H2-font: Kosugi Maru;
 --B-font: Bellota;
+--PPower-font: Fredericka the Great;
 
 /*ANCHOR - Accent Colors */
 --accent-c: #C00000; /*#B22;*/ 
@@ -266,6 +269,11 @@ padding: 20px; line-height: 1.5; letter-spacing: 0.5px; white-space: break-space
 background-color: #222020; color: var(--main-text-c);
 font-family: var(--B-font); font-size: var(--fs-B);
 text-align: justify; text-justify: auto;]
+[div=box-sizing: border-box; margin: 0 auto;
+height: 50px; width: fit-content; padding: 0 1em;
+text-align: center; font-size: var(--fs-H1);
+display: flex; align-items: flex-start; margin: 0 auto;][div=font-family: var(--H1-font); color: var(--highlight-prim);]Esther[/div] + [div=font-family: var(--PPower-font); color: #849372;]Tyranitar[/div][/div]
+[div=background: var(--ttar-bg); aspect-ratio: 2; width: 100%;][/div]
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et odio a ante pellentesque pretium. Integer venenatis ex non ipsum malesuada euismod sit amet ut ante. Duis posuere diam sit amet orci viverra condimentum. Nulla non lobortis orci. Vestibulum erat ante, aliquam eget arcu id, iaculis convallis lorem. Pellentesque rutrum dolor ut sapien tincidunt iaculis. Suspendisse a leo consectetur, vulputate sem quis, laoreet lorem. Sed in eros quis odio convallis tempor. Etiam lectus felis, sollicitudin at auctor a, elementum non erat.
 
 Convallis hendrerit semper. Suspendisse a leo consectetur, vulputate sem quis, laoreet lorem. Sed in eros quis odio convallis tempor. Etiam lectus felis, sollicitudin at auctor a, elementum non erat. Etiam molestie enim rutrum, iaculis est eu, tincidunt dolor. Phasellus ullamcorper risus ac libero ornare, ut tincidunt nisi efficitur. Etiam molestie enim rutrum, iaculis est eu, tincidunt dolor. Phasellus ullamcorper risus ac libero ornare, ut tincidunt nisi efficitur. Etiam molestie enim rutrum, iaculis est eu, tincidunt dolor. Phasellus ullamcorper risus ac libero ornare, ut tincidunt nisi efficitur. 
