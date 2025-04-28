@@ -1,8 +1,9 @@
 [comment][font=Winky Sans][font=Caprasimo][font=Aladin].[/font][/font][/font][/comment]
 [div=
 box-sizing: border-box;
-position: relative; z-index: 1; line-height: 1;
+position: relative; z-index: 1; line-height: 1; margin: auto;
 width: 100%; height: 600px; font-family: var(--body-font);
+display: flex;
 
 --tab-border: 3px double var(--highlight-prim);
 --cover-border: 3px solid var(--highlight-prim);
@@ -13,18 +14,19 @@ width: 100%; height: 600px; font-family: var(--body-font);
 --tab-covers-index: 3;
 --tabs-index: 4;
 
---tab-width: min(800px, 75vw);
+--tab-width: min(950px, 75vw);
 --tab-height: 450px;
 
---tab-top-offset: -25%;
---tab-left-offset: 75px;
+--tab-top-offset: 13%;
+--tab-left-offset: 50px;
 
---tab-covers-top-offset: 0;
---tab-covers-left-offset: 22%;
+--tab-covers-top-offset: 30%;
+--tab-covers-left-offset: 0;
 --tab-container-top-offset: 10.2em;
---tab-container-left-offset: 35px;
+--tab-container-left-offset: 0;
 
 --tab-padding: 20px;
+--tab-cover-height: 224px;
 
 --tab-bgc: #1a1a1a;
 --tab-border-c: #f00;
@@ -48,18 +50,10 @@ width: 100%; height: 600px; font-family: var(--body-font);
 position: absolute; z-index: var(--tab-shroud-index);
 background: var(--tab-bgc); pointer-events: none;
 width: 100%; height: 100%;][/div]
-
-
-[div=
-/* Tabs Container */
-box-sizing: border-box; color: var(--main-text-c);
-width: 100px; height: fit-content; line-height: 0;
-display: flex; flex-flow: column nowrap; font-size: var(--fs-body);
-position: absolute; left: var(--tab-container-left-offset); top: var(--tab-container-top-offset);]
 [div=
 /* Tab Covers */
 position: absolute; z-index: var(--tab-covers-index);
-width: 50px; height: 224px; border: var(--cover-border);
+width: 50px; height: var(--tab-cover-height); border: var(--cover-border);
 left: var(--tab-covers-left-offset); top: var(--tab-covers-top-offset);
 display: flex; flex-flow: column nowrap; justify-content: space-between; align-items: center;
 line-height: 0px; color: var(--highlight-ter); background-color: var(--tab-bgc); pointer-events: none;]
@@ -72,6 +66,12 @@ line-height: 0px; color: var(--highlight-ter); background-color: var(--tab-bgc);
 [div=box-sizing: border-box;][fa]fa-solid fa-chart-network[/fa][/div]
 [div=box-sizing: border-box;][fa]fa-solid fa-shirt[/fa][/div]
 [/div]
+
+[div=
+/* Tabs Container */
+box-sizing: border-box; color: var(--main-text-c);
+width: 100px; height: var(--tab-cover-height); line-height: 0; margin: auto 0;
+display: flex; flex-flow: column nowrap; font-size: var(--fs-body);]
 [Tabs]
 [tab=1]
 [div= /* Tab Content */
@@ -82,11 +82,11 @@ background-color: var(--tab-bgc); border: var(--tab-border);
 display: flex; flex-flow: column nowrap;]
 [div=color: var(--highlight-prim); font-size: var(--fs-h1); font-family: var(--h1-font); font-weight: bold; margin: 0 auto; width: 100%; text-align: center;]Esther[/div]
 [div=
-box-sizing: border-box; height: 90%; display: flex; flex-flow: column wrap; justify-content: space-between;]
+box-sizing: border-box; height: 90%; display: flex; flex-flow: column wrap; justify-content: space-between; flex: 1 0 40%;]
 [div=background: no-repeat center/contain url(https://imgur.com/mDaFSk0.png); border-radius: 50px; width: 200px; height: 300px; margin: 0 auto;][/div]
 [div=box-sizing: border-box; height: 100%; display: flex; flex-flow: column wrap; justify-content: space-between; margin: auto; width: 60%;]
 [div=
-box-sizing: border-box; display: flex; flex-flow: column wrap; height: 100%; justify-content: space-between; margin: auto;]
+box-sizing: border-box; display: flex; flex-flow: column wrap; height: 100%; justify-content: space-between; margin: auto; flex: 1 0 60%;]
 [div=box-sizing: border-box; width: var(--h2-bot-width); color: var(--highlight-sec); font-size: var(--fs-h2); font-family: var(--h2-font); border-bottom: var(--h2-bot-border);]Full Name[/div]
 [div=box-sizing: border-box; width: fit-content;] Esther Rosana Sophys[/div]
 [div=box-sizing: border-box; width: var(--h2-bot-width); color: var(--highlight-sec);font-size: var(--fs-h2); font-family: var(--h2-font); border-bottom: var(--h2-bot-border);]Nickname(s)[/div] [div=box-sizing: border-box; width: fit-content;]Essy[/div]
@@ -102,7 +102,7 @@ box-sizing: border-box; display: flex; flex-flow: column wrap; height: 100%; jus
 [div=box-sizing: border-box; width: var(--h2-bot-width); color: var(--highlight-sec);font-size: var(--fs-h2); font-family: var(--h2-font); border-bottom: var(--h2-bot-border);]Weight[/div] 
 [div=box-sizing: border-box; width: fit-content;]126 lbs. | 57 kg[/div]
 [div=box-sizing: border-box; width: var(--h2-bot-width); color: var(--highlight-sec);font-size: var(--fs-h2); font-family: var(--h2-font); border-bottom: var(--h2-bot-border);]Hair Color[/div] [div=box-sizing: border-box; width: fit-content;]Red (dyed black)[/div]
-[div=box-sizing: border-box; width: var(--h2-bot-width); color: var(--highlight-sec);font-size: var(--fs-h2); font-family: var(--h2-font); border-bottom: var(--h2-bot-border);]Eye Color[/div] [div=box-sizing: border-box; width: fit-content;]Amber (Black contact lenses)[/div]
+[div=box-sizing: border-box; width: var(--h2-bot-width); color: var(--highlight-sec);font-size: var(--fs-h2); font-family: var(--h2-font); border-bottom: var(--h2-bot-border);]Eye Color[/div] [div=box-sizing: border-box; width: fit-content;]Amber (Black Lenses)[/div]
 [div=box-sizing: border-box; width: var(--h2-bot-width); color: var(--highlight-sec);font-size: var(--fs-h2); font-family: var(--h2-font); border-bottom: var(--h2-bot-border);]Home Town[/div] [div=box-sizing: border-box; width: fit-content;]Aqua Resort[/div]
 [div=box-sizing: border-box; width: var(--h2-bot-width); color: var(--highlight-sec);font-size: var(--fs-h2); font-family: var(--h2-font); border-bottom: var(--h2-bot-border);]Trainer Class[/div] 
 [div=box-sizing: border-box; width: fit-content;]Coordinator[/div]
@@ -142,7 +142,6 @@ Festival dance become the medium through which Esther burned off her excess ener
 But Esther’s life wasn’t an unbroken line from delinquency to pillar of the community. When she’d but barely graduated from pull-up diapers, Oblivia faced attack by the Societea. Too young to have really understood what had happened, Esther only really remembers the blinding lights of the Sky Fortress’ canon and the oppressively depressive mood that had hung around the region in the months and years afterwards A mood that then Esther desperately tried to avoid with more ‘exploration’.
 Yet even her unsanctioned jaunts into the forest couldn’t provide reprieve. The Pokémon of Sophia Island, many of whom had suffered under the Societea’s Pokémon Pinchers, were just as—if not more so—traumatized and, as a result, aggressive.
 While Esther’s ‘intuition’—that sixth sense which prickled down her back and alerted the young girl to malice and those who would do her harm—allowed her to evade the worst of harm, she bore witness to the sequelae of unrest. Pokémon lashed out; their fear & anger turned against not only the residents of Aqua Resort but also each other, a cycle of self-perpetuating violence. 
-The chaos was quelled by the rise three hegemons, but the peace came neither swiftly nor easily. For three years Esther suffocated beneath the aura of trepidation. Now well into her precocious years, she could understand, if not the sheer extent of harm that had been done to Oblivia, then at least its cause—greed & avarice.
 [div=color: var(--highlight-prim); font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold;]Region Backstory[/div]
 The Oblivia region. A minor region forgotten by the world; an archipelago of islands, once seven strong; a paradise of peaceful and idyllic tranquility.
 Oblivia is a region obscured by distance, culturally and technologically divorced from the world at large. Pokéballs? Pokémon Trainers? Oblivia had never experienced things like that—at least, not in the sense of the sensationalized super-sport that swept up the world’s major regions. Oblivia—along with sister-regions Almia and Fiore—developed a distinctly different relationship with Pokémon, one without the Pokéball, where the bond between human and Pokémon was the only thing to tied them together. How and why this came to be has puzzled researchers and still does to this very day.

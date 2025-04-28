@@ -100,14 +100,15 @@ The Art Exhibit is in a building of glimmering polished stone, and houses works 
 [div=font-size: var(--fs-header); font-family: var(--header-font); font-weight: bold; text-align: center;]Participants[/div]
 [div=/*ANCHOR - Participants*/
 white-space: collapse;][List=1]
-[*] Hakusan
-[*] Iris
-[*] Aurelio
-[*] Indigo
-[*] Zelda
-[*] Vasya
-[*] Deaucalion
-[*] Art Exhibit
+[*] Hakusan | @Daylight Fantasy
+[*] Iris | @CHUUYAS_HAT
+[*] Aurelio | @THEKAZUHA_ANEMO
+[*] Indigo | @Takumi98
+[*] Zelda | @Takumi98
+[*] Vasya | @Unknowinglegion
+[*] Deaucalion | @cresion breezes
+[*] Hugo | @RenzFlintrock
+[*] Yuna | @summertheleafeon
 [/list][/div]
 [/div]
 [/div]
@@ -136,13 +137,12 @@ At request, a "script" for a custom play depicting some events in our Kalos' ver
 [div=font-size: var(--fs-header); font-family: var(--header-font); font-weight: bold; text-align: center;]Participants[/div]
 [div=/*ANCHOR - Participants*/
 white-space: collapse;][List=1]
-[*] LustyFox OC# 2
-[*] Esther
-[*] Hakusan
-[*] Aurelio
-[*] Indigo
-[*] Vasya
-[*] Deaucalion
+[*] Esther | @CloudySkyLoftyMoon
+[*] Hakusan | @Daylight Fantasy
+[*] Aurelio | @THEKAZUHA_ANEMO
+[*] Indigo | @Takumi98
+[*] Vasya | @Unknowinglegion
+[*] Deaucalion | @cresion breezes
 [/list][/div]
 [/div]
 [/div]
@@ -187,13 +187,13 @@ Third Place:
 [div=font-size: var(--fs-header); font-family: var(--header-font); font-weight: bold; text-align: center;]Participants[/div]
 [div=/*ANCHOR - Participants*/
 white-space: collapse;][List=1]
-[*] Olympia
-[*] LustyFox OC #1
-[*] Apollo
-[*] Iris
-[*] Atlantis/Eve
-[*] Zelda
-[*] Sybil
+[*] Olympia | @QuirkyAngel 
+[*] Apollo | @Daylight Fantasy
+[*] Iris | @CHUUYAS_HAT
+[*] Atlantis/Eve | @THEKAZUHA_ANEMO
+[*] Zelda | @Takumi98
+[*] Sybil | @CHUUYAS_HAT
+[*] Montagne | @Patriot
 [/list][/div]
 [/div]
 [/div]
@@ -233,14 +233,13 @@ Second Place (Each):
 [div=font-size: var(--fs-header); font-family: var(--header-font); font-weight: bold; text-align: center;]Participants[/div]
 [div=/*ANCHOR - Participants*/
 white-space: collapse;][List=1]
-[*] Olympia
-[*] LustFox OC# 2
-[*] Hakusan
-[*] Iris
-[*] Atlantis/Eve
-[*] Indigo
-[*] Zelda
-[*] Deaucalion
+[*] Olympia | @QuirkyAngel
+[*] Hakusan | @Daylight Fantasy
+[*] Iris | @CHUUYAS_HAT
+[*] Atlantis/Eve | @THEKAZUHA_ANEMO
+[*] Indigo | @Takumi98
+[*] Zelda | @Takumi98
+[*] Deaucalion | @cresion breezes
 [/list][/div]
 [/div]
 [/div]
@@ -293,19 +292,18 @@ Third Place:
 [div=font-size: var(--fs-header); font-family: var(--header-font); font-weight: bold; text-align: center;]Participants[/div]
 [div= /*ANCHOR - Participants*/
 white-space: collapse;][List=1]
-[*] Olympia
-[*] LustyFox OC #1
-[*] LustyFox OC #2
-[*] Esther
-[*] Apollo
-[*] Iris
-[*] Atlantis/Eve
-[*] Aurelio
-[*] Indigo
-[*] Zelda
-[*] Vasya
-[*] Deaucalion
-[*] Altair
+[*] Olympia | @QuirkyAngel
+[*] Esther | @CloudySkyLoftyMoon
+[*] Apollo | @Daylight Fantasy
+[*] Iris | @CHUUYAS_HAT
+[*] Atlantis/Eve | @THEKAZUHA_ANEMO
+[*] Aurelio | @THEKAZUHA_ANEMO
+[*] Indigo | @Takumi98
+[*] Zelda | @Takumi98
+[*] Vasya | @Unknowinglegion
+[*] Deaucalion | @cresion breezes
+[*] Altair | @cresion breezes
+[*] Hugo | @RenzFlintrock
 [/list][/div]
 [/div]
 [/div]
@@ -345,12 +343,12 @@ Second Place:
 [/list][/div][div=font-size: var(--fs-header); font-family: var(--header-font); font-weight: bold; text-align: center;]Participants[/div]
 [div=/*ANCHOR - Participants*/
 white-space: collapse;][List=1]
-[*] Olympia
-[*] LustyFox OC #1
-[*] LustyFox OC #2
-[*] Aurelio
-[*] Zelda
-[*] Rick
+[*] Olympia | @QuirkyAngel
+[*] Aurelio | @THEKAZUHA_ANEMO
+[*] Zelda | @Takumi98
+[*] Altair | @cresion breezes
+[*] Rick | @Rydge
+[*] Hugo | @RenzFlintrock
 [/list][/div]
 [/div]
 [/div]
@@ -414,17 +412,18 @@ Honorable Mentions (three from each Side):
 [div=font-size: var(--fs-header); font-family: var(--header-font); font-weight: bold; text-align: center;]Participants[/div]
 [div=/*ANCHOR - Participants*/
 white-space: collapse;][List=1]
-[*] Olympia
-[*] Esther
-[*] Iris
-[*] Atlantis/Eve
-[*] Aurelio
-[*] Indigo
-[*] Zelda
-[*] Rick
-[*] Vasya
-[*] Altair
-[*] Sybil
+[*] Olympia | @QuirkyAngel
+[*] Esther | @CloudySkyLoftyMoon
+[*] Iris | @CHUUYAS_HAT
+[*] Atlantis/Eve | @THEKAZUHA_ANEMO
+[*] Aurelio | @THEKAZUHA_ANEMO
+[*] Indigo | @Takumi98
+[*] Zelda | @Takumi98
+[*] Rick | @Rydge
+[*] Vasya | @Unknowinglegion
+[*] Sybil | @CHUUYAS_HAT
+[*] Hugo | @RenzFlintrock
+[*] Yuna | @summertheleafeon
 [/list][/div]
 [/div]
 [/div]
@@ -463,14 +462,13 @@ Second Place:
 [div=font-size: var(--fs-header); font-family: var(--header-font); font-weight: bold; text-align: center;]Participants[/div]
 [div=/*ANCHOR - Participants*/
 white-space: collapse;][List=1]
-[*] Olympia
-[*] LustyFox OC #2
-[*] Apollo
-[*] Iris
-[*] Atlantis/Eve
-[*] Aurelio
-[*] Indigo
-[*] Sybil
+[*] Olympia | @QuirkyAngel
+[*] Apollo | @Daylight Fantasy
+[*] Iris | @CHUUYAS_HAT
+[*] Atlantis/Eve | @THEKAZUHA_ANEMO
+[*] Aurelio | @THEKAZUHA_ANEMO
+[*] Indigo | @Takumi98
+[*] Sybil | @CHUUYAS_HAT
 [/list][/div]
 [/div]
 [/div]
@@ -498,15 +496,17 @@ The Grand Finale, a all-out-can-eat fest and the grandest firework display in al
 [div=font-size: var(--fs-header); font-family: var(--header-font); font-weight: bold; text-align: center;]Participants[/div]
 [div= /*ANCHOR - Participants*/
 white-space: collapse;][List=1]
-[*] Apollo
-[*] Iris
-[*] Atlantis/Eve
-[*] Aurelio
-[*] Indigo
-[*] Zelda
-[*] Vasya
-[*] Deaucalion
-[*] Sybil
+[*] Apollo | @Daylight Fantasy
+[*] Iris | @CHUUYAS_HAT
+[*] Atlantis/Eve | @THEKAZUHA_ANEMO
+[*] Aurelio | @THEKAZUHA_ANEMO
+[*] Indigo | @Takumi98
+[*] Zelda | @Takumi98
+[*] Vasya | @Unknowinglegion
+[*] Deaucalion | @cresion breezes
+[*] Sybil | @CHUUYAS_HAT
+[*] Hugo | @RenzFlintrock
+[*] Yuna | @summertheleafeon
 [/list][/div]
 [/div]
 [/div]
