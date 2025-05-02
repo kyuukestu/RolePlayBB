@@ -275,7 +275,7 @@ box-sizing: border-box; font-family: var(--H2-font); font-size: var(--fs-H1);
 width: 100%; background-color: #222020; text-align: center; height: 50px; line-height: 1.5;
 border-radius: 0 0 calc(var(--postBorderRadius) - 3px) calc(var(--postBorderRadius) - 3px);
 display: flex; align-items: center; justify-content: center;
-margin: 0 auto auto auto;]August 5th, Friday – 8:3333333333 A.M.[/div]
+margin: 0 auto auto auto;]August 5th, Friday – 8:34 A.M.[/div]
 
 [comment]*!SECTION - Text-Container Blur Border [/comment][/div]
 
