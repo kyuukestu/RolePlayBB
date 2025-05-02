@@ -45,25 +45,48 @@ color: white;
 white-space: break-spaces;
 overflow-y: scroll; scrollbar-width: none;
 font-family: var(--B-font); font-size: var(--B-fs);]
-Hark, good gentles of the River’s Crown! On this most noble morn, the Fields of Valor shall sing with the ring of steel and quail beneath the thunderous crowd. The second day of our grand festival brings forth a time-honored trial: the Rite of Single Combat, where aspiring knights don helm and mail to prove their worth in chivalric duel!
+With the anachronistic crackle of the Fair's P.A. System,trumpets blared and the clash of steel rang clear across the fair grounds. 
 
-In the sacred circle of combat, two shall meet—metal against metal, mettle against mettle—beneath the approving gaze of the Court and the watchful eye of the Saints. Though the clash be fierce and the contest bold, fear not, for wise wardens and skilled chirurgeons stand ready to guard life and limb.
+An attention-grabbing pre-lude to the vocal announcement of the day's events. "Hear ye, hear ye, Knights and fair-folk! The hour of the Knightly Duels neareth! Seven sterling Knights of the Round have gathered to test their mettle in the arena! "
 
-So rise, ye gallant challengers! Let not thy courage wane nor thy arm falter. For though the prize be honor and not blood, this field remembers every name spoken in valor!
+"Today's Knights may earn not only prestige and renown, but podium prizes! Each podium maker will earn themselves a Steel-Type Technical Record of their choice and a cash prize! Furthermore—and you didn't hear this from me—but word on the rumor mill has it that the Grand Knight himself, Wikstrom of the Elite 4 is in attendance! Knight's who impress him may earn themselves an opportunity to train at his Castle of Chivalry!"
 
-Sound the horns! Loose the banners! Let the duels commence!
+"Now, here are the rules:
 
-[div=box-sizing: border-box; border-top: 2px solid rgba(255, 255, 255, 0.5);]
-We beseech these noble knights to report to the armaments tent for outfitting:
+LIST]
+[*]The Duel's will be tracked with a Leaderboard where a Duelist's Duel record will be recorded.
+[*]A Duelist will be able to issue [B]one (1) challenge per round[/B]!
+[LIST]
+[*]Duels are first-come first-served.
+[*]A Duelist [b]May[/b] challenge another Duelist who has already accepted a challenge, but they have the right to refuse.
+[/LIST]
+[*][B]Scoring System:[/B]
+[LIST]
+[*][B]Victory[/B] grants: 1 point
+[*][B]Draw[/B] grants: 0.5 points
+[*][B]Loss[/B] grants: 0 points
+[/LIST]
+[*]Once a Duelist challenges another Duelist, they [B]cannot challenge that same opponent again[/B] for the remainder of the event.
+[*]At the end of each round, the Leaderboard will be displayed with the tally of the Duelist's records. at the end of all rounds, the Duelist with the [B]highest total score[/B] on the Leaderboard will be declared the [B]Winner[/B].
+[/LIST]
+"
+
+"Our Duelists today are:
 [div=/*ANCHOR - Participants*/
 white-space: collapse;][List=1]
-[*] Dame Olympia
+[*] The Black Knight
 [*] Sir Apollo
 [*] Dame Iris
 [*] Dame Atlantisa
 [*] Dame Zelda
 [*] Dame Sybil
-[/list][/div][/div]
+[*] Sir Montagne
+[/list][/div]
+
+Challenges must be issued from the Duel Stage!"
+
+"Good Luck, Knights! May the best Knight win!"
+[/div]
 [/div]
 [/div]
 [/div]
