@@ -19,10 +19,10 @@ border-radius: 100px; float: left; position: relative;]
 [div=/*ANCHOR - Header */
 font-size: calc(1.3*var(--text-f-s)); text-align: center; display: flex; flex-direction: column;
 font-family: Merriweather;]
-Caravan Outside Al-Lotoy
-[border=transparent; font-size: calc(0.67*var(--text-f-s));]Mentions: Bookie, Seer, Guille,
-Interaction: Aricia, Saphielle, Jason, Igdunn
-| Tags: @Talathel @YellowBeanBeing @lyn. @DeathUnchained [/border]
+Caravan Inside Al-Lotoy
+[border=transparent; font-size: calc(0.67*var(--text-f-s));]Mentions: N/A
+Interaction: N/S
+| Tags: N/A [/border]
 [/div]
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et odio a ante pellentesque pretium. Integer venenatis ex non ipsum malesuada euismod sit amet ut ante. Duis posuere diam sit amet orci viverra condimentum. Nulla non lobortis orci. Vestibulum erat ante, aliquam eget arcu id, iaculis convallis lorem. Pellentesque rutrum dolor ut sapien tincidunt iaculis. Suspendisse a leo consectetur, vulputate sem quis, laoreet lorem. Sed in eros quis odio convallis tempor. Etiam lectus felis, sollicitudin at auctor a, elementum non erat.
 
