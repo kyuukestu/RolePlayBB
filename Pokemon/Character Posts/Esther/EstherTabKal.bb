@@ -275,7 +275,7 @@ box-sizing: border-box; font-family: var(--H2-font); font-size: var(--fs-H1);
 width: 100%; background-color: #222020; text-align: center; height: 50px; line-height: 1.5;
 border-radius: 0 0 calc(var(--postBorderRadius) - 3px) calc(var(--postBorderRadius) - 3px);
 display: flex; align-items: center; justify-content: center;
-margin: 0 auto auto auto;]August 5th, Friday – 8:34 A.M.[/div]
+margin: 0 auto auto auto;]August 5th, Friday – 8:37 A.M.[/div]
 
 [comment]*!SECTION - Text-Container Blur Border [/comment][/div]
 
@@ -313,9 +313,15 @@ display: flex; align-items: flex-start; margin: 0 auto;]Esther Rosana Sophys[/di
 [div=box-sizing: border-box;]
 Loire de Fleuve Isle | Kalos Region 
 [/div]
-[div=box-sizing: border-box; font-size: var(--fs-B); font-family: var(--H2-font); margin: 0 auto; color: var(--highlight-sec);]Interactions/Tags[/div]
+[div=box-sizing: border-box; font-size: var(--fs-B); font-family: var(--H2-font); margin: 0 auto; color: var(--highlight-sec);]Interactions[/div]
 [div=box-sizing: border-box;]
-[User=111486]Vixen[/user]
+[user=97194]@Hugo[/user] 
+Emminent Queen of Hallow Night, Autarch of Austerity, Monty's Owner — Oracle
+
+[/div]
+[div=box-sizing: border-box; font-size: var(--fs-B); font-family: var(--H2-font); margin: 0 auto; color: var(--highlight-sec);]Mentions[/div]
+[div=box-sizing: border-box;]
+[user=100285]@Montagne Khastil[/user] 
 [/div]
 [/div]
 [/div]
