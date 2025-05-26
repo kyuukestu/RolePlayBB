@@ -188,7 +188,7 @@ padding: 0px;
 color: var(--c-1);
 font-size: clamp(1vw, var(--header-f-s), 4.5vw);
 font-family: var(--header-f);
-line-height: 1.2;][comment] -- Character Location --[/comment] Eterna City 
+line-height: 1.2;][comment] -- Character Location --[/comment] Town Hall > PokéCenter | Eterna City 
 [/div]
 [comment]-- Line --[/comment][border=transparent;
 margin-top: var(--line-m-t);
@@ -371,7 +371,7 @@ padding: 0px;
 color: var(--c-1);
 font-size: clamp(1vw, var(--header-f-s), 4.5vw);
 font-family: clamp(1vw, var(--header-f-s), 4.5vw);
-line-height: 1.2;][comment] Character Time / Date [/comment] 9:15 a.m. | Sunday, July 4th
+line-height: 1.2;][comment] Character Time / Date [/comment] 9:15 a.m. > 9:00 p.m | Sunday, July 4th
 [/border][comment]-- Line --[/comment][border=transparent;
 margin-bottom: var(--line-m-t);
 margin-right: var(--line-m-l);
