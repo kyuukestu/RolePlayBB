@@ -1,0 +1,16 @@
+- id: pokemon
+  parent: root
+  children:
+    - core
+    # - departing-bonds
+    # - trials-of-trust
+    # - kindred
+    # - wild-card
+    # - guiding-lights
+    # - duty-bound
+    # - dream-chaser
+- id: core
+  namespace: true
+  template:
+    id: ers-master.ers-pokemon.template.core
+    type: note
