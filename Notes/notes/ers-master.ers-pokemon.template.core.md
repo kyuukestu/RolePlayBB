@@ -2,13 +2,11 @@
 id: e9oh42m0yjp0hqzwv0e4ia1
 title: Core
 desc: ''
-updated: 1748372144582
+updated: 1748405920425
 created: 1748355352352
-
-name: Full Name
 ---
 
-## {{fm.name}}
+## Full Name
 
 ### Pronunciation
 

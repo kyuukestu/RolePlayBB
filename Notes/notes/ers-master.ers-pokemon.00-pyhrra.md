@@ -2,9 +2,8 @@
 id: i9skwooy0jz947q382or3iw
 title: 00 Pyhrra
 desc: ''
-updated: 1748372566229
+updated: 1748405932956
 created: 1748371101447
-name: Pyrrha Achilleia Astierra
 ---
 
 ## Pyrrha Achilleia Astierra
