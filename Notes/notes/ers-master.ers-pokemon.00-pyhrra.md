@@ -1,14 +1,13 @@
 ---
-id: e9oh42m0yjp0hqzwv0e4ia1
-title: Core
+id: i9skwooy0jz947q382or3iw
+title: 00 Pyhrra
 desc: ''
-updated: 1748372144582
-created: 1748355352352
-
-name: Full Name
+updated: 1748372566229
+created: 1748371101447
+name: Pyrrha Achilleia Astierra
 ---
 
-## {{fm.name}}
+## Pyrrha Achilleia Astierra
 
 ### Pronunciation
 

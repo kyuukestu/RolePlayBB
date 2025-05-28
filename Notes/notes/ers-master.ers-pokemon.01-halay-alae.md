@@ -1,20 +1,25 @@
 ---
-id: e9oh42m0yjp0hqzwv0e4ia1
-title: Core
+id: afe0cl4ac5oywc6wvqk4vqk
+title: 01 Halay Alae
 desc: ''
-updated: 1748372144582
-created: 1748355352352
-
-name: Full Name
+updated: 1748372834868
+created: 1748371752459
+name: Halay Alae
 ---
+
+<link rel="stylesheet" href="./assets/styles.css" ></link>
 
 ## {{fm.name}}
 
-### Pronunciation
+### Full Name
 
 [Enter Information]
 
-### Origin
+#### Pronunciation
+
+[Enter Information]
+
+#### Origin
 
 [Enter Information]
 
@@ -22,126 +27,126 @@ name: Full Name
 
 [Enter Information]
 
-### Gender
+#### Gender
 
 [Enter Information]
 
-### Birthday
+#### Birthday
 
 [Enter Information]
 
-## Poke-Detail
+### Poke-Detail
 
 [Enter Information]
 
-### Species
+#### Species
 
 [Enter Information]
 
-#### Typing
+##### Typing
 
 [Enter Information]
 
-#### Ability
+##### Ability
 
 [Enter Information]
 
-#### Base Stats
+##### Base Stats
 
 [Enter Information]
 
-#### Parentage
+##### Parentage
 
 [Enter Information]
 
-### Biology
+#### Biology
 
 [Enter Information]
 
-#### Dex Entry
+##### Dex Entry
 
 [Enter Information]
 
-#### Phenotype
+##### Phenotype
 
 [Enter Information]
 
-#### Senses
+##### Senses
 
 [Enter Information]
 
-#### Behavior (Instinctual)
+##### Behavior (Instinctual)
 
 [Enter Information]
 
-#### Bio-Mechanisms
+##### Bio-Mechanisms
 
 [Enter Information]
 
-#### Size (Height/Length & Weight)
+##### Size (Height/Length & Weight)
 
 [Enter Information]
 
-#### Natural Habitat
+##### Natural Habitat
 
 [Enter Information]
 
-## Characterization
+### Characterization
 
 [Enter Information]
 
-### Stat Nature
+#### Stat Nature
 
 [Enter Information]
 
-### Characteristic(s)
+#### Characteristic(s)
 
 [Enter Information]
 
-### Personality
+#### Personality
 
 [Enter Information]
 
-#### Enneagram Type
+##### Enneagram Type
 
 [Enter Information]
 
-### Battle
+#### Battle
 
 [Enter Information]
 
-#### Battle Cry
+##### Battle Cry
 
 [Enter Information]
 
-#### Battle Style
+##### Battle Style
 
 [Enter Information]
 
-#### Encounter
+##### Encounter
 
 [Enter Information]
 
-#### Held Item
+##### Held Item
 
 [Enter Information]
 
-#### Pokeball
+##### Pokeball
 
 [Enter Information]
 
-##### Seal
+###### Seal
 
 [Enter Information]
 
-### Motivation
+#### Motivation
 
 [Enter Information]
 
-## Before Esther
+### Before Esther
 
 [Enter Information]
 
-### Background
+#### Background
 
 [Enter Information]
