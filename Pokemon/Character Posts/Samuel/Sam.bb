@@ -8,6 +8,7 @@
 --fs-ab-txt: 0.7em;
 --ab-txt-c: #010b13;
 --ab-hwidth: 85%;
+--sam-c: #0705db;
 
 padding:0;][BORDER=6px Groove Black][BG=var(--bg-color)][ROW][COLUMN=span3][div= /* Content Size Definition */ padding:14px 0; display: flex; flex-wrap: wrap; justify-content: center; align-content: space-between; height: 440px; background-image: var(--character-image); color: #010b13; text-shadow: 1px 1px 2px black; font-size: var(--character-details-text-size); border: 4px groove black; background-size: cover; background-position: var(--character-zoom-positioning); box-sizing: border-box; overflow-y: scroll; scrollbar-width: none; position: relative;
 /* Character Details Below... */]  
