@@ -188,7 +188,7 @@ padding: 0px;
 color: var(--c-1);
 font-size: clamp(1vw, var(--header-f-s), 4.5vw);
 font-family: var(--header-f);
-line-height: 1.2;][comment] -- Character Location --[/comment] Town Hall > PokéCenter | Eterna City 
+line-height: 1.2;][comment] -- Character Location --[/comment] Eterna City > Hearthome City
 [/div]
 [comment]-- Line --[/comment][border=transparent;
 margin-top: var(--line-m-t);
@@ -283,7 +283,7 @@ line-height: 1.2;
 text-align: center;
 position: relative;
 top: 15%;]Sprites by [url=https://www.smogon.com/forums/threads/smogon-sprite-project.3647722/]Smogon Sprite Project[/url][br][/br]Base Code by Ambiloquous
-
+FC AI Generated
 Interactions:
 [div=font-size: calc(0.65*var(--text-f-s));]@Merciless Medic | @Theo713 | @Absollover77 [/div][/border]
 [div=/*ANCHOR - CHARACTER IMAGE*/
@@ -336,7 +336,7 @@ border-image: var(--b-i);
 align-items: center;
 justify-content: center;]
 [comment] - Inventory Items Go Here - [/comment]
-Money: $2,515 (-$150 – PokéCenter Room)
+Money: $2,515 > $3,265 (-$150 – PokéCenter Room | -$100 - Bus | +$1,000 - Gym Victory)
 Potion x 2 
 Pokéball x 2
 [/div]
@@ -371,7 +371,7 @@ padding: 0px;
 color: var(--c-1);
 font-size: clamp(1vw, var(--header-f-s), 4.5vw);
 font-family: clamp(1vw, var(--header-f-s), 4.5vw);
-line-height: 1.2;][comment] Character Time / Date [/comment] 9:15 a.m. > 9:00 p.m | Sunday, July 4th
+line-height: 1.2;][comment] Character Time / Date [/comment] 9:00 p.m | Sunday, July 4th » 12:00 p.m. | Monday, July 5th
 [/border][comment]-- Line --[/comment][border=transparent;
 margin-bottom: var(--line-m-t);
 margin-right: var(--line-m-l);
