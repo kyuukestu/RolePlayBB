@@ -261,7 +261,7 @@ box-sizing: border-box; position: relative;
 overflow-y: scroll; scrollbar-width: none; margin: auto auto 0 auto;
 height: calc(100% - 50px); width: 100%; 
 border-radius: calc(var(--postBorderRadius) - 3px) calc(var(--postBorderRadius) - 3px) 0 0;
-padding: 20px; line-height: 1.5; letter-spacing: 0.5px; white-space: break-spaces; 
+padding: 20px; line-height: 1.5; letter-spacing: 0.5px; white-space: collapse; 
 background-color: #222020; color: var(--main-text-c);
 font-family: var(--B-font); font-size: var(--fs-B);
 text-align: justify; text-justify: auto;]
@@ -275,7 +275,7 @@ box-sizing: border-box; font-family: var(--H2-font); font-size: var(--fs-H1);
 width: 100%; background-color: #222020; text-align: center; height: 50px; line-height: 1.5;
 border-radius: 0 0 calc(var(--postBorderRadius) - 3px) calc(var(--postBorderRadius) - 3px);
 display: flex; align-items: center; justify-content: center;
-margin: 0 auto auto auto;]August 5th, Friday – 8:40 A.M.[/div]
+margin: 0 auto auto auto;]August 5th, Friday – 8:51 A.M.[/div]
 
 [comment]*!SECTION - Text-Container Blur Border [/comment][/div]
 
@@ -315,8 +315,8 @@ Loire de Fleuve Isle | Kalos Region
 [/div]
 [div=box-sizing: border-box; font-size: var(--fs-B); font-family: var(--H2-font); margin: 0 auto; color: var(--highlight-sec);]Interactions[/div]
 [div=box-sizing: border-box;]
-[user=97194]@Hugo[/user] 
 [User=111486]@Vixen[/user]
+[user=100285]@Montagne Khastil[/user]
 [/div]
 [div=box-sizing: border-box; font-size: var(--fs-B); font-family: var(--H2-font); margin: 0 auto; color: var(--highlight-sec);]Mentions[/div]
 [div=box-sizing: border-box;]
