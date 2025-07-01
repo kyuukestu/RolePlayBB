@@ -1,8 +1,7 @@
 [comment][font=Leckerli One][font=Merienda][font=Bellota][font=Kosugi Maru].[/font][/font][/font][/font][/comment]
 
 [div=box-sizing: border-box; 
-display: flex; justify-content: center; align-items: center; 
-max-height: 100vh; 
+display: flex; justify-content: center; align-items: center; flex-flow: column-reverse nowrap;
 margin: 0; 
 background: var(--backdrop-bg);
 
@@ -86,6 +85,7 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 --PyrGenC: var(--femaleC);
 --PyrItem: url(https://archives.bulbagarden.net/media/upload/thumb/6/60/Dream_Everstone_Sprite.png/200px-Dream_Everstone_Sprite.png);
 --PyrBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--PyrSize: cover;
 /*ANCHOR - Halay-Alae */
 --HalImg: url(https://play.pokemonshowdown.com/sprites/gen5ani/houndour.gif);
 --HalPrimType: #A29288;
@@ -93,6 +93,7 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 --HalGender: var(--female);
 --HalItem: url();
 --HalBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--HalSize: 53%;
 /*ANCHOR - Pari */
 --PariImg: url(https://play.pokemonshowdown.com/sprites/gen5ani/munna.gif);
 --PariPrimType: #FA92B2;
@@ -100,6 +101,7 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 --PariGender: var(--female);
 --PariItem: url();
 --PariBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--PariSize: 50%;
 /*ANCHOR - Ciera */
 --CieImg: url(https://www.smogon.com/forums/attachments/761-gif.274544/);
 --CiePrimType: #A7DB8D;
@@ -107,6 +109,7 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 --CieGender: var(--female);
 --CieItem: url();
 --CieBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--CieSize: 45%;
 /*ANCHOR - L'Basseau */
 --SusuImg: url(https://play.pokemonshowdown.com/sprites/gen5ani/surskit.gif);
 --SusuPrimType: #C6D16E;
@@ -114,6 +117,7 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 --SusuGender: var(--female);
 --SusuItem: url();
 --SusuBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--SusuSize: 50%;
 /*ANCHOR - Kasriel */
 --KasImg: url(https://www.smogon.com/forums/attachments/263_2-gif.284206/);
 --KasPrimType: #A29288;
@@ -121,6 +125,7 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 --KasGender: var(--male);
 --KasItem: url();
 --KasBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--KasSize: 80%;
 /*ANCHOR - La Bamba */
 --BamImg: url(https://play.pokemonshowdown.com/sprites/gen5ani/shellos.gif);
 --BamPrimType: #9DB7F5;
@@ -128,6 +133,7 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 --BamGender: var(--female);
 --BamItem: url();
 --BamBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--BamSize: 33%;
 /*ANCHOR – Istha */
 --IstImg: url(https://play.pokemonshowdown.com/sprites/gen5ani-shiny/feebas.gif);
 --IstPrimType: #9DB7F5;
@@ -135,6 +141,7 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 --IstGender: var(--female);
 --IstItem: url();
 --IstBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--IstSize: 33%;
 /*ANCHOR – Jecroix */
 --JeImg: url(https://play.pokemonshowdown.com/sprites/gen5ani/drifloon.gif);
 --JePrimType: #A284A2;
@@ -142,6 +149,7 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 --JeGender: var(--male);
 --JeItem: url();
 --JeBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--JeSize: 53%;
 /*ANCHOR - P1 */
 --P1Img: var(--PyrImg);
 --P1PrimType: var(--PyrPrimType);
@@ -149,6 +157,7 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 --P1Gender: var(--PyrGender);
 --P1Item: var(--PyrItem);
 --P1Ball: var(--PyrBall);
+--P1Size: var(--PyrSize);
 /*ANCHOR - P2 */
 --P2Img: var(--HalImg);
 --P2PrimType: var(--HalPrimType);
@@ -156,6 +165,7 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 --P2Gender: var(--HalGender);
 --P2Item: var(--HalItem);
 --P2Ball: var(--HalBall);
+--P2Size: var(--HalSize);
 /*ANCHOR - P3 */
 --P3Img: var(--JeImg);
 --P3PrimType: var(--JePrimType);
@@ -163,6 +173,7 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 --P3Gender: var(--JeGender);
 --P3Item: var(--JeItem);
 --P3Ball: var(--JeBall);
+--P3Size: var(--JeSize);
 /*ANCHOR - P4 */
 --P4Img: var(--CieImg);
 --P4PrimType: var(--CiePrimType);
@@ -170,6 +181,7 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 --P4Gender: var(--CieGender);
 --P4Item: var(--CieItem);
 --P4Ball: var(--CieBall);
+--P4Size: var(--CieSize);
 /*ANCHOR - P5 */
 --P5Img: var(--SusuImg);
 --P5PrimType: var(--SusuPrimType);
@@ -177,6 +189,7 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 --P5Gender: var(--SusuGender);
 --P5Item: var(--SusuItem);
 --P5Ball: var(--SusuBall);
+--P5Size: var(--SusuSize);
 /*ANCHOR - P6 */
 --P6Img: var(--IstImg);
 --P6PrimType: var(--IstPrimType);
@@ -184,24 +197,38 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 --P6Gender: var(--IstGender);
 --P6Item: var(--IstItem); 
 --P6Ball: var(--IstBall);
+--P6Size: var(--IstSize);
 /*!SECTION - Pokémon End */
 
 ] 
-[div=flex: 20%; display: flex; flex-flow: column; max-height: 100vh; min-width: 20px;]
-[div=width: fit-content; margin: auto; color: black; font-size: 10px;]Char Art AI Generated[/div]
-[div=/*SECTION -  Char Img *!SECTION */ 
-aspect-ratio: 1; width: 95%; min-width: 20px; border: 2px solid #b71c1c; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); background: var(--essy-img); margin: auto; position: relative;][/div] 
+[div=flex: 20%; display: flex; flex-flow: column; max-height: 100vh; min-width: 20px; position: relative;]
 
+[div=position: absolute; top: 45px; right: 45px; z-index: 2; width: 100%; height: fit-content; display: flex; justify-content: flex-end; flex-flow: column nowrap; text-align: end;][fa]fa fa-arrow-down fa-2x[/fa][div=box-sizing: border-box]Scroll[/div][/div]
 
 [div=/*SECTION - Pokémon Bar */
-visibility: visible; box-sizing: border-box; width: 95%; height: calc(100% - 150px); line-height: 0;
--webkit-backdrop-filter: blur(5px); backdrop-filter: blur(5px); background-color: transparent; display: flex;  overflow: scroll; scrollbar-width: none; justify-content: space-evenly; flex: 1 1 20%; flex-flow: column nowrap; gap: 10px; align-items: center; z-index: 1; margin: auto; font-family: var(--H2-font); color: #1c2526; font-weight: bold;
-position: relative;
+visibility: visible; box-sizing: border-box; width: 95%; max-height: 250px; line-height: 0;
+-webkit-backdrop-filter: blur(5px); backdrop-filter: blur(5px); background-color: transparent; display: flex; 
+overflow-y: scroll; overflow-x: hidden; scrollbar-width: none; scroll-snap-type: y mandatory;
+justify-content: space-evenly; flex: 1 1 33.33%; flex-flow: row wrap; gap: 10px; align-items: center; z-index: 1; margin: auto; font-family: var(--H2-font); color: #fff; font-weight: bold;
+position: relative; padding: 0 10px;
 --pHeight: 150px;
---pWidth: 90%;
---p-micro: 20px;]
+--cellWidth: min(200px, 30%);
+--pWidth: min(200px, 30%);
+--pMaxWidth: 20%;
+--p-micro: 20%;
+--chev-down-left: 13px;
+--chev-down-bott: -25px;
+--chev-up-top: -25px;
+--chev-up-right: 7px;
+--seal-size: 100%;
+]
 [div=/*SECTION - Pokémon Position 1 */
-    box-sizing: border-box; background: no-repeat center/75% var(--P1Img) var(--P1PrimType); aspect-ratio: 1; width: var(--pWidth); line-height: 0; filter: var(--pokéShadow); box-shadow: 10px 10px 8px var(--P1SecType); text-align: center; padding: 15px;
+aspect-ratio: 1; width: var(--cellWidth); line-height: 0;
+padding: 15px; flex: 1 1 25%; margin: auto; position: relative;]
+[div=/*ANCHOR - Pokeball */
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P1PrimType) 50%, var(--P1SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 0; transform: rotate(15deg);][/div]
+[div=
+    box-sizing: border-box; background: no-repeat center/var(--P1Size) var(--P1Img); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;
     display: flex; justify-content: space-evenly; flex-flow: column nowrap;]
     [div=/*ANCHOR - Gender */
     mask: no-repeat center/85% var(--P1Gender); background-color: var(--femaleC); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
@@ -211,21 +238,26 @@ position: relative;
     background: no-repeat center/cover var(--P1Ball) var(--bg-color); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
     [div=/*ANCHOR - Seals */
     background: no-repeat center/cover var(--bg-color); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; transform: rotate(-90deg); position: relative;]
-    [div=position: absolute; right: 5px; top: -12px;][fa]fa fa-chevron-up[/fa][/div]
-    [div=display: block; overflow-y: scroll; scrollbar-width: none; scroll-snap-type: y mandatory; height: var(--p-micro); width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;]
+    [div=position: absolute; right: var(--chev-up-right); top: var(--chev-up-top);][fa]fa fa-chevron-up fa-2x[/fa][/div]
+    [div=display: block; overflow-y: scroll; scrollbar-width: none; scroll-snap-type: y mandatory; height: var(--seal-size); aspect-ratio: 1; box-sizing: border-box;]
         [div=background: no-repeat center/cover var(--SkySealA); height: 100%; aspect-ratio: 1; transform: rotate(90deg);][/div]
         [div=background: no-repeat center/cover var(--SongSealA); height: 100%; aspect-ratio: 1; transform: rotate(90deg);][/div]
     [/div]
-    [div=position: absolute; left: 3px; bottom: -14px;][fa]fa fa-chevron-down[/fa][/div]
+    [div=position: absolute; left: var(--chev-down-left); bottom: var(--chev-down-bott);][fa]fa fa-chevron-down fa-2x[/fa][/div]
     [/div]
     [div=/*ANCHOR - Name */
     margin: 0 auto; width: fit-content;]
     Pyrrha
     [/div]
     [comment]/*!SECTION */[/comment]
-[/div]
+[/div][/div]
 [div=/*SECTION - Pokémon Position 2 */
-    box-sizing: border-box; background: no-repeat center/35% var(--P2Img) var(--P2PrimType); aspect-ratio: 1; width: var(--pWidth); line-height: 0; filter: var(--pokéShadow); box-shadow: 10px 10px 8px var(--P2SecType); text-align: center; padding: 15px;
+aspect-ratio: 1; width: var(--cellWidth); line-height: 0;
+padding: 15px; flex: 1 1 25%; margin: auto; position: relative;]
+[div=/*ANCHOR - Pokeball */
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P2PrimType) 50%, var(--P2SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 0; transform: rotate(15deg);][/div]
+[div=
+    box-sizing: border-box; background: no-repeat center/var(--P2Size) var(--P2Img); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;
     display: flex; justify-content: space-evenly; flex-flow: column nowrap;]
     [div=/*ANCHOR - Gender */
     mask: no-repeat center/85% var(--P2Gender); background-color: var(--femaleC); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
@@ -235,21 +267,26 @@ position: relative;
     background: no-repeat center/cover var(--P2Ball) var(--bg-color); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
     [div=/*ANCHOR - Seals */
     background: no-repeat center/cover var(--bg-color); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; transform: rotate(-90deg); position: relative;]
-    [div=position: absolute; right: 5px; top: -12px;][fa]fa fa-chevron-up[/fa][/div]
-    [div=display: block; overflow-y: scroll; scrollbar-width: none; scroll-snap-type: y mandatory; height: var(--p-micro); width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;]
+    [div=position: absolute; right: var(--chev-up-right); top: var(--chev-up-top);][fa]fa fa-chevron-up fa-2x[/fa][/div]
+    [div=display: block; overflow-y: scroll; scrollbar-width: none; scroll-snap-type: y mandatory; height: var(--seal-size); aspect-ratio: 1; box-sizing: border-box;]
         [div=background: no-repeat center/cover var(--SmokeSealB); height: 100%; aspect-ratio: 1; transform: rotate(90deg);][/div]
         [div=background: no-repeat center/cover var(--FireSealA); height: 100%; aspect-ratio: 1; transform: rotate(90deg);][/div]
     [/div]
-    [div=position: absolute; left: 3px; bottom: -14px;][fa]fa fa-chevron-down[/fa][/div]
+    [div=position: absolute; left: var(--chev-down-left); bottom: var(--chev-down-bott);][fa]fa fa-chevron-down fa-2x[/fa][/div]
     [/div]
     [div=/*ANCHOR - Name */
     margin: 0 auto; width: fit-content;]
     Halay-Alae
     [/div]
     [comment]/*!SECTION */[/comment]
-[/div]
+[/div][/div]
 [div=/*SECTION - Pokémon Position 3 */
-    box-sizing: border-box; background: no-repeat center/35% var(--P3Img) var(--P3PrimType); aspect-ratio: 1; width: var(--pWidth); line-height: 0; filter: var(--pokéShadow); box-shadow: 10px 10px 8px var(--P3SecType); text-align: center; padding: 15px;
+aspect-ratio: 1; width: var(--cellWidth); line-height: 0;
+padding: 15px; flex: 1 1 25%; margin: auto; position: relative;]
+[div=/*ANCHOR - Pokeball */
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P3PrimType) 50%, var(--P3SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 0; transform: rotate(15deg);][/div]
+[div=
+    box-sizing: border-box; background: no-repeat center/var(--P3Size) var(--P3Img); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;
     display: flex; justify-content: space-evenly; flex-flow: column nowrap;]
     [div=/*ANCHOR - Gender */
     mask: no-repeat center/85% var(--P3Gender); background-color: var(--femaleC); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
@@ -259,21 +296,26 @@ position: relative;
     background: no-repeat center/cover var(--P3Ball) var(--bg-color); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
     [div=/*ANCHOR - Seals */
     background: no-repeat center/cover var(--bg-color); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; transform: rotate(-90deg); position: relative;]
-    [div=position: absolute; right: 5px; top: -12px;][fa]fa fa-chevron-up[/fa][/div]
-    [div=display: block; overflow-y: scroll; scrollbar-width: none; scroll-snap-type: y mandatory; height: var(--p-micro); width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;]
+    [div=position: absolute; right: var(--chev-up-right); top: var(--chev-up-top);][fa]fa fa-chevron-up fa-2x[/fa][/div]
+    [div=display: block; overflow-y: scroll; scrollbar-width: none; scroll-snap-type: y mandatory; height: var(--seal-size); aspect-ratio: 1; box-sizing: border-box;]
         [div=background: no-repeat center/cover var(--SkySealB); height: 100%; aspect-ratio: 1; transform: rotate(90deg);][/div]
         [div=background: no-repeat center/cover var(--HeartSealF); height: 100%; aspect-ratio: 1; transform: rotate(90deg);][/div]
     [/div]
-    [div=position: absolute; left: 3px; bottom: -14px;][fa]fa fa-chevron-down[/fa][/div]
+    [div=position: absolute; left: var(--chev-down-left); bottom: var(--chev-down-bott);][fa]fa fa-chevron-down fa-2x[/fa][/div]
     [/div]
     [div=/*ANCHOR - Name */
     margin: 0 auto; width: fit-content;]
     Jecroix
     [/div]
     [comment]/*!SECTION */[/comment]
-[/div]
+[/div][/div]
 [div=/*SECTION - Pokémon Position 4 */
-    box-sizing: border-box; background: no-repeat center/35% var(--P4Img) var(--P4PrimType); aspect-ratio: 1; width: var(--pWidth); line-height: 0; filter: var(--pokéShadow); box-shadow: 10px 10px 8px var(--P4SecType); text-align: center; padding: 15px;
+aspect-ratio: 1; width: var(--cellWidth); line-height: 0;
+padding: 15px; flex: 1 1 25%; margin: auto; position: relative;]
+[div=/*ANCHOR - Pokeball */
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P4PrimType) 50%, var(--P4SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 0; transform: rotate(15deg);][/div]
+[div=
+    box-sizing: border-box; background: no-repeat center/var(--P4Size) var(--P4Img); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;
     display: flex; justify-content: space-evenly; flex-flow: column nowrap;]
     [div=/*ANCHOR - Gender */
     mask: no-repeat center/85% var(--P4Gender); background-color: var(--femaleC); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
@@ -283,21 +325,26 @@ position: relative;
     background: no-repeat center/cover var(--P4Ball) var(--bg-color); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
     [div=/*ANCHOR - Seals */
     background: no-repeat center/cover var(--bg-color); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; transform: rotate(-90deg); position: relative;]
-    [div=position: absolute; right: 5px; top: -12px;][fa]fa fa-chevron-up[/fa][/div]
-    [div=display: block; overflow-y: scroll; scrollbar-width: none; scroll-snap-type: y mandatory; height: var(--p-micro); width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;]
-        [div=background: no-repeat center/cover var(--FloraSealB); height: 100%; aspect-ratio: 1; transform: rotate(90deg);][/div]
-        [div=background: no-repeat center/cover var(--LeafSealC); height: 100%; aspect-ratio: 1; transform: rotate(90deg);][/div]
+    [div=position: absolute; right: var(--chev-up-right); top: var(--chev-up-top);][fa]fa fa-chevron-up fa-2x[/fa][/div]
+    [div=display: block; overflow-y: scroll; scrollbar-width: none; scroll-snap-type: y mandatory; height: var(--seal-size); aspect-ratio: 1; box-sizing: border-box;]
+        [div=background: no-repeat center/cover var(--SkySealA); height: 100%; aspect-ratio: 1; transform: rotate(90deg);][/div]
+        [div=background: no-repeat center/cover var(--SongSealA); height: 100%; aspect-ratio: 1; transform: rotate(90deg);][/div]
     [/div]
-    [div=position: absolute; left: 3px; bottom: -14px;][fa]fa fa-chevron-down[/fa][/div]
+    [div=position: absolute; left: var(--chev-down-left); bottom: var(--chev-down-bott);][fa]fa fa-chevron-down fa-2x[/fa][/div]
     [/div]
     [div=/*ANCHOR - Name */
     margin: 0 auto; width: fit-content;]
     Maçiera
     [/div]
     [comment]/*!SECTION */[/comment]
-[/div]
+[/div][/div]
 [div=/*SECTION - Pokémon Position 5 */
-    box-sizing: border-box; background: no-repeat center/35% var(--P5Img) var(--P5PrimType); aspect-ratio: 1; width: var(--pWidth); line-height: 0; filter: var(--pokéShadow); box-shadow: 10px 10px 8px var(--P5SecType); text-align: center; padding: 15px;
+aspect-ratio: 1; width: var(--cellWidth); line-height: 0;
+padding: 15px; flex: 1 1 25%; margin: auto; position: relative;]
+[div=/*ANCHOR - Pokeball */
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P5PrimType) 50%, var(--P5SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 0; transform: rotate(15deg);][/div]
+[div=
+    box-sizing: border-box; background: no-repeat center/var(--P5Size) var(--P5Img); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;
     display: flex; justify-content: space-evenly; flex-flow: column nowrap;]
     [div=/*ANCHOR - Gender */
     mask: no-repeat center/85% var(--P5Gender); background-color: var(--femaleC); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
@@ -307,21 +354,26 @@ position: relative;
     background: no-repeat center/cover var(--P5Ball) var(--bg-color); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
     [div=/*ANCHOR - Seals */
     background: no-repeat center/cover var(--bg-color); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; transform: rotate(-90deg); position: relative;]
-    [div=position: absolute; right: 5px; top: -12px;][fa]fa fa-chevron-up[/fa][/div]
-    [div=display: block; overflow-y: scroll; scrollbar-width: none; scroll-snap-type: y mandatory; height: var(--p-micro); width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;]
-        [div=background: no-repeat center/cover var(--BubbleSealB); height: 100%; aspect-ratio: 1; transform: rotate(90deg);][/div]
+    [div=position: absolute; right: var(--chev-up-right); top: var(--chev-up-top);][fa]fa fa-chevron-up fa-2x[/fa][/div]
+    [div=display: block; overflow-y: scroll; scrollbar-width: none; scroll-snap-type: y mandatory; height: var(--seal-size); aspect-ratio: 1; box-sizing: border-box;]
         [div=background: no-repeat center/cover var(--CoolSealA); height: 100%; aspect-ratio: 1; transform: rotate(90deg);][/div]
+        [div=background: no-repeat center/cover var(--BubbleSealB); height: 100%; aspect-ratio: 1; transform: rotate(90deg);][/div]
     [/div]
-    [div=position: absolute; left: 3px; bottom: -14px;][fa]fa fa-chevron-down[/fa][/div]
+    [div=position: absolute; left: var(--chev-down-left); bottom: var(--chev-down-bott);][fa]fa fa-chevron-down fa-2x[/fa][/div]
     [/div]
     [div=/*ANCHOR - Name */
     margin: 0 auto; width: fit-content;]
     L'Basseau
     [/div]
     [comment]/*!SECTION */[/comment]
-[/div]
+[/div][/div]
 [div=/*SECTION - Pokémon Position 6 */
-    box-sizing: border-box; background: no-repeat center/35% var(--P6Img) var(--P6PrimType); aspect-ratio: 1; width: var(--pWidth); line-height: 0; filter: var(--pokéShadow); box-shadow: 10px 10px 8px var(--P6SecType); text-align: center; padding: 15px;
+aspect-ratio: 1; width: var(--cellWidth); line-height: 0;
+padding: 15px; flex: 1 1 25%; margin: auto; position: relative;]
+[div=/*ANCHOR - Pokeball */
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P6PrimType) 50%, var(--P6SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 0; transform: rotate(15deg);][/div]
+[div=
+    box-sizing: border-box; background: no-repeat center/var(--P6Size) var(--P6Img); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;
     display: flex; justify-content: space-evenly; flex-flow: column nowrap;]
     [div=/*ANCHOR - Gender */
     mask: no-repeat center/85% var(--P6Gender); background-color: var(--femaleC); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
@@ -331,22 +383,26 @@ position: relative;
     background: no-repeat center/cover var(--P6Ball) var(--bg-color); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
     [div=/*ANCHOR - Seals */
     background: no-repeat center/cover var(--bg-color); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; transform: rotate(-90deg); position: relative;]
-    [div=position: absolute; right: 5px; top: -12px;][fa]fa fa-chevron-up[/fa][/div]
-    [div=display: block; overflow-y: scroll; scrollbar-width: none; scroll-snap-type: y mandatory; height: var(--p-micro); width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;]
-        [div=background: no-repeat center/cover var(--StarSealD); height: 100%; aspect-ratio: 1; transform: rotate(90deg);][/div]
+    [div=position: absolute; right: var(--chev-up-right); top: var(--chev-up-top);][fa]fa fa-chevron-up fa-2x[/fa][/div]
+    [div=display: block; overflow-y: scroll; scrollbar-width: none; scroll-snap-type: y mandatory; height: var(--seal-size); aspect-ratio: 1; box-sizing: border-box;]
         [div=background: no-repeat center/cover var(--BeautySealC); height: 100%; aspect-ratio: 1; transform: rotate(90deg);][/div]
+        [div=background: no-repeat center/cover var(--StarSealD); height: 100%; aspect-ratio: 1; transform: rotate(90deg);][/div]
     [/div]
-    [div=position: absolute; left: 3px; bottom: -14px;][fa]fa fa-chevron-down[/fa][/div]
+    [div=position: absolute; left: var(--chev-down-left); bottom: var(--chev-down-bott);][fa]fa fa-chevron-down fa-2x[/fa][/div]
     [/div]
     [div=/*ANCHOR - Name */
     margin: 0 auto; width: fit-content;]
     Istha
     [/div]
-    [comment]/*!SECTION */[/comment]    
-[/div]
-
+    [comment]/*!SECTION */[/comment]
+[/div][/div]
 [div=/*SECTION - Pokémon Position 7 */
-    box-sizing: border-box; background: no-repeat center/35% var(--PariImg) var(--PariPrimType); aspect-ratio: 1; width: var(--pWidth); line-height: 0; filter: var(--pokéShadow); box-shadow: 10px 10px 8px var(--PariSecType); text-align: center; padding: 15px;
+aspect-ratio: 1; width: var(--cellWidth); line-height: 0;
+padding: 15px; flex: 1 1 25%; margin: auto; position: relative;]
+[div=/*ANCHOR - Pokeball */
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--PariPrimType) 50%, var(--PariSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 0; transform: rotate(15deg);][/div]
+[div=
+    box-sizing: border-box; background: no-repeat center/var(--PariSize) var(--PariImg); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;
     display: flex; justify-content: space-evenly; flex-flow: column nowrap;]
     [div=/*ANCHOR - Gender */
     mask: no-repeat center/85% var(--PariGender); background-color: var(--femaleC); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
@@ -356,22 +412,26 @@ position: relative;
     background: no-repeat center/cover var(--PariBall) var(--bg-color); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
     [div=/*ANCHOR - Seals */
     background: no-repeat center/cover var(--bg-color); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; transform: rotate(-90deg); position: relative;]
-    [div=position: absolute; right: 5px; top: -12px;][fa]fa fa-chevron-up[/fa][/div]
-    [div=display: block; overflow-y: scroll; scrollbar-width: none; scroll-snap-type: y mandatory; height: var(--p-micro); width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;]
+    [div=position: absolute; right: var(--chev-up-right); top: var(--chev-up-top);][fa]fa fa-chevron-up fa-2x[/fa][/div]
+    [div=display: block; overflow-y: scroll; scrollbar-width: none; scroll-snap-type: y mandatory; height: var(--seal-size); aspect-ratio: 1; box-sizing: border-box;]
         [div=background: no-repeat center/cover var(--StarSealD); height: 100%; aspect-ratio: 1; transform: rotate(90deg);][/div]
         [div=background: no-repeat center/cover var(--SongSealA); height: 100%; aspect-ratio: 1; transform: rotate(90deg);][/div]
     [/div]
-    [div=position: absolute; left: 3px; bottom: -14px;][fa]fa fa-chevron-down[/fa][/div]
+    [div=position: absolute; left: var(--chev-down-left); bottom: var(--chev-down-bott);][fa]fa fa-chevron-down fa-2x[/fa][/div]
     [/div]
     [div=/*ANCHOR - Name */
     margin: 0 auto; width: fit-content;]
-    Pariparisithea
+    Pariparsithea
     [/div]
     [comment]/*!SECTION */[/comment]
-[/div]
-
+[/div][/div]
 [div=/*SECTION - Pokémon Position 8 */
-    box-sizing: border-box; background: no-repeat center/35% var(--BamImg) var(--BamPrimType); aspect-ratio: 1; width: var(--pWidth); line-height: 0; filter: var(--pokéShadow); box-shadow: 10px 10px 8px var(--BamSecType); text-align: center; padding: 15px;
+aspect-ratio: 1; width: var(--cellWidth); line-height: 0;
+padding: 15px; flex: 1 1 25%; margin: auto; position: relative;]
+[div=/*ANCHOR - Pokeball */
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--BamPrimType) 50%, var(--BamSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 0; transform: rotate(15deg);][/div]
+[div=
+    box-sizing: border-box; background: no-repeat center/var(--BamSize) var(--BamImg); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;
     display: flex; justify-content: space-evenly; flex-flow: column nowrap;]
     [div=/*ANCHOR - Gender */
     mask: no-repeat center/85% var(--BamGender); background-color: var(--femaleC); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
@@ -381,22 +441,26 @@ position: relative;
     background: no-repeat center/cover var(--BamBall) var(--bg-color); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
     [div=/*ANCHOR - Seals */
     background: no-repeat center/cover var(--bg-color); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; transform: rotate(-90deg); position: relative;]
-    [div=position: absolute; right: 5px; top: -12px;][fa]fa fa-chevron-up[/fa][/div]
-    [div=display: block; overflow-y: scroll; scrollbar-width: none; scroll-snap-type: y mandatory; height: var(--p-micro); width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;]
+    [div=position: absolute; right: var(--chev-up-right); top: var(--chev-up-top);][fa]fa fa-chevron-up fa-2x[/fa][/div]
+    [div=display: block; overflow-y: scroll; scrollbar-width: none; scroll-snap-type: y mandatory; height: var(--seal-size); aspect-ratio: 1; box-sizing: border-box;]
         [div=background: no-repeat center/cover var(--BeautySealC); height: 100%; aspect-ratio: 1; transform: rotate(90deg);][/div]
         [div=background: no-repeat center/cover var(--CoolSealA); height: 100%; aspect-ratio: 1; transform: rotate(90deg);][/div]
     [/div]
-    [div=position: absolute; left: 3px; bottom: -14px;][fa]fa fa-chevron-down[/fa][/div]
+    [div=position: absolute; left: var(--chev-down-left); bottom: var(--chev-down-bott);][fa]fa fa-chevron-down fa-2x[/fa][/div]
     [/div]
     [div=/*ANCHOR - Name */
     margin: 0 auto; width: fit-content;]
     Bambi
     [/div]
     [comment]/*!SECTION */[/comment]
-[/div]
-
+[/div][/div]
 [div=/*SECTION - Pokémon Position 9 */
-    box-sizing: border-box; background: no-repeat center/65% var(--KasImg) var(--KasPrimType); aspect-ratio: 1; width: var(--pWidth); line-height: 0; filter: var(--pokéShadow); box-shadow: 10px 10px 8px var(--KasSecType); text-align: center; padding: 15px;
+aspect-ratio: 1; width: var(--cellWidth); line-height: 0;
+padding: 15px; flex: 1 1 25%; margin: auto; position: relative;]
+[div=/*ANCHOR - Pokeball */
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--KasPrimType) 50%, var(--KasSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 0; transform: rotate(15deg);][/div]
+[div=
+    box-sizing: border-box; background: no-repeat center/var(--KasSize) var(--KasImg); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;
     display: flex; justify-content: space-evenly; flex-flow: column nowrap;]
     [div=/*ANCHOR - Gender */
     mask: no-repeat center/85% var(--KasGender); background-color: var(--femaleC); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
@@ -406,28 +470,32 @@ position: relative;
     background: no-repeat center/cover var(--KasBall) var(--bg-color); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
     [div=/*ANCHOR - Seals */
     background: no-repeat center/cover var(--bg-color); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; transform: rotate(-90deg); position: relative;]
-    [div=position: absolute; right: 5px; top: -12px;][fa]fa fa-chevron-up[/fa][/div]
-    [div=display: block; overflow-y: scroll; scrollbar-width: none; scroll-snap-type: y mandatory; height: var(--p-micro); width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;]
+    [div=position: absolute; right: var(--chev-up-right); top: var(--chev-up-top);][fa]fa fa-chevron-up fa-2x[/fa][/div]
+    [div=display: block; overflow-y: scroll; scrollbar-width: none; scroll-snap-type: y mandatory; height: var(--seal-size); aspect-ratio: 1; box-sizing: border-box;]
         [div=background: no-repeat center/cover var(--SmokeSealB); height: 100%; aspect-ratio: 1; transform: rotate(90deg);][/div]
         [div=background: no-repeat center/cover var(--HeartSealF); height: 100%; aspect-ratio: 1; transform: rotate(90deg);][/div]
     [/div]
-    [div=position: absolute; left: 3px; bottom: -14px;][fa]fa fa-chevron-down[/fa][/div]
+    [div=position: absolute; left: var(--chev-down-left); bottom: var(--chev-down-bott);][fa]fa fa-chevron-down fa-2x[/fa][/div]
     [/div]
     [div=/*ANCHOR - Name */
     margin: 0 auto; width: fit-content;]
     Kasriel
     [/div]
     [comment]/*!SECTION */[/comment]
-[/div]
+[/div][/div]
+
 
 
 [comment]*!SECTION -  Pokebar End[/comment][/div]
 
 [/div]
 
-[div=display: flex; flex-flow: column nowrap; flex: 80%; width: 600px; padding: 20px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); max-height: 100vh; min-width: 200px;]
+[div=display: flex; flex-flow: row wrap; flex: 80%; width: 90%; padding: 20px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); max-height: 100vh; min-width: 200px;]
+[div=display: flex; flex-flow: column nowrap; flex: 33%; padding: 10px;][div=width: fit-content; margin: auto; color: black; font-size: 10px;]Char Art AI Generated[/div]
+[div=/*SECTION -  Char Img *!SECTION */ 
+aspect-ratio: 1; width: 70%; min-width: 20px; max-width: 200px; border: 2px solid #b71c1c; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); background: var(--essy-img); margin: auto; position: relative;][/div][/div]
 
-[div=display: flex; gap: 15px;] 
+[div=display: flex; gap: 15px; flex: 60%; align-items: center;] 
 [div=/*SECTION -  Info: Location, Time, Tags, Interactions, Mentions *!SECTION */
 flex: 1; line-height: 0;] 
 [div=display: flex; margin-bottom: 12px; background: var(--dark-bg); padding: 10px 20px; border: 1px solid #b71c1c; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); transform: skew(-10deg); color: #ffffff;] 
@@ -672,7 +740,7 @@ overflow: hidden;][comment]
 [/div] 
 [/div] 
 
-[div=background: var(--dark-bg); border: 2px solid #b71c1c; padding: 20px; min-height: 200px; overflow-y: scroll; scrollbar-width: none; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); font-family: var(--B-font); font-size: var(--fs-B);] 
+[div=background: var(--dark-bg); border: 2px solid #b71c1c; padding: 20px; min-height: 200px; overflow-y: scroll; scrollbar-width: none; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); font-family: var(--B-font); font-size: var(--fs-B); width: 100%; ] 
 Lorem ipsum dolor sit amet,
 consectetur adipiscing elit. Nullam et odio a ante pellentesque pretium. Integer
 venenatis ex non ipsum malesuada euismod sit amet ut ante. Duis posuere diam sit
@@ -688,4 +756,5 @@ Phasellus ullamcorper risus ac libero ornare, ut tincidunt nisi efficitur. Etiam
 molestie enim rutrum, iaculis est eu, tincidunt dolor. Phasellus ullamcorper
 risus ac libero ornare, ut tincidunt nisi efficitur. Etiam molestie enim rutrum,
 iaculis est eu, tincidunt dolor. Phasellus ullamcorper risus ac libero ornare,
-ut tincidunt nisi efficitur. [/div] [/div] [/div]
+ut tincidunt nisi efficitur. 
+[/div] [/div] [/div]
