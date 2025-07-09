@@ -1,100 +1,476 @@
-[comment][font=Leckerli One][font=Merienda][font=Sofia Sans Condensed][font=Kosugi Maru].[/font][/font][/font][/font][/comment]
-[div=height: var(--mainHeight); width: 100%;
-display: flex; align-content: center;
+[comment][font=Leckerli One][font=Merienda][font=Bellota][font=Kosugi Maru].[/font][/font][/font][/font][/comment]
+
+[div=box-sizing: border-box; 
+display: flex; justify-content: center; align-items: center; flex-flow: column-reverse nowrap;
+margin: 0; 
+background: var(--backdrop-bg);
+
+--dark-bg: linear-gradient(to bottom, #3c3c3c 95%, #1c2526);
+
+--post-bg: var(--dark-bg);
+--post-border: var(--HalSecType);
+
+--essy-img: no-repeat 10% -20%/200% url(https://archives.bulbagarden.net/media/upload/thumb/f/f8/0228Houndour.png/250px-0228Houndour.png);
+--medifes: url(https://i.imgur.com/YNL5YNa.jpeg);
+--backdrop-bg: no-repeat 50% 100%/100% 100% var(--medifes);
 
 
-/*ANCHOR - Dimensions */
---mainHeight: clamp(300px, 675px, 750px);
---postBorderRadius: 20px;
---rotate: rotate(90deg);
+
 
 /*ANCHOR - Cursor */
 cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Ball_Sprite.png), pointer;
 
 /*ANCHOR - Font Sizes */
---fs-header: calc(var(--fs-body) * 1.5);
---fs-body: clamp(10px, calc(0.75em + 0.25vw), 1.2em);
---fs-mini: calc(var(--fs-body) * 0.67);
+--fs-H1: calc(var(--fs-B) * 1.5);
+--fs-B: clamp(10px, calc(0.75em + 0.25vw), 1.2em);
+--fs-H2: calc(var(--fs-B) * 0.67);
 
 /*ANCHOR - Font Family*/
 --H1-font: Leckerli One;
 --H2-font: Kosugi Maru;
---B-font: Sofia Sans Condensed;
+--B-font: Bellota;
 
 /*ANCHOR - Accent Colors */
 --accent-c: #C00000; /*#B22;*/ 
+--highlight-prim: #900;
+--highlight-sec: #fc0;
+--highlight-ter: #a86;
+--main-text-c: #e0e0e0;
+--tab-bgc: #1a1a1a;
+--tab-border-c: #f00;
+
+--cover-border: 3px solid var(--highlight-prim);
+
 
 /*ANCHOR - Character Colors */
 --esther-c: #f05656;
 --shayan-c: #b22222;
+--parisa-c: #7fff00;
+--irisa-c: #663399;
 
 /*SECTION - Pokémon */
 /*ANCHOR Gender Images */
---male: #89CFF0; 
---female: #F4C2C2;
+--male: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Mars_symbol_%28outline%29.svg/800px-Mars_symbol_%28outline%29.svg.png); 
+--female: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Venus_symbol_%28outline%29.svg/800px-Venus_symbol_%28outline%29.svg.png); 
+
+--maleC: #89CFF0;
+--femaleC: #F4C2C2;
+
+/*ANCHOR - Ball Seals */
+--SkySealA: url(https://imgur.com/8MpmRzz.png);
+--SkySealB: url(https://imgur.com/8mjjpCO.png);
+--SongSealA: url(https://imgur.com/3qLAi7C.png);
+--SmokeSealB: url(https://imgur.com/K0byrjW.png);
+--FireSealA: url(https://imgur.com/VdrCrG9.png);
+--FloraSealB: url(https://imgur.com/J5iLkoy.png);
+--BubbleSealB: url(https://imgur.com/uzjPq3S.png);
+--HeartSealF: url(https://imgur.com/AuOjEwH.png);
+--LeafSealC: url(https://imgur.com/lH0t5VU.png);
+--CoolSealA: url(https://imgur.com/zGT8t66.png);
+--StarSealD: url(https://imgur.com/WUpjoXt.png);
+--BeautySealC: url(https://imgur.com/U2njRDS.png);
+
+
+
+/*ANCHOR - PokéBar */
+--p-height: 50px;
+--p-micro: calc(var(--p-height)/2.5);
+--bg-color: transparent;
+--p-size: 150%;
+--held-right: -7.5px;
+--gen-left: -7.5px;
+--pokéShadow: drop-shadow(5px 0px 2px #353232);
+
+/*ANCHOR - Pyrrha */
+--PyrImg: url(https://www.smogon.com/forums/attachments/782-gif.369411/);
+--PyrPrimType: #A27EFA;
+--PyrSecType: #7D58D6;
+--PyrGender: var(--female);
+--PyrGenC: var(--femaleC);
+--PyrItem: url(https://archives.bulbagarden.net/media/upload/thumb/6/60/Dream_Everstone_Sprite.png/200px-Dream_Everstone_Sprite.png);
+--PyrBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--PyrSize: cover;
+/*ANCHOR - Halay-Alae */
+--HalImg: url(https://play.pokemonshowdown.com/sprites/gen5ani/houndour.gif);
+--HalPrimType: #A29288;
+--HalSecType: #9C531F;
+--HalGender: var(--female);
+--HalItem: url();
+--HalBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--HalSize: 53%;
+/*ANCHOR - Pari */
+--PariImg: url(https://play.pokemonshowdown.com/sprites/gen5ani/munna.gif);
+--PariPrimType: #FA92B2;
+--PariSecType: #A13959;
+--PariGender: var(--female);
+--PariItem: url();
+--PariBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--PariSize: 50%;
+/*ANCHOR - Ciera */
+--CieImg: url(https://www.smogon.com/forums/attachments/761-gif.274544/);
+--CiePrimType: #A7DB8D;
+--CieSecType: #57913A;
+--CieGender: var(--female);
+--CieItem: url();
+--CieBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--CieSize: 45%;
+/*ANCHOR - L'Basseau */
+--SusuImg: url(https://play.pokemonshowdown.com/sprites/gen5ani/surskit.gif);
+--SusuPrimType: #C6D16E;
+--SusuSecType: #506899;
+--SusuGender: var(--female);
+--SusuItem: url();
+--SusuBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--SusuSize: 50%;
+/*ANCHOR - Kasriel */
+--KasImg: url(https://www.smogon.com/forums/attachments/263_2-gif.284206/);
+--KasPrimType: #A29288;
+--KasSecType: #6D6D4E;
+--KasGender: var(--male);
+--KasItem: url();
+--KasBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--KasSize: 80%;
+/*ANCHOR - La Bamba */
+--BamImg: url(https://play.pokemonshowdown.com/sprites/gen5ani/shellos.gif);
+--BamPrimType: #9DB7F5;
+--BamSecType: #4A66AB;
+--BamGender: var(--female);
+--BamItem: url();
+--BamBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--BamSize: 33%;
+/*ANCHOR – Istha */
+--IstImg: url(https://play.pokemonshowdown.com/sprites/gen5ani-shiny/feebas.gif);
+--IstPrimType: #9DB7F5;
+--IstSecType: #4A66AB;
+--IstGender: var(--female);
+--IstItem: url();
+--IstBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--IstSize: 33%;
+/*ANCHOR – Jecroix */
+--JeImg: url(https://play.pokemonshowdown.com/sprites/gen5ani/drifloon.gif);
+--JePrimType: #A284A2;
+--JeSecType: #58789B;
+--JeGender: var(--male);
+--JeItem: url();
+--JeBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--JeSize: 53%;
+/*ANCHOR - P1 */
+--P1Img: var(--PyrImg);
+--P1PrimType: var(--PyrPrimType);
+--P1SecType: var(--PyrSecType);
+--P1Gender: var(--PyrGender);
+--P1Item: var(--PyrItem);
+--P1Ball: var(--PyrBall);
+--P1Size: var(--PyrSize);
+/*ANCHOR - P2 */
+--P2Img: var(--HalImg);
+--P2PrimType: var(--HalPrimType);
+--P2SecType: var(--HalSecType);
+--P2Gender: var(--HalGender);
+--P2Item: var(--HalItem);
+--P2Ball: var(--HalBall);
+--P2Size: var(--HalSize);
+/*ANCHOR - P3 */
+--P3Img: var(--JeImg);
+--P3PrimType: var(--JePrimType);
+--P3SecType: var(--JeSecType);
+--P3Gender: var(--JeGender);
+--P3Item: var(--JeItem);
+--P3Ball: var(--JeBall);
+--P3Size: var(--JeSize);
+/*ANCHOR - P4 */
+--P4Img: var(--CieImg);
+--P4PrimType: var(--CiePrimType);
+--P4SecType: var(--CieSecType);
+--P4Gender: var(--CieGender);
+--P4Item: var(--CieItem);
+--P4Ball: var(--CieBall);
+--P4Size: var(--CieSize);
+/*ANCHOR - P5 */
+--P5Img: var(--SusuImg);
+--P5PrimType: var(--SusuPrimType);
+--P5SecType: var(--SusuSecType);
+--P5Gender: var(--SusuGender);
+--P5Item: var(--SusuItem);
+--P5Ball: var(--SusuBall);
+--P5Size: var(--SusuSize);
+/*ANCHOR - P6 */
+--P6Img: var(--IstImg);
+--P6PrimType: var(--IstPrimType);
+--P6SecType: var(--IstSecType);
+--P6Gender: var(--IstGender);
+--P6Item: var(--IstItem); 
+--P6Ball: var(--IstBall);
+--P6Size: var(--IstSize);
+/*!SECTION - Pokémon End */
 
 ]
-[div=/*SECTION – Char Tab */ 
-box-sizing: border-box;
-height: var(--mainHeight); width: 100%;
-display: block; align-content: center;
-background: var(--halay-background), var(--backdrop-bg);
-position: absolute; top: 0; z-index: 0;
-mask-image: linear-gradient(black 3%, transparent 97%);
 
+[div=display: flex; flex-flow: row wrap; flex: 80%; width: 90%; padding: 20px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); max-height: 120vh; min-width: 200px; margin-bottom: 20px;]
+[div=display: flex; flex-flow: column nowrap; flex: 33%; padding: 10px;][div=width: fit-content; margin: auto; color: black; font-size: 10px;]Char Art AI Generated[/div]
+[div=/*SECTION -  Char Img *!SECTION */ 
+aspect-ratio: 1; width: 70%; min-width: 20px; max-width: 200px; border: 2px solid #b71c1c; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); background: var(--essy-img); margin: auto; position: relative;][/div][/div]
 
-/*ANCHOR - Background Images */
---halay-norm: url(https://archives.bulbagarden.net/media/upload/f/f8/0228Houndour.png);
---mmfarm: url(https://static.zerochan.net/Pok%C3%A9mon.Gold...Silver.full.3220139.jpg);
---halay-background: no-repeat 10% center/25% var(--halay-norm);
---backdrop-bg: no-repeat center/100% 100% var(--mmfarm);]
-[comment]/*!SECTION */[/comment][/div]
-[div=/*SECTION - Post + Poke*/
-box-sizing: border-box; display: flex; height: var(--mainHeight); width: 100%; justify-content: center; align-content: center;]
-[div=/*SECTION - Text-Container Blur Border */ 
-box-sizing: border-box; display: flex;
-height: 80%; max-width: min(475px, 85vw); 
-margin: 0; padding: 10px; position: relative; z-index: 2;
--webkit-backdrop-filter: blur(5px); backdrop-filter: blur(5px); flex: 1 1 80%;
-border-radius: var(--postBorderRadius); border: 1px solid rgba(255, 255, 255, 0.5);]
-[div=/*SECTION - Post Container */
-height: 100%; width: 100%; background: #222020; color: #fff;
-border-radius: calc(var(--postBorderRadius) - 3px);
-margin: auto; position: relative;]
-[div=/*SECTION - Post Text Formatting */
+[div=display: flex; gap: 15px; flex: 60%; align-items: center;] 
+[div=/*SECTION -  Info: Location, Time, Tags, Interactions, Mentions *!SECTION */
+flex: 1; line-height: 0;] 
+[div=display: flex; margin-bottom: 12px; background: var(--post-bg); padding: 10px 20px; border: 1px solid #b71c1c; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); transform: skew(-10deg); color: #ffffff;] 
+    [fa]fa fa-map-location-dot[/fa] 
+    [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;] Loire de Fleuve Isle | Kalos Region [/div] 
+[/div] 
+[div=display: flex; margin-bottom: 12px; background: var(--post-bg); padding: 10px 20px; border: 1px solid #b71c1c; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); transform: skew(-10deg); color: #ffffff;] 
+    [fa]fa fa-clock[/fa] 
+    [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;]August 6th, Saturday – 7:50 A.M.[/div] 
+    [/div] 
+[div=display: flex; margin-bottom: 15px; background: var(--post-bg); padding: 10px 20px; border: 1px solid #b71c1c; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); transform: skew(-10deg); color: #ffffff;] 
+    [fa]fa fa-user-group[/fa] 
+    [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;]
+        [user=100285]@Montagne Khastil[/user] [user=96660]@Azumi Towers[/user]
+    [/div] 
+[/div]
+[comment]-- Font -->[font=Alata]:z[/font][/comment][border=0;
+
+display: none;
+
+/*!SECTION – Music Player */
+
+/* Probably best if you don't change anything I haven't commented next to */
+
+--music-grad-cen: radial-gradient(#000 15%, var(--accent-c) 50%);
+
+--music-grad-to-right: linear-gradient(to right, #000 0%, var(--accent-c) 65%);
+
+--music-grad-to-left: linear-gradient(to left, #000 0%, var(--accent-c) 65%);
+
+margin: auto;
+
 box-sizing: border-box;
-overflow-y: scroll; scrollbar-width: none; 
-height: 90%; width: 100%; 
+
+height: 75px;
+
+padding: 0;
+
+width: 100%;
+
+position: relative; top: 0;
+
+/* Increase width for longer titles/subtitles, decrease for shorter */
+
+max-width: 500px;
+
+/* Colours */
+
+--c-0: #F2B3CA;
+
+--c-1: rgba(220, 70, 240);
+
+--c-2: rgba(100, 70, 230);
+
+--c-3: rgba(160, 70, 240);
+
+--c-t: white; /* Text + Icon colour */
+
+/* Left Text Variables */
+
+--l-f-s: clamp(11px, 2.8vw, 1.1em); /* Font size, increase by increments of .1 */
+
+--l-f: 'Alata', sans-serif; /* Font family, change font tag above if you change this */
+
+/* Right Text Variables */
+
+--r-f-s: clamp(11px, 2.8vw, 1.1em); /* Font size, increase by increments of .1 */
+
+--r-f: 'Alata', sans-serif;/* Font family, change font tag above if you change this */
+
+flex-flow: row nowrap;
+
+justify-content: center;
+
+align-items: center;
+
+overflow-y: hidden;
+
+overflow-x: auto;
+
+scrollbar-width: none;][comment]
+
+-- Diamond --[/comment][border=0;
+
+--w: 84px;
+
+position: absolute;
+
+top: -5px;
+
+left: calc(50% - (var(--w) / 2));
+
+width: var(--w);
+
+height: var(--w);
+
+padding: 0;
+
+background: var(--music-grad-cen);
+
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+
+pointer-events: none;
+
+z-index: 2;
+
+display: flex;
+
+flex-flow: row nowrap;
+
+justify-content: center;
+
+align-items: center;][border=0;
+
 position: relative;
-padding: 10px;
-line-height: 1.5; letter-spacing: 0.5px;
-white-space: collapse;
-font-family: var(--body-font); font-size: var(--fs-body);
-text-align: justify; text-justify: auto;]
-[div=box-sizing: border-box; position: sticky; top: -15px; text-align: center; font-family: var(--H1-font); font-size: var(--fs-header); background-color: #222020; width: 100%; height: 90px; z-index: 2;]Esther R. Sophys
-[div=background: no-repeat 50% 40%/85% url(https://imgur.com/48PXej8.png); position: absolute; bottom: 5px; height: 90px; width: 100%;][/div]
-[div=/*ANCHOR - Date & Time */
-box-sizing: border-box; font-family: var(--H2-font); font-size: var(--fs-mini); float: right; position: relative; top: -15px;]August 15th, 10:21 A.M.[/div]
-[/div]
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et odio a ante pellentesque pretium. Integer venenatis ex non ipsum malesuada euismod sit amet ut ante. Duis posuere diam sit amet orci viverra condimentum. Nulla non lobortis orci. Vestibulum erat ante, aliquam eget arcu id, iaculis convallis lorem. Pellentesque rutrum dolor ut sapien tincidunt iaculis. Suspendisse a leo consectetur, vulputate sem quis, laoreet lorem. Sed in eros quis odio convallis tempor. Etiam lectus felis, sollicitudin at auctor a, elementum non erat.
 
+left: 4px;
 
-Convallis hendrerit semper. Suspendisse a leo consectetur, vulputate sem quis, laoreet lorem. Sed in eros quis odio convallis tempor. Etiam lectus felis, sollicitudin at auctor a, elementum non erat. Etiam molestie enim rutrum, iaculis est eu, tincidunt dolor. Phasellus ullamcorper risus ac libero ornare, ut tincidunt nisi efficitur. Etiam molestie enim rutrum, iaculis est eu, tincidunt dolor. Phasellus ullamcorper risus ac libero ornare, ut tincidunt nisi efficitur. Etiam molestie enim rutrum, iaculis est eu, tincidunt dolor. Phasellus ullamcorper risus ac libero ornare, ut tincidunt nisi efficitur.
-[comment]*!SECTION - Text Format End[/comment][/div]
-[div=/*SECTION - Footer Location */ 
-position: absolute; bottom: 0; width: 100%; height: 5%; background-color: var(--accent-c);
-border-radius: 0 0 10px 10px;
-display: flex; justify-content: center; align-items: center;
-color: #fff; 
-text-shadow: 1px 1px #000; font-weight: bold;
-font-family: var(--H2-font); font-size: var(--fs-mini); letter-spacing: 2px; line-height: 1.75;]
-Moo Moo Farm & Ranch, R39 | Johto Region 
-[/div]
-[comment]*!SECTION - Post Container End[/comment][/div]
-[comment]*!SECTION - Text-Container Blur Border End[/comment][/div]
+padding: 0;
 
-[comment]*!SECTION - Post + Poke End[/comment][/div]
-[div=position: absolute; bottom: 0; box-sizing: border-box; text-align: center; padding: 50px; width: 100%; z-index: 2;]
-Interactions: Theo (@Theo713)
-[/div]
-[/div]
+color: var(--c-t);
+
+font-size: 26px;][fa]far fa-play[/fa][/border][/border][comment]
+
+-- Left Text --[/comment][border=0;
+
+--h: 38px;
+
+--gap: 32px;
+
+box-sizing: border-box;
+
+position: absolute;
+
+top: calc(50% - (var(--h) / 2));
+
+left: 0;
+
+width: calc(50% - var(--gap));
+
+height: var(--h);
+
+padding: 10px calc((var(--h) / 2) + 10px);
+
+background: var(--music-grad-to-right);
+
+clip-path: polygon(100% 0%, calc(100% - (var(--h) / 2)) 50%, 100% 100%, calc((var(--h) / 2) + 10px) 100%, 0% 50%, calc((var(--h) / 2) + 10px) 0%);
+
+z-index: 1;
+
+display: flex;
+
+flex-flow: row nowrap;
+
+justify-content: flex-end;
+
+align-items: center;][border=0;
+
+padding: 0;
+
+color: var(--c-t);
+
+font-size: var(--l-f-s);
+
+font-family: var(--l-f);]Oracion[/border][/border][comment]
+
+-- Right Text --[/comment][border=0;
+
+--h: 38px;
+
+--gap: 32px;
+
+box-sizing: border-box;
+
+position: absolute;
+
+top: calc(50% - (var(--h) / 2));
+
+left: calc(50% + var(--gap));
+
+width: calc(50% - var(--gap));
+
+height: var(--h);
+
+padding: 10px calc((var(--h) / 2) + 10px);
+
+background: var(--music-grad-to-left);
+
+clip-path: polygon(calc(100% - (var(--h) / 2) - 10px) 0%, 100% 50%, calc(100% - (var(--h) / 2) - 10px) 100%, 0% 100%, calc((var(--h) / 2)) 50%, 0% 0%);
+
+z-index: 1;
+
+display: flex;
+
+flex-flow: row nowrap;
+
+justify-content: flex-start;
+
+align-items: center;][border=0;
+
+padding: 0;
+
+color: var(--c-t);
+
+font-size: var(--r-f-s);
+
+font-family: var(--r-f);
+
+text-overflow: ellipsis;]Pokémon M10[/border][/border][comment]
+
+-- Music Player Container --[/comment][border=0;
+
+flex: 0 0 43px;
+
+height: 44px;
+
+padding: 0;
+
+overflow: hidden;
+
+transform: scale(2);
+
+opacity: 0;
+
+z-index: 1;][border=0;
+
+position: relative;
+
+top: -11px;
+
+left: -8px;
+
+width: 62px;
+
+height: 54px;
+
+padding: 0;
+
+overflow: hidden;][comment]
+
+-- SoundCloud Media Element --[/comment][MEDIA=YouTube]lg4BAoEgZpE[/MEDIA][/border][/border][comment]/*!SECTION – Music player */[/comment][/border] 
+[/div] 
+[/div] 
+
+[div=background: var(--post-bg); border: 2px solid var(--post-border); padding: 20px; min-height: 200px; max-height: 450px; overflow-y: scroll; scrollbar-width: none; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); font-family: var(--B-font); font-size: var(--fs-B); width: 100%; ] 
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit. Nullam et odio a ante pellentesque pretium. Integer
+venenatis ex non ipsum malesuada euismod sit amet ut ante. Duis posuere diam sit
+amet orci viverra condimentum. Nulla non lobortis orci. Vestibulum erat ante,
+aliquam eget arcu id, iaculis convallis lorem. Pellentesque rutrum dolor ut
+sapien tincidunt iaculis. Suspendisse a leo consectetur, vulputate sem quis,
+laoreet lorem. Sed in eros quis odio convallis tempor. Etiam lectus felis,
+sollicitudin at auctor a, elementum non erat. Convallis hendrerit semper.
+Suspendisse a leo consectetur, vulputate sem quis, laoreet lorem. Sed in eros
+quis odio convallis tempor. Etiam lectus felis, sollicitudin at auctor a,
+elementum non erat. Etiam molestie enim rutrum, iaculis est eu, tincidunt dolor.
+Phasellus ullamcorper risus ac libero ornare, ut tincidunt nisi efficitur. Etiam
+molestie enim rutrum, iaculis est eu, tincidunt dolor. Phasellus ullamcorper
+risus ac libero ornare, ut tincidunt nisi efficitur. Etiam molestie enim rutrum,
+iaculis est eu, tincidunt dolor. Phasellus ullamcorper risus ac libero ornare,
+ut tincidunt nisi efficitur. 
+[/div] [/div] [/div]

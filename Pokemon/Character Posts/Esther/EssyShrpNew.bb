@@ -5,7 +5,11 @@ display: flex; justify-content: center; align-items: center; flex-flow: column-r
 margin: 0; 
 background: var(--backdrop-bg);
 
---dark-bg: linear-gradient(to bottom, #3c3c3c 95%, #1c2526); 
+--dark-bg: linear-gradient(to bottom, #3c3c3c 95%, #1c2526);
+
+--post-bg: var(--dark-bg); 
+--post-border: var(--esther-c);
+
 --essy-img: no-repeat 50% 0%/cover url(https://i.imgur.com/mDaFSk0.png);
 --medifes: url(https://i.imgur.com/YNL5YNa.jpeg);
 --backdrop-bg: no-repeat 50% 100%/100% 100% var(--medifes);
@@ -499,15 +503,15 @@ aspect-ratio: 1; width: 70%; min-width: 20px; max-width: 200px; border: 2px soli
 [div=display: flex; gap: 15px; flex: 60%; align-items: center;] 
 [div=/*SECTION -  Info: Location, Time, Tags, Interactions, Mentions *!SECTION */
 flex: 1; line-height: 0;] 
-[div=display: flex; margin-bottom: 12px; background: var(--dark-bg); padding: 10px 20px; border: 1px solid #b71c1c; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); transform: skew(-10deg); color: #ffffff;] 
+[div=display: flex; margin-bottom: 12px; background: var(--post-bg); padding: 10px 20px; border: 1px solid #b71c1c; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); transform: skew(-10deg); color: #ffffff;] 
     [fa]fa fa-map-location-dot[/fa] 
     [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;] Loire de Fleuve Isle | Kalos Region [/div] 
 [/div] 
-[div=display: flex; margin-bottom: 12px; background: var(--dark-bg); padding: 10px 20px; border: 1px solid #b71c1c; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); transform: skew(-10deg); color: #ffffff;] 
+[div=display: flex; margin-bottom: 12px; background: var(--post-bg); padding: 10px 20px; border: 1px solid #b71c1c; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); transform: skew(-10deg); color: #ffffff;] 
     [fa]fa fa-clock[/fa] 
     [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;]August 6th, Saturday – 7:50 A.M.[/div] 
     [/div] 
-[div=display: flex; margin-bottom: 15px; background: var(--dark-bg); padding: 10px 20px; border: 1px solid #b71c1c; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); transform: skew(-10deg); color: #ffffff;] 
+[div=display: flex; margin-bottom: 15px; background: var(--post-bg); padding: 10px 20px; border: 1px solid #b71c1c; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); transform: skew(-10deg); color: #ffffff;] 
     [fa]fa fa-user-group[/fa] 
     [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;]
         [user=100285]@Montagne Khastil[/user] [user=96660]@Azumi Towers[/user]
@@ -741,7 +745,7 @@ overflow: hidden;][comment]
 [/div] 
 [/div] 
 
-[div=background: var(--dark-bg); border: 2px solid #b71c1c; padding: 20px; min-height: 200px; max-height: 450px; overflow-y: scroll; scrollbar-width: none; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); font-family: var(--B-font); font-size: var(--fs-B); width: 100%; ] 
+[div=background: var(--post-bg); border: 2px solid var(--post-border); padding: 20px; min-height: 200px; max-height: 450px; overflow-y: scroll; scrollbar-width: none; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); font-family: var(--B-font); font-size: var(--fs-B); width: 100%; ] 
 Lorem ipsum dolor sit amet,
 consectetur adipiscing elit. Nullam et odio a ante pellentesque pretium. Integer
 venenatis ex non ipsum malesuada euismod sit amet ut ante. Duis posuere diam sit
