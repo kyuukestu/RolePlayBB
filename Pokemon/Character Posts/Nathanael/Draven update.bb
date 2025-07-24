@@ -7,7 +7,7 @@ display: flex; flex-flow: column nowrap;
 --p: 10px;
 
 /* Character Image */
---char-img: url(https://i.imgur.com/v50Kuif.png);
+--char-img: url(https://i.pinimg.com/736x/b3/a5/89/b3a589566c87ab8dcaf54a69f4e71182.jpg);
 --pokeball-img: url(https://w7.pngwing.com/pngs/833/548/png-transparent-game-pokeball-pokemon-pokemongo-pokestop-pokemon-go-addict-icon-thumbnail.png);
 
 /* Gender Images */
@@ -18,27 +18,35 @@ display: flex; flex-flow: column nowrap;
 --femaleC: #F4C2C2;
 
 /* Pokémon Team Data */
---JujuImg: url(https://www.smogon.com/forums/attachments/570_1-png.450202/);
---JujuPrimType: #C6C6A7;
---JujuSecType: #493963;
---JujuGender: var(--female);
---JujuItem: url(https://i.imgur.com/Y3rrktA.png);
---JujuSize: 150%;
+--MaaImg: url(https://play.pokemonshowdown.com/sprites/gen5ani/hoothoot.gif);
+--MaaPrimType: #c6c6a7;
+--MaaSecType: #add2f5;
+--MaaGender: var(--female);
+--MaaItem: ;
+--MaaSize: 100%;
+
+--KeleImg: url(https://play.pokemonshowdown.com/sprites/gen5ani/trapinch.gif);
+--KelePrimType: #b88e6f;
+--KeleSecType: #b88e6f;
+--KeleGender: var(--male);
+--KeleItem: ;
+--KeleSize: 75%;
 
 /*ANCHOR - P1 */
---P1Img: var(--JujuImg);
---P1PrimType: var(--JujuPrimType);
---P1SecType: var(--JujuSecType);
---P1Gender: var(--JujuGender);
---P1Item: var(--JujuItem);
---P1Size: var(--JujuSize);
+--P1Img: var(--MaaImg);
+--P1PrimType: var(--MaaPrimType);
+--P1SecType: var(--MaaSecType);
+--P1Gender: var(--MaaGender);
+--P1Item: var(--MaaItem);
+--P1Size: var(--MaaSize);
 
 /*ANCHOR - P2 */
---P2Img: ;
---P2PrimType: ;
---P2SecType: ;
---P2Gender: ;
---P2Item: ;
+--P2Img: var(--KeleImg);
+--P2PrimType: var(--KelePrimType);
+--P2SecType: var(--KeleSecType);
+--P2Gender: var(--KeleGender);
+--P2Item: var(--KeleItem);
+--P2Size: var(--KeleSize);
 
 /*ANCHOR - P3 */
 --P3Img: ;
@@ -65,18 +73,8 @@ display: flex; flex-flow: column nowrap;
 --P6Img: none;
 --P6PrimType: ;
 --P6SecType: ;
---P6Gender: ;1
+--P6Gender: ;
 --P6Item: ;
-
-/*ANCHOR - Badged */
---B1: url(https://i.imgur.com/kkCUwmn.png);
---B2: none;
---B3: none;    
---B4: none;
---B5: none;
---B6: none;
---B7: none;
---B8: none;
 
 /* Sizes */
 --pSlotHeight: calc(1.25*var(--d));
@@ -86,9 +84,9 @@ display: flex; flex-flow: column nowrap;
 
 /* Accent colours */
 --c-1: #bbbd90; /* Header Text Colour */
---c-2: #ff8e8a; /* Line colour */
+--c-2: #7b21ab; /* Line colour */
 --c-3: #828282; /* Body background colour */
---d-c: #ff8e8a; /* Dialogue colour */
+--d-c: #450160; /* Dialogue colour */
 
 --b-i: linear-gradient(var(--c-2) 18%, transparent calc(18% + 1px) 82%, var(--c-2) calc(82% + 1px)) 1% stretch;
 
@@ -123,29 +121,11 @@ display: flex; flex-flow: column nowrap;
 
 margin: 0 auto;
 box-sizing: border-box;
-max-width: 900px; /* Max width */
+max-width: 800px; /* Max width */
 /* width: clamp(250px, 80%, 900px); */
 padding: 0px var(--circle-d-1) 0px var(--circle-d-2);
 position: relative;]
-[div= /*ANCHOR - Badge Sidebar */
-box-sizing: border-box; position: absolute; width: 75px; background-color: transparent; height: calc(var(--h) * 0.9); display: flex; flex-flow: column nowrap; justify-content: space-between; align-items: center; top: 28%; right: -37px; z-index: 2;
 
---badge-border: 1px inset var(--c-2);
-]
-[div= /*ANCHOR - Throughline */
-box-sizing: border-box; flex: 1 1; 
-width: var(--line-w); height: calc(var(--h) * 0.8);
-background: var(--c-2); padding: 0px;
-position: absolute; top: 10px;][/div]
-[div=box-sizing: border-box; border: var(--badge-border); border-radius: 50%; background: no-repeat center/85% var(--B1) var(--c-3); aspect-ratio: 1; flex: 1 1 10%; max-height: 10%; z-index: 2;][/div]
-[div=box-sizing: border-box; border: var(--badge-border); border-radius: 50%; background: no-repeat center/85% var(--B2) var(--c-3); aspect-ratio: 1; flex: 1 1 10%; max-height: 10%; z-index: 2;][/div]
-[div=box-sizing: border-box; border: var(--badge-border); border-radius: 50%; background: no-repeat center/85% var(--B3) var(--c-3); aspect-ratio: 1; flex: 1 1 10%; max-height: 10%; z-index: 2;][/div]
-[div=box-sizing: border-box; border: var(--badge-border); border-radius: 50%; background: no-repeat center/85% var(--B4) var(--c-3); aspect-ratio: 1; flex: 1 1 10%; max-height: 10%; z-index: 2;][/div]
-[div=box-sizing: border-box; border: var(--badge-border); border-radius: 50%; background: no-repeat center/85% var(--B5) var(--c-3); aspect-ratio: 1; flex: 1 1 10%; max-height: 10%; z-index: 2;][/div]
-[div=box-sizing: border-box; border: var(--badge-border); border-radius: 50%; background: no-repeat center/85% var(--B6) var(--c-3); aspect-ratio: 1; flex: 1 1 10%; max-height: 10%; z-index: 2;][/div]
-[div=box-sizing: border-box; border: var(--badge-border); border-radius: 50%; background: no-repeat center/85% var(--B7) var(--c-3); aspect-ratio: 1; flex: 1 1 10%; max-height: 10%; z-index: 2;][/div]
-[div=box-sizing: border-box; border: var(--badge-border); border-radius: 50%; background: no-repeat center/85% var(--B8) var(--c-3); aspect-ratio: 1; flex: 1 1 10%; max-height: 10%; z-index: 2;][/div]
-[/div]
 [comment]-- Top Header --[/comment][border=transparent;
 position: relative;
 top: calc(var(--d) - var(--line-m-t) - var(--header-d));
@@ -174,7 +154,7 @@ padding: 0px;
 color: var(--c-1);
 font-size: clamp(1vw, var(--header-f-s), 4.5vw);
 font-family: var(--header-f);
-line-height: 1.2;][comment]-- Location --[/comment] Snowpoint
+line-height: 1.2;][comment]-- Location --[/comment] Hearthome >> Snowpoint
 [/div]
 [div=box-sizing: border-box;
 max-width: -moz-fit-content;
@@ -183,7 +163,7 @@ padding: 0px;
 color: var(--c-1);
 font-size: clamp(1vw, var(--header-f-s), 4.5vw);
 font-family: var(--header-f);
-line-height: 1.2;][comment] -- Date --[/comment] Wednesday, July 7th
+line-height: 1.2;][comment] -- Date --[/comment] 5th >> Wednesday, July 7th
 [/div]
 [comment]-- Line --[/comment][border=transparent;
 margin-top: var(--line-m-t);
@@ -214,6 +194,7 @@ flex-flow: row wrap;
 justify-content: flex-end;
 align-items: stretch;
 position: relative;]
+
 [comment]-- Text Container --[/comment][border=transparent;
 box-sizing: border-box;
 flex: 2 1 var(--text-w);
@@ -358,11 +339,25 @@ padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-alig
 mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P1PrimType) 50%, var(--P1SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 0; transform: rotate(15deg);][/div]
 [div=
     box-sizing: border-box; background: no-repeat 25% 50%/var(--P1Size) var(--P1Img); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1; position: relative; z-index: 2;
-    display: flex; justify-content: space-evenly; flex-flow: column nowrap;]
+    display: flex; justify-content: space-evenly; flex-flow: column nowrap; left: 15px;]
     [div=/*ANCHOR - Gender */
-    mask: no-repeat center/85% var(--P1Gender); background-color: var(--femaleC); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
+    mask: no-repeat center/85% var(--P1Gender); background-color: var(--femaleC); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; margin-left: -15px;][/div]
     [div=/*ANCHOR - Held Item */
     background: no-repeat center/85% var(--P1Item) var(--bg-color); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
+    [comment]/*!SECTION */[/comment]
+[/div][/div]
+[div=/*SECTION - Pokémon Position 2 */
+aspect-ratio: 1; max-width: var(--cellMax); min-width: var(--cellMax); line-height: 0;
+padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
+[div=/*ANCHOR - Pokeball */
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P2PrimType) 50%, var(--P2SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 0; transform: rotate(15deg);][/div]
+[div=
+    box-sizing: border-box; background: no-repeat 25% 50%/var(--P2Size) var(--P2Img); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1; position: relative; z-index: 2;
+    display: flex; justify-content: space-evenly; flex-flow: column nowrap; left: 15px;]
+    [div=/*ANCHOR - Gender */
+    mask: no-repeat center/85% var(--P2Gender); background-color: var(--maleC); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; margin-left: -15px;][/div]
+    [div=/*ANCHOR - Held Item */
+    background: no-repeat center/85% var(--P2Item) var(--bg-color); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
     [comment]/*!SECTION */[/comment]
 [/div][/div]
 
@@ -391,14 +386,31 @@ background: var(--c-3);
 visibility: visible;
 border-image: var(--b-i);
 padding: 0 15px;][comment] - Inventory Items Go Here - [/comment]
-Initial: ₱40,965
+Initial: ₱40,221
 [hr][/hr]
 -
 [hr][/hr]
-Final: ₱40,965
+Final:  ₱40,221
 [hr][/hr]
-Potion x 2 
-Pokéball x 2
+* A couple change of clothes, plus that black dress thing he found after the death of his possible girlfriend
+* Makeup from her
+* Powder shampoo, toothpaste and toothbrush in travel case, and wet wipes
+* Some canned and preserved food (mostly snack food) for himself
+* Extra Strength Tylenol (56), Extra Strength Excedrin (56), Emetrol Anti-Nausea Medicine (56), and Advil (56)
+* Mess kit
+* XTransceiver
+* Smartphone with a Rotom and a charger
+* Small flashlight
+* Batteries in a protective waterproof case
+* A knife, whetstone, flint, compass, and general map of Sinnoh
+* Canteen of water
+* Blanket and sleeping bag attached to the top of his backpack
+* Small tarp with stakes
+* Notebook with a couple pens and pencils
+* 1x PokeBall
+* 3x Potions
+* 1 Week of Pokemon Food
+* 1 Week of Human Food
 [/div]
 
 [/div]
