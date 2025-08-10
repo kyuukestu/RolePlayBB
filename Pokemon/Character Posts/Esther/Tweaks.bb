@@ -232,9 +232,9 @@ position: relative; padding: 0 10px;
 aspect-ratio: 1; width: var(--cellWidth); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);; 
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
-mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P1PrimType) 50%, var(--P1SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 0; transform: rotate(15deg); left: 55px;][/div]
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P1PrimType) 50%, var(--P1SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
 [div=
-    box-sizing: border-box; background: no-repeat center/var(--P1Size) var(--P1Img); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  position: relative; left: 60px;
+    box-sizing: border-box; background: no-repeat center/var(--P1Size) var(--P1Img); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  margin: auto;
     display: flex; justify-content: space-evenly; flex-flow: column nowrap;]
     [div=/*ANCHOR - Gender */
     mask: no-repeat center/85% var(--P1Gender); background-color: var(--femaleC); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
@@ -261,9 +261,9 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
 aspect-ratio: 1; width: var(--cellWidth); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);; 
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
-mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P2PrimType) 50%, var(--P2SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 0; transform: rotate(15deg); left: 55px;][/div]
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P2PrimType) 50%, var(--P2SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
 [div=
-    box-sizing: border-box; background: no-repeat center/var(--P2Size) var(--P2Img); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  position: relative; left: 60px;
+    box-sizing: border-box; background: no-repeat center/var(--P2Size) var(--P2Img); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  margin: auto;
     display: flex; justify-content: space-evenly; flex-flow: column nowrap;]
     [div=/*ANCHOR - Gender */
     mask: no-repeat center/85% var(--P2Gender); background-color: var(--femaleC); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
@@ -290,9 +290,9 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
 aspect-ratio: 1; width: var(--cellWidth); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);;
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
-mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P3PrimType) 50%, var(--P3SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 0; transform: rotate(15deg); left: 55px;][/div]
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P3PrimType) 50%, var(--P3SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
 [div=
-    box-sizing: border-box; background: no-repeat center/var(--P3Size) var(--P3Img); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  position: relative; left: 60px;
+    box-sizing: border-box; background: no-repeat center/var(--P3Size) var(--P3Img); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  margin: auto;
     display: flex; justify-content: space-evenly; flex-flow: column nowrap;]
     [div=/*ANCHOR - Gender */
     mask: no-repeat center/85% var(--P3Gender); background-color: var(--maleC); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
@@ -319,9 +319,9 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
 aspect-ratio: 1; width: var(--cellWidth); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);;
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
-mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P4PrimType) 50%, var(--P4SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 0; transform: rotate(15deg); left: 55px;][/div]
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P4PrimType) 50%, var(--P4SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
 [div=
-    box-sizing: border-box; background: no-repeat center/var(--P4Size) var(--P4Img); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  position: relative; left: 60px;
+    box-sizing: border-box; background: no-repeat center/var(--P4Size) var(--P4Img); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  margin: auto;
     display: flex; justify-content: space-evenly; flex-flow: column nowrap;]
     [div=/*ANCHOR - Gender */
     mask: no-repeat center/85% var(--P4Gender); background-color: var(--femaleC); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
@@ -348,9 +348,9 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
 aspect-ratio: 1; width: var(--cellWidth); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);;
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
-mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P5PrimType) 50%, var(--P5SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 0; transform: rotate(15deg); left: 55px;][/div]
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P5PrimType) 50%, var(--P5SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
 [div=
-    box-sizing: border-box; background: no-repeat center/var(--P5Size) var(--P5Img); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  position: relative; left: 60px;
+    box-sizing: border-box; background: no-repeat center/var(--P5Size) var(--P5Img); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  margin: auto;
     display: flex; justify-content: space-evenly; flex-flow: column nowrap;]
     [div=/*ANCHOR - Gender */
     mask: no-repeat center/85% var(--P5Gender); background-color: var(--femaleC); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
@@ -377,9 +377,9 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
 aspect-ratio: 1; width: var(--cellWidth); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);;
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
-mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P6PrimType) 50%, var(--P6SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 0; transform: rotate(15deg); left: 55px;][/div]
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P6PrimType) 50%, var(--P6SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
 [div=
-    box-sizing: border-box; background: no-repeat center/var(--P6Size) var(--P6Img); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  position: relative; left: 60px;
+    box-sizing: border-box; background: no-repeat center/var(--P6Size) var(--P6Img); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  margin: auto;
     display: flex; justify-content: space-evenly; flex-flow: column nowrap;]
     [div=/*ANCHOR - Gender */
     mask: no-repeat center/85% var(--P6Gender); background-color: var(--femaleC); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
@@ -406,9 +406,9 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
 aspect-ratio: 1; width: var(--cellWidth); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);;
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
-mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--PariPrimType) 50%, var(--PariSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 0; transform: rotate(15deg); left: 55px;][/div]
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--PariPrimType) 50%, var(--PariSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
 [div=
-    box-sizing: border-box; background: no-repeat center/var(--PariSize) var(--PariImg); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  position: relative; left: 60px;
+    box-sizing: border-box; background: no-repeat center/var(--PariSize) var(--PariImg); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  margin: auto;
     display: flex; justify-content: space-evenly; flex-flow: column nowrap;]
     [div=/*ANCHOR - Gender */
     mask: no-repeat center/85% var(--PariGender); background-color: var(--femaleC); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
@@ -435,9 +435,9 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
 aspect-ratio: 1; width: var(--cellWidth); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);;
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
-mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--BamPrimType) 50%, var(--BamSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 0; transform: rotate(15deg); left: 55px;][/div]
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--BamPrimType) 50%, var(--BamSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
 [div=
-    box-sizing: border-box; background: no-repeat center/var(--BamSize) var(--BamImg); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  position: relative; left: 60px;
+    box-sizing: border-box; background: no-repeat center/var(--BamSize) var(--BamImg); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  margin: auto;
     display: flex; justify-content: space-evenly; flex-flow: column nowrap;]
     [div=/*ANCHOR - Gender */
     mask: no-repeat center/85% var(--BamGender); background-color: var(--femaleC); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
@@ -464,9 +464,9 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
 aspect-ratio: 1; width: var(--cellWidth); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);;
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
-mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--KasPrimType) 50%, var(--KasSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 0; transform: rotate(15deg); left: 55px;][/div]
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--KasPrimType) 50%, var(--KasSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
 [div=
-    box-sizing: border-box; background: no-repeat center/var(--KasSize) var(--KasImg); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  position: relative; left: 60px;
+    box-sizing: border-box; background: no-repeat center/var(--KasSize) var(--KasImg); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  margin: auto;
     display: flex; justify-content: space-evenly; flex-flow: column nowrap;]
     [div=/*ANCHOR - Gender */
     mask: no-repeat center/85% var(--KasGender); background-color: var(--maleC); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
