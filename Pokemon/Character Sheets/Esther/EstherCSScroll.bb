@@ -63,6 +63,7 @@ line-height: 0px; color: var(--highlight-ter); background-color: var(--tab-bgc);
 [div=box-sizing: border-box;][goto=pokemon][fa]fa-solid fa-dragon[/fa] Pokemon[/goto][/div]
 [div=box-sizing: border-box;][goto=achievements][fa]fa-solid fa-award[/fa] Achievements[/goto][/div]
 [div=box-sizing: border-box;][goto=relationships][fa]fa-solid fa-chart-network[/fa] Relationships[/goto][/div]
+[div=box-sizing: border-box;][goto=timeline][fa]fa-solid fa-clock[/fa] Timeline[/goto][/div]
 [div=box-sizing: border-box;][goto=wardrobe][fa]fa-solid fa-shirt[/fa] Wardrobe[/goto][/div]
 [/div][/div][comment]/*!SECTION */ [/comment]
 
@@ -108,9 +109,15 @@ background-color: var(--tab-bgc); border: var(--tab-border);]
 [div=color: var(--highlight-prim); font-size: var(--fs-h1); font-family: var(--h1-font); font-weight: bold;][a=personality]Personality[/a][/div]
 [div=color: var(--highlight-prim); font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold;]3w4[/div]
 [div=box-sizing: border-box; overflow: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; margin: 0 auto; height: 275px;]
-Venturing out from the long-forgotten region of Oblivia, Esther is the picture of small-town farm girl in a big city world…if said farm-girl was goth and had satisfied her curiosity about the wider world through a crippling internet addiction. Eh, close enough, yea?
-With eclectic interests, Esther ranges far in wide: Gym Battles, Contests, Tournaments, and into the Great Unknown. In the pursuit of her own exuberant curiosity and putting Oblivia’s name on the map, any and everything that catches Esther’s eye is given 110%.
+If the essence of a burned-out fire could be pressed into human form, it might look a lot like Esther: a veil of ashen goth wrapped around a smoldering core.
 
+Once a wildfire of a child—untamed and possessed of a fierce, self-destructive energy—she has since learned to take that heat and transform it into brilliance. The Esther of today is a charming young lady whose steady warmth betrays a tendency for flare-ups and dramatics.
+
+Esther thrives in motion beneath adoring gazes. She dreams big, strides bigger, and pursues her goals with a joy that borders on hunger. For Esther, nothing beats the thrill—the thrill of battle, the thrill of performance, the thrill of a audience who’s excitement threatens to consume her—these are the moments she lives for, the moments that ignite her blood like nothing else.
+
+At her core, Esther craves adoration—from friends, from family, from community—and views personal excellence as the surest path to it. To inspire, to entertain, to leave an audience brighter than she found them—these are her measures of worth. She does not beg for attention; rather, she believes recognition should be the natural consequence of her worth. Those who fail to see it, she deems unworthy of her energy. 
+
+Beneath the poise and pride lies a girl who fears rejection, one who believes love must be earned and whose stubborn insecurities push her to ever-grander ambitions.
 [/div]
 [/div][comment]/*!SECTION */ [/comment]
 [div= /* SECTION 3 - Backstory */
@@ -121,22 +128,30 @@ background-color: var(--tab-bgc); border: var(--tab-border);]
 [div=color: var(--highlight-prim); font-size: var(--fs-h1); font-family: var(--h1-font); font-weight: bold;][a=history]Backstory[/a][/div]
 [div=box-sizing: border-box; overflow: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; margin: 0 auto; height: 275px;]
 [div=color: var(--highlight-prim); font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold;]Esther Backstory[/div]
-Esther was a rambunctious child, born between two siblings and with enough energy to be three handfuls all by herself. She was raised on a bug-farm where her early days were spent learning the fundamentals of her family’s livelihood: apiculture & sericulture. 
-Oblivia was a small region with an even smaller population. The community came together to divvy out all the region’s needs: silk for clothes and honey for sweetness, those were the domain of Esther’s family and every hand, from as young as they could manage, was expected to do its fair share. Growing up with responsibilities, Esther learned to be diligent, but she also learned to shirk work like the best of them.
-Work hard, play hard. 
-Whenever she could, Esther made a nuisance of herself; boundless curiosity led her to explore the forest and water ways around her hometown, locations she—on more than one occasion—had been told were off-limits. Esther never paid their warnings any mind. She had a keen sense—call it intuition—for the Pokémon of the forest and could spot a bad mon from a mile off, long before they could pose any harm.
-Harmless as it may have been, her antics weren’t appreciated. However, Esther didn’t mind. Mischief was one of the few ways she could monopolize the attention of her parents who were otherwise hard at work or splitting their time between three kids and a bevy of Pokémon. 
-A life of mischief and delinquency was assured but for the intervention of Esther’s grandmother—a waspish, exacting old crone, all too sprightly for her age—who resided in Sinnoh but made the effort to visit her Oblivian family every handful of years. She became Esther’s guiding light, a force of positive transformation who took the girl underwing and taught her to channel her energies in ways that were…productive. That was how Esther found her first love—dance (Or maybe it was her second love after Pokémon, or third after delicious food, or…).
-Festival dance become the medium through which Esther burned off her excess energy, earned the attention of her parents, and the admiration of her community at large. By the time Esther was in her late teens, she’d gone from just dancing in Festivals to organizing them and even running a dance class for the younger kids.
-But Esther’s life wasn’t an unbroken line from delinquency to pillar of the community. When she’d but barely graduated from pull-up diapers, Oblivia faced attack by the Societea. Too young to have really understood what had happened, Esther only really remembers the blinding lights of the Sky Fortress’ canon and the oppressively depressive mood that had hung around the region in the months and years afterwards A mood that then Esther desperately tried to avoid with more ‘exploration’.
-Yet even her unsanctioned jaunts into the forest couldn’t provide reprieve. The Pokémon of Sophia Island, many of whom had suffered under the Societea’s Pokémon Pinchers, were just as—if not more so—traumatized and, as a result, aggressive.
-While Esther’s ‘intuition’—that sixth sense which prickled down her back and alerted the young girl to malice and those who would do her harm—allowed her to evade the worst of harm, she bore witness to the sequelae of unrest. Pokémon lashed out; their fear & anger turned against not only the residents of Aqua Resort but also each other, a cycle of self-perpetuating violence. 
-[div=color: var(--highlight-prim); font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold;]Region Backstory[/div]
-The Oblivia region. A minor region forgotten by the world; an archipelago of islands, once seven strong; a paradise of peaceful and idyllic tranquility.
-Oblivia is a region obscured by distance, culturally and technologically divorced from the world at large. Pokéballs? Pokémon Trainers? Oblivia had never experienced things like that—at least, not in the sense of the sensationalized super-sport that swept up the world’s major regions. Oblivia—along with sister-regions Almia and Fiore—developed a distinctly different relationship with Pokémon, one without the Pokéball, where the bond between human and Pokémon was the only thing to tied them together. How and why this came to be has puzzled researchers and still does to this very day.
-Maybe it was because the people of these regions were somehow more peaceful and docile, maybe the thrills of battle simply failed to enthrall them as it had with other regions? Maybe it was because Silph Co.—the corporate behemoth behind the development of the Pokéball, Potion, and other avant-garde technologies—had spurned the regions, and their flagship products had never been widely distributed; in turn, making it difficult for trainers to make footholds in these regions. Maybe it was some other factor. And maybe it was a combination of factors. Whatever the case may be, to this day the people of Oblivia, Almia, and Fiore live and bond with Pokémon in their own way.
-A marvel of ancient technology and thought to be the precursor to the modern ranger’s capture stylus, Oblivia is home to the Steelhead Armor. Mystical armor sets which allow their user to project their aura and emotions towards Pokémon to bond with or control them. Once thought lost, these armor sets reappeared when the Societea and their Pokémon Pinchers pilfered the region in search of the Golden Armor. This enhanced armor-set is rumored to not only be capable of controlling legendary Pokémon but also grant its wearer immortality. 
-Although the Societea were repelled by rangers from Almia, it wasn’t before the total destruction of Dolce Island, an event that left a lasting scar on the region and its population…
+The Oblivia region. A minor region forgotten by the world; an archipelago of islands, once seven strong; a paradise of peace and idyllic tranquillity.
+
+Oblivia is a region obscured by distance; culturally and technologically divorced from the world at large. Pokéballs? Pokémon Trainers? Oblivia had never experienced things like that—at least, not in the sense of the sensationalized super-sport that swept up the world’s major regions. Along with sister-regions Almia & Fiore, Oblivia developed a distinctly different relationship with Pokémon, one without the Pokéball, one where the bond between human and Pokémon was the only thing that tied them together. How and why this came to be has puzzled researchers and still does to this very day.
+
+In such a peaceful region, Esther was born the incarnation of chaos—set between two siblings and with enough energy to be three handfuls all on her own. The Sophys’ were a family of bug-farmers and Esther’s earliest memories were of the buggy hum of wings, sweet honey treats and soft silken blankets. She grew to learn the family’s twin trades of apiculture and sericulture—the ply of honey & silk—for in Oblivia’s small, tightly knit community, every household carried its share of the region’s needs—silk for clothes, honey for sweetness—and every hand, from as young as it could manage, was put to work. Esther learned diligence early and just a quickly… how to shirk work like the best of them. Work hard, play hard.
+
+She was scarcely four winters when everything changed—the Societea. They were drawn by whisper from the past; legends of artefacts that controlled pokemon and bestowed immortality. The criminal group and their Pokemon Pinchers swept through the region neigh unchallenged, stymied in the end by the intervention of rangers from Almia.
+
+For all the ranger’s heroism, Oblivia was not left unscarred. Esther was much too young to grasp just how close her region came to annihilation, but she vividly remembers the shudder of the land, the deafening whir of ancient gears, the blinding lights, and the complete vaporization of Dolce Islands.
+
+In the months that followed Oblivia grappled with its collective mortality, a fearful reflection of what once was and what could have been. The Societea hadn’t just harmed the region physically, they had done so psychologically: once an open and welcoming region, content with their little corner of the world, the citizens of Oblivia grew watchful and weary. The Societea had, after all, not shown up from the blue. They had lived among the Oblivians, eaten in their homes, played with their children—by the dark Distortion World, the region’s singular doctor had led the whole cabal! The backlash from this betrayal bordered on xenophobic.
+Esther couldn’t put a name to that malaise that swamped the region but to her it was more dreadful than the Societea themselves. Soon she found herself wandering—into forests and through waterways—drawn away from the oppressive air of the village an into the teeming biomes where Pokemon ran free.
+
+Of course, such places were forbidden—especially to children. The terrain untamed, the Pokemon wild. Yet, for all the dangers they supposedly held, none ever seemed capable of deterring Esther. She held a keen intuition—a sixth sense for danger: goosebumps on her skin, a queasiness in her gut, the faintest tell that something nearby would do her ill. Esther learned to trust that sense and the more success her expeditions saw, the less she heeded concerned elders.
+
+Her parents, splitting time between the farm, three children, a host of pokemon, and the very real changes that arose from the near-destruction of one’s home, rarely had the time or energy for Esther or her antics. At their wits end, they called in the cavalry—Grandma.
+
+A waspish, exacting old crone—all too sprightly for her years—and hailing all the way from Sinnoh. Not a woman to be trifled with, her grandmother’s arrival marked a turning point in Esther’s life. She took the child under wing, channeling the girl’s endless energy into activities more...productive. Thus Dance became Esther’s outlet—her first love (Or maybe it was her second love after Pokémon, or third after delicious food, or…).
+
+Once a staple of Oblivian life, the festivals that had depressed to the wayside returned with Esther front and center. More than celebrations, these festivals became a means to shed the doom and gloom that permeated the region and for Esther, they became her everything. Once only a means to burn off some energy, Esther swiftly discovered a taste for something more: the thrill of the crowd. People who’d once decried her a problem child now turned on her with eyes eager and adoring. It had been Esther’s first performance and she was addicted. Adoration, she realized, was not given it was earned—or more truthfully—taken.
+
+By her late teens Esther had grown from performer to choreographer, from participant to organizer. She had a finger in the organization of every event and had even started up a dance-class for the younger children. Once a “difficult & delinquent” child, she was now a pillar of the community—a community on the verge of transformation.
+
+These days Oblivia seeks to push beyond its scars and yet… there is no chorus of voices, no unified way forward. Instead a thousand opinions argue a thousand futures and Esther is determined hers should be among them.
 [/div]
 [/div][comment]/*!SECTION */ [/comment]
 [div= /* SECTION 4 - Bag */
@@ -803,7 +818,18 @@ background-color: var(--tab-bgc); border: var(--tab-border);]
 [div=box-sizing: border-box; overflow: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; margin: 0 auto; height: 275px;]
 Under Construction
 [/div][/div][comment]/*!SECTION */ [/comment]
-[div= /* SECTION 8 - Wardrobe */
+[div= /* SECTION 8 - Timeline */
+box-sizing: border-box; padding: var(--tab-padding); overflow: hidden; margin: auto;
+ 
+width: var(--tab-width); min-height: var(--tab-height); white-space: break-spaces;  line-height: 1;
+background-color: var(--tab-bgc); border: var(--tab-border);]
+[div=color: var(--highlight-prim); font-size: var(--fs-h1); font-family: var(--h1-font); font-weight: bold;][a=timeline]Timeline[/a][/div]
+[div=box-sizing: border-box; overflow: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; margin: 0 auto; height: 275px;]
+Under Construction
+[/div]
+[/div]
+[/div][comment]/*!SECTION */ [/comment]
+[div= /* SECTION 9 - Wardrobe */
 box-sizing: border-box; padding: var(--tab-padding); overflow: hidden; margin: auto;
  
 width: var(--tab-width); min-height: var(--tab-height); white-space: break-spaces;  line-height: 1;
