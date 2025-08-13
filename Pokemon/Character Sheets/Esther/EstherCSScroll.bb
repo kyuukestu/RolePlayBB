@@ -52,7 +52,7 @@ overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) tran
 [div=
 /* SECTION - Table of Contents */
 width: 350px; height: 375px; border: var(--cover-border); 
-margin: -12.5% auto 0 auto; padding: 10px;
+margin: -12.5% auto 0 auto; padding: 10taste (dust in the air)px;
 line-height: 0px; color: var(--highlight-ter); background-color: var(--tab-bgc); font-family: var(--h2-font); font-size: var(--fs-h2);]
 [div=box-sizing: border-box; font-size: var(--fs-h2); font-family: var(--h1-font); margin: 0 auto;][fa]fa-solid fa-list[/fa] Table of Contents[/div]
 [div=padding: 15px; overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; display: flex; flex-flow: column nowrap; justify-content: space-between; align-items: start; gap: 5px; margin: auto; width: 90%;]
@@ -134,7 +134,7 @@ Oblivia is a region obscured by distance; culturally and technologically divorce
 
 In such a peaceful region, Esther was born the incarnation of chaos—set between two siblings and with enough energy to be three handfuls all on her own. The Sophys’ were a family of bug-farmers and Esther’s earliest memories were of the buggy hum of wings, sweet honey treats and soft silken blankets. She grew to learn the family’s twin trades of apiculture and sericulture—the ply of honey & silk—for in Oblivia’s small, tightly knit community, every household carried its share of the region’s needs—silk for clothes, honey for sweetness—and every hand, from as young as it could manage, was put to work. Esther learned diligence early and just a quickly… how to shirk work like the best of them. Work hard, play hard.
 
-She was scarcely four winters when everything changed—the Societea. They were drawn by whisper from the past; legends of artefacts that controlled pokemon and bestowed immortality. The criminal group and their Pokemon Pinchers swept through the region neigh unchallenged, stymied in the end by the intervention of rangers from Almia.
+She was scarcely four winters when everything changed—the Societea. They were drawn by whisper from the past; legends of artifacts that controlled pokemon and bestowed immortality. The criminal group and their Pokemon Pinchers swept through the region neigh unchallenged, stymied in the end by the intervention of rangers from Almia.
 
 For all the ranger’s heroism, Oblivia was not left unscarred. Esther was much too young to grasp just how close her region came to annihilation, but she vividly remembers the shudder of the land, the deafening whir of ancient gears, the blinding lights, and the complete vaporization of Dolce Islands.
 

@@ -208,7 +208,7 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 /*!SECTION - Pokémon End */
 
 ] 
-[div=flex: 20%; display: flex; flex-flow: column; max-height: 100vh; min-width: 20px; position: relative;]
+[div=flex: 20%; display: flex; flex-flow: column; max-height: 100vh; min-width: 20px; width: 80%; position: relative;]
 
 
 [div=/*SECTION - Pokémon Bar */
@@ -518,7 +518,7 @@ flex: 1; line-height: 0;]
 [div=display: flex; margin-bottom: 12px; padding: 10px 20px; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); color: var(--accent-c);  backdrop-filter: brightness(0.5);] 
     [div=background: var(--summary-bg); border: 1px solid #b71c1c; border-radius: 50%; padding: 10px; height: 50px; aspect-ratio: 1; display: flex; justify-content: center; align-items: center;][fa]fa fa-user-group [/fa][/div]
     [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;]
-        
+        Hristo (@Rustic)
     [/div] 
 [/div]
 [comment]-- Font -->[font=Alata]:z[/font][/comment][border=0;
@@ -749,7 +749,7 @@ overflow: hidden;][comment]
 [/div] 
 [/div] 
 
-[div=background: var(--post-bg); border: 2px solid linear-gradient(to right, var(--esther-c), #87CEEB); padding: 25px; line-height: 1.6; min-height: 200px; max-height: 70vh; overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); font-family: var(--B-font); font-size: var(--fs-B); width: 100%;] 
+[div=background: var(--post-bg); border: 2px solid linear-gradient(to right, var(--esther-c), #87CEEB); padding: 25px; line-height: 1.6; min-height: 200px; max-height: 70vh; overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); font-family: var(--B-font); font-size: var(--fs-B); width: 100%; white-space: collapse;] 
 Lorem ipsum dolor sit amet,
 consectetur adipiscing elit. Nullam et odio a ante pellentesque pretium. Integer
 venenatis ex non ipsum malesuada euismod sit amet ut ante. Duis posuere diam sit
