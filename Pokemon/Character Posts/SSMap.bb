@@ -6,7 +6,7 @@
 [div=position: absolute; top: 220px; left: 315px; width: fit-content; aspect-ratio: 1; color: rgb(235, 52, 122);][fa]fa-slab fa-wand-sparkles[/fa][/div]
 [div=position: absolute; top: 382px; left: 206px; width: fit-content; aspect-ratio: 1; color: #98FB98;][fa]fa-solid fa-glasses-round[/fa][/div]
 [div=position: absolute; top: 295px; left: 304px; width: fit-content; aspect-ratio: 1; color: #2C82C9;][fa]fa-solid fa-book-open-reader[/fa][/div]
-[div=display: none; position: absolute; top: 220px; left: 335px; width: fit-content; aspect-ratio: 1; color: #FFC0CB;][fa]fa-solid fa-heart[/fa][/div]
+[div=position: absolute; top: 360px; left: 206px; width: fit-content; aspect-ratio: 1; color: #FFC0CB;][fa]fa-solid fa-heart[/fa][/div]
 [/div]
 
 [div=width: 50%; border-bottom: 3px inset #C0C0C0; margin: 0 auto; text-align: center;]Legend[/div]
@@ -53,7 +53,7 @@
 [td][div=text-align: center;]???[/div][/td]
 [/tr]
 [tr]
-[td][div=text-align: center;]??? | @LustrousFox [/div][/td]
+[td][div=text-align: center;] Chiron | @LustrousFox [/div][/td]
 [td][div=display: flex; justify-content: center; color: #FFC0CB;][fa]fa-solid fa-heart[/fa][/div][/td]
 [td][div=text-align: center;]National Park - Route 35[/div][/td]
 [/tr]

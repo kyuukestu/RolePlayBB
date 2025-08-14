@@ -214,13 +214,12 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 [div=/*SECTION - Pokémon Bar */
 visibility: visible; box-sizing: border-box; width: 95%; height: 250px; line-height: 0;
 -webkit-backdrop-filter: brightness(0.5); backdrop-filter: brightness(0.5); background-color: transparent; display: flex; 
-overflow-y: scroll; overflow-x: hidden; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; scroll-snap-type: y mandatory; -webkit-scroll-snap-type: y mandatory;
-justify-content: space-evenly; flex-flow: row wrap; gap: 15px; align-items: center; z-index: 1; margin: auto; font-family: var(--H2-font); color: #fff; font-weight: bold;
+overflow-y: scroll; overflow-x: hidden; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; scroll-snap-type: y mandatory; -webkit-scroll-snap-type: y mandatory; 
+justify-content: space-evenly; flex-flow: row wrap; gap: 15px; align-items: center; z-index: 1; margin: auto; font-family: var(--H2-font); color: #fff; font-weight: bold; margin-top: 25px;
 position: relative; padding: 10px;
 --pHeight: 150px;
---cellWidth: min(180px, 28%);
+--cellWidth: min(180px, 25%);
 --cellMax: 85%;
---pWidth: min(200px, 30%);
 --pMaxWidth: 20%;
 --p-micro: 20%;
 --chev-down-left: 5px;
@@ -499,7 +498,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
 
 [/div]
 
-[div=display: flex; flex-flow: row wrap; flex: 80%; width: 90%; padding: 20px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); max-height: 120vh; min-width: 200px; margin-bottom: 20px;]
+[div=display: flex; flex-flow: row wrap; flex: 80%; width: 90%; padding: 20px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); min-width: 200px; margin-bottom: 20px;]
 [div=display: flex; flex-flow: column nowrap; flex: 33%; padding: 10px;][div=width: fit-content; margin: auto; color: black; font-size: 10px;]Char Art AI Generated[/div]
 [div=/*SECTION -  Char Img *!SECTION */ 
 border: 2px double var(--esther-c); box-shadow: 0 0 8px var(--esther-c); aspect-ratio: 1; width: 80%; max-width: 250px; min-width: 100px; background: var(--essy-img); margin: auto;][/div][/div]
@@ -512,7 +511,7 @@ flex: 1; line-height: 0;]
     [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;] Moo Moo Farm -- R39 | Johto Region [/div] 
 [/div] 
 [div=display: flex; margin-bottom: 12px; padding: 10px 20px; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); color: var(--accent-c);  backdrop-filter: brightness(0.5);] 
-    [div=background: var(--summary-bg); border: 1px solid #b71c1c; border-radius: 50%; padding: 10px; height: 50px; aspect-ratio: 1; display: flex; justify-content: center; align-items: center;][fa]fa fa-clock [/fa][/div] 
+    [div=background: var(--summary-bg); border: 1px solid #b71c1c; border-radius: 50%; padding: 10px; height: 50px; aspect-ratio: 1; display: flex; justify-content: center; align-items: center; animation: fa-spin 10s linear infinite;][fa]fa fa-clock[/fa][/div] 
     [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;]August 15th, Monday – 10:30 A.M.[/div] 
     [/div] 
 [div=display: flex; margin-bottom: 12px; padding: 10px 20px; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); color: var(--accent-c);  backdrop-filter: brightness(0.5);] 
