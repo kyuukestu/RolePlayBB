@@ -220,6 +220,7 @@ position: relative; padding: 10px;
 --pHeight: 150px;
 --cellWidth: min(180px, 25%);
 --cellMax: 85%;
+--cellWMax: 30%;
 --pMaxWidth: 20%;
 --p-micro: 20%;
 --chev-down-left: 5px;
@@ -231,7 +232,7 @@ position: relative; padding: 10px;
 --cellRadius: 25% 0%;
 ]
 [div=/*SECTION - Pokémon Position 1 */
-aspect-ratio: 1; width: var(--cellWidth); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);; 
+aspect-ratio: 1; width: var(--cellWidth); max-width: var(--cellWMax); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius); 
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
 mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P1PrimType) 50%, var(--P1SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
@@ -260,7 +261,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [comment]/*!SECTION */[/comment]
 [/div][/div]
 [div=/*SECTION - Pokémon Position 2 */
-aspect-ratio: 1; width: var(--cellWidth); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);; 
+aspect-ratio: 1; width: var(--cellWidth); max-width: var(--cellWMax); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);; 
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
 mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P2PrimType) 50%, var(--P2SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
@@ -289,7 +290,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [comment]/*!SECTION */[/comment]
 [/div][/div]
 [div=/*SECTION - Pokémon Position 3 */
-aspect-ratio: 1; width: var(--cellWidth); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);;
+aspect-ratio: 1; width: var(--cellWidth); max-width: var(--cellWMax); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);;
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
 mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P3PrimType) 50%, var(--P3SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
@@ -318,7 +319,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [comment]/*!SECTION */[/comment]
 [/div][/div]
 [div=/*SECTION - Pokémon Position 4 */
-aspect-ratio: 1; width: var(--cellWidth); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);;
+aspect-ratio: 1; width: var(--cellWidth); max-width: var(--cellWMax); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);;
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
 mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P4PrimType) 50%, var(--P4SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
@@ -347,7 +348,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [comment]/*!SECTION */[/comment]
 [/div][/div]
 [div=/*SECTION - Pokémon Position 5 */
-aspect-ratio: 1; width: var(--cellWidth); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);;
+aspect-ratio: 1; width: var(--cellWidth); max-width: var(--cellWMax); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);;
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
 mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P5PrimType) 50%, var(--P5SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
@@ -376,7 +377,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [comment]/*!SECTION */[/comment]
 [/div][/div]
 [div=/*SECTION - Pokémon Position 6 */
-aspect-ratio: 1; width: var(--cellWidth); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);;
+aspect-ratio: 1; width: var(--cellWidth); max-width: var(--cellWMax); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);;
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
 mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P6PrimType) 50%, var(--P6SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
@@ -405,7 +406,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [comment]/*!SECTION */[/comment]
 [/div][/div]
 [div=/*SECTION - Pokémon Position 7 */
-aspect-ratio: 1; width: var(--cellWidth); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius); display: none;
+aspect-ratio: 1; width: var(--cellWidth); max-width: var(--cellWMax); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius); display: none;
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
 mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--PariPrimType) 50%, var(--PariSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
@@ -434,7 +435,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [comment]/*!SECTION */[/comment]
 [/div][/div]
 [div=/*SECTION - Pokémon Position 8 */
-aspect-ratio: 1; width: var(--cellWidth); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius); display: none;
+aspect-ratio: 1; width: var(--cellWidth); max-width: var(--cellWMax); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius); display: none;
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
 mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--BamPrimType) 50%, var(--BamSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
@@ -463,7 +464,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [comment]/*!SECTION */[/comment]
 [/div][/div]
 [div=/*SECTION - Pokémon Position 9 */
-aspect-ratio: 1; width: var(--cellWidth); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius); display: none;
+aspect-ratio: 1; width: var(--cellWidth); max-width: var(--cellWMax); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius); display: none;
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
 mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--KasPrimType) 50%, var(--KasSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
