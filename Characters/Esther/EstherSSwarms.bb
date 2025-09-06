@@ -406,7 +406,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [comment]/*!SECTION */[/comment]
 [/div][/div]
 [div=/*SECTION - Pokémon Position 7 */
-aspect-ratio: 1; width: var(--cellWidth); max-width: var(--cellWMax); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius); display: none;
+aspect-ratio: 1; width: var(--cellWidth); max-width: var(--cellWMax); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
 mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--PariPrimType) 50%, var(--PariSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
@@ -435,7 +435,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [comment]/*!SECTION */[/comment]
 [/div][/div]
 [div=/*SECTION - Pokémon Position 8 */
-aspect-ratio: 1; width: var(--cellWidth); max-width: var(--cellWMax); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius); display: none;
+aspect-ratio: 1; width: var(--cellWidth); max-width: var(--cellWMax); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
 mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--BamPrimType) 50%, var(--BamSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
@@ -464,7 +464,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [comment]/*!SECTION */[/comment]
 [/div][/div]
 [div=/*SECTION - Pokémon Position 9 */
-aspect-ratio: 1; width: var(--cellWidth); max-width: var(--cellWMax); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius); display: none;
+aspect-ratio: 1; width: var(--cellWidth); max-width: var(--cellWMax); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius); 
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
 mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--KasPrimType) 50%, var(--KasSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
@@ -513,7 +513,7 @@ flex: 1; line-height: 0;]
 [/div] 
 [div=display: flex; margin-bottom: 12px; padding: 10px 20px; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); color: var(--accent-c);  backdrop-filter: brightness(0.5);] 
     [div=background: var(--summary-bg); border: 1px solid #b71c1c; border-radius: 50%; padding: 10px; height: 50px; aspect-ratio: 1; display: flex; justify-content: center; align-items: center; animation: fa-spin 5s linear infinite;][fa]fa fa-clock[/fa][/div] 
-    [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;]August 15th, Monday – 10:30 A.M.[/div] 
+    [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;]August 15th, Monday – 10:30 A.M. -> 12:15 P.M.[/div] 
     [/div] 
 [div=display: flex; margin-bottom: 12px; padding: 10px 20px; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); color: var(--accent-c);  backdrop-filter: brightness(0.5);] 
     [div=background: var(--summary-bg); border: 1px solid #b71c1c; border-radius: 50%; padding: 10px; height: 50px; aspect-ratio: 1; display: flex; justify-content: center; align-items: center;][fa]fa fa-user-group[/fa][/div]
