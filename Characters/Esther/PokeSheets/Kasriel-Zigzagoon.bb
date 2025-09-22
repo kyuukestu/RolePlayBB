@@ -210,7 +210,7 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 /*!SECTION - Pokémon End */
 
 ] 
-[div=flex: 20%; display: flex; flex-flow: column; max-height: 100vh; min-width: 20px; width: 80%; position: relative;]
+[div=flex: 20%; display: none; flex-flow: column; max-height: 100vh; min-width: 20px; width: 80%; position: relative;]
 
 [div=/*SECTION - Pokémon Bar */
 visibility: visible; box-sizing: border-box; width: 95%; height: 250px; line-height: 0;

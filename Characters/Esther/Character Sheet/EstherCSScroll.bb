@@ -546,6 +546,7 @@ Headbutt
 Baby-Doll Eyes
 Pin Missile
 Rest
+Parting Shot
 [/div]
 [/div]
 [comment]/*!SECTION */ [/comment][/div]
@@ -595,6 +596,7 @@ Water Sport
 Bubble Beam
 Aqua Jet
 Hydro Pump
+Water Pulse - Learning (start: Aug 15th)
 [/div]
 [/div]
 [comment]/*!SECTION */ [/comment][/div]
@@ -639,7 +641,8 @@ Splash
 Captivate
 Hypnosis
 Mirror Coat
-Scale Shot – Learning
+Scale Shot – Learning (start: Aug 5th)
+Water Pulse - Learning (start: Aug 15th)
 [/div]
 [/div]
 [comment]/*!SECTION */ [/comment][/div]
