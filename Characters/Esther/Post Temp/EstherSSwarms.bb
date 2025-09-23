@@ -25,7 +25,7 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 
 /*ANCHOR - Font Sizes */
 --fs-H1: calc(var(--fs-B) * 1.5);
---fs-B: clamp(12px, calc(0.8em + 0.3vw), 1.3em);
+--fs-B: clamp(12px, calc(0.8em + 0.3dvw), 1.3em);
 --fs-H2: calc(var(--fs-B) * 0.67);
 
 /*ANCHOR - Font Family*/
@@ -208,7 +208,7 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 /*!SECTION - Pokémon End */
 
 ] 
-[div=flex: 20%; display: flex; flex-flow: column; max-height: 100vh; min-width: 20px; width: 80%; position: relative;]
+[div=flex: 20%; display: flex; flex-flow: column; max-height: 100dvh; min-width: 20px; width: 80%; position: relative;]
 
 
 [div=/*SECTION - Pokémon Bar */
@@ -376,7 +376,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [/div]
     [comment]/*!SECTION */[/comment]
 [/div][/div]
-[div=/*SECTION - Pokémon Position 6 */
+[div=/*SECTION - Pokémon Position 6 */ display: none;
 aspect-ratio: 1; width: var(--cellWidth); max-width: var(--cellWMax); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);;
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
@@ -434,7 +434,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [/div]
     [comment]/*!SECTION */[/comment]
 [/div][/div]
-[div=/*SECTION - Pokémon Position 8 */
+[div=/*SECTION - Pokémon Position 8 */ display: none;
 aspect-ratio: 1; width: var(--cellWidth); max-width: var(--cellWMax); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
@@ -463,7 +463,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [/div]
     [comment]/*!SECTION */[/comment]
 [/div][/div]
-[div=/*SECTION - Pokémon Position 9 */
+[div=/*SECTION - Pokémon Position 9 */ display: none;
 aspect-ratio: 1; width: var(--cellWidth); max-width: var(--cellWMax); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius); 
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
@@ -506,14 +506,14 @@ border: 2px double var(--esther-c); box-shadow: 0 0 8px var(--esther-c); aspect-
 
 [div=display: flex; gap: 15px; flex: 60%; align-items: center;] 
 [div=/*SECTION -  Info: Location, Time, Tags, Interactions, Mentions *!SECTION */
-flex: 1; line-height: 0;] 
+flex: 1; line-height: 0; max-width: 90dvw;] 
 [div=display: flex; margin-bottom: 12px; padding: 10px 20px; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); color: var(--accent-c);  backdrop-filter: brightness(0.5);] 
     [div=background: var(--summary-bg); border: 1px solid #b71c1c; border-radius: 50%; padding: 10px; height: 50px; aspect-ratio: 1; display: flex; justify-content: center; align-items: center;][fa]fa fa-map-location-dot[/fa][/div] 
     [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;] Moo Moo Farm -- R39 | Johto Region [/div] 
 [/div] 
 [div=display: flex; margin-bottom: 12px; padding: 10px 20px; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); color: var(--accent-c);  backdrop-filter: brightness(0.5);] 
     [div=background: var(--summary-bg); border: 1px solid #b71c1c; border-radius: 50%; padding: 10px; height: 50px; aspect-ratio: 1; display: flex; justify-content: center; align-items: center; animation: fa-spin 5s linear infinite;][fa]fa fa-clock[/fa][/div] 
-    [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;]August 15th, Monday – 12:15 P.M. -> 4:00 P.M.[/div] 
+    [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;]August 15th, Monday – 12:15 P.M. → 4:00 P.M.[/div] 
     [/div] 
 [div=display: flex; margin-bottom: 12px; padding: 10px 20px; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); color: var(--accent-c);  backdrop-filter: brightness(0.5);] 
     [div=background: var(--summary-bg); border: 1px solid #b71c1c; border-radius: 50%; padding: 10px; height: 50px; aspect-ratio: 1; display: flex; justify-content: center; align-items: center;][fa]fa fa-user-group[/fa][/div]
@@ -565,13 +565,13 @@ max-width: 500px;
 
 /* Left Text Variables */
 
---l-f-s: clamp(11px, 2.8vw, 1.1em); /* Font size, increase by increments of .1 */
+--l-f-s: clamp(11px, 2.8dvw, 1.1em); /* Font size, increase by increments of .1 */
 
 --l-f: 'Alata', sans-serif; /* Font family, change font tag above if you change this */
 
 /* Right Text Variables */
 
---r-f-s: clamp(11px, 2.8vw, 1.1em); /* Font size, increase by increments of .1 */
+--r-f-s: clamp(11px, 2.8dvw, 1.1em); /* Font size, increase by increments of .1 */
 
 --r-f: 'Alata', sans-serif;/* Font family, change font tag above if you change this */
 
@@ -749,7 +749,7 @@ overflow: hidden;][comment]
 [/div] 
 [/div] 
 
-[div=background: var(--post-bg); border: 2px solid linear-gradient(to right, var(--esther-c), #87CEEB); padding: 25px; line-height: 1.6; min-height: 200px; max-height: 70vh; overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); font-family: var(--B-font); font-size: var(--fs-B); width: 100%; white-space: collapse;] 
+[div=background: var(--post-bg); border: 2px solid linear-gradient(to right, var(--esther-c), #87CEEB); padding: 25px; line-height: 1.6; min-height: 200px; max-height: 70dvh; overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); font-family: var(--B-font); font-size: var(--fs-B); width: 100%; white-space: collapse;] 
 Lorem ipsum dolor sit amet,
 consectetur adipiscing elit. Nullam et odio a ante pellentesque pretium. Integer
 venenatis ex non ipsum malesuada euismod sit amet ut ante. Duis posuere diam sit

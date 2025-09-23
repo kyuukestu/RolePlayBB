@@ -1,8 +1,8 @@
-[comment][font=Winky Sans][font=Caprasimo][font=Aladin].[/font][/font][/font][/comment]
+[comment][font=Lexend Deca][font=Caprasimo][font=Aladin].[/font][/font][/font][/comment]
 [div=
 box-sizing: border-box;
 position: relative; z-index: 1; line-height: 1; margin: auto; padding: 3%; gap: 15px;
-width: min(80vw, 100%); height: min(450px, 85vh); font-family: var(--body-font);
+width: min(80vw, 100%); height: min(600px, 85vh); font-family: var(--body-font);
 display: flex; flex-flow: column nowrap;
 
 overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; scroll-snap-type: y mandatory; scroll-snap-align: center;
@@ -13,7 +13,7 @@ overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) tran
 --h2-bot-width: 100px;
 
 --tab-width: 100%;
---tab-height: 450px;
+--tab-height: 600px;
 
 --tab-top-offset: 13%;
 --tab-left-offset: 50px;
@@ -28,6 +28,9 @@ overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) tran
 
 --tab-bgc: #1a1a1a;
 --tab-border-c: #f00;
+
+--content-height: 75%;
+
 --esther-c: #f05656;
 --accent-c: var(--tab-border-c);
 
@@ -42,10 +45,10 @@ overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) tran
 
 --h1-font: Caprasimo;
 --h2-font: Aladin;
---body-font: Winky Sans;
+--body-font: Lexend Deca;
 ]
 [div=position: absolute; top: -20px; left: 0; visibility: hidden;][a=top]Top[/a][/div]
-[div=position: sticky; top: 85%; margin-left: 97.5%;][goto=top]
+[div=position: sticky; top: 85%; margin-left: 95%;][goto=top]
 [div=display: flex; flex-flow: column nowrap; align-items: center; justify-content: center;]
 [fa]fa-solid fa-arrow-up fa-2x[/fa][div=font-family: var(--h2-font); font-size: var(--fs-h2); width: 45px;]To Top[/div]
 [/div][/goto][/div]
@@ -108,7 +111,7 @@ width: var(--tab-width); min-height: var(--tab-height); white-space: break-space
 background-color: var(--tab-bgc); border: var(--tab-border);]
 [div=color: var(--highlight-prim); font-size: var(--fs-h1); font-family: var(--h1-font); font-weight: bold;][a=personality]Personality[/a][/div]
 [div=color: var(--highlight-prim); font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold;]3w4[/div]
-[div=box-sizing: border-box; overflow: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; margin: 0 auto; height: 275px;]
+[div=box-sizing: border-box; overflow: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; margin: 0 auto; height: var(--content-height);]
 If the essence of a burned-out fire could be pressed into human form, it might look a lot like Esther: a veil of ashen goth wrapped around a smoldering core.
 
 Once a wildfire of a child—untamed and possessed of a fierce, self-destructive energy—she has since learned to take that heat and transform it into brilliance. The Esther of today is a charming young lady whose steady warmth betrays a tendency for flare-ups and dramatics.
@@ -126,7 +129,7 @@ box-sizing: border-box; padding: var(--tab-padding); overflow: hidden; margin: a
 width: var(--tab-width); min-height: var(--tab-height); white-space: break-spaces;  line-height: 1;
 background-color: var(--tab-bgc); border: var(--tab-border);]
 [div=color: var(--highlight-prim); font-size: var(--fs-h1); font-family: var(--h1-font); font-weight: bold;][a=history]Backstory[/a][/div]
-[div=box-sizing: border-box; overflow: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; margin: 0 auto; height: 275px;]
+[div=box-sizing: border-box; overflow: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; margin: 0 auto; height: var(--content-height);]
 [div=color: var(--highlight-prim); font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold;]Esther Backstory[/div]
 The Oblivia region. A minor region forgotten by the world; an archipelago of islands, once seven strong; a paradise of peace and idyllic tranquillity.
 
@@ -160,7 +163,7 @@ box-sizing: border-box; padding: var(--tab-padding); overflow: hidden; margin: a
 width: var(--tab-width); min-height: var(--tab-height); white-space: break-spaces;  line-height: 1;
 background-color: var(--tab-bgc); border: var(--tab-border);]
 [div=color: var(--highlight-prim); font-size: var(--fs-h1); font-family: var(--h1-font); font-weight: bold;][a=inventory]Bag/Inventory[/a][/div]
-[div=box-sizing: border-box; overflow: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; margin: 0 auto; height: 275px; white-space: collapse;]
+[div=box-sizing: border-box; overflow: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; margin: 0 auto; height: var(--content-height); white-space: collapse;]
 [List=1]
 [*] PokéToy
 [*] PokéFlute
@@ -211,17 +214,16 @@ box-sizing: border-box; padding: var(--tab-padding); overflow: hidden; margin: a
 width: var(--tab-width); min-height: var(--tab-height); white-space: break-spaces;  line-height: 1;
 background-color: var(--tab-bgc); border: var(--tab-border);]
 [div=color: var(--highlight-prim); font-size: var(--fs-h1); font-family: var(--h1-font); font-weight: bold;][a=pokemon]Gambol Shroud (Pokémon)[/a][/div]
-[div=box-sizing: border-box; overflow: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; margin: 0 auto; height: 275px;]
 [div=/*SECTION – PokéBox Tab */ 
 box-sizing: border-box;
-height: 100%; width: 100%;
-display: flex; flex-flow: column nowrap;
-overflow-y: scroll; scrollbar-width: none;
+height: 85%; width: 100%;
+display: flex; flex-flow: column nowrap; align-items: center;
+overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent;
 
 --pokéShadow: drop-shadow(5px 0px 2px #353232);
 --p-size: 150%; --p-height: 50px;
 --mainHeight: clamp(300px, 85svh, 750px);
---card-w: 100%;
+--card-w: 85%;
 --card-r: 20px;
 --max-h: 250px;
 
@@ -235,80 +237,147 @@ overflow-y: scroll; scrollbar-width: none;
 --item-bg: no-repeat center/contain;
 
 /*ANCHOR Gender Images */
---male: #89CFF0; 
+--male: #89CFF0
+--maleC: #89CFF0; 
 --female: #F4C2C2;
+--femaleC: #F4C2C2;
+
 
 /*ANCHOR - Pyrrha */
---PyrImg: url(https://play.pokemonshowdown.com/sprites/gen5/jangmo-o.png);
+--PyrImg: url(https://www.smogon.com/forums/attachments/782-gif.369411/);
 --PyrPrimType: #A27EFA;
 --PyrSecType: #7D58D6;
 --PyrGender: var(--female);
+--PyrGenC: var(--femaleC);
 --PyrItem: url(https://archives.bulbagarden.net/media/upload/thumb/6/60/Dream_Everstone_Sprite.png/200px-Dream_Everstone_Sprite.png);
-
+--PyrBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--PyrSize: cover;
 /*ANCHOR - Halay-Alae */
---HalImg: url(https://play.pokemonshowdown.com/sprites/gen5/houndour.png);
+--HalImg: url(https://play.pokemonshowdown.com/sprites/gen5ani/houndour.gif);
 --HalPrimType: #A29288;
 --HalSecType: #9C531F;
 --HalGender: var(--female);
 --HalItem: url();
-
+--HalBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--HalSize: 53%;
 /*ANCHOR - Pari */
---PariImg: url(https://play.pokemonshowdown.com/sprites/gen5/munna.png);
+--PariImg: url(https://play.pokemonshowdown.com/sprites/gen5ani/munna.gif);
 --PariPrimType: #FA92B2;
 --PariSecType: #A13959;
 --PariGender: var(--female);
 --PariItem: url();
-
+--PariBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--PariSize: 50%;
 /*ANCHOR - Ciera */
---CieImg: url(https://play.pokemonshowdown.com/sprites/gen5/bounsweet.png);
+--CieImg: url(https://www.smogon.com/forums/attachments/761-gif.274544/);
 --CiePrimType: #A7DB8D;
 --CieSecType: #57913A;
 --CieGender: var(--female);
 --CieItem: url();
-
+--CieBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--CieSize: 45%;
 /*ANCHOR - L'Basseau */
---SusuImg: url(https://play.pokemonshowdown.com/sprites/gen5/surskit.png);
+--SusuImg: url(https://play.pokemonshowdown.com/sprites/gen5ani/surskit.gif);
 --SusuPrimType: #C6D16E;
 --SusuSecType: #506899;
 --SusuGender: var(--female);
 --SusuItem: url();
-
+--SusuBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--SusuSize: 50%;
 /*ANCHOR - Kasriel */
---KasImg: url(https://play.pokemonshowdown.com/sprites/gen5/zigzagoon-galar.png);
+--KasImg: url(https://www.smogon.com/forums/attachments/263_2-gif.284206/);
 --KasPrimType: #A29288;
 --KasSecType: #6D6D4E;
 --KasGender: var(--male);
 --KasItem: url();
-
+--KasBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--KasSize: 80%;
 /*ANCHOR - La Bamba */
---BamImg: url(https://play.pokemonshowdown.com/sprites/gen5/shellos-west.png);
+--BamImg: url(https://play.pokemonshowdown.com/sprites/gen5ani/shellos.gif);
 --BamPrimType: #9DB7F5;
 --BamSecType: #4A66AB;
 --BamGender: var(--female);
 --BamItem: url();
-
+--BamBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--BamSize: 33%;
 /*ANCHOR – Istha */
---IstImg: url(https://play.pokemonshowdown.com/sprites/gen5-shiny/feebas.png);
+--IstImg: url(https://play.pokemonshowdown.com/sprites/gen5ani-shiny/feebas.gif);
 --IstPrimType: #9DB7F5;
 --IstSecType: #4A66AB;
 --IstGender: var(--female);
 --IstItem: url();
-
+--IstBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--IstSize: 33%;
 /*ANCHOR – Jecroix */
---JeImg: url(https://play.pokemonshowdown.com/sprites/gen5/drifloon.png);
+--JeImg: url(https://play.pokemonshowdown.com/sprites/gen5ani/drifloon.gif);
 --JePrimType: #A284A2;
 --JeSecType: #58789B;
 --JeGender: var(--male);
---JeItem: url();]
+--JeItem: url();
+--JeBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--JeSize: 53%;
+/*ANCHOR - P1 */
+--P1Img: var(--PyrImg);
+--P1PrimType: var(--PyrPrimType);
+--P1SecType: var(--PyrSecType);
+--P1Gender: var(--PyrGender);
+--P1Item: var(--PyrItem);
+--P1Ball: var(--PyrBall);
+--P1Size: var(--PyrSize);
+/*ANCHOR - P2 */
+--P2Img: var(--HalImg);
+--P2PrimType: var(--HalPrimType);
+--P2SecType: var(--HalSecType);
+--P2Gender: var(--HalGender);
+--P2Item: var(--HalItem);
+--P2Ball: var(--HalBall);
+--P2Size: var(--HalSize);
+/*ANCHOR - P3 */
+--P3Img: var(--JeImg);
+--P3PrimType: var(--JePrimType);
+--P3SecType: var(--JeSecType);
+--P3Gender: var(--JeGender);
+--P3Item: var(--JeItem);
+--P3Ball: var(--JeBall);
+--P3Size: var(--JeSize);
+/*ANCHOR - P4 */
+--P4Img: var(--CieImg);
+--P4PrimType: var(--CiePrimType);
+--P4SecType: var(--CieSecType);
+--P4Gender: var(--CieGender);
+--P4Item: var(--CieItem);
+--P4Ball: var(--CieBall);
+--P4Size: var(--CieSize);
+/*ANCHOR - P5 */
+--P5Img: var(--SusuImg);
+--P5PrimType: var(--SusuPrimType);
+--P5SecType: var(--SusuSecType);
+--P5Gender: var(--SusuGender);
+--P5Item: var(--SusuItem);
+--P5Ball: var(--SusuBall);
+--P5Size: var(--SusuSize);
+/*ANCHOR - P6 */
+--P6Img: var(--IstImg);
+--P6PrimType: var(--IstPrimType);
+--P6SecType: var(--IstSecType);
+--P6Gender: var(--IstGender);
+--P6Item: var(--IstItem); 
+--P6Ball: var(--IstBall);
+--P6Size: var(--IstSize);
+
+]
 
 [div=/*SECTION - Pokémon Card Pyrrha */
 box-sizing: border-box; display: flex; flex-flow: row wrap; height: var(--max-h); width: var(--card-w); border: 4px inset var(--PyrPrimType);]
 [div=/*ANCHOR - Pokémon Display */ 
 box-sizing: border-box; display: flex; width: 20%; height: 100%; margin: auto; position: relative;]
-[div=/*ANCHOR  – Image */
-    box-sizing: border-box; background: no-repeat center/var(--p-size) var(--PyrImg); border: 2px solid transparent; border-radius: 50px; height: calc(1.5*var(--p-height)); aspect-ratio: 1; position: relative; filter: var(--pokéShadow); top: 33%; left: 22%; z-index: 2;][/div]
-[div=/*ANCHOR - Background */
-    box-sizing: border-box; background: var(--PyrPrimType); border-radius: 50%; height: calc(var(--p-height)/1.5); aspect-ratio: 3; position: absolute; top: 50%; left: 15%; border: 2px solid var(--PyrSecType); z-index: 1; margin: auto;]
+[div=aspect-ratio: 1; line-height: 0;
+padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
+[div=/*ANCHOR - Pokeball */
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--P1PrimType) 50%, var(--P1SecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
+[div=
+box-sizing: border-box; background: no-repeat center/var(--P1Size) var(--P1Img); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  margin: auto;
+    display: flex; justify-content: space-evenly; flex-flow: column nowrap;][/div]
 [/div]
 [/div]
 
@@ -355,10 +424,13 @@ Screech
 box-sizing: border-box; display: flex; flex-flow: row wrap; height: var(--max-h); width: var(--card-w); border: 4px inset var(--HalPrimType);]
 [div=/*ANCHOR - Pokémon Display */ 
 box-sizing: border-box; display: flex; width: 20%; height: 100%; margin: auto; position: relative;]
-[div=/*ANCHOR  – Image */
-    box-sizing: border-box; background: no-repeat center/var(--p-size) var(--HalImg); border: 2px solid transparent; border-radius: 50px; height: calc(1.5*var(--p-height)); aspect-ratio: 1; position: relative; filter: var(--pokéShadow); top: 33%; left: 22%; z-index: 2;][/div]
-[div=/*ANCHOR - Background */
-    box-sizing: border-box; background: var(--HalPrimType); border-radius: 50%; height: calc(var(--p-height)/1.5); aspect-ratio: 3; position: absolute; top: 50%; left: 15%; border: 2px solid var(--HalSecType); z-index: 1; margin: auto;]
+[div=aspect-ratio: 1; line-height: 0;
+padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
+[div=/*ANCHOR - Pokeball */
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--HalPrimType) 50%, var(--HalSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
+[div=
+box-sizing: border-box; background: no-repeat center/var(--HalSize) var(--HalImg); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  margin: auto;
+    display: flex; justify-content: space-evenly; flex-flow: column nowrap;][/div]
 [/div]
 [/div]
 
@@ -409,10 +481,13 @@ Beat Up
 box-sizing: border-box; display: flex; flex-flow: row wrap; height: var(--max-h); width: var(--card-w); border: 4px inset var(--PariPrimType);]
 [div=/*ANCHOR - Pokémon Display */ 
 box-sizing: border-box; display: flex; width: 20%; height: 100%; margin: auto; position: relative;]
-[div=/*ANCHOR  – Image */
-    box-sizing: border-box; background: no-repeat center/var(--p-size) var(--PariImg); border: 2px solid transparent; border-radius: 50px; height: calc(1.5*var(--p-height)); aspect-ratio: 1; position: relative; filter: var(--pokéShadow); top: 33%; left: 22%; z-index: 2;][/div]
-[div=/*ANCHOR - Background */
-    box-sizing: border-box; background: var(--PariPrimType); border-radius: 50%; height: calc(var(--p-height)/1.5); aspect-ratio: 3; position: absolute; top: 50%; left: 15%; border: 2px solid var(--PariSecType); z-index: 1; margin: auto;]
+[div=aspect-ratio: 1; line-height: 0;
+padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
+[div=/*ANCHOR - Pokeball */
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--PariPrimType) 50%, var(--PariSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
+[div=
+box-sizing: border-box; background: no-repeat center/var(--PariSize) var(--PariImg); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  margin: auto;
+    display: flex; justify-content: space-evenly; flex-flow: column nowrap;][/div]
 [/div]
 [/div]
 
@@ -456,10 +531,13 @@ Psybeam
 box-sizing: border-box; display: flex; flex-flow: row wrap; height: var(--max-h); width: var(--card-w); border: 4px inset var(--CiePrimType);]
 [div=/*ANCHOR - Pokémon Display */ 
 box-sizing: border-box; display: flex; width: 20%; height: 100%; margin: auto; position: relative;]
-[div=/*ANCHOR  – Image */
-    box-sizing: border-box; background: no-repeat center/var(--p-size) var(--CieImg); border: 2px solid transparent; border-radius: 50px; height: calc(1.5*var(--p-height)); aspect-ratio: 1; position: relative; filter: var(--pokéShadow); top: 33%; left: 22%; z-index: 2;][/div]
-[div=/*ANCHOR - Background */
-    box-sizing: border-box; background: var(--CiePrimType); border-radius: 50%; height: calc(var(--p-height)/1.5); aspect-ratio: 3; position: absolute; top: 50%; left: 15%; border: 2px solid var(--CieSecType); z-index: 1; margin: auto;]
+[div=aspect-ratio: 1; line-height: 0;
+padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
+[div=/*ANCHOR - Pokeball */
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--CiePrimType) 50%, var(--CieSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
+[div=
+box-sizing: border-box; background: no-repeat center/var(--CieSize) var(--CieImg); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  margin: auto;
+    display: flex; justify-content: space-evenly; flex-flow: column nowrap;][/div]
 [/div]
 [/div]
 
@@ -505,10 +583,13 @@ Magical Leaf
 box-sizing: border-box; display: flex; flex-flow: row wrap; height: var(--max-h); width: var(--card-w); border: 4px inset var(--KasPrimType);]
 [div=/*ANCHOR - Pokémon Display */ 
 box-sizing: border-box; display: flex; width: 20%; height: 100%; margin: auto; position: relative;]
-[div=/*ANCHOR  – Image */
-    box-sizing: border-box; background: no-repeat center/var(--p-size) var(--KasImg); border: 2px solid transparent; border-radius: 50px; height: calc(1.5*var(--p-height)); aspect-ratio: 1; position: relative; filter: var(--pokéShadow); top: 33%; left: 22%; z-index: 2;][/div]
-[div=/*ANCHOR - Background */
-    box-sizing: border-box; background: var(--KasPrimType); border-radius: 50%; height: calc(var(--p-height)/1.5); aspect-ratio: 3; position: absolute; top: 50%; left: 15%; border: 2px solid var(--KasSecType); z-index: 1; margin: auto;]
+[div=aspect-ratio: 1; line-height: 0;
+padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
+[div=/*ANCHOR - Pokeball */
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--KasPrimType) 50%, var(--KasSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
+[div=
+box-sizing: border-box; background: no-repeat center/var(--KasSize) var(--KasImg); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  margin: auto;
+    display: flex; justify-content: space-evenly; flex-flow: column nowrap;][/div]
 [/div]
 [/div]
 
@@ -555,10 +636,13 @@ Parting Shot
 box-sizing: border-box; display: flex; flex-flow: row wrap; height: var(--max-h); width: var(--card-w); border: 4px inset var(--SusuPrimType);]
 [div=/*ANCHOR - Pokémon Display */ 
 box-sizing: border-box; display: flex; width: 20%; height: 100%; margin: auto; position: relative;]
-[div=/*ANCHOR  – Image */
-    box-sizing: border-box; background: no-repeat center/var(--p-size) var(--SusuImg); border: 2px solid transparent; border-radius: 50px; height: calc(1.5*var(--p-height)); aspect-ratio: 1; position: relative; filter: var(--pokéShadow); top: 33%; left: 22%; z-index: 2;][/div]
-[div=/*ANCHOR - Background */
-    box-sizing: border-box; background: var(--SusuPrimType); border-radius: 50%; height: calc(var(--p-height)/1.5); aspect-ratio: 3; position: absolute; top: 50%; left: 15%; border: 2px solid var(--SusuSecType); z-index: 1; margin: auto;]
+[div=aspect-ratio: 1; line-height: 0;
+padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
+[div=/*ANCHOR - Pokeball */
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--SusuPrimType) 50%, var(--SusuSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
+[div=
+box-sizing: border-box; background: no-repeat center/var(--SusuSize) var(--SusuImg); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  margin: auto;
+    display: flex; justify-content: space-evenly; flex-flow: column nowrap;][/div]
 [/div]
 [/div]
 
@@ -605,10 +689,13 @@ Water Pulse - Learning (start: Aug 15th)
 box-sizing: border-box; display: flex; flex-flow: row wrap; height: var(--max-h); width: var(--card-w); border: 4px inset var(--IstPrimType);]
 [div=/*ANCHOR - Pokémon Display */ 
 box-sizing: border-box; display: flex; width: 20%; height: 100%; margin: auto; position: relative;]
-[div=/*ANCHOR  – Image */
-    box-sizing: border-box; background: no-repeat center/var(--p-size) var(--IstImg); border: 2px solid transparent; border-radius: 50px; height: calc(1.5*var(--p-height)); aspect-ratio: 1; position: relative; filter: var(--pokéShadow); top: 33%; left: 22%; z-index: 2;][/div]
-[div=/*ANCHOR - Background */
-    box-sizing: border-box; background: var(--IstPrimType); border-radius: 50%; height: calc(var(--p-height)/1.5); aspect-ratio: 3; position: absolute; top: 50%; left: 15%; border: 2px solid var(--IstSecType); z-index: 1; margin: auto;]
+[div=aspect-ratio: 1; line-height: 0;
+padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
+[div=/*ANCHOR - Pokeball */
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--IstPrimType) 50%, var(--IstSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
+[div=
+box-sizing: border-box; background: no-repeat center/var(--IstSize) var(--IstImg); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  margin: auto;
+    display: flex; justify-content: space-evenly; flex-flow: column nowrap;][/div]
 [/div]
 [/div]
 
@@ -651,10 +738,13 @@ Water Pulse - Learning (start: Aug 15th)
 box-sizing: border-box; display: flex; flex-flow: row wrap; height: var(--max-h); width: var(--card-w); border: 4px inset var(--BamPrimType);]
 [div=/*ANCHOR - Pokémon Display */ 
 box-sizing: border-box; display: flex; width: 20%; height: 100%; margin: auto; position: relative;]
-[div=/*ANCHOR  – Image */
-    box-sizing: border-box; background: no-repeat center/var(--p-size) var(--BamImg); border: 2px solid transparent; border-radius: 50px; height: calc(1.5*var(--p-height)); aspect-ratio: 1; position: relative; filter: var(--pokéShadow); top: 33%; left: 22%; z-index: 2;][/div]
-[div=/*ANCHOR - Background */
-    box-sizing: border-box; background: var(--BamPrimType); border-radius: 50%; height: calc(var(--p-height)/1.5); aspect-ratio: 3; position: absolute; top: 50%; left: 15%; border: 2px solid var(--BamSecType); z-index: 1; margin: auto;]
+[div=aspect-ratio: 1; line-height: 0;
+padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
+[div=/*ANCHOR - Pokeball */
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--BamPrimType) 50%, var(--BamSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
+[div=
+box-sizing: border-box; background: no-repeat center/var(--BamSize) var(--BamImg); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  margin: auto;
+    display: flex; justify-content: space-evenly; flex-flow: column nowrap;][/div]
 [/div]
 [/div]
 
@@ -704,10 +794,13 @@ Hidden Power {Poison}
 box-sizing: border-box; display: flex; flex-flow: row wrap; height: var(--max-h); width: var(--card-w); border: 4px inset var(--JePrimType);]
 [div=/*ANCHOR - Pokémon Display */ 
 box-sizing: border-box; display: flex; width: 20%; height: 100%; margin: auto; position: relative;]
-[div=/*ANCHOR  – Image */
-    box-sizing: border-box; background: no-repeat center/var(--p-size) var(--JeImg); border: 2px solid transparent; border-radius: 50px; height: calc(1.5*var(--p-height)); aspect-ratio: 1; position: relative; filter: var(--pokéShadow); top: 33%; left: 22%; z-index: 2;][/div]
-[div=/*ANCHOR - Background */
-    box-sizing: border-box; background: var(--JePrimType); border-radius: 50%; height: calc(var(--p-height)/1.5); aspect-ratio: 3; position: absolute; top: 50%; left: 15%; border: 2px solid var(--JeSecType); z-index: 1; margin: auto;]
+[div=aspect-ratio: 1; line-height: 0;
+padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
+[div=/*ANCHOR - Pokeball */
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--JePrimType) 50%, var(--JeSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
+[div=
+box-sizing: border-box; background: no-repeat center/var(--JeSize) var(--JeImg); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  margin: auto;
+    display: flex; justify-content: space-evenly; flex-flow: column nowrap;][/div]
 [/div]
 [/div]
 
@@ -753,14 +846,13 @@ Hypnosis
 
 [comment]/*!SECTION */ [/comment]
 [/div]
-[/div]
 [/div][comment]/*!SECTION */ [/comment]
 [div= /* SECTION 6 - Achievements */
 box-sizing: border-box; padding: var(--tab-padding); overflow: hidden; margin: auto;
 width: var(--tab-width); min-height: var(--tab-height); white-space: break-spaces;  line-height: 1;
 background-color: var(--tab-bgc); border: var(--tab-border);]
 [div=color: var(--highlight-prim); font-size: var(--fs-h1); font-family: var(--h1-font); font-weight: bold;][a=achievements]Achievements[/a][/div]
-[div=box-sizing: border-box; overflow: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; margin: 0 auto; height: 275px;]
+[div=box-sizing: border-box; overflow: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; margin: 0 auto; height: var(--content-height);]
 [div=color: var(--highlight-sec); font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold;]Badges[/div]
 [div=
 box-sizing: border-box; display: flex; flex-flow: column wrap; justify-content: center; align-items: center;]
@@ -818,28 +910,28 @@ box-sizing: border-box; padding: var(--tab-padding); overflow: hidden; margin: a
 width: var(--tab-width); min-height: var(--tab-height); white-space: break-spaces;  line-height: 1;
 background-color: var(--tab-bgc); border: var(--tab-border);]
 [div=color: var(--highlight-prim); font-size: var(--fs-h1); font-family: var(--h1-font); font-weight: bold;][a=relationships]Relationships[/a][/div]
-[div=box-sizing: border-box; overflow: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; margin: 0 auto; height: 275px;]
+[div=box-sizing: border-box; overflow: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; margin: 0 auto; height: var(--content-height);]
 Under Construction
 [/div][/div][comment]/*!SECTION */ [/comment]
+
 [div= /* SECTION 8 - Timeline */
 box-sizing: border-box; padding: var(--tab-padding); overflow: hidden; margin: auto;
  
 width: var(--tab-width); min-height: var(--tab-height); white-space: break-spaces;  line-height: 1;
 background-color: var(--tab-bgc); border: var(--tab-border);]
 [div=color: var(--highlight-prim); font-size: var(--fs-h1); font-family: var(--h1-font); font-weight: bold;][a=timeline]Timeline[/a][/div]
-[div=box-sizing: border-box; overflow: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; margin: 0 auto; height: 275px;]
+[div=box-sizing: border-box; overflow: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; margin: 0 auto; height: var(--content-height);]
 Under Construction
 [/div]
-[/div]
 [/div][comment]/*!SECTION */ [/comment]
+
 [div= /* SECTION 9 - Wardrobe */
 box-sizing: border-box; padding: var(--tab-padding); overflow: hidden; margin: auto;
  
 width: var(--tab-width); min-height: var(--tab-height); white-space: break-spaces;  line-height: 1;
 background-color: var(--tab-bgc); border: var(--tab-border);]
 [div=color: var(--highlight-prim); font-size: var(--fs-h1); font-family: var(--h1-font); font-weight: bold;][a=wardrobe]Wardrobe[/a][/div]
-[div=box-sizing: border-box; overflow: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; margin: 0 auto; height: 275px;]
+[div=box-sizing: border-box; overflow: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; margin: 0 auto; height: var(--content-height);]
 Under Construction
 [/div]
-[/div]
-[/div][comment]/*!SECTION */ [/comment]
+[/div][comment]/*!SECTION */ [/comment] [/div]
