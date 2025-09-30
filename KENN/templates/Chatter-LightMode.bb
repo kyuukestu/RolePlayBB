@@ -14,11 +14,18 @@ color: var(--main-text-c); font-family: var(--body-font);
 --name-font: Grenze Gotisch;
 --body-font: Lexend Deca;
 
-/* Character */
+/* Character Image Here */
 --char-img: url();
-/* Attachment Image - Leave Empty if no attachment */
---attachment-img: url();
---attachment: no-repeat 50% 20%/cover var(--attachment-img);
+
+/* Attachment Present? 
+If YES, change to flex. 
+If NO, change to none */
+--AttachmentPresent: none;
+
+/* Attachment Image -- Ensure to check the AttachmentPresent variable right above, if that's set to none then the attachment won't render */
+--attachment-img: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Airborne_imagery_Mt._Fuji_and_Tokyo_%284277464103%29.jpg/960px-Airborne_imagery_Mt._Fuji_and_Tokyo_%284277464103%29.jpg?20121231052055);
+
+--attachment: no-repeat 50% 20%/cover var(--attachment-img) var(--bg-color);
 
 --main-text-c: var(--spearow-black);
 --bg-color: #e0e0e0;
@@ -49,7 +56,7 @@ background-color: var(--spearow-red); border-radius: 20px;]Following[/div]
 [/div]
 
 [div=/*Anchor - Content Container */
-display: flex; flex-flow: column nowrap; height: 100%; justify-content: space-evenly;]
+display: flex; flex-flow: column nowrap; height: 75%; justify-content: space-evenly;]
 
 [div=/*ANCHOR - Post Header */
 display: flex; flex-flow: row wrap; gap: 2.5px; width: 90%; align-items: center; margin: auto;]
@@ -58,22 +65,31 @@ background: no-repeat center/contain var(--char-img); border-radius: 50%; width:
 [div=/*ANCHOR - Name Section*/ 
 display: flex; flex-direction: column; height: 75%; color: var(--spearow-red);]
 [div=/*ANCHOR - CHARACTER DISPLAY NAME */
-font-weight: bold; font-size: var(--h-fs); font-family: var(--name-font);]
-Display Name Here[/div]
+font-weight: bold; font-size: var(--h-fs); font-family: var(--name-font);]Display Name here[/div]
 [div=/*ANCHOR - CHARACTER HANDLE OR TAG */
-font-size: var(--b-fs); filter: brightness(0); opacity: 0.5; padding-left: 5px]@Handle Here[/div][/div]
+font-size: var(--b-fs); filter: brightness(0.8); opacity: 0.8; padding-left: 5px]@Handle here[/div][/div]
 
 [/div]
-[div=/*ANCHOR - Character Text/Message */
-font-size: var(--b-fs); max-height: 120px; width: 85%; margin: auto; overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--spearow-red) var(--spearow-black);]
+[div=/*ANCHOR - Character Text/Message */ 
+position: relative;
+font-size: var(--b-fs); height: 100%; max-height: min(65dvh, 300px); width: 85%; margin: 10px auto; overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--spearow-red) var(--spearow-black); padding: 10px;]
 lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae? lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae? lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae? lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae? lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae? lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae? 
+lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae? lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae? lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae? lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae? lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae? lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae? 
+END of TEXT
 
-[/div][/div]
-[div=/*ANCHOR - Attachment Section */
-background: var(--attachment); border-radius: 30px; height: min(40dvh, 45%); max-height: 175px; width: 80%; margin: auto; filter: blur(3px);][/div]
+[div=/*ANCHOR - Text Padding */
+background: var(--bg-color); height: min(40dvh, 45%); min-height: 0px; max-height: 175px; width: 100%; margin: auto; ][/div]
+[/div]
+[/div]
+
 [div=/*ANCHOR - Footer */
-max-height: 10%; width: 100%; font-size: var(--b-fs); filter: brightness(0); opacity: 0.5; ]
-3:00 PM - 15 August (Date & Time)
+position: relative;
+max-height: 10%; width: 100%; font-size: var(--b-fs);]
+[div=filter: brightness(0.8); opacity: 0.8;]3:00 PM - 15 August (Date & time)[/div]
+[div=/*ANCHOR - Attachment Section */
+display: var(--AttachmentPresent);
+position: absolute; z-index: 2; top: -180px; width: 100%; height: clamp(75px, max(35dvh, 45%), 165px); background: var(--bg-color);]
+[div=background: var(--attachment); border-radius: 15px; height: 100%; width: 80%; margin: auto; filter: blur(1.5px);][/div][/div]
 [/div]
 [div=/*ANCHOR - Interaction Icons */
 display: flex; flex-flow: column wrap; justify-content: space-evenly; align-items: center;

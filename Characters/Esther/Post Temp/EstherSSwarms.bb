@@ -12,8 +12,9 @@ background: var(--backdrop-bg);
 
 --essy-norm: no-repeat 50% 0%/cover url(https://i.imgur.com/mDaFSk0.png);
 --essy-farm: no-repeat 50% -10%/85% url(https://i.imgur.com/1pcaKHb.png);
+--essy-aviator: no-repeat 100% 5%/85% url(https://imgur.com/1mFtI5W.png);
 
---essy-img: var(--essy-farm);
+--essy-img: var(--essy-aviator);
 --scene-bg: url(https://static.zerochan.net/Pok%C3%A9mon.Gold...Silver.full.3220139.jpg);
 --backdrop-bg: no-repeat center/100% 100% var(--scene-bg);
 

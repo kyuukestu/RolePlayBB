@@ -12,8 +12,9 @@ background: var(--backdrop-bg);
 
 --essy-norm: no-repeat 50% 0%/cover url(https://i.imgur.com/mDaFSk0.png);
 --essy-farm: no-repeat 50% -10%/85% url(https://i.imgur.com/1pcaKHb.png);
+--essy-knight: no-repeat 100% 0%/100% url(https://imgur.com/7GwZLB8.png);
 
---essy-img: var(--essy-norm);
+--essy-img: var(--essy-knight);
 --scene-bg: url(https://i.imgur.com/YNL5YNa.jpeg);
 --backdrop-bg: no-repeat center/100% 100% var(--scene-bg);
 
@@ -34,13 +35,14 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 --B-font: Bellota;
 
 /*ANCHOR - Accent Colors */
---accent-c: #C00000; /*#B22;*/ 
---highlight-prim: #900;
+--accent-c: #5274B1; /* #C00000; */
+
+--highlight-prim: var(--accent-c);
 --highlight-sec: #fc0;
 --highlight-ter: #a86;
 --main-text-c: #e0e0e0;
 --tab-bgc: #1a1a1a;
---tab-border-c: #f00;
+--tab-border-c: var(--accent-c);
 
 --cover-border: 3px solid var(--highlight-prim);
 
@@ -375,7 +377,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [/div]
     [comment]/*!SECTION */[/comment]
 [/div][/div]
-[div=/*SECTION - Pokémon Position 6 */
+[div=/*SECTION - Pokémon Position 6 */ display: none;
 aspect-ratio: 1; width: var(--cellWidth); max-width: var(--cellWMax); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);;
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
@@ -404,7 +406,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [/div]
     [comment]/*!SECTION */[/comment]
 [/div][/div]
-[div=/*SECTION - Pokémon Position 7 */
+[div=/*SECTION - Pokémon Position 7 */ display: none;
 aspect-ratio: 1; width: var(--cellWidth); max-width: var(--cellWMax); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius); ;
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
@@ -433,7 +435,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [/div]
     [comment]/*!SECTION */[/comment]
 [/div][/div]
-[div=/*SECTION - Pokémon Position 8 */
+[div=/*SECTION - Pokémon Position 8 */ display: none;
 aspect-ratio: 1; width: var(--cellWidth); max-width: var(--cellWMax); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
@@ -501,23 +503,23 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
 [div=display: flex; flex-flow: row wrap; flex: 80%; width: 90%; padding: 20px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); min-width: 200px; margin-bottom: 20px;]
 [div=display: flex; flex-flow: column nowrap; flex: 33%; padding: 10px;][div=width: fit-content; margin: auto; color: black; font-size: 10px;]Char Art AI Generated[/div]
 [div=/*SECTION -  Char Img *!SECTION */ 
-border: 2px double var(--esther-c); box-shadow: 0 0 8px var(--esther-c); aspect-ratio: 1; width: 80%; max-width: 250px; min-width: 100px; background: var(--essy-img); margin: auto;][/div][/div]
+border: 2px double var(--accent-c); box-shadow: 0 0 8px var(--accent-c); aspect-ratio: 1; width: 80%; max-width: 250px; min-width: 100px; background: var(--essy-img); margin: auto;][/div][/div]
 
 [div=display: flex; gap: 15px; flex: 60%; align-items: center;] 
-[div=/*SECTION -  Info: Location, Time, Tags, Interactions, Mentions *!SECTION */
+[div=/*SECTION -  Info: Location, Date, Time, Tags, Interactions, Mentions *!SECTION */
 flex: 1; line-height: 0; max-width: 90dvw;] 
 [div=display: flex; margin-bottom: 12px; padding: 10px 20px; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); color: var(--accent-c);  backdrop-filter: brightness(0.5);] 
-    [div=background: var(--summary-bg); border: 1px solid #b71c1c; border-radius: 50%; padding: 10px; height: 50px; aspect-ratio: 1; display: flex; justify-content: center; align-items: center;][fa]fa fa-map-location-dot [/fa][/div] 
+    [div=background: var(--summary-bg); border: 1px solid var(--accent-c); border-radius: 50%; padding: 10px; height: 50px; aspect-ratio: 1; display: flex; justify-content: center; align-items: center;][fa]fa fa-map-location-dot [/fa][/div] 
     [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;] Loire de Fleuve Isle | Kalos Region [/div] 
 [/div] 
 [div=display: flex; margin-bottom: 12px; padding: 10px 20px; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); color: var(--accent-c);  backdrop-filter: brightness(0.5);] 
-    [div=background: var(--summary-bg); border: 1px solid #b71c1c; border-radius: 50%; padding: 10px; height: 50px; aspect-ratio: 1; display: flex; justify-content: center; align-items: center; animation: fa-spin 10s linear infinite;][fa]fa fa-clock[/fa][/div] 
-    [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;]August 6th, Saturday – 7:50 A.M.[/div] 
+    [div=background: var(--summary-bg); border: 1px solid var(--accent-c); border-radius: 50%; padding: 10px; height: 50px; aspect-ratio: 1; display: flex; justify-content: center; align-items: center; animation: fa-spin 10s linear infinite;][fa]fa fa-clock[/fa][/div] 
+    [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;]August 7th, Sunday – 8:30 A.M.[/div] 
     [/div] 
 [div=display: flex; margin-bottom: 12px; padding: 10px 20px; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); color: var(--accent-c);  backdrop-filter: brightness(0.5);] 
-    [div=background: var(--summary-bg); border: 1px solid #b71c1c; border-radius: 50%; padding: 10px; height: 50px; aspect-ratio: 1; display: flex; justify-content: center; align-items: center;][fa]fa fa-user-group [/fa][/div]
+    [div=background: var(--summary-bg); border: 1px solid var(--accent-c); border-radius: 50%; padding: 10px; height: 50px; aspect-ratio: 1; display: flex; justify-content: center; align-items: center;][fa]fa fa-user-group [/fa][/div]
     [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;]
-        Miles (@Merciless Medic)
+        indigo (@Takumi98) | Zelda  (@Takumi98)
     [/div] 
 [/div]
 [comment]-- Font -->[font=Alata]:z[/font][/comment][border=0;
