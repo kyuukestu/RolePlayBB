@@ -5,7 +5,7 @@ position: relative;
 height: min(650px, 110dvh); width: 90%;
 margin: 25px auto; padding: 15px 20px;
 border-radius: 16px; border: 2px solid var(--spearow-black);
-background-color: var(--bg-color);
+background-color: var(--bg-color); line-height: 0;
 box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 gap: 10px;
 color: var(--main-text-c); font-family: var(--body-font);
@@ -46,7 +46,7 @@ If NO, change to none */
 
 ]
 [div=/*ANCHOR - ICON + Follow Button*/
-position: absolute; right: 10px; top: 10px; height: 15%; display: flex; flex-flow: column; justify-content: space-between; align-items: center;]  
+position: absolute; right: 10px; top: 10px; height: 15%; display: flex; flex-flow: column; justify-content: space-between; align-items: center; line-height: 1;]  
 [div=/*ANCHOR - SPEAROW ICON */
 background: var(--spearow--gradient); 
 mask: no-repeat center/contain var(--spearow); -webkit-mask: no-repeat center/contain var(--spearow); 
@@ -65,7 +65,7 @@ display: flex; flex-flow: row wrap; gap: 2.5px; width: 90%; align-items: center;
 [div=/*ANCHOR - Character PFP/Image  */
 background: var(--char-img); border-radius: 50%; width: 120px; aspect-ratio: 1; border: 2px solid var(--spearow-red); padding: 10px;][/div]
 [div=/*ANCHOR - Name Section*/ 
-display: flex; flex-direction: column; height: 75%; color: var(--spearow-red);]
+display: flex; flex-direction: column; height: 75%; color: var(--spearow-red); line-height: 1;]
 [div=/*ANCHOR - CHARACTER DISPLAY NAME */
 font-weight: bold; font-size: var(--h-fs); font-family: var(--name-font);]Roxy~Rosana[/div]
 [div=/*ANCHOR - CHARACTER HANDLE OR TAG */
@@ -74,7 +74,7 @@ font-size: var(--b-fs); filter: brightness(0.8); opacity: 0.8; padding-left: 5px
 [/div]
 [div=/*ANCHOR - Character Text/Message */ 
 position: relative;
-font-size: var(--b-fs); height: 100%; max-height: min(65dvh, 300px); width: 85%; margin: 10px auto; overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--spearow-red) var(--spearow-black); padding: 10px;]
+font-size: var(--b-fs); height: 100%; max-height: min(65dvh, 300px); width: 85%; margin: 10px auto; overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--spearow-red) var(--spearow-black); padding: 10px; line-height: 1;]
 lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae? lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae? lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae? lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae? lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae? lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae? 
 lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae? lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae? lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae? lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae? lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae? lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae? 
 END of TEXT

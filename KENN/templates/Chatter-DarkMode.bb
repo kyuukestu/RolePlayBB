@@ -7,7 +7,7 @@ margin: 25px auto; padding: 15px 20px;
 border-radius: 16px; border: 2px solid var(--spearow-black);
 background-color: var(--bg-color);
 box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-gap: 10px;
+gap: 10px; line-height: 0;
 color: var(--main-text-c); font-family: var(--body-font);
 
 /* Fonts Here: Name Font is for the Display Name, body font is everything else */
@@ -44,7 +44,7 @@ If NO, change to none */
 
 ]
 [div=/*ANCHOR - ICON + Follow Button*/
-position: absolute; right: 10px; top: 10px; height: 15%; display: flex; flex-flow: column; justify-content: space-between; align-items: center;]  
+position: absolute; right: 10px; top: 10px; height: 15%; display: flex; flex-flow: column; justify-content: space-between; align-items: center; line-height: 1;]  
 [div=/*ANCHOR - SPEAROW ICON */
 background: var(--spearow--gradient); 
 mask: no-repeat center/contain var(--spearow); -webkit-mask: no-repeat center/contain var(--spearow); 
@@ -55,8 +55,8 @@ display: flex; justify-content: center; align-items: center;
 background-color: var(--spearow-red); border-radius: 20px;]Following[/div]
 [/div]
 
-[div=/*Anchor - Content Container */
-display: flex; flex-flow: column nowrap; height: 75%; justify-content: space-evenly;]
+[div=/*ANCHOR - Content Container */ 
+display: flex; flex-flow: column nowrap; height: 75%; justify-content: space-evenly; line-height: 1;]
 
 [div=/*ANCHOR - Post Header */
 display: flex; flex-flow: row wrap; gap: 2.5px; width: 90%; align-items: center; margin: auto;]
@@ -93,7 +93,7 @@ position: absolute; z-index: 2; top: -180px; width: 100%; height: clamp(75px, ma
 [/div]
 [div=/*ANCHOR - Interaction Icons */
 display: flex; flex-flow: column wrap; justify-content: space-evenly; align-items: center;
-font-size: var(--h-fs); color: var(--spearow-tan); 
+font-size: var(--h-fs); color: var(--spearow-tan); line-height: 1;
 height: 31.5px; width: 100%; max-width: 500px;
 margin: auto;]
 [fa]fa-solid fa-comment-dots[/fa][fa]fa-solid fa-retweet[/fa][fa]fa-solid fa-heart[/fa][fa]fa-solid fa-share[/fa][/div]

@@ -48,7 +48,7 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 
 
 /*ANCHOR - Character Colors */
---esther-c: #f05656;
+--esther-c: var(--accent-c); /* #f05656; */
 --shayan-c: #b22222;
 --parisa-c: #7fff00;
 --irisa-c: #663399;
@@ -519,7 +519,7 @@ flex: 1; line-height: 0; max-width: 90dvw;]
 [div=display: flex; margin-bottom: 12px; padding: 10px 20px; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); color: var(--accent-c);  backdrop-filter: brightness(0.5);] 
     [div=background: var(--summary-bg); border: 1px solid var(--accent-c); border-radius: 50%; padding: 10px; height: 50px; aspect-ratio: 1; display: flex; justify-content: center; align-items: center;][fa]fa fa-user-group [/fa][/div]
     [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;]
-        indigo (@Takumi98) | Zelda  (@Takumi98)
+        Vasya (@UnknowingLegion) | Miles (@Merciless Medic) | Zelda  (@Takumi98)
     [/div] 
 [/div]
 [comment]-- Font -->[font=Alata]:z[/font][/comment][border=0;

@@ -10,13 +10,18 @@ background: var(--backdrop-bg);
 --summary-bg: #2a2a2a; /* var(--dark-bg); */
 --post-border: var(--esther-c);
 
+/* ANCHOR -  Esther & BG Variables */
+--essy-img: var(--essy-aviator);
+--backdrop-bg: var(--mt-bg);
+
+
 --essy-norm: no-repeat 50% 0%/cover url(https://i.imgur.com/mDaFSk0.png);
 --essy-farm: no-repeat 50% -10%/85% url(https://i.imgur.com/1pcaKHb.png);
 --essy-aviator: no-repeat 100% 5%/85% url(https://imgur.com/1mFtI5W.png);
 
---essy-img: var(--essy-aviator);
---scene-bg: url(https://static.zerochan.net/Pok%C3%A9mon.Gold...Silver.full.3220139.jpg);
---backdrop-bg: no-repeat center/100% 100% var(--scene-bg);
+
+--mt-bg: no-repeat center/100% 100% url(https://i.redd.it/afrpdp9qsf081.jpg); 
+--farm-bg: no-repeat center/100% 100%  url(https://static.zerochan.net/Pok%C3%A9mon.Gold...Silver.full.3220139.jpg);
 
 
 
@@ -503,6 +508,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
 [div=display: flex; flex-flow: row wrap; flex: 80%; width: 90%; padding: 20px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); min-width: 200px; margin-bottom: 20px;]
 [div=display: flex; flex-flow: column nowrap; flex: 33%; padding: 10px;][div=width: fit-content; margin: auto; color: black; font-size: 10px;]Char Art AI Generated[/div]
 [div=/*SECTION -  Char Img *!SECTION */ 
+backdrop-filter: brightness(0.5);
 border: 2px double var(--esther-c); box-shadow: 0 0 8px var(--esther-c); aspect-ratio: 1; width: 80%; max-width: 250px; min-width: 100px; background: var(--essy-img); margin: auto;][/div][/div]
 
 [div=display: flex; gap: 15px; flex: 60%; align-items: center;] 
@@ -510,16 +516,16 @@ border: 2px double var(--esther-c); box-shadow: 0 0 8px var(--esther-c); aspect-
 flex: 1; line-height: 0; max-width: 90dvw;] 
 [div=display: flex; margin-bottom: 12px; padding: 10px 20px; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); color: var(--accent-c);  backdrop-filter: brightness(0.5);] 
     [div=background: var(--summary-bg); border: 1px solid #b71c1c; border-radius: 50%; padding: 10px; height: 50px; aspect-ratio: 1; display: flex; justify-content: center; align-items: center;][fa]fa fa-map-location-dot[/fa][/div] 
-    [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;] Moo Moo Farm -- R39 | Johto Region [/div] 
+    [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;] Ecruteak Outskirts -- R42 | Johto Region [/div] 
 [/div] 
 [div=display: flex; margin-bottom: 12px; padding: 10px 20px; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); color: var(--accent-c);  backdrop-filter: brightness(0.5);] 
     [div=background: var(--summary-bg); border: 1px solid #b71c1c; border-radius: 50%; padding: 10px; height: 50px; aspect-ratio: 1; display: flex; justify-content: center; align-items: center; animation: fa-spin 5s linear infinite;][fa]fa fa-clock[/fa][/div] 
-    [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;]August 15th, Monday – 12:15 P.M. → 4:00 P.M.[/div] 
+    [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;]August 15th, Monday - 7:00 P.M.[/div] 
     [/div] 
 [div=display: flex; margin-bottom: 12px; padding: 10px 20px; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); color: var(--accent-c);  backdrop-filter: brightness(0.5);] 
     [div=background: var(--summary-bg); border: 1px solid #b71c1c; border-radius: 50%; padding: 10px; height: 50px; aspect-ratio: 1; display: flex; justify-content: center; align-items: center;][fa]fa fa-user-group[/fa][/div]
     [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;]
-        Hristo (@Rustic) | Theodore (@Theo713)
+        Hristo (@Rustic) | Theodore (@Theo713) | Nakano (@Merciless Medic) | Wren (@Takumi98) | Mabel (@mimitchi) | Sebastian (@youngiiie)
     [/div] 
 [/div]
 [comment]-- Font -->[font=Alata]:z[/font][/comment][border=0;
@@ -750,7 +756,7 @@ overflow: hidden;][comment]
 [/div] 
 [/div] 
 
-[div=background: var(--post-bg); border: 2px solid linear-gradient(to right, var(--esther-c), #87CEEB); padding: 25px; line-height: 1.6; min-height: 200px; max-height: 70dvh; overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); font-family: var(--B-font); font-size: var(--fs-B); width: 100%; white-space: collapse;] 
+[div=backdrop-filter: brightness(0.2); border: 2px solid linear-gradient(to right, var(--esther-c), #87CEEB); padding: 25px; line-height: 1.6; min-height: 200px; max-height: 70dvh; overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); font-family: var(--B-font); font-size: var(--fs-B); width: 100%; white-space: collapse;] 
 Lorem ipsum dolor sit amet,
 consectetur adipiscing elit. Nullam et odio a ante pellentesque pretium. Integer
 venenatis ex non ipsum malesuada euismod sit amet ut ante. Duis posuere diam sit
