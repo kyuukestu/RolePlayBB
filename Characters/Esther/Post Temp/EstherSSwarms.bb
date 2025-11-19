@@ -11,13 +11,14 @@ background: var(--backdrop-bg);
 --post-border: var(--esther-c);
 
 /* ANCHOR -  Esther & BG Variables */
---essy-img: var(--essy-aviator);
+--essy-img: var(--essy-sporty);
 --backdrop-bg: var(--mt-bg);
 
 
 --essy-norm: no-repeat 50% 0%/cover url(https://i.imgur.com/mDaFSk0.png);
 --essy-farm: no-repeat 50% -10%/85% url(https://i.imgur.com/1pcaKHb.png);
 --essy-aviator: no-repeat 100% 5%/85% url(https://imgur.com/1mFtI5W.png);
+--essy-sporty: no-repeat 50% 0%/100% url(https://imgur.com/Tdk5ooF.png);
 
 
 --mt-bg: no-repeat center/100% 100% url(https://i.redd.it/afrpdp9qsf081.jpg); 
@@ -123,6 +124,14 @@ cursor: url(https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Bal
 --CieItem: url();
 --CieBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
 --CieSize: 45%;
+/*ANCHOR -  Bâquîle Nâva  */
+--NavaImg: url(https://play.pokemonshowdown.com/sprites/gen5ani/goomy.gif);
+--NavaPrimType: #A27EFA;
+--NavaSecType: #7D58D6;
+--NavaGender: var(--female);
+--NavaItem: url();
+--NavaBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--NavaSize: 60%;
 /*ANCHOR - L'Basseau */
 --SusuImg: url(https://play.pokemonshowdown.com/sprites/gen5ani/surskit.gif);
 --SusuPrimType: #C6D16E;
@@ -411,7 +420,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [/div]
     [comment]/*!SECTION */[/comment]
 [/div][/div]
-[div=/*SECTION - Pokémon Position 7 */
+[div=/*SECTION - Pokémon Position 7 */ display: none;
 aspect-ratio: 1; width: var(--cellWidth); max-width: var(--cellWMax); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);
 padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
@@ -498,6 +507,35 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [/div]
     [comment]/*!SECTION */[/comment]
 [/div][/div]
+[div=/*SECTION - Pokémon Position 10 */
+aspect-ratio: 1; width: var(--cellWidth); max-width: var(--cellWMax); max-height: var(--cellMax); line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius); 
+padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
+[div=/*ANCHOR - Pokeball */
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--NavaPrimType) 50%, var(--NavaSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
+[div=
+    box-sizing: border-box; background: no-repeat center/var(--NavaSize) var(--NavaImg); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  margin: auto;
+    display: flex; justify-content: space-evenly; flex-flow: column nowrap;]
+    [div=/*ANCHOR - Gender */
+    mask: no-repeat center/85% var(--NavaGender); background-color: var(--maleC); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
+    [div=/*ANCHOR - Held Item */
+    background: no-repeat center/85% var(--NavaItem) var(--bg-color); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
+    [div=/*ANCHOR - Pokeball */
+    background: no-repeat center/cover var(--NavaBall) var(--bg-color); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box;][/div]
+    [div=/*ANCHOR - Seals */
+    background: no-repeat center/cover var(--bg-color); border-radius: 50%; width: var(--p-micro); aspect-ratio: 1; box-sizing: border-box; transform: rotate(-90deg); position: relative;]
+    [div=position: absolute; right: var(--chev-up-right); top: var(--chev-up-top);][fa]fa fa-chevron-up fa-2x[/fa][/div]
+    [div=display: block; overflow-y: scroll; scrollbar-width: none; scroll-snap-type: y mandatory; height: var(--seal-size); aspect-ratio: 1; box-sizing: border-box;]
+        [div=background: no-repeat center/cover var(--StarSealD); height: 100%; aspect-ratio: 1; transform: rotate(90deg);][/div]
+        [div=background: no-repeat center/cover var(--CoolSealA); height: 100%; aspect-ratio: 1; transform: rotate(90deg);][/div]
+    [/div]
+    [div=position: absolute; left: var(--chev-down-left); bottom: var(--chev-down-bott);][fa]fa fa-chevron-down fa-2x[/fa][/div]
+    [/div]
+    [div=/*ANCHOR - Name */
+    margin: 0 auto; width: fit-content;]
+    Bâquîle Nâva
+    [/div]
+    [comment]/*!SECTION */[/comment]
+[/div][/div]
 
 
 
@@ -506,26 +544,26 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
 [/div]
 
 [div=display: flex; flex-flow: row wrap; flex: 80%; width: 90%; padding: 20px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); min-width: 200px; margin-bottom: 20px;]
-[div=display: flex; flex-flow: column nowrap; flex: 33%; padding: 10px;][div=width: fit-content; margin: auto; color: black; font-size: 10px;]Char Art AI Generated[/div]
+[div=display: flex; flex-flow: column nowrap; flex: 33%; padding: 10px; max-width: 400px;][div=width: fit-content; margin: auto; color: black; font-size: 10px;]Char Art AI Generated[/div]
 [div=/*SECTION -  Char Img *!SECTION */ 
 backdrop-filter: brightness(0.5);
 border: 2px double var(--esther-c); box-shadow: 0 0 8px var(--esther-c); aspect-ratio: 1; width: 80%; max-width: 250px; min-width: 100px; background: var(--essy-img); margin: auto;][/div][/div]
 
-[div=display: flex; gap: 15px; flex: 60%; align-items: center;] 
+[div=display: flex; gap: 15px; flex: 60%; align-items: center; width: 60%; max-width: 90dvw; min-width: 350px;] 
 [div=/*SECTION -  Info: Location, Time, Tags, Interactions, Mentions *!SECTION */
-flex: 1; line-height: 0; max-width: 90dvw;] 
+flex: 1; line-height: 0; width: 100%;] 
 [div=display: flex; margin-bottom: 12px; padding: 10px 20px; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); color: var(--accent-c);  backdrop-filter: brightness(0.5);] 
-    [div=background: var(--summary-bg); border: 1px solid #b71c1c; border-radius: 50%; padding: 10px; height: 50px; aspect-ratio: 1; display: flex; justify-content: center; align-items: center;][fa]fa fa-map-location-dot[/fa][/div] 
+    [div=background: var(--summary-bg); border: 1px solid var(--accent-c); border-radius: 50%; padding: 10px; height: 50px; aspect-ratio: 1; display: flex; justify-content: center; align-items: center;][fa]fa fa-map-location-dot[/fa][/div] 
     [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;] Ecruteak Outskirts -- R42 | Johto Region [/div] 
 [/div] 
 [div=display: flex; margin-bottom: 12px; padding: 10px 20px; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); color: var(--accent-c);  backdrop-filter: brightness(0.5);] 
-    [div=background: var(--summary-bg); border: 1px solid #b71c1c; border-radius: 50%; padding: 10px; height: 50px; aspect-ratio: 1; display: flex; justify-content: center; align-items: center; animation: fa-spin 5s linear infinite;][fa]fa fa-clock[/fa][/div] 
+    [div=background: var(--summary-bg); border: 1px solid var(--accent-c); border-radius: 50%; padding: 10px; height: 50px; aspect-ratio: 1; display: flex; justify-content: center; align-items: center; animation: fa-spin 5s linear infinite;][fa]fa fa-clock[/fa][/div] 
     [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;]August 15th, Monday - 7:00 P.M.[/div] 
     [/div] 
 [div=display: flex; margin-bottom: 12px; padding: 10px 20px; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); color: var(--accent-c);  backdrop-filter: brightness(0.5);] 
-    [div=background: var(--summary-bg); border: 1px solid #b71c1c; border-radius: 50%; padding: 10px; height: 50px; aspect-ratio: 1; display: flex; justify-content: center; align-items: center;][fa]fa fa-user-group[/fa][/div]
-    [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal;]
-        Hristo (@Rustic) | Theodore (@Theo713) | Nakano (@Merciless Medic) | Wren (@Takumi98) | Mabel (@mimitchi) | Sebastian (@youngiiie)
+    [div=background: var(--summary-bg); border: 1px solid var(--accent-c); border-radius: 50%; padding: 10px; height: 50px; aspect-ratio: 1; display: flex; justify-content: center; align-items: center;][fa]fa fa-user-group[/fa][/div]
+    [div=flex: 80%; text-align: center; display: flex; justify-content: center; align-items: center; font-family: var(--H2-font); line-height: normal; word-break: break-word; flex-wrap: wrap; ]
+        Nakano (@Merciless Medic) | Sebastian (@youngiiie)
     [/div] 
 [/div]
 [comment]-- Font -->[font=Alata]:z[/font][/comment][border=0;

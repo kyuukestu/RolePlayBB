@@ -251,7 +251,7 @@ overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) tran
 --PyrGenC: var(--femaleC);
 --PyrItem: url(https://archives.bulbagarden.net/media/upload/thumb/6/60/Dream_Everstone_Sprite.png/200px-Dream_Everstone_Sprite.png);
 --PyrBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
---PyrSize: cover;
+--PyrSize: 80%;
 /*ANCHOR - Halay-Alae */
 --HalImg: url(https://play.pokemonshowdown.com/sprites/gen5ani/houndour.gif);
 --HalPrimType: #A29288;
@@ -259,7 +259,7 @@ overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) tran
 --HalGender: var(--female);
 --HalItem: url();
 --HalBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
---HalSize: 53%;
+--HalSize: 73%;
 /*ANCHOR - Pari */
 --PariImg: url(https://play.pokemonshowdown.com/sprites/gen5ani/munna.gif);
 --PariPrimType: #FA92B2;
@@ -267,7 +267,7 @@ overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) tran
 --PariGender: var(--female);
 --PariItem: url();
 --PariBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
---PariSize: 50%;
+--PariSize: 55%;
 /*ANCHOR - Ciera */
 --CieImg: url(https://www.smogon.com/forums/attachments/761-gif.274544/);
 --CiePrimType: #A7DB8D;
@@ -276,6 +276,14 @@ overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) tran
 --CieItem: url();
 --CieBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
 --CieSize: 45%;
+/*ANCHOR -  Bâquîle Nâva  */
+--NavaImg: url(https://play.pokemonshowdown.com/sprites/gen5ani/goomy.gif);
+--NavaPrimType: #A27EFA;
+--NavaSecType: #7D58D6;
+--NavaGender: var(--female);
+--NavaItem: url();
+--NavaBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
+--NavaSize: 60%;
 /*ANCHOR - L'Basseau */
 --SusuImg: url(https://play.pokemonshowdown.com/sprites/gen5ani/surskit.gif);
 --SusuPrimType: #C6D16E;
@@ -291,7 +299,7 @@ overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) tran
 --KasGender: var(--male);
 --KasItem: url();
 --KasBall: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/ball/poke.png);
---KasSize: 80%;
+--KasSize: 90%;
 /*ANCHOR - La Bamba */
 --BamImg: url(https://play.pokemonshowdown.com/sprites/gen5ani/shellos.gif);
 --BamPrimType: #9DB7F5;
@@ -628,6 +636,57 @@ Baby-Doll Eyes
 Pin Missile
 Rest
 Parting Shot
+[/div]
+[/div]
+[comment]/*!SECTION */ [/comment][/div]
+
+[div=/*SECTION - Pokémon Card Nava */
+box-sizing: border-box; display: flex; flex-flow: row wrap; height: var(--max-h); width: var(--card-w); border: 4px inset var(--NavaPrimType);]
+[div=/*ANCHOR - Pokémon Display */ 
+box-sizing: border-box; display: flex; width: 20%; height: 100%; margin: auto; position: relative;]
+[div=aspect-ratio: 1; line-height: 0;
+padding: 15px; flex: 1 1 25%; margin: auto; position: relative; scroll-snap-align: center;]
+[div=/*ANCHOR - Pokeball */
+mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--NavaPrimType) 50%, var(--NavaSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(35deg); left: 50%;][/div]
+[div=
+box-sizing: border-box; background: no-repeat center/var(--NavaSize) var(--NavaImg); filter: var(--pokéShadow); text-align: center; height: 100%; aspect-ratio: 1;  margin: auto;
+    display: flex; justify-content: space-evenly; flex-flow: column nowrap;][/div]
+[/div]
+[/div]
+
+
+[div=/*ANCHOR - Pokémon Details */
+box-sizing: border-box; height: 100%; width: 30%; margin: auto; text-align: center;
+display: flex; flex-flow: column wrap; height: fit-content;]
+[div=
+box-sizing: border-box; font-family: var(--h2-font); font-size: var(--fs-h2); margin: auto; width: fit-content;] Bâquîle Nâva [/div]
+[div=
+box-sizing: border-box; display: flex; flex-flow: row wrap; width: fit-content; margin: auto;]
+[div=
+display: flex; justify-content: center; align-items: center; box-sizing: border-box; background: #222; margin: auto; width: fit-content; height: var(--bubble-height); border-radius: var(--bubble-radius); border: var(--bubble-border); padding: var(--level-padding)]Lv.10[/div]
+[div=
+display: flex; justify-content: center; align-items: center; box-sizing: border-box; color: var(--NavaGender); background: #222; margin: auto; height: var(--bubble-height); aspect-ratio: 2; border-radius: var(--bubble-radius); border: var(--bubble-border) var(--NavaGender);][fa]fa-solid fa-venus[/fa][/div]
+[div=
+display: flex; justify-content: center; align-items: center; box-sizing: border-box; margin: auto; width: 50px; height: var(--bubble-height); border-radius: var(--bubble-radius); border: var(--bubble-border); padding: var(--level-padding); background: var(--item-bg) var(--NavaItem);][/div]
+[/div]
+[div=
+display: flex; justify-content: center; align-items: center; box-sizing: border-box; background: #222; margin: auto; width: fit-content; height: var(--bubble-height); border-radius: var(--bubble-radius); border: var(--bubble-border); padding: var(--ability-padding);] Gooey [/div]
+Normal Pokéball
+[/div]
+
+[div=/*ANCHOR - Pokémon Moves */
+box-sizing: border-box; width: 30%; height: 100%; margin: auto;]
+[div=font-weight: bold; width: 100%; text-align: center; background: #222;]Moves[/div]
+[div=
+box-sizing: border-box; overflow-y: scroll; scrollbar-width: none; height: 150px;]
+Tackle
+Absorb
+Bubble
+Water Gun
+Acid Spray
+Protect
+Dragon Breath
+Water Pulse - Learning (start: Aug 15th)
 [/div]
 [/div]
 [comment]/*!SECTION */ [/comment][/div]
