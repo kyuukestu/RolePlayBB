@@ -55,7 +55,7 @@ overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) tran
 [div=
 /* SECTION - Table of Contents */
 width: 350px; height: 375px; border: var(--cover-border); 
-margin: -12.5% auto 0 auto; padding: 10taste (dust in the air)px;
+margin: -12.5% auto 0 auto; padding: 10px;
 line-height: 0px; color: var(--highlight-ter); background-color: var(--tab-bgc); font-family: var(--h2-font); font-size: var(--fs-h2);]
 [div=box-sizing: border-box; font-size: var(--fs-h2); font-family: var(--h1-font); margin: 0 auto;][fa]fa-solid fa-list[/fa] Table of Contents[/div]
 [div=padding: 15px; overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; display: flex; flex-flow: column nowrap; justify-content: space-between; align-items: start; gap: 5px; margin: auto; width: 90%;]
