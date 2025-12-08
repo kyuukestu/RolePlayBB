@@ -67,12 +67,12 @@ scroll-snap-align: center;
 min-height: var(--sec-height); width: var(--sec-width); margin: auto;
 padding: var(--sec-padding);]
 [div=font-size: var(--fs-h1); font-family: var(--h1-font); font-weight: bold; text-align: center; ][a=restricted]Restricted List[/a][/div]
-[div=overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; margin: 0 auto; height: 80%; width: 100%; border: var(--highlight-sec) solid 2px; padding: 10px; white-space: break-spaces; line-height: 1.5;]
-The Restricted List is a list of all Pokemon are in one way or another limited-use in the RP. This list is broadly separated into two categories: Restricted & Banned.
+[div=overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; margin: 0 auto; height: 80%; width: 100%; border: var(--highlight-sec) solid 2px; padding: 10px; white-space: collapse; line-height: 1.5;]
+[div=white-space: preserve;]The Restricted List is a list of all Pokemon are in one way or another limited-use in the RP. This list is broadly separated into two categories: Restricted & Banned.
 
 Restricted Pokemon can be obtained by OCs/Trainer (At most two per OC) while Banned Pokemon cannot be obtained but may be occasionally used or bonded with for certain story/plot-relevant purposes. 
 
-The Restricted List is composed of (meaning these Pokemon can be obtained, but no more than two per OC): Mega Evolution, Battle Bond, Paradox Pokemon, and the following Legendary/Mythical Pokemon-
+The Restricted List is composed of (meaning these Pokemon can be obtained, but no more than two per OC): Mega Evolution, Battle Bond, Paradox Pokemon, and the following Legendary/Mythical Pokemon-[/div]
 
  [div=font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold; text-align: center; margin-top: var(--h2-bot-width); margin-bottom: var(--h2-bot-width); border-bottom: var(--h2-bot-border);]Paradox Duo[/div]
  Koraidon
@@ -188,14 +188,55 @@ padding: var(--sec-padding);]
 This is a list of Ocs and the Restricted Pokemon they have been approved to obtain. This list may change as people change their minds and just being on this list [div=display: inline;color: var(--highlight-sec); font-weight: bold; font-style: italic;]DOES NOT[/div] mean they have already obtained their restricted Pokemon. It simply keeps track of the intention to go after such Pokemon.  
 
 Furthermore, many Legendary or Mythical Pokemon are Unique and one of a kind. As an answer to this we raise Ultra Space and the parallel worlds it connects to. If you wish to obtain a Unique Pokemon who has already been claimed by another OC or a canon character in-verse, then you will be required to go through Ultra Space to do so.
+[div=font-size: var(--fs-h1); font-family: var(--h1-font); font-weight: bold; text-align: center; margin-top: var(--h2-bot-width); margin-bottom: var(--h2-bot-width);]Claims[/div]
+Please note, a claim DOES NOT mean others are UNABLE to choose that Restricted Pokemon. It is simply a statement of which Restricted Pokemon you [div=display: inline;color: var(--highlight-sec); font-weight: bold; font-style: italic;]INTEND[/div] to go after.
+[div=font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold; text-align: center; margin-top: var(--h2-bot-width); margin-bottom: var(--h2-bot-width); border-bottom: var(--h2-bot-border);][URL=https://www.rpnation.com/threads/pokemon-character-sheets.536117/post-11810804]Esther Rosana Sophys[/URL] @CloudySkyLoftyMoon [/div]
+[div=white-space: collapse;][list=1]
+[*] Mega Houndoom
+[*] Ogerpon
+[/list][/div]
 
- [div=font-size: var(--fs-h1); font-family: var(--h1-font); font-weight: bold; text-align: center; margin-top: var(--h2-bot-width); margin-bottom: var(--h2-bot-width);]Claims[/div]
+[div=font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold; text-align: center; margin-top: var(--h2-bot-width); margin-bottom: var(--h2-bot-width); border-bottom: var(--h2-bot-border);][URL=https://www.rpnation.com/threads/pokemon-character-sheets.536117/post-11809808]Azumi Tawā[/URL] @Hecotoro [/div]
+[div=white-space: collapse;][list=1]
+[*] Mega Gardevoir
+[/list][/div]
 
- [div=font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold; text-align: center; margin-top: var(--h2-bot-width); margin-bottom: var(--h2-bot-width); border-bottom: var(--h2-bot-border);][URL=https://www.rpnation.com/threads/pokemon-character-sheets.536117/post-11810804]Esther Rosana Sophys[/URL][/div]
-[list=1]
- [*] Mega Houndoom
- [*] Ogerpon
- [/list]
+[div=font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold; text-align: center; margin-top: var(--h2-bot-width); margin-bottom: var(--h2-bot-width); border-bottom: var(--h2-bot-border);][URL=https://www.rpnation.com/threads/pokemon-character-sheets.536117/post-11809751]Reina Cortez[/URL] @Hecotoro [/div]
+[div=white-space: collapse;][list=1]
+[*] Latias
+[*] (Undecided) Mega Dragonite || Mega Hawlucha || Mega Swampert
+[/list][/div]
+
+[div=font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold; text-align: center; margin-top: var(--h2-bot-width); margin-bottom: var(--h2-bot-width); border-bottom: var(--h2-bot-border);][URL=https://www.rpnation.com/threads/pokemon-character-sheets.536117/post-11817156]Altair Prasiola[/URL] @Cresion Breezes [/div]
+[div=white-space: collapse;][list=1]
+[*] Heartan
+[*] Miraidon
+[/list][/div]
+
+
+[div=font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold; text-align: center; margin-top: var(--h2-bot-width); margin-bottom: var(--h2-bot-width); border-bottom: var(--h2-bot-border);][URL= https://docs.google.com/document/d/1B8D6YfSb7bQT-kuuvRIn3hw2MoYd-f3FcFpfbZIE3dg/edit?usp=sharing]Nakano Saito[/URL] @Merciless Medic [/div]
+[div=white-space: collapse;][list=1]
+[*] Mega Sceptile
+[*] (Undecided) Iron Bundle || Type: Null/Silvally 
+[/list][/div]
+
+[div=font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold; text-align: center; margin-top: var(--h2-bot-width); margin-bottom: var(--h2-bot-width); border-bottom: var(--h2-bot-border);][URL=https://docs.google.com/document/d/1XrP4gfvllVp3f1eVNxx76usAiFnRFzrQ7jVf4DKnMhQ/edit?usp=sharing]Reginald Valerias[/URL] @Merciless Medic [/div]
+[div=white-space: collapse;][list=1]
+[*] Mega Gengar
+[*] (Undecided) Marshadow || Flutter Mane
+[/list][/div]
+
+[div=font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold; text-align: center; margin-top: var(--h2-bot-width); margin-bottom: var(--h2-bot-width); border-bottom: var(--h2-bot-border);][URL=https://docs.google.com/document/d/1MYiwKe7VfGa4fRIo3cgRm2K1u5S9rL0uot64tz8Xo6o/edit?usp=sharing]Cole Forrest[/URL] @Merciless Medic [/div]
+[div=white-space: collapse;][list=1]
+[*] Mega Feraligatr
+[*] (Undecided) Fezandipiti or Iron Valiant
+[/list][/div]
+
+[div=font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold; text-align: center; margin-top: var(--h2-bot-width); margin-bottom: var(--h2-bot-width); border-bottom: var(--h2-bot-border);][URL=https://docs.google.com/document/d/1IV1k_yYInkOrTbWhPdZpL6jiHvMZZGVmq0UaSQhicoE/edit?usp=sharing]Miles Harding[/URL] @Merciless Medic [/div]
+[div=white-space: collapse;][list=1]
+[*] Arcanine (Battle Bond)
+[*] (Undecided) Terrakion || Mega Zeraora
+[/list][/div]
 
 [/div]
 [comment]/*!SECTION */ [/comment][/div]

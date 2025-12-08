@@ -1,0 +1,153 @@
+<style>
+	:root {
+		--post-width: 100%; /* adjust to forum post width */
+		--image-min-height: 450px;
+		--image-max-height: 600px;
+		--text-bg: #f9f9f9;
+		--text-color: #222;
+		--info-bg: rgba(0, 0, 0, 0.5);
+		--info-color: #fff;
+		--font-main: 'Arial', sans-serif;
+	}
+
+	/* Container for the entire post */
+	.post-container {
+		display: grid;
+		grid-template-rows: minmax(var(--image-min-height), var(--image-max-height)) 1fr;
+		width: var(--post-width);
+		border: 1px solid #ccc;
+		border-radius: 10px;
+		overflow: hidden;
+		font-family: var(--font-main);
+	}
+
+	/* Section 1: Full-body image + info overlay */
+	.image-section {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background: url('https://via.placeholder.com/450x600') center/cover
+			no-repeat;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		padding: 1rem;
+		box-sizing: border-box;
+	}
+
+	/* Info overlay (location, date, tags) */
+	.info-overlay {
+		background-color: var(--info-bg);
+		color: var(--info-color);
+		padding: 0.5rem 1rem;
+		border-radius: 8px;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+		font-size: 0.85rem;
+	}
+
+	/* Pokemon chips (example for 6 Pokemon) */
+	.pokemon-chips {
+		display: flex;
+		gap: 0.5rem;
+		margin-top: 0.5rem;
+	}
+
+	.pokemon-chip {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background: linear-gradient(
+			0deg,
+			#f8d030 50%,
+			#6890f0 50%
+		); /* Example type gradient */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 0.8rem;
+		color: #fff;
+		border: 2px solid #333;
+	}
+
+	/* Section 2: Roleplay text */
+	.text-section {
+		background-color: var(--text-bg);
+		color: var(--text-color);
+		padding: 1rem;
+		overflow-y: auto;
+		line-height: 1.5;
+	}
+
+	/* Scrollbar styling for webkit */
+	.text-section::-webkit-scrollbar {
+		width: 6px;
+	}
+
+	.text-section::-webkit-scrollbar-thumb {
+		background-color: rgba(0, 0, 0, 0.2);
+		border-radius: 3px;
+	}
+
+	.text-section::-webkit-scrollbar-track {
+		background: transparent;
+	}
+
+	/* Responsive tweaks */
+	@media (max-width: 768px) {
+		.image-section {
+			padding: 0.5rem;
+		}
+		.info-overlay {
+			font-size: 0.75rem;
+		}
+		.pokemon-chip {
+			width: 30px;
+			height: 30px;
+			font-size: 0.7rem;
+		}
+	}
+</style>
+
+<div class="post-container">
+	<!-- Section 1: Image + Info -->
+	<div class="image-section">
+		<div class="info-overlay">
+			<span>Date: 12/04/2025</span>
+			<span>Location: Mt. Mortar</span>
+			<span>Tags: Esther, Naka, Haly</span>
+			<div class="pokemon-chips">
+				<div class="pokemon-chip">T</div>
+				<div class="pokemon-chip">S</div>
+				<div class="pokemon-chip">Z</div>
+				<div class="pokemon-chip">H</div>
+				<div class="pokemon-chip">B</div>
+				<div class="pokemon-chip">N</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Section 2: Roleplay text -->
+	<div class="text-section">
+		<p>
+			Esther returned her pokemon and warmly caressed both pokeballs. In spite
+			of the odds, they’d done well. There was certainly something to be said
+			about her deliberate injury gambits, but those were the extremes required
+			to even attempt the chasm betwixt herself and trainers with a few years
+			over her.
+		</p>
+		<p>
+			However, the battle’s conclusion left her hesitant. She hadn’t intended to
+			bring Goomy along, but who could be so cruel as to banish their baby after
+			a show of such bravery and sacrifice? No, no—plans could change. The team
+			she’d take into the tunnels was… yep! A quick toss released all her
+			Pokemon—“Set Up!”—and within a minute or two, Esther and her crew had
+			strung the hammock-tarp between two trees and had fashioned a faux-tent.
+			She slipped inside, a whirlwind of motion as she shed her rancher’s fits
+			for something more sporty and mobile. “Ready!” Although she wanted to
+			carry as many water-types as possible, there were obvious diminishing
+			returns and knowing Water Gun, Nava was at least worth half a water type.
+		</p>
+	</div>
+</div>

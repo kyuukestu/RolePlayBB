@@ -47,7 +47,7 @@ min-height: 515px; width: 100%; margin: 5% auto;
 background: var(--bgc); color: var(--main-text-c);
 ]
 
-[div=/* SECTION - OC Creation */
+[div=/* SECTION - Active Threads */
 box-sizing: border-box; white-space: break-spaces;
 scroll-snap-align: center;
 min-height: var(--sec-height); width: var(--sec-width); margin: auto;
@@ -68,6 +68,21 @@ Lead(s): @Hecotoro
 Lead(s): @Hecotoro
 [*] Thread: [URL=][/URL]
 Lead(s):
+[/list]
+
+There are also several 'generic' threads that can be used for solo-posting, casual interactions or anything non-event specific:
+[list=1]
+[*] Thread: [URL=https://www.rpnation.com/threads/pokemon-kanto-roleplay-thread.536653/]Kanto[/URL]
+[*] Thread: [URL=https://www.rpnation.com/threads/pokemon-johto-roleplay-thread.536282/]Johto[/URL]
+[*] Thread: [URL=https://www.rpnation.com/threads/pokemon-hoenn-roleplay-thread.536427/]Hoenn[/URL]
+[*] Thread: [URL=https://www.rpnation.com/threads/pokemon-sinnoh-roleplay-thread.536347/]Sinnoh[/URL]
+[*] Thread: [URL=https://www.rpnation.com/threads/pokemon-unova-roleplay-thread.536371/]Unova[/URL]
+[*] Thread: [URL=https://www.rpnation.com/threads/pokemon-kalos-roleplay-thread.536922/]Kalos[/URL]
+[*] Thread: [URL=https://www.rpnation.com/threads/pokemon-alola-roleplay-thread.536341/]Alola[/URL]
+[*] Thread: [URL=https://www.rpnation.com/threads/pokemon-galar-roleplay-thread.536350/]Galar[/URL]
+[*] Thread: [URL=https://www.rpnation.com/threads/pokemon-paldea-roleplay-thread.536348/]Paldea[/URL]
+[*] Thread: [URL=https://www.rpnation.com/threads/pokemon-orange-islands-roleplay-thread.536297/]Orange Islands[/URL]
+[*] Thread: [URL=https://www.rpnation.com/threads/pokemon-oblivia-roleplay-thread.551406/]Oblivia[/URL]
 [/list]
 [/div]
 [comment]/*!SECTION */ [/comment][/div]
