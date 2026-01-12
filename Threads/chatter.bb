@@ -47,27 +47,16 @@ min-height: 515px; width: 100%; margin: 5% auto;
 background: var(--bgc); color: var(--main-text-c);
 ]
 
-[div=/* SECTION - Custom Pokemon */
+[div=/* SECTION - Chatter */
 box-sizing: border-box; white-space: break-spaces;
 scroll-snap-align: center;
 min-height: var(--sec-height); width: var(--sec-width); margin: auto;
 padding: var(--sec-padding);]
-[div=font-size: var(--fs-h1); font-family: var(--h1-font); font-weight: bold; text-align: center; ]Custom Pokemon[/div]
+[div=font-size: var(--fs-h1); font-family: var(--h1-font); font-weight: bold; text-align: center; ]Chatter[/div]
 [div=overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--accent-c) transparent; margin: 0 auto; height: 80%; width: 100%; border: var(--highlight-sec) solid 2px; padding: 10px; white-space: collapse; line-height: 1.5;]
-Although we allow custom Pokemon we follow a rule of thumb: any custom pokemon must be fleshed out enough such that another Rper could reasonable use them without too much trouble. This means a custom pokemon must have stats, move sets, abilities, evolution lines, etc. clearly defined before they can be accepted.
+Our in-RP equivalent of Twitter + Battleboard where Ocs can post anything they want for the world to see. Bear in mind, these posts are considered RP-Canon and can affect things within the RP itself.
 
-The following is a list of custom Pokemon that have been added to the RP:
-[list=1]
-[*] Pokemon: [URL=https://www.rpnation.com/threads/pokemon-custom-pokemon.566602/post-12322953]Pretenian Shuppet & Banette[/URL] 
-Creator(s): @Merciless Medic
-Status: Approved
-[*] Pokemon: [URL=https://www.rpnation.com/threads/pokemon-custom-pokemon.566602/post-12323272]Bunbris, Partighast & Amalgaton[/URL] 
-Creator(s): @TheGoo
-Status: Approved
-[*] Pokemon: [URL=https://www.rpnation.com/threads/pokemon-custom-pokemon.566602/post-12323389]Gorochu[/URL] 
-Creator(s): @Hecotoro
-Status: Approved
-[/list]
+Here are some templates to get you going:
 
 [/div]
 [comment]/*!SECTION */ [/comment][/div]

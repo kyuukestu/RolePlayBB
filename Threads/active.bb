@@ -66,8 +66,8 @@ Lead(s): @CloudySkyLoftyMoon @Cresion Breezes @Merciless Medic
 Lead(s): @Hecotoro
 [*] Thread: [URL=https://www.rpnation.com/threads/prepare-for-trouble-pokemon-rp.562783/page-2#post-12306888]Prepare for Trouble - Johto [/URL] 
 Lead(s): @Hecotoro
-[*] Thread: [URL=][/URL]
-Lead(s):
+[*] Thread: [URL=https://www.rpnation.com/threads/seafolk-village.566134/]Seafolk Village[/URL]
+Lead(s): @Hecotoro @Cresion Breezes
 [/list]
 
 There are also several 'generic' threads that can be used for solo-posting, casual interactions or anything non-event specific:
@@ -82,7 +82,12 @@ There are also several 'generic' threads that can be used for solo-posting, casu
 [*] Thread: [URL=https://www.rpnation.com/threads/pokemon-galar-roleplay-thread.536350/]Galar[/URL]
 [*] Thread: [URL=https://www.rpnation.com/threads/pokemon-paldea-roleplay-thread.536348/]Paldea[/URL]
 [*] Thread: [URL=https://www.rpnation.com/threads/pokemon-orange-islands-roleplay-thread.536297/]Orange Islands[/URL]
-[*] Thread: [URL=https://www.rpnation.com/threads/pokemon-oblivia-roleplay-thread.551406/]Oblivia[/URL]
+[*] Thread: [URL=https://www.rpnation.com/threads/pokemon-galar-roleplay-thread.536350/]Oblivia[/URL]
+[/list]
+
+These are past/completed threads:
+[list=1]
+[*] Thread: [URL=https://www.rpnation.com/threads/pokemon-exeggutor-island-contest-ended.549374/]Exegutor Island Contest - Alola[/URL]
 [/list]
 [/div]
 [comment]/*!SECTION */ [/comment][/div]

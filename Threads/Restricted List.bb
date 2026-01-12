@@ -213,7 +213,6 @@ Please note, a claim DOES NOT mean others are UNABLE to choose that Restricted P
 [*] Miraidon
 [/list][/div]
 
-
 [div=font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold; text-align: center; margin-top: var(--h2-bot-width); margin-bottom: var(--h2-bot-width); border-bottom: var(--h2-bot-border);][URL= https://docs.google.com/document/d/1B8D6YfSb7bQT-kuuvRIn3hw2MoYd-f3FcFpfbZIE3dg/edit?usp=sharing]Nakano Saito[/URL] @Merciless Medic [/div]
 [div=white-space: collapse;][list=1]
 [*] Mega Sceptile
@@ -236,6 +235,34 @@ Please note, a claim DOES NOT mean others are UNABLE to choose that Restricted P
 [div=white-space: collapse;][list=1]
 [*] Arcanine (Battle Bond)
 [*] (Undecided) Terrakion || Mega Zeraora
+[/list][/div]
+
+[div=font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold; text-align: center; margin-top: var(--h2-bot-width); margin-bottom: var(--h2-bot-width); border-bottom: var(--h2-bot-border);][URL=https://www.rpnation.com/threads/pokemon-character-sheets.536117/post-12252816]Cyrilla Evergreen[/URL] @Takumi98 [/div]
+[div=white-space: collapse;][list=1]
+[*] Mega Charizard X
+[/list][/div]
+
+[div=font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold; text-align: center; margin-top: var(--h2-bot-width); margin-bottom: var(--h2-bot-width); border-bottom: var(--h2-bot-border);][URL=https://www.rpnation.com/threads/pokemon-character-sheets.536117/post-12252816]Wren Blackwell[/URL] @Takumi98 [/div]
+[div=white-space: collapse;][list=1]
+[*] Mega Lucario z
+[*] Suicune
+[/list][/div]
+
+[div=font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold; text-align: center; margin-top: var(--h2-bot-width); margin-bottom: var(--h2-bot-width); border-bottom: var(--h2-bot-border);][URL=https://www.rpnation.com/threads/pokemon-character-sheets.536117/post-12250763]Indigo Tsurugi[/URL] @Takumi98 [/div]
+[div=white-space: collapse;][list=1]
+[*] Deoxys
+[*] (Undecided) Mega Gyarados || Mega Meganium
+[/list][/div]
+
+[div=font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold; text-align: center; margin-top: var(--h2-bot-width); margin-bottom: var(--h2-bot-width); border-bottom: var(--h2-bot-border);][URL=https://www.rpnation.com/threads/pokemon-character-sheets.536117/post-12250763]Zelda Evergreen[/URL] @Takumi98 [/div]
+[div=white-space: collapse;][list=1]
+[*] (Undecided) Mega Swampert || Mega Scizor
+[*] (Undecided) Koraidon || Walking Wake
+[/list][/div]
+
+[div=font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold; text-align: center; margin-top: var(--h2-bot-width); margin-bottom: var(--h2-bot-width); border-bottom: var(--h2-bot-border);][URL=https://www.rpnation.com/threads/pokemon-character-sheets.536117/post-12250763]Johan Seppa[/URL] @Takumi98 [/div]
+[div=white-space: collapse;][list=1]
+[*] Mega Gengar
 [/list][/div]
 
 [/div]

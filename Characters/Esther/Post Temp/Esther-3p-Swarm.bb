@@ -8,8 +8,10 @@ margin: auto; padding: 15px; line-height: 0; gap: 15px 0px;
 /*ANCHOR - Colors */
 --bg-color: #2a2a2a;
 --scrollbar-color: #ccc;
+color: #fff;
 
 
+overflow-x: hidden;
 overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--scrollbar-color) transparent;
 -webkit-scroll-snap-type: y mandatory; scroll-snap-type: y mandatory; scroll-snap-align: center;
 
@@ -27,26 +29,44 @@ overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--scrollbar-colo
 --current-esther: var(--essy-sporty);
 --current-esther-ratio: var(--essy-sporty-ratio);
 --char-art-height: 100%;
---Oblivia-bg: no-repeat center/cover url(https://archives.bulbagarden.net/media/upload/7/73/Oblivia_Ruins_wall1.png);
+--Oblivia-bg: no-repeat center/cover url(https://i.imgur.com/3HMLIY0.png);
+--flower-bg: no-repeat center/cover url(https://i.imgur.com/sKBAlnm.png);
 
 
 /*ANCHOR - Borders */
---char-border:  7px inset var(--esther-c);
---post-border:  7px inset var(--esther-c);
---name-border: 3px outset var(--esther-c);
---region-border: 3px inset var(--esther-c);
---location-border: 7px inset var(--esther-c);
+
+--accent-c: #f05656;
+--char-border:  7px inset var(--accent-c);
+--post-border:  7px inset var(--accent-c);
+--name-border: 3px outset var(--accent-c);
+--region-border: 3px inset var(--accent-c);
+--location-border: 7px inset var(--accent-c);
 
 /* ANCHOR - Char Art-Ratio Pairs */
 --essy-sporty: no-repeat 50% 0%/100% url(https://imgur.com/Tdk5ooF.png); --essy-sporty-ratio: 7.6/13.4;
+--essy-knight: no-repeat 50% 100%/100% url(https://imgur.com/7GwZLB8.png); --essy-knight-ratio: 17/36;
+--essy-standard: no-repeat 50% 100%/cover url(https://i.imgur.com/Ga5LSFg.png); --essy-standard-ratio: 1;
 
 /* ANCHOR - Location Art-Ratio Pairs */
 --mt-bg: no-repeat center/contain url(https://i.redd.it/afrpdp9qsf081.jpg); --mt-ratio: 4/5;
-
+--medi-bg: no-repeat center/contain url(https://i.imgur.com/YNL5YNa.jpeg); --medi-ratio: 1; 
+--olivine-bg: no-repeat center/contain url(https://pbs.twimg.com/media/GeryIVvbsAYnCU-.jpg); --olivine-ratio: 1;
+--cocona-bg: no-repeat center/contain url(https://i.imgur.com/na73A0l.png); --cocona-ratio: 19/15;
+--lapras-beach-bg: no-repeat center/contain url(https://media.discordapp.net/attachments/191374162978144257/1456754000530636862/Lapras_Beach_Ranger3.png?ex=69598362&is=695831e2&hm=4985a94ddbb7a61cc579c60846de968c5ffb6116d5378b51916d3fe1b944db1e&=&format=webp&quality=lossless&width=1224&height=504); --lapras-beach-ratio: 1088/448;
+--aqua-resort-bg: no-repeat center/cover url(https://i.imgur.com/mVD2apK.png); --aqua-resort-ratio: 708/515;
 /*ANCHOR - Fonts */
 --timestamp-font: Orbitron;
 --title-font: Poppins;
 --text-font: Lato;]
+[div=/*SECTION - Scroll Arrows */
+position: absolute; z-index: 3; border-radius: 50%;
+display: flex; flex-flow: row wrap; justify-content: center; align-items: center;
+backdrop-filteR: blur(10px);
+aspect-ratio: 1; height: 75px;
+left: 50px;]
+[div=box-sizing: border-box;][fa]fa-regular fa-arrow-down-arrow-up fa-3x[/fa][/div]
+[div=box-sizing: border-box; transform: rotate(-90deg);]Scroll[/div]
+[/div]
 [div=/*SECTION - Art & Overview */
 box-sizing: border-box;
 position: relative;
@@ -55,7 +75,7 @@ width: 100%; min-height: 100%;
 font-family: var(--title-font);
 display: flex; flex-direction: row; justify-content: flex-start;
 -webkit-scroll-snap-type: x mandatory; scroll-snap-type: x mandatory; scroll-snap-align: center;
-padding: 1rem;]
+padding: 2.5rem; margin: 0.5rem;]
 [div=/*STUB - Character Art */
 height: var(--char-art-height); aspect-ratio: var(--current-esther-ratio);
 margin: auto;
@@ -63,6 +83,11 @@ margin: auto;
 border: var(--char-border);
 background: var(--current-esther), var(--Oblivia-bg);
 position: relative;]
+[div=/*STUB - AI Disclaimer */
+position: absolute; width: fit-content; height: auto; margin: auto; top: -30px; left: 50%; transform: translateX(-50%);
+color: var(--accent-c);]
+Char Art AI Generated
+[/div]
 [div=/*STUB - Character Name Overlay */
 position: absolute; top: 50%; left: -130px;
 width: 250px; height: 45px;
@@ -80,21 +105,21 @@ background: var(--current-location);
 position: relative;]
 [div=/*STUB - Location Name Overlay */
 position: absolute; top: -20px; left: 50%; transform: translateX(-50%);
-width: 200px; height: 35px;
+min-width: 200px; width: fit-content; height: 35px; padding: 0 5px;
 border: var(--name-border); background: var(--bg-color);
 display: flex; justify-content: center; align-items: center;]
-Ecruteak Outskirts -- R42[/div]
+Mt. Mortar — R42 [/div]
 [div=/*STUB - Region Name Overlay */
 position: absolute; bottom: -20px; left: 50%; transform: translateX(-50%);
 width: 190px; height: 35px;
 border: var(--region-border); background: var(--bg-color);
 display: flex; justify-content: center; align-items: center;]
-Johto Region[/div]
+Johto [/div]
 [/div]
 [comment]/*!SECTION */ [/comment][/div]
 [div=/*SECTION - Pokemon */
 box-sizing: border-box;
-position: relative;
+position: relative; padding: 1.5rem;
 width: 100%; min-height: 100%;
 background: var(--bg-color);
 border: var(--post-border);
@@ -301,10 +326,10 @@ margin: auto; padding: 10px; gap: 0px 0px;
 --chev-up-top: -25px;
 --chev-up-right: 5px;
 --seal-size: 100%;
---cellBorder: 3px inset var(--esther-c);
+--cellBorder: 3px inset var(--accent-c);
 --cellRadius: 0%;
 ]
-[div=/*SECTION - Pokémon Position 1 */
+[div=/*SECTION - Pokémon Position 1 - Pyrrha */ 
 aspect-ratio: 1; 
 height: var(--poke-cell-height); min-width: var(--poke-cell-width); box-sizing: border-box; scroll-snap-align: center; 
 line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius); 
@@ -335,7 +360,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [/div]
     [comment]/*!SECTION */[/comment]
 [/div][/div]
-[div=/*SECTION - Pokémon Position 2 */
+[div=/*SECTION - Pokémon Position 2 - Halay */ 
 aspect-ratio: 1; height: var(--poke-cell-height); min-width: var(--poke-cell-width); box-sizing: border-box; scroll-snap-align: center;  line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);; 
 padding: var(--poke-padding); flex: var(--poke-flex); margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
@@ -364,7 +389,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [/div]
     [comment]/*!SECTION */[/comment]
 [/div][/div]
-[div=/*SECTION - Pokémon Position 3 */
+[div=/*SECTION - Pokémon Position 3 - Jecroix */
 aspect-ratio: 1; height: var(--poke-cell-height); min-width: var(--poke-cell-width); box-sizing: border-box; scroll-snap-align: center;  line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);;
 padding: var(--poke-padding); flex: var(--poke-flex); margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
@@ -393,7 +418,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [/div]
     [comment]/*!SECTION */[/comment]
 [/div][/div]
-[div=/*SECTION - Pokémon Position 4 */
+[div=/*SECTION - Pokémon Position 4 - Ciera */ 
 aspect-ratio: 1; height: var(--poke-cell-height); min-width: var(--poke-cell-width); box-sizing: border-box; scroll-snap-align: center;  line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);;
 padding: var(--poke-padding); flex: var(--poke-flex); margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
@@ -422,7 +447,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [/div]
     [comment]/*!SECTION */[/comment]
 [/div][/div]
-[div=/*SECTION - Pokémon Position 5 */
+[div=/*SECTION - Pokémon Position 5 - Susu */ 
 aspect-ratio: 1; height: var(--poke-cell-height); min-width: var(--poke-cell-width); box-sizing: border-box; scroll-snap-align: center;  line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);;
 padding: var(--poke-padding); flex: var(--poke-flex); margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
@@ -451,7 +476,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [/div]
     [comment]/*!SECTION */[/comment]
 [/div][/div]
-[div=/*SECTION - Pokémon Position 6 */ display: none;
+[div=/*SECTION - Istha Position - Istha */ display: none;
 aspect-ratio: 1; height: var(--poke-cell-height); min-width: var(--poke-cell-width); box-sizing: border-box; scroll-snap-align: center;  line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);;
 padding: var(--poke-padding); flex: var(--poke-flex); margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
@@ -480,7 +505,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [/div]
     [comment]/*!SECTION */[/comment]
 [/div][/div]
-[div=/*SECTION - Pokémon Position 7 */ display: none;
+[div=/*SECTION - Pokémon Position 7 - Pariparsithea */ display: none;
 aspect-ratio: 1; height: var(--poke-cell-height); min-width: var(--poke-cell-width); box-sizing: border-box; scroll-snap-align: center;  line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);
 padding: var(--poke-padding); flex: var(--poke-flex); margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
@@ -539,7 +564,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [comment]/*!SECTION */[/comment]
 [/div][/div]
 [div=/*SECTION - Pokémon Position 9 - Kasriel */ display: none;
-aspect-ratio: 1; height: var(--poke-cell-height); min-width: var(--poke-cell-width); box-sizing: border-box; scroll-snap-align: center;  line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius); 
+=aspect-ratio: 1; height: var(--poke-cell-height); min-width: var(--poke-cell-width); box-sizing: border-box; scroll-snap-align: center;  line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius); 
 padding: var(--poke-padding); flex: var(--poke-flex); margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
 mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: linear-gradient(0deg, var(--KasPrimType) 50%, var(--KasSecType) 50%); height: 100%; aspect-ratio: 1; position: absolute; top: var(--pokeball-top); left: var(--pokeball-left); transform: var(--pokeball-position);][/div]
@@ -602,6 +627,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
 [comment]*!SECTION -  Pokebar End[/comment][/div]
 
 [comment]/*!SECTION */ [/comment][/div]
+
 [div=/*SECTION - Post */
 box-sizing: border-box;
 position: relative;
@@ -616,24 +642,27 @@ position: absolute; top: -20px; left: 50%; transform: translateX(-50%);
 width: 190px; height: 35px; font-family: var(--timestamp-font); font-weight: bold;
 border: var(--name-border); background: var(--bg-color);
 display: flex; justify-content: center; align-items: center;]
-[div=animation: fa-fade 3.5s ease-in-out infinite; display: inline; padding: 0 5px;]8:30[/div] P.M.
+[div=animation: fa-fade 3.5s ease-in-out infinite; display: inline; padding: 0 5px;] 8:30 [/div] P.M.
 [/div]
 [div=/*STUB - Date Stamp */
-position: absolute; top: 50%; left: -100px; transform: translateY(-50%) rotate(-90deg);
-width: 220px; height: 35px; font-family: var(--timestamp-font); font-weight: bold;
+position: absolute; top: 50%; left: -130px; transform: translateY(-50%) rotate(-90deg);
+width: 250px; height: 35px; font-family: var(--timestamp-font); font-weight: bold;
 border: var(--name-border); background: var(--bg-color);
 display: flex; justify-content: center; align-items: center;]
 Monday, August 15th
 [/div]
 [div=/*STUB - Tags */
 position: absolute; bottom: -20px; left: 50%; transform: translateX(-50%);
-width: 275px; height: 35px; font-family: var(--timestamp-font); font-weight: bold;
+width: 300px; height: 35px; font-family: var(--timestamp-font); font-weight: bold;
 border: var(--name-border); background: var(--bg-color);
-display: flex; justify-content: center; align-items: center;]
-Tags Here
+overflow-x: scroll; padding: 0 10px; scroll-snap-type: x mandatory;
+display: flex; flex-flow: column wrap; justify-content: center; align-items: center;]
+[div=scroll-snap-align: center; border-right: 2px solid var(--accent-c); height: 100%; max-width: 320px;
+display: flex; justify-content: center; align-items: center; padding: 0 5px;]Nyra (@Laele_Hali)[/div]
+
 [/div]
 [div=/*STUB - Text Formatting */
-margin: auto; margin: 2.5%;
+margin: auto 2.5%; padding: 2.5%;
 line-height: 1.6; letter-spacing: 1px;
 font-family: var(--text-font);
 overflow-y: scroll; overflow-x: hidden; scrollbar-width: thin; scrollbar-color: var(--scrollbar-color) transparent;]
@@ -652,7 +681,8 @@ Phasellus ullamcorper risus ac libero ornare, ut tincidunt nisi efficitur. Etiam
 molestie enim rutrum, iaculis est eu, tincidunt dolor. Phasellus ullamcorper
 risus ac libero ornare, ut tincidunt nisi efficitur. Etiam molestie enim rutrum,
 iaculis est eu, tincidunt dolor. Phasellus ullamcorper risus ac libero ornare,
-ut tincidunt nisi efficitur.[/div] 
+ut tincidunt nisi efficitur.
+[/div] 
 [comment]/*!SECTION */ [/comment][/div]
 
 [/div]
