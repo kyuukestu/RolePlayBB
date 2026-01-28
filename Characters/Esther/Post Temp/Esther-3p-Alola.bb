@@ -67,7 +67,7 @@ backdrop-filteR: blur(10px);
 aspect-ratio: 1; height: 75px;
 left: 50px;]
 [div=box-sizing: border-box;][fa]fa-regular fa-arrow-down-arrow-up fa-3x[/fa][/div]
-[div=box-sizing: border-box; transform: rotate(-90deg);]Scroll[/div]
+[div=box-sizing: border-box; transform: rotate(-90deg);]⬅ Scroll  ➡[/div]
 [/div]
 [div=/*SECTION - Art & Overview */
 box-sizing: border-box;
@@ -120,7 +120,7 @@ Alola [/div]
 [/div]
 [comment]/*!SECTION */ [/comment][/div]
 [div=/*SECTION - Pokemon */
-box-sizing: border-box;
+box-sizing: border-box; pointer-events: none;
 position: relative; padding: 1.5rem;
 width: 100%; min-height: 100%;
 background: var(--bg-color);
@@ -303,7 +303,7 @@ On-Hand Pokemon
 [div=/*SECTION - Pokémon Bar */
 visibility: visible; box-sizing: border-box; 
 width: 100%; min-height: 100%; line-height: 0;
-background-color: transparent; 
+background-color: transparent; pointer-events: auto;
 display: flex; justify-content: space-around; align-items: center; flex-flow: row wrap;
 overflow-y: scroll; overflow-x: hidden; scrollbar-width: thin; scrollbar-color: var(--scrollbar-color) transparent;
 scroll-snap-type: y mandatory; -webkit-scroll-snap-type: y mandatory; 
@@ -640,12 +640,12 @@ border: var(--post-border);
 display: flex; flex-direction: column; justify-content: flex-end;
 -webkit-scroll-snap-type: y mandatory; scroll-snap-type: y mandatory; scroll-snap-align: center;
 padding: 1rem;]
-[div=/*STUB - Timestamp */
+[div=/*STUB - Time Stamp */
 position: absolute; top: -20px; left: 50%; transform: translateX(-50%);
 width: 190px; height: 35px; font-family: var(--timestamp-font); font-weight: bold;
 border: var(--name-border); background: var(--bg-color);
 display: flex; justify-content: center; align-items: center;]
-[div=animation: fa-fade 3.5s ease-in-out infinite; display: inline; padding: 0 5px;] 9:30 [/div] A.M.
+[div=animation: fa-fade 3.5s ease-in-out infinite; display: inline; padding: 0 5px;] 9:37 [/div] A.M.
 [/div]
 [div=/*STUB - Date Stamp */
 position: absolute; top: 50%; left: -130px; transform: translateY(-50%) rotate(-90deg);
@@ -654,27 +654,35 @@ border: var(--name-border); background: var(--bg-color);
 display: flex; justify-content: center; align-items: center;]
 Friday, August 19th
 [/div]
+[div=position: absolute; display: flex; justify-content: center; align-items: center; width: 50%; bottom: 20px; left: 50%; transform: translateX(-50%);]
+⬅ Scroll ➡
+[/div]
 [div=/*STUB - Tags */
 position: absolute; bottom: -20px; left: 50%; transform: translateX(-50%);
 width: 300px; height: 35px; font-family: var(--timestamp-font); font-weight: bold;
 border: var(--name-border); background: var(--bg-color);
 overflow-x: scroll; padding: 0 10px; scroll-snap-type: x mandatory;
 display: flex; flex-flow: column wrap; justify-content: center; align-items: center;]
-[div=scroll-snap-align: center; border-right: 2px solid var(--accent-c); height: 100%; max-width: 320px;
-display: flex; justify-content: center; align-items: center; padding: 0 5px;]Nyra (@Laele_Hali)[/div]
-[div=scroll-snap-align: center; border-right: 2px solid var(--accent-c); height: 100%; max-width: 320px;
-display: flex; justify-content: center; align-items: center; padding: 0 5px;]G (@Hecotoro)[/div]
-[div=scroll-snap-align: center; border-right: 2px solid var(--accent-c); height: 100%; max-width: 320px;
-display: flex; justify-content: center; align-items: center; padding: 0 5px;]Altair (@Cresion Breezes)[/div]
-[div=scroll-snap-align: center; border-right: 2px solid var(--accent-c); height: 100%; max-width: 320px;
-display: flex; justify-content: center; align-items: center; padding: 0 5px;]Dustin (@Retro Master)[/div]
-
+[div=scroll-snap-align: center; border-right: 2px solid var(--accent-c); height: 100%; width: 100%;
+display: flex; justify-content: center; align-items: center;]Nyra (@Laele_Hali)[/div]
+[div=scroll-snap-align: center; border-right: 2px solid var(--accent-c); height: 100%; width: 100%;
+display: flex; justify-content: center; align-items: center;]G (@Hecotoro)[/div]
+[div=scroll-snap-align: center; border-right: 2px solid var(--accent-c); height: 100%; width: 100%;
+display: flex; justify-content: center; align-items: center;]Altair (@Cresion Breezes)[/div]
+[div=sscroll-snap-align: center; border-right: 2px solid var(--accent-c); height: 100%; width: 100%;
+display: flex; justify-content: center; align-items: center;]Dustin (@Retro Master)[/div]
 [/div]
 [div=/*STUB - Text Formatting */
 margin: auto 2.5%; padding: 2.5%;
 line-height: 1.6; letter-spacing: 1px;
 font-family: var(--text-font);
 overflow-y: scroll; overflow-x: hidden; scrollbar-width: thin; scrollbar-color: var(--scrollbar-color) transparent;]
+
+[div=/*ANCHOR - Trigger Warnings */
+display: none; 
+font-weight: bold; font-size: 20px; width: fit-content; height: fit-content; margin: auto;]
+TW: Language
+[/div]
 Lorem ipsum dolor sit amet,
 consectetur adipiscing elit. Nullam et odio a ante pellentesque pretium. Integer
 venenatis ex non ipsum malesuada euismod sit amet ut ante. Duis posuere diam sit
