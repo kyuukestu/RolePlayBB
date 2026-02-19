@@ -73,7 +73,6 @@ display: flex; flex-flow: row wrap; justify-content: center; align-items: center
 backdrop-filteR: blur(10px);
 aspect-ratio: 1; height: 75px;
 left: 50px;]
-[div=box-sizing: border-box;][fa]fa-regular fa-arrow-down-arrow-up fa-3x[/fa][/div]
 [div=box-sizing: border-box; transform: rotate(-90deg);]⬅ Scroll  ➡[/div]
 [/div]
 [div=/*SECTION - Art & Overview */
@@ -112,6 +111,13 @@ margin: auto;
 border: var(--location-border);
 background: var(--current-location); 
 position: relative;]
+[div=/*STUB - Date Stamp */
+position: absolute; top: 50%; left: -130px; transform: translateY(-50%) rotate(-90deg);
+width: 250px; height: 35px; font-family: var(--timestamp-font); font-weight: bold;
+border: var(--name-border); background: var(--bg-color);
+display: flex; justify-content: center; align-items: center;]
+Monday, July 26th
+[/div]
 [div=/*STUB - Location Name Overlay */
 position: absolute; top: -20px; left: 50%; transform: translateX(-50%);
 min-width: 275px; width: fit-content; height: 35px; padding: 0 5px;
@@ -651,14 +657,7 @@ position: absolute; top: -20px; left: 50%; transform: translateX(-50%);
 width: 190px; height: 35px; font-family: var(--timestamp-font); font-weight: bold;
 border: var(--name-border); background: var(--bg-color);
 display: flex; justify-content: center; align-items: center;]
-[div=animation: fa-fade 3.5s ease-in-out infinite; display: inline; padding: 0 5px;] 6:37 [/div] A.M.
-[/div]
-[div=/*STUB - Date Stamp */
-position: absolute; top: 50%; left: -130px; transform: translateY(-50%) rotate(-90deg);
-width: 250px; height: 35px; font-family: var(--timestamp-font); font-weight: bold;
-border: var(--name-border); background: var(--bg-color);
-display: flex; justify-content: center; align-items: center;]
-Monday, July 26th
+[div=animation: fa-fade 3.5s ease-in-out infinite; display: inline; padding: 0 5px;] 6:40 [/div] A.M.
 [/div]
 [div=position: absolute; display: flex; justify-content: center; align-items: center; width: 50%; bottom: 20px; left: 50%; transform: translateX(-50%);]
 ⬅ Scroll ➡

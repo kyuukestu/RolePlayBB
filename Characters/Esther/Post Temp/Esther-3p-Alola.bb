@@ -66,7 +66,6 @@ display: flex; flex-flow: row wrap; justify-content: center; align-items: center
 backdrop-filteR: blur(10px);
 aspect-ratio: 1; height: 75px;
 left: 50px;]
-[div=box-sizing: border-box;][fa]fa-regular fa-arrow-down-arrow-up fa-3x[/fa][/div]
 [div=box-sizing: border-box; transform: rotate(-90deg);]⬅ Scroll  ➡[/div]
 [/div]
 [div=/*SECTION - Art & Overview */
@@ -105,6 +104,13 @@ margin: auto;
 border: var(--location-border);
 background: var(--current-location); 
 position: relative;]
+[div=/*STUB - Date Stamp */
+position: absolute; top: 50%; left: -130px; transform: translateY(-50%) rotate(-90deg);
+width: 250px; height: 35px; font-family: var(--timestamp-font); font-weight: bold;
+border: var(--name-border); background: var(--bg-color);
+display: flex; justify-content: center; align-items: center;]
+Friday, August 19th
+[/div]
 [div=/*STUB - Location Name Overlay */
 position: absolute; top: -20px; left: 50%; transform: translateX(-50%);
 min-width: 275px; width: fit-content; height: 35px; padding: 0 5px;
@@ -391,7 +397,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [/div]
     [comment]/*!SECTION */[/comment]
 [/div][/div]
-[div=/*SECTION - Pokémon Position 3 - Jecroix */ display: none;
+[div=/*SECTION - Pokémon Position 3 - Jecroix */
 aspect-ratio: 1; height: var(--poke-cell-height); min-width: var(--poke-cell-width); box-sizing: border-box; scroll-snap-align: center;  line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);;
 padding: var(--poke-padding); flex: var(--poke-flex); margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
@@ -478,7 +484,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [/div]
     [comment]/*!SECTION */[/comment]
 [/div][/div]
-[div=/*SECTION - Istha Position */
+[div=/*SECTION - Istha Position */ display: none;
 aspect-ratio: 1; height: var(--poke-cell-height); min-width: var(--poke-cell-width); box-sizing: border-box; scroll-snap-align: center;  line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);;
 padding: var(--poke-padding); flex: var(--poke-flex); margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
@@ -507,7 +513,7 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [/div]
     [comment]/*!SECTION */[/comment]
 [/div][/div]
-[div=/*SECTION - Pokémon Position 7 */
+[div=/*SECTION - Pokémon Position 7 */ display: none;
 aspect-ratio: 1; height: var(--poke-cell-height); min-width: var(--poke-cell-width); box-sizing: border-box; scroll-snap-align: center;  line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius);
 padding: var(--poke-padding); flex: var(--poke-flex); margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
@@ -595,7 +601,6 @@ mask: no-repeat center/100% url(https://i.imgur.com/TGaxYP4.png); background: li
     [comment]/*!SECTION */[/comment]
 [/div][/div]
 [div=/*SECTION - Pokémon Position 10 - Nava*/
-display: none;
 aspect-ratio: 1; height: var(--poke-cell-height); min-width: var(--poke-cell-width); box-sizing: border-box; scroll-snap-align: center;  line-height: 0; border: var(--cellBorder); border-radius: var(--cellRadius); 
 padding: var(--poke-padding); flex: var(--poke-flex); margin: auto; position: relative; scroll-snap-align: center;]
 [div=/*ANCHOR - Pokeball */
@@ -645,14 +650,7 @@ position: absolute; top: -20px; left: 50%; transform: translateX(-50%);
 width: 190px; height: 35px; font-family: var(--timestamp-font); font-weight: bold;
 border: var(--name-border); background: var(--bg-color);
 display: flex; justify-content: center; align-items: center;]
-[div=animation: fa-fade 3.5s ease-in-out infinite; display: inline; padding: 0 5px;] 9:37 [/div] A.M.
-[/div]
-[div=/*STUB - Date Stamp */
-position: absolute; top: 50%; left: -130px; transform: translateY(-50%) rotate(-90deg);
-width: 250px; height: 35px; font-family: var(--timestamp-font); font-weight: bold;
-border: var(--name-border); background: var(--bg-color);
-display: flex; justify-content: center; align-items: center;]
-Friday, August 19th
+[div=animation: fa-fade 3.5s ease-in-out infinite; display: inline; padding: 0 5px;] 9:40 [/div] A.M.
 [/div]
 [div=position: absolute; display: flex; justify-content: center; align-items: center; width: 50%; bottom: 20px; left: 50%; transform: translateX(-50%);]
 ⬅ Scroll ➡
@@ -663,12 +661,7 @@ width: 300px; height: 35px; font-family: var(--timestamp-font); font-weight: bol
 border: var(--name-border); background: var(--bg-color);
 overflow-x: scroll; padding: 0 10px; scroll-snap-type: x mandatory;
 display: flex; flex-flow: column wrap; justify-content: center; align-items: center;]
-[div=scroll-snap-align: center; border-right: 2px solid var(--accent-c); height: 100%; width: 100%;
-display: flex; justify-content: center; align-items: center;]Nyra (@Laele_Hali)[/div]
-[div=scroll-snap-align: center; border-right: 2px solid var(--accent-c); height: 100%; width: 100%;
-display: flex; justify-content: center; align-items: center;]G (@Hecotoro)[/div]
-[div=scroll-snap-align: center; border-right: 2px solid var(--accent-c); height: 100%; width: 100%;
-display: flex; justify-content: center; align-items: center;]Altair (@Cresion Breezes)[/div]
+
 [div=sscroll-snap-align: center; border-right: 2px solid var(--accent-c); height: 100%; width: 100%;
 display: flex; justify-content: center; align-items: center;]Dustin (@Retro Master)[/div]
 [/div]

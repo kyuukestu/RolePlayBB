@@ -29,7 +29,7 @@ background: var(--char-one-bg), var(--backdrop-bg);
 position: absolute; top: 0; z-index: 0;
 
 /*ANCHOR - Background Images */
---location-bg: url(https://www.rpnation.com/attachments/1764436414440-png.1278959/);
+--location-bg: url(https://i.redd.it/ho1gk6a1kxh31.jpg);
 /* Lilycove url(https://archives.bulbagarden.net/media/upload/c/c7/Lilycove_City_anime.png); */
 --char-one: url(https://i.imgur.com/wvwFUd3.png); /* XY Lass */
 --pokemon-one: url(); 
@@ -40,7 +40,7 @@ position: absolute; top: 0; z-index: 0;
 --backdrop-bg: no-repeat 50% 100%/100% 100% var(--location-bg);
 ]
 [comment]/*!SECTION */[/comment][/div] 
-Tags: @Rcticwolf
+Tags: @THEKAZUHA_ANEMO
 [div=/*SECTION - Post + Poke*/
 box-sizing: border-box; display: flex; height: var(--mainHeight); width: 100%; justify-content: center; align-content: center;]
 [div=/*SECTION - Text-Container Blur Border */ 
