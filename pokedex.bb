@@ -1,13 +1,113 @@
-[div=height: 250px; width: 50%; width: 50%;margin: auto; position: relative;]
+[comment][font=Orbitron][font=Inter][font="Space Mono"].[/font][/comment]
+[div=width: min(750px,90%); min-height: 240px;
 
-[div=width: 100%; height: 100%; background: no-repeat center/50% url(https://archives.bulbagarden.net/media/upload/c/c2/0092Gastly.png); position: absolute; top: 0; opacity: 0.5;][/div]
+margin: auto; position: relative; overflow: hidden;
 
-[div=font-weight: bold; font-size: 1.1em; position: absolute; top: -1em;]Pokédex Entry #0092 - Gaslty, the Gas Pokémon[/div]
+background: linear-gradient( 180deg, #1b242b, #10161a);
 
-[div=font-weight: bold; width: 100%; height: 100%; position: absolute; top: 2em; z-index: 2; overflow-y: scroll; scrollbar-width: none; padding: 10px;]
-Gastly is largely composed of gaseous matter. When exposed to a strong wind, the gaseous body quickly dwindles away. Groups of this Pokémon cluster under the eaves of houses to escape the ravages of wind. 
+border: 2px solid #425f6f; border-radius: 8px;
 
-Despite lacking substance, it can envelop an opponent of any size and cause suffocation. 
+box-shadow: 0 0 20px rgba(0,0,0,.35);
+
+padding:24px;
+
+--dex-header-font: 'Orbitron', sans-serif;
+--dex-body-font: 'Inter', sans-serif;
+--dex-accent-font: 'Space Mono', monospace;]
+
+
+[div=/* POKEMON IMAGE */
+
+position: absolute; right: -8%; top: 50%;
+
+transform: translateY(-50%);
+
+width:320px; height:320px;
+
+background: url(https://archives.bulbagarden.net/media/upload/thumb/a/a9/0227Skarmory.png/250px-0227Skarmory.png) center/contain no-repeat;
+
+opacity:.16; filter: grayscale(.1) contrast(1.05);
+
+pointer-events:none;][/div]
+
+
+[div=position: absolute; right: -12%; top: 0;
+
+width: 50%; height: 100%;
+
+background: radial-gradient( circle at center, rgba(120,190,240,.08), transparent 50%);
+
+pointer-events:none;][/div]
+
+
+[div=/* TEXT BLOCK */ 
+
+position: relative; z-index: 2;
+
+display: flex; flex-flow: column;]
+
+
+[div= /* POKEDEX NAME & ENTRY # */
+
+font-family: var(--dex-header-font); font-size: 26px; letter-spacing: 2px; text-transform: uppercase;
+
+color:#9ee7ff;]
+
+Pokédex Entry #0001
+
+[/div]
+
+
+[div=/* POKEMON CLASSIFICATION */
+
+font-family: var(--dex-accent-font); font-size: 0.82em; letter-spacing: 2px; text-transform: uppercase;
+
+color:#6f8794;]
+
+Seed Pokémon
+
+[/div]
+
+
+[div= /* POKEDEX ENTRY DATA */
+font-family: var(--dex-body-font); 
+
+max-width: 70%; max-height: 170px;
+
+overflow-y:auto;
+
+scrollbar-width: none;
+
+line-height: 1.85; padding-right: 12px;]
+
+
+Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun’s rays, the seed grows progressively larger.
+
+
+[/div][/div]
+
+
+[div=
+
+position: absolute; bottom: 10px; right: 14px;
+
+font-family: var(--dex-accent-font); font-size: 0.75em; letter-spacing: 2px;
+
+opacity: 0.5; color: #5f7f8f;]
+
+NATIONAL DEX
+
+[/div]
+
+
+[div=
+
+position: absolute; inset: 0;
+
+background repeating-linear-gradient( 180deg, rgba(255,255,255,.015), rgba(255,255,255,.015) 1px, transparent 1px, transparent 4px);
+
+pointer-events:none;]
+
 [/div]
 
 [/div]

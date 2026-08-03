@@ -1,0 +1,249 @@
+[dohtml]
+<head>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Mali:wght@400;500;600;700&family=Patrick+Hand&display=swap");
+
+        :root {
+            --slot-size: 100px;
+            --slot-radius: 6px;
+            --slot-border: 3px solid #123b7a;
+
+            --bg-color: #1a2026;
+            --text-color: #dce7ed;
+            --eleonor-color: #71d9e2;
+        }
+
+        .dialogue{
+            display: inline;
+            color: var(--eleonor-color);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .pokemon-bar {
+            padding: 15px 40px;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            overflow-x: auto;
+            overflow-y: hidden;
+            border-bottom: 2px solid #333;
+            scroll-snap-type: x mandatory;
+            scrollbar-width: thin;
+
+            -webkit-overflow-scrolling: touch;
+
+            mask-image: linear-gradient(
+                to right,
+                transparent,
+                black 5%,
+                black 95%,
+                transparent
+            );
+        }
+
+        .pokemon-slot {
+            flex: 0 0 var(--slot-size);
+            height: var(--slot-size);
+
+            scroll-snap-align: center;
+
+            border: var(--slot-border);
+            border-radius: var(--slot-radius);
+
+            position: relative;
+
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+
+            filter: drop-shadow(2px 2px 3px #000);
+        }
+
+        .pokemon-name {
+            position: absolute;
+
+            left: -30px;
+            top: 50%;
+
+            transform: translateY(-50%);
+
+            writing-mode: sideways-lr;
+
+            font-family: "Patrick Hand", cursive;
+            font-size: 2em;
+
+            color: var(--eleonor-color);
+            text-shadow:
+                1px 1px 3px black,
+                -1px -1px 3px black;
+        }
+
+        .post-container {
+            padding: 30px;
+            margin: auto;
+
+            max-height: 850px;
+            overflow-y: auto;
+
+            scrollbar-width: thin;
+            scrollbar-color: var(--accent-color) transparent;
+
+            background: var(--bg-color);
+            color: var(--text-color);
+
+            line-height: 1.9;
+            font-size: 1.5rem;
+            font-family: "Mali", sans-serif;
+
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .post-container p {
+            margin: 0 0 1.5em 0;
+        }
+
+        .post-container p:last-child {
+            margin-bottom: 0;
+        }
+
+        .footer {
+            background: #151b20;
+        
+            border-top: 1px dashed rgba(113, 217, 226, 0.45);
+        
+            padding: 15px 30px;
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        
+            font-family: "Mali", sans-serif;
+            font-size: 1rem;
+        
+            color: #9aaeb8;
+        }
+        
+        .footer-label {
+            font-family: "Patrick Hand", cursive;
+            font-size: 1.4rem;
+        
+            color: var(--eleonor-color);
+        }
+        
+        .footer-tag {
+            color: var(--text-color);
+        
+            border-bottom: 1px dotted rgba(113,217,226,.5);
+        
+            transition: color .2s ease;
+        }
+        
+        .footer-tag:hover {
+            color: var(--eleonor-color);
+        }
+
+        @media (max-width: 600px) {
+            :root {
+                --slot-size: 90px;
+            }
+
+            .pokemon-bar {
+                padding: 15px 25px;
+                gap: 25px;
+            }
+
+            .pokemon-name {
+                left: -22px;
+                font-size: 1.6rem;
+            }
+
+            .post-container {
+                padding: 20px;
+                font-size: 1.15rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="pokemon-bar" id="PokemonBar"></div>
+
+        <div class="post-container">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et
+            odio a ante pellentesque pretium. Integer venenatis ex non ipsum
+            malesuada euismod sit amet ut ante. Duis posuere diam sit amet orci
+            viverra condimentum. Nulla non lobortis orci. Vestibulum erat ante,
+            aliquam eget arcu id, iaculis convallis lorem.
+        </div>
+
+        <div class="footer">
+            <span class="footer-label">References for:</span>
+            <span class="footer-tag">@Tag</span>
+        </div>
+    </div>
+</body>
+
+<script>
+    const SPRITE_BASE =
+        "https://raw.githubusercontent.com/PMDCollab/SpriteCollab/master/portrait";
+
+    const Pokemon = [
+        {
+            name: "Cordlia",
+            species_id: "0303",
+            mood: "Stunned",
+            show: true,
+        },
+
+        {
+            name: "Rioghain",
+            species_id: "0058/0001",
+            mood: "Normal",
+            show: true,
+        },
+    ];
+
+    function createSpriteURL(pokemon) {
+        return `${SPRITE_BASE}/${pokemon.species_id}/${pokemon.mood}.png`;
+    }
+
+    function createPokemonSlot(pokemon) {
+        const slot = document.createElement("div");
+
+        slot.className = "pokemon-slot";
+
+        slot.style.backgroundImage = `url(${createSpriteURL(pokemon)})`;
+
+        const name = document.createElement("div");
+
+        name.className = "pokemon-name";
+
+        name.textContent = pokemon.name;
+
+        slot.appendChild(name);
+
+        return slot;
+    }
+
+    function renderPokemonBar(container, pokemonList) {
+        container.innerHTML = "";
+
+        pokemonList
+            .filter((pokemon) => pokemon.show)
+            .forEach((pokemon) => {
+                container.appendChild(createPokemonSlot(pokemon));
+            });
+    }
+
+    renderPokemonBar(document.querySelector("#PokemonBar"), Pokemon);
+</script>
+
+[/dohtml]

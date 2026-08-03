@@ -40,7 +40,7 @@ position: absolute; top: 0; z-index: 0;
 --backdrop-bg: no-repeat 50% 100%/100% 100% var(--location-bg);
 ]
 [comment]/*!SECTION */[/comment][/div] 
-Tags: @THEKAZUHA_ANEMO
+Tags: @Rcticwolf
 [div=/*SECTION - Post + Poke*/
 box-sizing: border-box; display: flex; height: var(--mainHeight); width: 100%; justify-content: center; align-content: center;]
 [div=/*SECTION - Text-Container Blur Border */ 
