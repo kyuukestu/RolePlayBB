@@ -1,0 +1,1442 @@
+[dohtml]
+<style>
+    :root {
+        --type-normal: #a8a77a;
+        --type-fire: #ee8130;
+        --type-water: #6390f0;
+        --type-electric: #f7d02c;
+        --type-grass: #7ac74c;
+        --type-ice: #96d9d6;
+        --type-fighting: #c22e28;
+        --type-poison: #a33ea1;
+        --type-ground: #e2bf65;
+        --type-flying: #a98ff3;
+        --type-psychic: #f95587;
+        --type-bug: #a6b91a;
+        --type-rock: #b6a136;
+        --type-ghost: #735797;
+        --type-dragon: #6f35fc;
+        --type-dark: #705746;
+        --type-steel: #b7b7ce;
+        --type-fairy: #d685ad;
+    }
+
+    .tile-normal {
+        --type-color: var(--type-normal);
+    }
+
+    .tile-fire {
+        --type-color: var(--type-fire);
+    }
+
+    .tile-water {
+        --type-color: var(--type-water);
+    }
+
+    .tile-electric {
+        --type-color: var(--type-electric);
+    }
+
+    .tile-grass {
+        --type-color: var(--type-grass);
+    }
+
+    .tile-ice {
+        --type-color: var(--type-ice);
+    }
+
+    .tile-fighting {
+        --type-color: var(--type-fighting);
+    }
+
+    .tile-poison {
+        --type-color: var(--type-poison);
+    }
+
+    .tile-ground {
+        --type-color: var(--type-ground);
+    }
+
+    .tile-flying {
+        --type-color: var(--type-flying);
+    }
+
+    .tile-psychic {
+        --type-color: var(--type-psychic);
+    }
+
+    .tile-bug {
+        --type-color: var(--type-bug);
+    }
+
+    .tile-rock {
+        --type-color: var(--type-rock);
+    }
+
+    .tile-ghost {
+        --type-color: var(--type-ghost);
+    }
+
+    .tile-dragon {
+        --type-color: var(--type-dragon);
+    }
+
+    .tile-dark {
+        --type-color: var(--type-dark);
+    }
+
+    .tile-steel {
+        --type-color: var(--type-steel);
+    }
+
+    .tile-fairy {
+        --type-color: var(--type-fairy);
+    }
+
+    @keyframes aura-float-1 {
+        0% {
+            transform: translate(0, 0) scale(1);
+        }
+    
+        50% {
+            transform: translate(120px, 80px) scale(1.15);
+        }
+    
+        100% {
+            transform: translate(40px, 220px) scale(0.9);
+        }
+    }
+    
+    @keyframes aura-float-2 {
+        0% {
+            transform: translate(0, 0) scale(0.9);
+        }
+    
+        50% {
+            transform: translate(-140px, 100px) scale(1.2);
+        }
+    
+        100% {
+            transform: translate(-60px, 250px) scale(1);
+        }
+    }
+    
+    @keyframes aura-float-3 {
+        0% {
+            transform: translate(0, 0) scale(1);
+        }
+    
+        50% {
+            transform: translate(100px, -130px) scale(1.2);
+        }
+    
+        100% {
+            transform: translate(-100px, -220px) scale(0.85);
+        }
+    }
+    
+    @keyframes aura-float-4 {
+        0% {
+            transform: translate(0, 0) scale(1.1);
+        }
+    
+        50% {
+            transform: translate(-160px, -100px) scale(0.85);
+        }
+    
+        100% {
+            transform: translate(-40px, -240px) scale(1.15);
+        }
+    }
+    
+    @keyframes aura-float-5 {
+        0% {
+            transform: translate(-50px, 30px) scale(0.8);
+        }
+    
+        50% {
+            transform: translate(100px, -80px) scale(1.25);
+        }
+    
+        100% {
+            transform: translate(-80px, 130px) scale(1);
+        }
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    #cordelia.pkm-card-container {
+        max-width: 700px;
+        margin: 20px auto;
+        background: #121216;
+        background: linear-gradient(145deg, #121216 0%, #1a1a24 100%);
+        border: 1px solid #252533;
+        border-radius: 20px;
+        padding: 26px;
+        font-family:
+            -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        color: #e2e2e9;
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+        position: relative;
+        overflow: hidden;
+
+        .pkm-profile-header,
+        .pkm-section-title,
+        .pkm-stats-grid,
+        .pkm-moves-grid {
+            position: relative;
+            z-index: 1;
+        }
+
+        .pkm-type-aura .aura-blob {
+            filter: blur(38px);
+            opacity: 0.85;
+        }
+
+        .pkm-type-aura {
+            position: absolute;
+            inset: 0;
+            overflow: hidden;
+            pointer-events: none;
+            z-index: 0;
+        }
+        
+        .aura-blob {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(1px);
+            will-change: transform;
+        }
+        
+        .aura-blob-1 {
+            width: 220px;
+            height: 220px;
+            background: var(--primary-aura);
+            left: -60px;
+            top: -50px;
+            animation: aura-float-1 9s ease-in-out infinite alternate;
+        }
+        
+        .aura-blob-2 {
+            width: 280px;
+            height: 280px;
+            background: var(--secondary-aura);
+            right: -90px;
+            top: 10%;
+            animation: aura-float-2 11s ease-in-out infinite alternate;
+        }
+        
+        .aura-blob-3 {
+            width: 170px;
+            height: 170px;
+            background: var(--primary-aura);
+            left: 25%;
+            bottom: -70px;
+            animation: aura-float-3 8s ease-in-out infinite alternate;
+        }
+        
+        .aura-blob-4 {
+            width: 240px;
+            height: 240px;
+            background: var(--secondary-aura);
+            right: 20%;
+            bottom: -100px;
+            animation: aura-float-4 13s ease-in-out infinite alternate;
+        }
+        
+        .aura-blob-5 {
+            width: 130px;
+            height: 130px;
+            background: var(--primary-aura);
+            left: 45%;
+            top: 35%;
+            animation: aura-float-5 7s ease-in-out infinite alternate;
+        }
+
+        .pkm-profile-header {
+            display: flex;
+            gap: 28px;
+            align-items: center;
+            background: linear-gradient(
+                135deg,
+                color-mix(in srgb, var(--primary-aura) 8%, transparent),
+                color-mix(in srgb, var(--secondary-aura) 8%, transparent)
+            );
+            border: 1px solid rgba(255, 255, 255, 0.03);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 24px;
+        }
+
+        .pkm-left-status-block {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 14px;
+            flex-shrink: 0;
+            width: 130px;
+        }
+
+        .pkm-avatar-wrapper {
+            position: relative;
+            width: 120px;
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: help;
+            transition: transform 0.2s ease;
+        }
+
+        .pkm-avatar-wrapper:hover {
+            transform: scale(1.04);
+        }
+
+        .pkm-avatar-wrapper:hover .pkm-hover-hint {
+            opacity: 1;
+            background: #4fc337;
+            fill: #121216;
+        }
+
+        .pkm-circular-xp {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 120px;
+            height: 120px;
+            transform: rotate(-90deg);
+            pointer-events: none;
+        }
+
+        .pkm-xp-track {
+            fill: none;
+            stroke: rgba(255, 255, 255, 0.06);
+            stroke-width: 5;
+        }
+
+        .pkm-exp-fill {
+            fill: none;
+            stroke: #4fc337;
+            stroke-width: 5;
+            stroke-linecap: round;
+            stroke-dasharray: 326.7;
+            stroke-dashoffset: 326.7;
+            transition: stroke-dashoffset 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .pkm-sprite-inner {
+            width: 94px;
+            height: 94px;
+            background: radial-gradient(circle, #222230 0%, #151520 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2;
+            box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .pkm-sprite-inner img {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+        }
+
+        .pkm-ball-slot {
+            position: absolute;
+            top: -2px;
+            right: -2px;
+            z-index: 3;
+        }
+
+        .pkm-hover-hint {
+            position: absolute;
+            top: 6px;
+            left: 6px;
+            z-index: 5;
+            width: 18px;
+            height: 18px;
+            background: #252533;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            fill: #a0a0b0;
+            opacity: 0.7;
+            transition: all 0.2s ease;
+        }
+
+        .pkm-hover-hint svg {
+            width: 10px;
+            height: 10px;
+        }
+
+        .pkm-level-badge-linked {
+            position: absolute;
+            bottom: -4px;
+            right: -4px;
+            z-index: 4;
+            font-size: 11px;
+            font-weight: 800;
+            color: #121216;
+            background: #4fc337;
+            padding: 2px 8px;
+            border-radius: 20px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+            border: 1px solid #121216;
+            letter-spacing: -0.2px;
+        }
+
+        .pkm-dc-badge-linked {
+            position: absolute;
+            bottom: -4px;
+            left: -4px;
+            z-index: 4;
+            font-size: 11px;
+            font-weight: 800;
+            color: #fff;
+            background: #a62627;
+            padding: 2px 8px;
+            border-radius: 20px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+            border: 1px solid #121216;
+            letter-spacing: -0.2px;
+        }
+
+        .pkm-type-icon-group {
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+        }
+
+        .pkm-type-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .pkm-type-badge svg {
+            width: 16px;
+            height: 16px;
+            fill: #fff;
+        }
+
+        .pkm-affection-container {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            cursor: help;
+            background: rgba(255, 51, 102, 0.05);
+            padding: 4px 12px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 51, 102, 0.1);
+        }
+
+        .pkm-heart-svg {
+            width: 13px;
+            height: 13px;
+            fill: #ff3366;
+            filter: drop-shadow(0 0 4px rgba(255, 51, 102, 0.4));
+            animation: pulse 2s infinite ease-in-out;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .pkm-identity-column {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .pkm-name-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .pkm-nickname {
+            font-size: 32px;
+            font-weight: 800;
+            color: #e2725b;
+            letter-spacing: -0.5px;
+            margin: 0;
+            cursor: help;
+            line-height: 1.1;
+        }
+
+        .pkm-gender-female {
+            color: #ff65b5;
+            font-size: 26px;
+            font-weight: bold;
+            line-height: 1;
+            filter: drop-shadow(0 0 4px rgba(255, 101, 181, 0.2));
+        }
+
+        .pkm-species-subtitle {
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #8a8a9e;
+            margin: 6px 0 16px 0;
+            text-align: center;
+        }
+
+        .pkm-meta-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 14px 20px;
+            background: rgba(0, 0, 0, 0.15);
+            padding: 16px 20px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.03);
+        }
+
+        .pkm-meta-item {
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            cursor: help;
+        }
+
+        .pkm-meta-item.span-full {
+            grid-column: span 2;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding-top: 10px;
+            margin-top: 2px;
+        }
+
+        .pkm-meta-item strong {
+            color: #66667a;
+            font-weight: 700;
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .pkm-meta-val {
+            color: #fff;
+            font-weight: 600;
+            font-size: 13px;
+        }
+
+        .pkm-section-title {
+            color: #b5b5c4;
+            font-weight: 700;
+            font-size: 12px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            padding-bottom: 6px;
+            margin: 28px 0 14px 0;
+        }
+
+        .pkm-stats-grid {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 12px;
+        }
+
+        .pkm-stat-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.04);
+            border-radius: 10px;
+            padding: 12px 6px;
+            text-align: center;
+        }
+
+        .pkm-stat-label {
+            font-size: 10px;
+            font-weight: 700;
+            color: #8a8a9e;
+            margin-bottom: 4px;
+        }
+        .pkm-stat-value {
+            font-size: 20px;
+            font-weight: 800;
+            color: #fff;
+        }
+        .pkm-stat-detail {
+            font-size: 10px;
+            color: #66667a;
+            margin-top: 2px;
+        }
+        .pkm-stat-ev {
+            color: #4da6ff;
+            font-weight: 600;
+        }
+
+        .pkm-moves-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+            gap: 10px;
+            max-width: 650px;
+            margin: 0 auto;
+            overflow: scroll;
+        }
+
+        .pkm-move-tile {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            border-radius: 8px;
+            padding: 12px;
+
+            cursor: help;
+
+            background: linear-gradient(
+                135deg,
+                color-mix(in srgb, var(--type-color) 15%, transparent),
+                color-mix(in srgb, var(--type-color) 5%, transparent)
+            );
+
+            border: 1px solid
+                color-mix(in srgb, var(--type-color) 30%, transparent);
+
+            border-left: 4px solid var(--type-color);
+
+            transition:
+                transform 0.2s,
+                filter 0.2s;
+        }
+
+        .pkm-move-tile:hover {
+            transform: translateY(-1px);
+            filter: brightness(1.15);
+        }
+
+        .pkm-move-meta {
+            display: flex;
+            flex-direction: column;
+        }
+        .pkm-move-title-text {
+            font-size: 14px;
+            font-weight: 700;
+            color: #fff;
+        }
+        .pkm-move-level-text {
+            font-size: 10px;
+            margin-top: 2px;
+            font-weight: 500;
+        }
+
+        .pkm-move-type-indicator {
+            font-size: 9px;
+            text-transform: uppercase;
+            font-weight: 800;
+            padding: 3px 8px;
+            border-radius: 4px;
+            color: #fff;
+            letter-spacing: 0.5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .pkm-move-level-text {
+            color: var(--type-color);
+        }
+
+        .pkm-move-type-indicator {
+            background: var(--type-color);
+        }
+    }
+</style>
+
+<div id="cordelia" class="pkm-card-container">
+    <div class="pkm-type-aura">
+        <div class="aura-blob aura-blob-1"></div>
+        <div class="aura-blob aura-blob-2"></div>
+        <div class="aura-blob aura-blob-3"></div>
+        <div class="aura-blob aura-blob-4"></div>
+        <div class="aura-blob aura-blob-5"></div>
+    </div>
+    <div class="pkm-profile-header">
+        <div class="pkm-left-status-block">
+            <div class="pkm-avatar-wrapper pkm-exp-trigger">
+                <div class="pkm-hover-hint">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-12S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                        />
+                    </svg>
+                </div>
+                <svg class="pkm-circular-xp" viewBox="0 0 120 120">
+                    <circle
+                        class="pkm-xp-track"
+                        cx="60"
+                        cy="60"
+                        r="52"
+                    ></circle>
+                    <circle
+                        class="pkm-exp-fill"
+                        cx="60"
+                        cy="60"
+                        r="52"
+                    ></circle>
+                </svg>
+                <div class="pkm-sprite-inner">
+                    <img class="pkm-sprite" alt="" />
+                </div>
+                <div class="pkm-ball-slot">
+                    [PokeBall=pokeball]pokeball[/PokeBall]
+                </div>
+                <div
+                    class="pkm-dc-badge-linked pkm-dc"
+                    title="Difficulty Class"
+                ></div>
+                <div class="pkm-level-badge-linked pkm-level"></div>
+            </div>
+
+            <div class="pkm-type-icon-group pkm-types"></div>
+
+            <div class="pkm-affection-slot pkm-affection"></div>
+        </div>
+
+        <div class="pkm-identity-column">
+            <div class="pkm-name-row">
+                <h2 class="pkm-nickname pkm-nickname"></h2>
+                <span class="pkm-gender"></span>
+            </div>
+
+            <div class="pkm-species-subtitle pkm-species"></div>
+
+            <div class="pkm-meta-grid">
+                <div class="pkm-meta-item">
+                    <strong>Ability</strong>
+                    <span class="pkm-meta-val pkm-ability"></span>
+                </div>
+
+                <div class="pkm-meta-item">
+                    <strong>Nature</strong>
+                    <span class="pkm-meta-val pkm-nature"></span>
+                </div>
+
+                <div class="pkm-meta-item">
+                    <strong>Form</strong>
+                    <span class="pkm-meta-val pkm-form"></span>
+                </div>
+
+                <div class="pkm-meta-item">
+                    <strong>Origin</strong>
+                    <span class="pkm-meta-val pkm-origin"></span>
+                </div>
+
+                <div class="pkm-meta-item span-full">
+                    <strong>Held Item</strong>
+                    <span class="pkm-meta-val pkm-item"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pkm-section-title">Stats</div>
+    <div class="pkm-stats-grid pkm-stats"></div>
+
+    <div class="pkm-section-title">Moves</div>
+    <div class="pkm-moves-grid pkm-moves"></div>
+</div>
+
+<script>
+    (() => {
+        function renderMeta(id, data) {
+            const container = document.querySelector(`.${id}`);
+
+            container.title = data.description;
+        }
+
+        function hexToRgba(hex, alpha = 0.45) {
+            const r = parseInt(hex.slice(1, 3), 16);
+            const g = parseInt(hex.slice(3, 5), 16);
+            const b = parseInt(hex.slice(5, 7), 16);
+
+            return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+        }
+
+        (function () {
+            const currentXp = 0;
+            const maxXp = 4500;
+
+            const totalCircumference = 326.7;
+            const rawRatio = currentXp / maxXp;
+            const percentage = Math.min(Math.max(rawRatio, 0), 1);
+            const calculatedOffset =
+                totalCircumference - totalCircumference * percentage;
+
+            const targetFill = document.querySelector(".pkm-exp-fill");
+            const targetTrigger = document.querySelector("pkm-exp-trigger");
+
+            if (targetFill) {
+                targetFill.style.strokeDashoffset = calculatedOffset;
+            }
+            if (targetTrigger) {
+                const displayPercent = Math.round(percentage * 100);
+                targetTrigger.setAttribute(
+                    "title",
+                    "Experience: " +
+                        currentXp +
+                        " / " +
+                        maxXp +
+                        " EXP (" +
+                        displayPercent +
+                        "%)",
+                );
+            }
+        })();
+
+        function renderAffection(affection) {
+            return `
+              <div
+                  class="pkm-affection-container"
+                  title="Affection: ${affection.hearts} / ${affection.max} Hearts"
+              >
+                  <svg class="pkm-heart-svg" viewBox="0 0 24 24">
+                      <path
+                          d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                      />
+                  </svg>
+
+                  <span>
+                      Tier ${affection.tier}
+                  </span>
+              </div>
+          `;
+        }
+
+        function renderGender(gender) {
+            switch (gender.toLowerCase()) {
+                case "male":
+                    return `<span class="pkm-gender-male" title="Male">♂</span>`;
+
+                case "female":
+                    return `<span class="pkm-gender-female" title="Female">♀</span>`;
+
+                default:
+                    return `<span class="pkm-gender-genderless" title="Genderless">⚲</span>`;
+            }
+        }
+
+        function renderNature(nature) {
+            const data = NATURES[nature.toLowerCase()];
+
+            if (!data) {
+                return {
+                    name: nature,
+                    description: "Unknown nature.",
+                };
+            }
+
+            return data;
+        }
+
+        function renderStats(stats) {
+            return STAT_ORDER.map(([key, label]) => {
+                const stat = stats[key] ?? {
+                    value: 0,
+                    iv: 0,
+                    ev: 0,
+                };
+
+                return `
+                  <div class="pkm-stat-card">
+                      <div class="pkm-stat-label">
+                          ${label}
+                      </div>
+
+                      <div class="pkm-stat-value">
+                          ${stat.value}
+                      </div>
+
+                      <div class="pkm-stat-detail">
+                          IV: ${stat.iv}
+                      </div>
+
+                      <div class="pkm-stat-detail pkm-stat-ev">
+                          EV: ${stat.ev}
+                      </div>
+                  </div>
+              `;
+            }).join("");
+        }
+
+        function renderTypes(card, types) {
+            const container = card.querySelector(".pkm-types");
+
+            container.innerHTML = "";
+
+            types.forEach((type) => {
+                const asset = TYPE_ASSETS[type.toLowerCase()];
+                if (!asset) return;
+
+                const badge = document.createElement("div");
+
+                badge.className = `pkm-type-badge ${asset.class}`;
+
+                badge.innerHTML = `
+                <img 
+                    class="pkm-type-icon"
+                    src="${asset.icon}"
+                    alt="${asset.name}"
+                >
+            `;
+
+                container.appendChild(badge);
+            });
+        }
+
+        function renderMoves(card, moves) {
+            const container = card.querySelector(".pkm-moves");
+
+            container.innerHTML = "";
+
+            moves.forEach((move) => {
+                const tile = document.createElement("div");
+
+                tile.className = `pkm-move-tile tile-${move.type.toLowerCase()}`;
+
+                tile.innerHTML = `
+                <div class="pkm-move-meta">
+                    <span class="pkm-move-title-text">
+                        ${move.name}
+                    </span>
+    
+                    <span class="pkm-move-level-text">
+                        Lv. ${move.level}
+                    </span>
+                </div>
+    
+                <span class="pkm-move-type-indicator">
+                    ${move.category}
+                </span>
+            `;
+
+                container.appendChild(tile);
+            });
+        }
+
+        function renderCardTheme(types) {
+            const card = document.querySelector("#cordelia");
+
+            const primary = TYPE_ASSETS[types[0].toLowerCase()];
+
+            const secondary = TYPE_ASSETS[types[1]?.toLowerCase()] ?? primary;
+
+            console.log("primary", primary, "secondary", secondary);
+
+            card.style.setProperty("--primary-aura", hexToRgba(primary.color));
+
+            card.style.setProperty(
+                "--secondary-aura",
+                hexToRgba(secondary.color),
+            );
+        }
+
+        function renderPokemon(card, data) {
+            card.querySelector(".pkm-nickname").textContent = data.name;
+            card.querySelector(".pkm-species-subtitle").textContent =
+                data.species;
+
+            card.querySelector(".pkm-sprite").src = data.sprite;
+
+            card.querySelector(".pkm-level").textContent = `Lv. ${data.level}`;
+
+            card.querySelector(".pkm-dc").textContent = `DC ${data.dc}`;
+
+            card.querySelector(".pkm-ability").textContent = data.ability.name;
+
+            card.querySelector(".pkm-nature").textContent = data.nature;
+
+            card.querySelector(".pkm-form").textContent = data.form;
+
+            card.querySelector(".pkm-origin").textContent = data.origin;
+
+            card.querySelector(".pkm-item").textContent = data.item;
+
+            card.querySelector(".pkm-gender").innerHTML = renderGender(
+                data.gender,
+            );
+
+            card.querySelector(".pkm-affection").innerHTML = renderAffection(
+                data.affection,
+            );
+
+            card.querySelector(".pkm-stats").innerHTML = renderStats(
+                data.stats,
+            );
+
+            renderMeta("pkm-ability", data.ability);
+            renderTypes(card, data.types);
+            renderCardTheme(data.types);
+            renderMoves(card, data.moves);
+        }
+
+        console.log("Initializing cordelia card");
+
+        const TYPE_ASSETS = {
+            normal: {
+                name: "Normal",
+                icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/normal.svg",
+                class: "bg-normal",
+                color: "#a8a77a",
+            },
+            fire: {
+                name: "Fire",
+                icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/fire.svg",
+                class: "bg-fire",
+                color: "#ee8130",
+            },
+            water: {
+                name: "Water",
+                icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/water.svg",
+                class: "bg-water",
+                color: "#6390f0",
+            },
+            electric: {
+                name: "Electric",
+                icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/electric.svg",
+                class: "bg-electric",
+                color: "#f7d02c",
+            },
+            grass: {
+                name: "Grass",
+                icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/grass.svg",
+                class: "bg-grass",
+                color: "#7ac74c",
+            },
+            ice: {
+                name: "Ice",
+                icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/ice.svg",
+                class: "bg-ice",
+                color: "#7FDBFF",
+            },
+            fighting: {
+                name: "Fighting",
+                icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/fighting.svg",
+                class: "bg-fighting",
+                color: "#c22e28",
+            },
+            poison: {
+                name: "Poison",
+                icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/poison.svg",
+                class: "bg-poison",
+                color: "#A33EA1",
+            },
+            ground: {
+                name: "Ground",
+                icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/ground.svg",
+                class: "bg-ground",
+                color: "#E0C068",
+            },
+            flying: {
+                name: "Flying",
+                icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/flying.svg",
+                class: "bg-flying",
+                color: "#A98FF3",
+            },
+            psychic: {
+                name: "Psychic",
+                icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/psychic.svg",
+                class: "bg-psychic",
+                color: "#F95587",
+            },
+            bug: {
+                name: "Bug",
+                icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/bug.svg",
+                class: "bg-bug",
+                color: "#A6B91A",
+            },
+            rock: {
+                name: "Rock",
+                icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/rock.svg",
+                class: "bg-rock",
+                color: "#B6A136",
+            },
+            ghost: {
+                name: "Ghost",
+                icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/ghost.svg",
+                class: "bg-ghost",
+                color: "#735797",
+            },
+            dragon: {
+                name: "Dragon",
+                icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/dragon.svg",
+                class: "bg-dragon",
+                color: "#6f35fc",
+            },
+            dark: {
+                name: "Dark",
+                icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/dark.svg",
+                class: "bg-dark",
+                color: "#705746",
+            },
+            steel: {
+                name: "Steel",
+                icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/steel.svg",
+                class: "bg-steel",
+                color: "#b7b7ce",
+            },
+            fairy: {
+                name: "Fairy",
+                icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/fairy.svg",
+                class: "bg-fairy",
+                color: "#f9aec7",
+            },
+        };
+
+        const NATURES = {
+            hardy: {
+                name: "Hardy",
+                increased: null,
+                decreased: null,
+                description: "No stat changes.",
+            },
+            lonely: {
+                name: "Lonely",
+                increased: "Attack",
+                decreased: "Defense",
+                description: "+Attack / -Defense",
+            },
+            brave: {
+                name: "Brave",
+                increased: "Attack",
+                decreased: "Speed",
+                description: "+Attack / -Speed",
+            },
+            adamant: {
+                name: "Adamant",
+                increased: "Attack",
+                decreased: "Special Attack",
+                description: "+Attack / -Sp. Atk",
+            },
+            naughty: {
+                name: "Naughty",
+                increased: "Attack",
+                decreased: "Special Defense",
+                description: "+Attack / -Sp. Def",
+            },
+
+            bold: {
+                name: "Bold",
+                increased: "Defense",
+                decreased: "Attack",
+                description: "+Defense / -Attack",
+            },
+            docile: {
+                name: "Docile",
+                increased: null,
+                decreased: null,
+                description: "No stat changes.",
+            },
+            relaxed: {
+                name: "Relaxed",
+                increased: "Defense",
+                decreased: "Speed",
+                description: "+Defense / -Speed",
+            },
+            impish: {
+                name: "Impish",
+                increased: "Defense",
+                decreased: "Special Attack",
+                description: "+Defense / -Sp. Atk",
+            },
+            lax: {
+                name: "Lax",
+                increased: "Defense",
+                decreased: "Special Defense",
+                description: "+Defense / -Sp. Def",
+            },
+
+            timid: {
+                name: "Timid",
+                increased: "Speed",
+                decreased: "Attack",
+                description: "+Speed / -Attack",
+            },
+            hasty: {
+                name: "Hasty",
+                increased: "Speed",
+                decreased: "Defense",
+                description: "+Speed / -Defense",
+            },
+            serious: {
+                name: "Serious",
+                increased: null,
+                decreased: null,
+                description: "No stat changes.",
+            },
+            jolly: {
+                name: "Jolly",
+                increased: "Speed",
+                decreased: "Special Attack",
+                description: "+Speed / -Sp. Atk",
+            },
+            naive: {
+                name: "Naive",
+                increased: "Speed",
+                decreased: "Special Defense",
+                description: "+Speed / -Sp. Def",
+            },
+
+            modest: {
+                name: "Modest",
+                increased: "Special Attack",
+                decreased: "Attack",
+                description: "+Sp. Atk / -Attack",
+            },
+            mild: {
+                name: "Mild",
+                increased: "Special Attack",
+                decreased: "Defense",
+                description: "+Sp. Atk / -Defense",
+            },
+            quiet: {
+                name: "Quiet",
+                increased: "Special Attack",
+                decreased: "Speed",
+                description: "+Sp. Atk / -Speed",
+            },
+            bashful: {
+                name: "Bashful",
+                increased: null,
+                decreased: null,
+                description: "No stat changes.",
+            },
+            rash: {
+                name: "Rash",
+                increased: "Special Attack",
+                decreased: "Special Defense",
+                description: "+Sp. Atk / -Sp. Def",
+            },
+
+            calm: {
+                name: "Calm",
+                increased: "Special Defense",
+                decreased: "Attack",
+                description: "+Sp. Def / -Attack",
+            },
+            gentle: {
+                name: "Gentle",
+                increased: "Special Defense",
+                decreased: "Defense",
+                description: "+Sp. Def / -Defense",
+            },
+            sassy: {
+                name: "Sassy",
+                increased: "Special Defense",
+                decreased: "Speed",
+                description: "+Sp. Def / -Speed",
+            },
+            quirky: {
+                name: "Quirky",
+                increased: null,
+                decreased: null,
+                description: "No stat changes.",
+            },
+            careful: {
+                name: "Careful",
+                increased: "Special Defense",
+                decreased: "Special Attack",
+                description: "+Sp. Def / -Sp. Atk",
+            },
+        };
+
+        const STAT_ORDER = [
+            ["hp", "HP"],
+            ["atk", "ATK"],
+            ["def", "DEF"],
+            ["spa", "SP. ATK"],
+            ["spd", "SP. DEF"],
+            ["spe", "SPD"],
+        ];
+
+        const STAT_LABELS = {
+            hp: "HP",
+            atk: "ATK",
+            def: "DEF",
+            spa: "SP. ATK",
+            spd: "SP. DEF",
+            spe: "SPD",
+        };
+
+        const card = document.getElementById("cordelia");
+
+        const Pokemon = {
+            name: "Cordelia",
+            species: "Mawile",
+            ability: {
+                name: "Intimidate",
+                description:
+                    "Lowers opponents' Attack one stage upon entering battle.",
+            },
+            nature: "Relaxed",
+            gender: "female",
+            level: 15,
+            dc: 11,
+            form: "Base Form",
+            origin: "Starter",
+            item: "None",
+            dexNumber: "0821",
+            types: ["Steel", "Fairy"],
+
+            sprite: "https://files.jcink.net/uploads2/serenedreams/PokemonSprite/mawile.png",
+
+            affection: {
+                hearts: 5,
+                max: 10,
+                tier: 4,
+            },
+
+            stats: {
+                hp: {
+                    value: 40,
+                    iv: 0,
+                    ev: 0,
+                },
+                atk: {
+                    value: 31,
+                    iv: 5,
+                    ev: 0,
+                },
+                def: {
+                    value: 37,
+                    iv: 23,
+                    ev: 0,
+                },
+                spa: {
+                    value: 21,
+                    iv: 3,
+                    ev: 0,
+                },
+                spd: {
+                    value: 23,
+                    iv: 16,
+                    ev: 0,
+                },
+                spe: {
+                    value: 21,
+                    iv: 27,
+                    ev: 0,
+                },
+            },
+
+            moves: [
+                {
+                    name: "Astonish",
+                    level: 1,
+                    type: "Ghost",
+                    category: "Physical",
+                    power: 15,
+                    description: "Has a chance to make the target flinch.",
+                },
+                {
+                    name: "Fairy Wind",
+                    level: 1,
+                    type: "Fairy",
+                    category: "Special",
+                    power: 20,
+                    description:
+                        "Inflicts regular damage with no additional effect.",
+                },
+                {
+                    name: "Growl",
+                    level: 1,
+                    type: "Normal",
+                    category: "Status",
+                    power: "—",
+                    description: "Lowers the target's Attack by one stage.",
+                },
+                {
+                    name: "Iron Head",
+                    level: 1,
+                    type: "Steel",
+                    category: "Physical",
+                    power: 40,
+                    description: "Has a chance to make the target flinch.",
+                },
+                {
+                    name: "Play Rough",
+                    level: 1,
+                    type: "Fairy",
+                    category: "Physical",
+                    power: 45,
+                    description:
+                        "Has a chance to lower the target's Attack by one stage.",
+                },
+                {
+                    name: "Taunt",
+                    level: 1,
+                    type: "Dark",
+                    category: "Status",
+                    power: "—",
+                    description:
+                        "For the next few turns, the target can only use damaging moves.",
+                },
+                {
+                    name: "Fake Tears",
+                    level: 5,
+                    type: "Dark",
+                    category: "Status",
+                    power: "—",
+                    description:
+                        "Lowers the target's Special Defense by two stages.",
+                },
+                {
+                    name: "Baton Pass",
+                    level: 8,
+                    type: "Normal",
+                    category: "Status",
+                    power: "—",
+                    description:
+                        "Allows the trainer to switch out the user and pass effects along to its replacement.",
+                },
+                {
+                    name: "Bite",
+                    level: 9,
+                    type: "Dark",
+                    category: "Physical",
+                    power: 30,
+                    description: "Has a chance to make the target flinch.",
+                },
+                {
+                    name: "Sweet Scent",
+                    level: 13,
+                    type: "Normal",
+                    category: "Status",
+                    power: "—",
+                    description: "Lowers the target's evasion by one stage.",
+                },
+            ],
+        };
+
+        if (card) {
+            renderPokemon(card, Pokemon);
+        }
+    })();
+</script>
+[/dohtml]
