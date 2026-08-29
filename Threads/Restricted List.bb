@@ -237,6 +237,12 @@ Please note, a claim DOES NOT mean others are UNABLE to choose that Restricted P
 [*] (Undecided) Terrakion || Mega Zeraora
 [/list][/div]
 
+[div=font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold; text-align: center; margin-top: var(--h2-bot-width); margin-bottom: var(--h2-bot-width); border-bottom: var(--h2-bot-border);][URL=https://docs.google.com/document/d/1xtj3nXKGlhHX9-4Zu76GXoZYRctSc152_AeJAt9Q5o0/edit?usp=sharing]Mortez Haraghi[/URL] @Merciless Medic [/div]
+[div=white-space: collapse;][list=1]
+[*] Camerupt (Mega)
+[*] (Pursuing) Koraidon
+[/list][/div]
+
 [div=font-size: var(--fs-h2); font-family: var(--h2-font); font-weight: bold; text-align: center; margin-top: var(--h2-bot-width); margin-bottom: var(--h2-bot-width); border-bottom: var(--h2-bot-border);][URL=https://www.rpnation.com/threads/pokemon-character-sheets.536117/post-12252816]Cyrilla Evergreen[/URL] @Takumi98 [/div]
 [div=white-space: collapse;][list=1]
 [*] Mega Charizard X

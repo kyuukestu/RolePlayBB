@@ -19,11 +19,10 @@ background: var(--current-esther), var(--current-bg); min-height: 350px; min-wid
 --current-esther: var(--esther-img);
 --current-bg: no-repeat center/cover url(https://i.imgur.com/3HMLIY0.png);
 
---esther-img: var(--mantine-0);
+--esther-img: var(--standard);
 
 /* Esther Images */
 --standard: no-repeat 50% -670%/67% url(https://i.imgur.com/sfJFjPn.png);
---mantine-0: no-repeat 50% 0%/cover url(https://i.imgur.com/dCZeuUg.png);
 ]
 [div= /* ANCHOR - NAME */
 position: absolute; top: 20px; left: 20px; 
@@ -53,7 +52,7 @@ aspect-ratio: auto;
 --blackthorne: no-repeat center/cover url(https://i.pinimg.com/736x/f6/b4/48/f6b44833ee8b1279eecfa39a15c9621b.jpg); --blckthrn-rt: 57/86;
 /* ANCHOR - CREDITS
 https://www.instagram.com/pinkporipori/ - pinkporipori | olivine, violet, blackthorne
-https://www.instagram.com/clockbirds/ - Clockbirds  | cemetery
+https://www.instagram.com/clockbirds/ - Clockbirds  | cemetery, Alola Beach
 */
 ] 
 [div= /*SECTION - LOCATION TEXT - Maybe Backdrop on this */ 
@@ -68,14 +67,14 @@ font-family: Poppins;
 font-weight: bold;
 font-size: 1.8rem;
 line-height: 1;
-color: var(--accent-color);] Credit: [URL=https://www.instagram.com/clockbirds/]Clockbirds[/URL] [/div]
+color: var(--accent-color);] Credit: [URL=https://www.instagram.com/clockbirds/]Clockbirds[/URL]  [/div]
 [div= /*ANCHOR -  LOCATION TITLE */
 max-width: 67%;
 font-family: Poppins;
 font-weight: bold;
 font-size: 1.8rem;
 line-height: 1;
-color: var(--accent-color);] Heahea City [/div]
+color: var(--accent-color);] Docks, Headhea City[/div]
 [div= /*ANCHOR - REGION TITLE */
 font-family: Poppins;
 font-size: 1.2rem;
@@ -85,7 +84,7 @@ opacity: 0.8;] Akala Island, Alola Region [/div]
 margin-top: 10px;
 font-family: Orbitron;
 font-size: 0.9rem;
-color: rgba(var(--text-color), 0.8);] [div=animation: fa-fade 3.5s ease-in-out infinite; display: inline; padding: 0 5px;] 9:30 [/div] A.M. // SUN, SEPT 6th [/div]
+color: rgba(var(--text-color), 0.8);] [div=animation: fa-fade 3.5s ease-in-out infinite; display: inline; padding: 0 5px;] 10:05 [/div] A.M. // SUN, AUG 21st [/div]
 
 [comment]/*!SECTION - LOCATION TEXT END */ [/comment] [/div]
 [comment]/*!SECTION - LOCATION END */[/comment] [/div]
@@ -131,16 +130,16 @@ overflow-x: auto;
 --CieState: block;
 
 --Kas: no-repeat center center/cover url(https://raw.githubusercontent.com/PMDCollab/SpriteCollab/master/portrait/0263/0001/Normal.png);
---KasState: none;
+--KasState: block;
 
 --Nava: no-repeat center center/cover url(https://raw.githubusercontent.com/PMDCollab/SpriteCollab/master/portrait/0704/Normal.png);
---NavaState: none;
+--NavaState: block;
 
 --Susu: no-repeat center center/cover url(https://raw.githubusercontent.com/PMDCollab/SpriteCollab/master/portrait/0283/Normal.png);
 --SusuState: block;
 
 --Bam: no-repeat center center/cover url(https://raw.githubusercontent.com/PMDCollab/SpriteCollab/master/portrait/0422/0000/0001/Normal.png);
---BamState: none;
+--BamState: block;
 
 --Ist: no-repeat center center/cover url(https://raw.githubusercontent.com/PMDCollab/SpriteCollab/master/portrait/0349/0000/0001/Normal.png);
 --IstState: block;
@@ -149,10 +148,14 @@ overflow-x: auto;
 --PariState: block;
 
 --JeCr: no-repeat center center/cover url(https://raw.githubusercontent.com/PMDCollab/SpriteCollab/master/portrait/0425/Normal.png);
---JeCrState: none;
+--JeCrState: block;
+
+
+--Plum: no-repeat center center/cover url(https://raw.githubusercontent.com/PMDCollab/SpriteCollab/master/portrait/0043/Normal.png);
+--PlumState: block;
 
 --Arak: no-repeat center center/cover url(https://raw.githubusercontent.com/PMDCollab/SpriteCollab/master/portrait/0167/Normal.png);
---ArakState: none;
+--ArakState: block;
 ]
 [div= /* ANCHOR - Pyrrha SLOT */
 flex: 0 0 var(--slot-size); height: var(--slot-size);
@@ -264,6 +267,17 @@ top: 50%; transform: translateY(-50%);]
 JeCroix
 [/div]
 [/div]
+[div= /* ANCHOR - Plum SLOT */
+flex: 0 0 var(--slot-size); height: var(--slot-size);
+background: var(--Plum); display: var(--PlumState);
+border: var(--slot-border); border-radius: var(--slot-radius);
+position: relative;][div= /* ANCHOR - PokeName */ 
+position: absolute; left: var(--name-offset); writing-mode: sideways-lr;
+font-family: Pixelify Sans; font-size: var(--poke-name-size);
+top: 50%; transform: translateY(-50%);]
+Plum
+[/div]
+[/div]
 [div= /* ANCHOR - Arantella SLOT */
 flex: 0 0 var(--slot-size); height: var(--slot-size);
 background: var(--Arak); display: var(--ArakState);
@@ -272,7 +286,7 @@ position: relative;][div= /* ANCHOR - PokeName */
 position: absolute; left: var(--name-offset); writing-mode: sideways-lr;
 font-family: Pixelify Sans; font-size: var(--poke-name-size);
 top: 50%; transform: translateY(-50%);]
-???
+Arantella
 [/div]
 [/div]
 [comment]/*!SECTION - POKEMON BAR END */[/comment][/div]

@@ -233,6 +233,13 @@ flex: 1;]
 
             [/div]
 
+            [div=padding: 15px 20px; border-bottom: 1px solid var(--border-c);]
+
+                [div=font-weight: bold; color: var(--text-main);]Mortez Haraghi [USER=86439]@Merciless Medic[/USER][/div]
+
+                [div=font-size: 13px; color: var(--accent-prim);]Camerupt (Mega), (Pursuing) Koraidon[/div]
+
+            [/div]
 
             [div=padding: 15px 20px; border-bottom: 1px solid var(--border-c);]
 
