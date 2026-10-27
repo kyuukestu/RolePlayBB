@@ -92,6 +92,117 @@
     <div id="PC"></div>
 </body>
 <script>
+    const TYPE_ASSETS = {
+        normal: {
+            name: "Normal",
+            icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/normal.svg",
+            class: "bg-normal",
+            color: "#a8a77a",
+        },
+        fire: {
+            name: "Fire",
+            icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/fire.svg",
+            class: "bg-fire",
+            color: "#ee8130",
+        },
+        water: {
+            name: "Water",
+            icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/water.svg",
+            class: "bg-water",
+            color: "#6390f0",
+        },
+        electric: {
+            name: "Electric",
+            icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/electric.svg",
+            class: "bg-electric",
+            color: "#f7d02c",
+        },
+        grass: {
+            name: "Grass",
+            icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/grass.svg",
+            class: "bg-grass",
+            color: "#7ac74c",
+        },
+        ice: {
+            name: "Ice",
+            icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/ice.svg",
+            class: "bg-ice",
+            color: "#7FDBFF",
+        },
+        fighting: {
+            name: "Fighting",
+            icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/fighting.svg",
+            class: "bg-fighting",
+            color: "#c22e28",
+        },
+        poison: {
+            name: "Poison",
+            icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/poison.svg",
+            class: "bg-poison",
+            color: "#A33EA1",
+        },
+        ground: {
+            name: "Ground",
+            icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/ground.svg",
+            class: "bg-ground",
+            color: "#E0C068",
+        },
+        flying: {
+            name: "Flying",
+            icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/flying.svg",
+            class: "bg-flying",
+            color: "#A98FF3",
+        },
+        psychic: {
+            name: "Psychic",
+            icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/psychic.svg",
+            class: "bg-psychic",
+            color: "#F95587",
+        },
+        bug: {
+            name: "Bug",
+            icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/bug.svg",
+            class: "bg-bug",
+            color: "#A6B91A",
+        },
+        rock: {
+            name: "Rock",
+            icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/rock.svg",
+            class: "bg-rock",
+            color: "#B6A136",
+        },
+        ghost: {
+            name: "Ghost",
+            icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/ghost.svg",
+            class: "bg-ghost",
+            color: "#735797",
+        },
+        dragon: {
+            name: "Dragon",
+            icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/dragon.svg",
+            class: "bg-dragon",
+            color: "#6f35fc",
+        },
+        dark: {
+            name: "Dark",
+            icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/dark.svg",
+            class: "bg-dark",
+            color: "#705746",
+        },
+        steel: {
+            name: "Steel",
+            icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/steel.svg",
+            class: "bg-steel",
+            color: "#b7b7ce",
+        },
+        fairy: {
+            name: "Fairy",
+            icon: "https://raw.githubusercontent.com/partywhale/pokemon-type-icons/fcbe6978c61c359680bc07636c3f9bdc0f346b43/icons/fairy.svg",
+            class: "bg-fairy",
+            color: "#f9aec7",
+        },
+    };
+
     const GENDER = {
         male: {
             icon: "https://i.imgur.com/4FI7ot0.png",
@@ -106,8 +217,8 @@
     const Cordelia = {
         name: "Cordelia",
         image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/303.png",
-        primaryType: "#B8B8D0",
-        secondaryType: "#EE99AC",
+        primaryType: "Steel",
+        secondaryType: "Fairy",
         gender: "female",
         size: "100%",
     };
@@ -115,17 +226,17 @@
     const Rio = {
         name: "Mor-Rioghain",
         image: "https://www.smogon.com/forums/attachments/058_1-png.420718/",
-        primaryType: "#F08030",
-        secondaryType: "#B8A038",
+        primaryType: "Fire",
+        secondaryType: "Rock",
         gender: "female",
         size: "100%",
     };
 
     const Rhia = {
         name: "Rhiannon",
-        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/714.png",
-        primaryType: "#81B9EF",
-        secondaryType: "#343E92",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/714.png",
+        primaryType: "Flying",
+        secondaryType: "Dragon",
         gender: "female",
         size: "100%",
     };
@@ -133,12 +244,40 @@
     const Azalais = {
         name: "Azalais",
         image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png",
-        primaryType: "#74ACF5",
-        secondaryType: "#2980EF",
+        primaryType: "Water",
+        secondaryType: "Water",
         gender: "female",
         size: "100%",
     };
-    const PC = [Cordelia, Rio, Rhia, Azalais];
+
+    const Nema = {
+        name: "Nematoma",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/856.png",
+        primaryType: "Psychic",
+        secondaryType: "Psychic",
+        gender: "female",
+        size: "100%",
+    };
+
+    const Comfey = {
+        name: "Comfey",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/764.png",
+        primaryType: "Fairy",
+        secondaryType: "Fairy",
+        gender: "female",
+        size: "100%",
+    };
+
+    const Tyrunt = {
+        name: "Tyrunt",
+        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/696.png",
+        primaryType: "Rock",
+        secondaryType: "Dragon",
+        gender: "female",
+        size: "100%",
+    };
+
+    const PC = [Cordelia, Rio, Rhia, Azalais, Nema, Comfey, Tyrunt];
 
     function renderPC(container, PC) {
         if (!container) {
@@ -164,8 +303,17 @@
     </div>
   `;
 
-        card.style.setProperty("--primary", pokemon.primaryType);
-        card.style.setProperty("--secondary", pokemon.secondaryType);
+        function getTypeAsset(type) {
+            type_data = TYPE_ASSETS[type.toLowerCase()];
+
+            return type_data.color;
+        }
+
+        card.style.setProperty("--primary", getTypeAsset(pokemon.primaryType));
+        card.style.setProperty(
+            "--secondary",
+            getTypeAsset(pokemon.secondaryType),
+        );
 
         card.querySelector(".content").style.backgroundImage =
             `url(${pokemon.image})`;

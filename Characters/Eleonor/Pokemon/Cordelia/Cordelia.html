@@ -962,7 +962,9 @@
             card.querySelector(".pkm-species-subtitle").textContent =
                 data.species;
 
-            card.querySelector(".pkm-sprite").src = data.sprite;
+            const sprite = `https://files.jcink.net/uploads2/serenedreams/PokemonSprite/${data.species.toLowerCase()}.png`
+
+            card.querySelector(".pkm-sprite").src = sprite;
 
             card.querySelector(".pkm-level").textContent = `Lv. ${data.level}`;
 

@@ -74,7 +74,7 @@ font-family: Poppins;
 font-weight: bold;
 font-size: 1.8rem;
 line-height: 1;
-color: var(--accent-color);] Docks, Headhea City[/div]
+color: var(--accent-color);] Docks, Heahea City [/div]
 [div= /*ANCHOR - REGION TITLE */
 font-family: Poppins;
 font-size: 1.2rem;
@@ -84,7 +84,7 @@ opacity: 0.8;] Akala Island, Alola Region [/div]
 margin-top: 10px;
 font-family: Orbitron;
 font-size: 0.9rem;
-color: rgba(var(--text-color), 0.8);] [div=animation: fa-fade 3.5s ease-in-out infinite; display: inline; padding: 0 5px;] 10:05 [/div] A.M. // SUN, AUG 21st [/div]
+color: rgba(var(--text-color), 0.8);] [div=animation: fa-fade 3.5s ease-in-out infinite; display: inline; padding: 0 5px;] 10:13 [/div] A.M. // SUN, AUG 21st [/div]
 
 [comment]/*!SECTION - LOCATION TEXT END */ [/comment] [/div]
 [comment]/*!SECTION - LOCATION END */[/comment] [/div]
@@ -149,7 +149,6 @@ overflow-x: auto;
 
 --JeCr: no-repeat center center/cover url(https://raw.githubusercontent.com/PMDCollab/SpriteCollab/master/portrait/0425/Normal.png);
 --JeCrState: block;
-
 
 --Plum: no-repeat center center/cover url(https://raw.githubusercontent.com/PMDCollab/SpriteCollab/master/portrait/0043/Normal.png);
 --PlumState: block;

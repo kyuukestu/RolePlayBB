@@ -1,0 +1,56 @@
+[nospaces]
+[googlefont=Rubik]
+[googlefont=Ysabeau Infant]
+[googlefont=Pixelify Sans]
+[googlefont=Varela Round]
+[newclass=.container]box-sizing: border-box; width: 90%; max-width: 900px; margin: auto; border: 2px inset #333;--bg-color: #1a1a1a;--text-color: #dee;--flan: #A2261A;[/newclass]
+[newclass=.dialogue]color: var(--flan); display: inline;[/newclass]
+[newclass=.header]box-sizing: border-box; display: flex; flex-flow: row wrap; position: relative; height: 250px; overflow:hidden;background-color:#292929;border-bottom:1px solid #101010;[/newclass]
+[newclass=.character]position:absolute;z-index:2;top:0px;box-sizing:border-box;width:210px;height:246px; border-left:6px solid var(--flan);border-right:6px solid var(--flan);transform:rotate(10deg);overflow:hidden;[/newclass]
+[newclass=.location]flex: 1.2; min-height: 350px; min-width: 350px; background: var(--current-location); position: relative; aspect-ratio: auto; --current-location: var(--alola-beach);--cemetery: no-repeat center/cover url(https://s1.zerochan.net/Pikachu.600.889288.jpg); --cemetery-ratio: 2/1; --mortar: no-repeat center/cover url(https://www.serebii.net/pokearth/maps/johto-hgss/35.png); --olivine: no-repeat center/cover url(https://i.pinimg.com/736x/ec/88/97/ec8897c42f35d7c14d98bc85b38f3cb0.jpg); --olivine-ratio: 57/87; --alola-beach: no-repeat center/cover url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5r000Uhjh0xBOPbqnJomMAMldHrY6QOjx4ISj_zDTU6sZvpFmeD3oi1KX&s=10); --violet: no-repeat center/cover url(https://i.pinimg.com/736x/10/ab/cd/10abcdd6738695fdf65ce9add30787eb.jpg); --violet-ratio: 57/87; --blackthorne: no-repeat center/cover url(https://i.pinimg.com/736x/f6/b4/48/f6b44833ee8b1279eecfa39a15c9621b.jpg); --blckthrn-rt: 57/86; /* ANCHOR - CREDITS https://www.instagram.com/pinkporipori/ - pinkporipori | olivine, violet, blackthorne https://www.instagram.com/clockbirds/ - Clockbirds  | cemetery, Alola Beach */ [/newclass]
+[newclass=.location-text] box-sizing: border-box; position: relative; height: 100%; width: 100%; display: flex; flex-flow: column nowrap; justify-content: flex-end; align-items: end; padding: 30px 20px; background: linear-gradient(to right, rgba(26, 26, 26, 0.8), transparent);][/newclass]
+[newclass=.location-art-credit] max-width: 67%; position: absolute; top: 0; font-family: Poppins; font-weight: bold; font-size: 1.8rem; line-height: 1; color: var(--flan);[/newclass]
+[newclass=.location-title] max-width: 67%; font-family: Poppins; font-weight: bold; font-size: 1.8rem; line-height: 1; color: var(--flan);[/newclass]
+[newclass=.date-container]margin-top: 10px; font-family: Orbitron; font-size: 0.9rem; color: rgba(var(--text-color), 0.8);][/newclass] 
+[newclass=.time]animation: fa-fade 3.5s ease-in-out infinite; display: inline; padding: 0 5px;[/newclass]
+[newclass=.pokemon-bar]padding: 15px; display: flex; justify-content: space-evenly; gap: 15px; border-bottom: 2px solid #333; overflow-x: auto; --slot-size: 67px; --slot-border: 4px solid var(--flan); --slot-radius: 4px; ][/newclass]
+[newclass=.pokemon-slot] flex: 0 0 var(--slot-size); height: var(--slot-size); border: var(--slot-border); border-radius: var(--slot-radius); position: relative;][/newclass]
+[newclass=.content] padding: 30px; margin: auto; max-height: 850px; overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--flan), transparent; background: var(--bg-color); color: var(--text-color); line-height: 1.8; font-size: 1.3rem; font-family: "Varela Round";[/newclass]
+[newclass=.tag] background: var(--bg-color); padding: 20px 40px; border-top: 1px solid #333; display: flex; justify-content: space-between; align-items: center;
+/* Emotions 
+- Angry
+- Crying
+- Determined
+- Dizzy
+- Happy
+- Inspired
+- Joyous
+- Normal
+- Pain 
+- Sad 
+- Shouting
+- Sigh
+- Stunned
+- Surprised
+- Teary-Eyed
+- Worried
+*/[/newclass]
+
+[div][attr="class","container"]
+[div style="background: no-repeat center 20%/90% url(https://i.pinimg.com/1200x/0c/54/9c/0c549c5acb7216f368b24c1283916ef3.jpg);"][attr="class","header"]
+[div style="background: no-repeat center center/100% url(https://i.pinimg.com/1200x/86/09/1d/86091d5abf8521d94bebf83ccf13b0b5.jpg);"][attr="class","character"][/div]
+[/div]
+[div][attr="class","pokemon-bar"]
+[div style="background: no-repeat center center/cover url(https://raw.githubusercontent.com/PMDCollab/SpriteCollab/master/portrait/0253/Normal.png);" title="MARZIPAN"][attr="class","pokemon-slot"][/div]
+[div style="background: no-repeat center center/cover url(https://raw.githubusercontent.com/PMDCollab/SpriteCollab/master/portrait/0654/Normal.png);" title="NOEL"][attr="class","pokemon-slot"][/div]
+[div style="background: no-repeat center center/cover url(https://raw.githubusercontent.com/PMDCollab/SpriteCollab/master/portrait/0025/Normal.png);" title="ECLAIR"][attr="class","pokemon-slot"][/div]
+[/div]
+[div][attr="class","content"]
+[div][attr="class","location-text"]
+[div][attr="class","location-title"]Some Location[/div]
+[div][attr="class","date-container"][div][attr="class","time"]8:000[/div][/div]
+[/div]
+POST HERE - LOREM IPSUM
+[/div]
+[div][attr="class","footer"] @Siyan [/div]
+[/div]
